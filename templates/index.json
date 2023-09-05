@@ -4,7 +4,7 @@
       "type": "image-banner-slideshow",
       "custom_css": [
         "{height: 100%;}",
-        ".banner__buttons {font-size: 10px;}"
+        ".button {font-size: 16px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
