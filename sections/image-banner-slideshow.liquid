@@ -502,34 +502,28 @@
 {% endschema %}
 
 {% javascript %}
-
-
 document.addEventListener("DOMContentLoaded", function() {
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
     const container = document.querySelector(".slides-container");
     let interval;
 
-    function resetSlidesPosition() {
-        slides.forEach(slide => {
-            slide.style.left = "100%";  // position all slides to the right
-        });
-    }
-
     function startSliding() {
         interval = setInterval(function() {
             slides[currentSlide].classList.remove("active");
-            slides[currentSlide].style.left = "-100%";  // move current slide to the left
-            currentSlide = (currentSlide + 1) % slides.length; // move to next slide
-            slides[currentSlide].classList.add("active");
-            slides[currentSlide].style.left = "0";  // move next slide to view
+            
+            // Move to next slide
+            currentSlide = (currentSlide + 1) % slides.length;
+            
+            // Use a timeout to ensure that the previous slide has completely faded out before showing the next slide
+            setTimeout(function() {
+                slides[currentSlide].classList.add("active");
+            }, 2000); // This should match the transition duration
         }, 4000);
     }
 
     // Initial setup
-    resetSlidesPosition();
     slides[currentSlide].classList.add("active");
-    slides[currentSlide].style.left = "0";  // position the initial slide to be visible
 
     startSliding();
 
