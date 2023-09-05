@@ -22,10 +22,10 @@
     "c57cc2c3-df35-4585-bdeb-2228f8978df1": {
       "type": "custom-liquid",
       "custom_css": [
-        "{margin-top: 300px!important; \/* Adjust this value same as the height of slides-container *\/}"
+
       ],
       "settings": {
-        "custom_liquid": "<div class=\"bottom-div\"><\/div>",
+        "custom_liquid": "<div class=\"bottom-div\"><\/div>\n<style>\n  @media screen and (max-width: 749px) { \n  margin-top: 300px !important; \/* Adjust this value same as the height of slides-container *\/\n}\n<\/style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
