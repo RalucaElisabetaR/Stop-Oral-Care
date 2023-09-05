@@ -4,7 +4,7 @@
       "type": "image-banner-slideshow",
       "custom_css": [
         ".slides-container {display: block;}",
-        "div .active {background-color: blue !important; z-index: 5;}"
+        "div .active {background-color: blue !important; z-index: 5; height:100%;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
