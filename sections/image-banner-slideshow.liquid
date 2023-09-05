@@ -511,12 +511,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
-    slides[currentSlide].style.opacity = "1"; // show the first slide initially
+    slides[currentSlide].classList.add("active"); // show the first slide initially
 
     setInterval(function() {
-        slides[currentSlide].style.opacity = "0"; // hide current slide
+        slides[currentSlide].classList.remove("active"); // hide current slide
         currentSlide = (currentSlide + 1) % slides.length; // move to next slide
-        slides[currentSlide].style.opacity = "1"; // show next slide
+        slides[currentSlide].classList.add("active"); // show next slide
     }, 2000); // change every 2 seconds
 });
 
