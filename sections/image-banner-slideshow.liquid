@@ -157,6 +157,33 @@
   </div>
 </div>
 
+{% stylesheet %}
+.slides-container {
+    position: relative;
+    height: 400px;  /* Adjust as necessary */
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 2s;
+    z-index: 1;
+}
+.slide.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+{% endstylesheet %}
+
+
+
 {% schema %}
 {
   "name": "t:sections.image-banner.name",
@@ -481,3 +508,19 @@
   ]
 }
 {% endschema %}
+
+{% javascript %}
+document.addEventListener("DOMContentLoaded", function() {
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".slide");
+    slides[currentSlide].classList.add("active"); // show the first slide initially
+
+    setInterval(function() {
+        slides[currentSlide].classList.remove("active"); // hide current slide
+        currentSlide = (currentSlide + 1) % slides.length; // move to next slide
+        slides[currentSlide].classList.add("active"); // show next slide
+    }, 2000); // change every 2 seconds
+});
+
+  
+{% endjavascript %}
