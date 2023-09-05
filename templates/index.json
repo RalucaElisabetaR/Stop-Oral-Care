@@ -4,7 +4,7 @@
       "type": "image-banner-slideshow",
       "custom_css": [
         "{display: flex; flex-direction: column;}",
-        ".slide,.slides-container {height: 100% !important;}"
+        "div .slide,div .slides-container {height: 100% !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
