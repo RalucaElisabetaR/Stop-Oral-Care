@@ -111,7 +111,7 @@
       }}
     </div>
   {%- endif -%}
-<div class="banner  slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width banner--content-align-mobile-{{ section.settings.mobile_content_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+<div class="slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width banner--content-align-mobile-{{ section.settings.mobile_content_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
 
  
   
@@ -157,22 +157,15 @@
 
 
 {% stylesheet %}
-.banner {
-    position: relative; /* Ensure this is set to relative so that absolute positioning of child elements is based on this container */
-}
+
 .slides-container {
-       position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* This combination of properties will center the container */
-    width: 100%;
-    height: 100%;
+    position: relative!important;
+  
 }
 
 .slide {
-    position: absolute!important;
-      width: 100%;
-    height: 100%;
+
+  
     top: 0!important;
     left: 100%!important;  /* start from the right */
    
