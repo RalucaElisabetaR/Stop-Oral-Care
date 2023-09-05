@@ -3,7 +3,7 @@
     "3d4955d7-4e3e-43be-ae2b-e879907f7fd6": {
       "type": "image-banner-slideshow",
       "custom_css": [
-
+        "{}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
@@ -22,7 +22,7 @@
     "c57cc2c3-df35-4585-bdeb-2228f8978df1": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"\"><\/div>",
+        "custom_liquid": "<div class=\"bottom-div\"><\/div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
