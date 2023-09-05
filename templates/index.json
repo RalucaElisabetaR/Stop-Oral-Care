@@ -5,7 +5,7 @@
       "custom_css": [
         "{height: 100%; background-color: white;}",
         ".button {font-size: 16px;}",
-        "@media screen and (max-width: 749px) {h2 {color: #0d3d6f ; }}"
+        "@media screen and (max-width: 749px) {h2, p {color: #0d3d6f; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
