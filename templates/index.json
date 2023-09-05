@@ -3,7 +3,8 @@
     "3d4955d7-4e3e-43be-ae2b-e879907f7fd6": {
       "type": "image-banner-slideshow",
       "custom_css": [
-        "{height: 400px;; display: flex; flex-direction: column;}"
+        "{display: flex; flex-direction: column;}",
+        ".banner__box {height: 100%!important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
