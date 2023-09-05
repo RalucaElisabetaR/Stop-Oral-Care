@@ -23,7 +23,7 @@
       "type": "custom-liquid",
       "custom_css": [
         "{height: 1px;}",
-        "@media screen and (max-width: 749px) {{margin-top: 80%; }}"
+        "@media screen and (max-width: 749px) {{margin-top: 70%; }}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"bottom-div\"><\/div>\n<style>\n\n<\/style>",
