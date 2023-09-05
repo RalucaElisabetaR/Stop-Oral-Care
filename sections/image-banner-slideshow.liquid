@@ -539,7 +539,6 @@ opacity: 1!important;  /* fade in */
   ]
 }
 {% endschema %}
-
 {% javascript %}
 document.addEventListener("DOMContentLoaded", function() {
     let currentSlide = 0;
@@ -571,11 +570,17 @@ document.addEventListener("DOMContentLoaded", function() {
     function adjustMargin() {
         // Check if on mobile
         if (window.innerWidth <= 768) {
-            const slideHeight = document.querySelector('.slide').offsetHeight;
+            console.log("Mobile breakpoint detected!");  // Debugging statement
+            const slideHeight = document.querySelector('.slide.active').offsetHeight;
             const bottomDiv = document.querySelector('.bottom-div');
             if (bottomDiv) {
                 bottomDiv.style.marginTop = slideHeight + 'px';
+                console.log("Margin adjusted!");  // Debugging statement
+            } else {
+                console.log(".bottom-div not found!");  // Debugging statement
             }
+        } else {
+            console.log("Desktop breakpoint detected!");  // Debugging statement
         }
     }
 
@@ -583,5 +588,3 @@ document.addEventListener("DOMContentLoaded", function() {
     adjustMargin();
 });
 {% endjavascript %}
-
-
