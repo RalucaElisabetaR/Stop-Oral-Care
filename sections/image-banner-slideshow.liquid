@@ -165,11 +165,7 @@
 }
 
 .slide {
- 
-
-    opacity: 0!important;  /* start fully transparent */
-     
-
+    opacity: 0!important;  /* start fully transparent */     
     transition: all 2s linear!important;
     z-index: 1!important;
   
@@ -514,35 +510,25 @@
 {% endschema %}
 
 {% javascript %}
-document.addEventListener("DOMContentLoaded", function() {
-    let currentSlide = 0;
-    const slides = document.querySelectorAll(".slide");
-    const container = document.querySelector(".slides-container");
-    let interval;
+  document.addEventListener('DOMContentLoaded', function() {
+    let slideIndex = 0;
+    const slides = document.querySelectorAll("#slide-container .slide-item");
 
-    function startSliding() {
-        interval = setInterval(function() {
-            slides[currentSlide].classList.remove("active");
-            
-            // Move to next slide
-            currentSlide = (currentSlide + 1) % slides.length;
-            
-            slides[currentSlide].classList.add("active");
-        }, 4000); // change every 4 seconds
+    function showSlide(n) {
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[n].style.display = "block";
     }
 
-    // Initial setup
-    slides[currentSlide].classList.add("active");
+    function nextSlide() {
+      slideIndex++;
+      if (slideIndex >= slides.length) slideIndex = 0;
+      showSlide(slideIndex);
+    }
 
-    startSliding();
-
-    container.addEventListener("mouseenter", function() {
-        clearInterval(interval);  // stop sliding on hover
-    });
-
-    container.addEventListener("mouseleave", function() {
-        startSliding();  // resume sliding when hover ends
-    });
-});
+    showSlide(slideIndex);
+    setInterval(nextSlide, 2000); // Change slide every 2 seconds
+  });
 
 {% endjavascript %}
