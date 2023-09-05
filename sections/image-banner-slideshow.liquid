@@ -188,11 +188,28 @@
 opacity: 1!important;  /* fade in */
   
        z-index: 2!important;
-   
-  
- 
+
 }
 
+  @media screen and (max-width: 749px) { 
+    .slide {
+        position: static!important; /* Removes absolute positioning on mobile */
+        width: 100%!important;
+        height: auto!important; /* Allows content to determine height */
+    }
+    
+    .banner__media {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner__content {
+        width: 100%;
+        /* Adjust padding or margin here if needed */
+    }
+}
+
+  
 {% endstylesheet %}
 
 
