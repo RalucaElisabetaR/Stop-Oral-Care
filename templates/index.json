@@ -21,6 +21,9 @@
     },
     "c57cc2c3-df35-4585-bdeb-2228f8978df1": {
       "type": "custom-liquid",
+      "custom_css": [
+        "{margin-top: 300px!important; \/* Adjust this value same as the height of slides-container *\/}"
+      ],
       "settings": {
         "custom_liquid": "<div class=\"bottom-div\"><\/div>",
         "color_scheme": "",
