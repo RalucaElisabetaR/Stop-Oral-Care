@@ -160,31 +160,27 @@
 {% stylesheet %}
 
 .slides-container {
-    overflow: hidden!important;
-    width: 100%!important; 
-    height: 100%!important;
-    position: relative!important;  /* Allow the absolute positioning of slides within it */
+    position: relative!important;
+  
 }
 
 .slide {
     position: absolute!important;
     top: 0!important;
-    left: 0!important;
-    width: 100%!important; /* Ensure each slide spans the full width of the container */
-    opacity: 1!important;
-    display: inline-block!important; /* Allow slides to sit next to each other */
-    transform: translateX(100%)!important;  /* Push all slides out initially */
-    transition: transform 0.5s ease-out!important;
+    left: 100%!important;  /* start from the right */
+   
+    opacity: 0!important;  /* start fully transparent */
+    transition: all 1s ease-out!important;
     z-index: 1!important;
 }
 
 .slide.active {
-    transform: translateX(0)!important; /* Bring the active slide into view */
+    left: 0!important;  /* slide in */
+    opacity: 1!important;  /* fade in */
     z-index: 2!important;
 }
 
 {% endstylesheet %}
-
 
 
 {% schema %}
