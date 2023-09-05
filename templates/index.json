@@ -22,7 +22,8 @@
     "c57cc2c3-df35-4585-bdeb-2228f8978df1": {
       "type": "custom-liquid",
       "custom_css": [
-
+        "{max-height: 1px;}",
+        "@media screen and (max-width: 749px) {{margin-top: 100%; }}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"bottom-div\"><\/div>\n<style>\n\n<\/style>",
