@@ -520,7 +520,7 @@
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
     
-    // Hide all slides except the first one
+   
     slides.forEach((slide, index) => {
         if (index !== 0) {
             slide.style.transform = "translateX(100%)";
@@ -539,12 +539,12 @@
         slides[currentSlide].style.transform = "translateX(0)"; // Bring next slide into view from the right
     }, 2000); // change every 2 seconds
 
-    // Stop the sliding when someone hovers over the slides container
+
     document.querySelector(".slides-container").addEventListener("mouseenter", function() {
         clearInterval(slideInterval);
     });
 
-    // Restart the sliding when the hover ends
+
     document.querySelector(".slides-container").addEventListener("mouseleave", function() {
         slideInterval();
     });
