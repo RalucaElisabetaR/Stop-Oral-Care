@@ -160,27 +160,19 @@
 {% stylesheet %}
 
 .slides-container {
-
-    overflow: hidden!important;
-  
-
-   transform: translate(0)!important;
+   overflow: hidden;
 }
 
 .slide {
-   transform: translateX(100%)!important;  /* start from the right */
-    opacity: 0!important;  /* start fully transparent */
-    visibility: hidden!important; /* hide the slide */
-    transition: all 2s linear!important;
-    z-index: 1!important;
+   position: absolute; /* This will stack slides on top of each other */
+    width: 100%;
+    opacity: 0;  
+    transition: opacity 2s linear;
 }
 
 
 .slide.active::after {
-    transform: translateX(0)!important;
-    opacity: 1!important;  /* fade in */
-    visibility: visible!important; /* show the slide */
-    z-index: 2!important;
+ opacity: 1;
    
   
  
