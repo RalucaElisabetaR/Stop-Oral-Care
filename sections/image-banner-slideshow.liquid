@@ -116,7 +116,7 @@
  
   
        <!-- Slide 1 -->
-        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} banner__content--{{ section.settings.desktop_content_position }} gradient slide ">
+        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} page-width banner__content--{{ section.settings.desktop_content_position }} gradient slide ">
             <h2 class="banner__heading">Unleash nature's secret for a radiant smile!</h2>
             <div class="banner__text">Dive into hemp & Dead Sea minerals.</div>
             <div class="banner__buttons">
@@ -125,7 +125,7 @@
         </div>
 
         <!-- Slide 2 -->
-        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} banner__content--{{ section.settings.desktop_content_position }} gradient slide">
+        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} page-width banner__content--{{ section.settings.desktop_content_position }} gradient slide">
             <h2 class="banner__heading">Experience oral care reimagined.</h2>
             <div class="banner__text">Where hemp meets Dead Sea magic.</div>
             <div class="banner__buttons">
@@ -134,7 +134,7 @@
         </div>
 
               <!-- Slide 3 -->
-        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} banner__content--{{ section.settings.desktop_content_position }} gradient slide">
+        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} page-width banner__content--{{ section.settings.desktop_content_position }} gradient slide">
             <h2 class="banner__heading">Experience oral care reimagined.</h2>
             <div class="banner__text">Where hemp meets Dead Sea magic.</div>
             <div class="banner__buttons">
@@ -142,7 +142,7 @@
             </div>
         </div>
               <!-- Slide 4 -->
-        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} banner__content--{{ section.settings.desktop_content_position }} gradient slide">
+        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} page-width banner__content--{{ section.settings.desktop_content_position }} gradient slide">
             <h2 class="banner__heading">dfbsdfgbv</h2>
             <div class="banner__text">ergerge</div>
             <div class="banner__buttons">
@@ -164,20 +164,18 @@
 }
 
 .slide {
-    position: absolute!important;
+
+  
     top: 0!important;
+    left: 100%!important;  /* start from the right */
    
-    width: 100%!important;
- 
     opacity: 0!important;  /* start fully transparent */
-  transform: translateX(100%) translateY(-100%);
     transition: all 1s ease-out!important;
     z-index: 1!important;
 }
 
 .slide.active {
     left: 0!important;  /* slide in */
-  transform: translateX(-100%) translateY(-100%); 
     opacity: 1!important;  /* fade in */
     z-index: 2!important;
 }
