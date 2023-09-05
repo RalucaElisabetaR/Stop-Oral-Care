@@ -160,18 +160,19 @@
 
 .slides-container {
     overflow: hidden!important;
-    white-space: nowrap!important; /* Prevent slides from wrapping to the next line */
     width: 100%!important; 
     height: 100%!important;
+    position: relative!important;  /* Allow the absolute positioning of slides within it */
 }
 
 .slide {
     position: absolute!important;
     top: 0!important;
-    left: 100%!important; /* Place all slides off to the right initially */
+    left: 0!important;
+    width: 100%!important; /* Ensure each slide spans the full width of the container */
     opacity: 1!important;
-  
-    transform: translateX(100%)!important; 
+    display: inline-block!important; /* Allow slides to sit next to each other */
+    transform: translateX(100%)!important;  /* Push all slides out initially */
     transition: transform 0.5s ease-out!important;
     z-index: 1!important;
 }
