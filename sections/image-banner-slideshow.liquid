@@ -535,16 +535,19 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 4000);
     }
 
+    // Initialize the first slide as active and start the slideshow
     slides[currentSlide].classList.add("active");
     startSliding();
 
+    // Pause the slideshow on hover
     container.addEventListener("mouseenter", function() {
         clearInterval(interval);
     });
 
+    // Resume the slideshow when no longer hovering
     container.addEventListener("mouseleave", function() {
         startSliding();
     });
 });
-
 {% endjavascript %}
+
