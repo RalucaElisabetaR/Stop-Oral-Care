@@ -3,7 +3,7 @@
     "3d4955d7-4e3e-43be-ae2b-e879907f7fd6": {
       "type": "image-banner-slideshow",
       "custom_css": [
-        ".content-container--full-width-mobile {display: block; height: 100% !important; transform: translateY(0);}",
+        ".content-container--full-width-mobile {display: block; height: 100% !important; transform: translateY(100%);}",
         "div .active {background-color: blue !important; z-index: 5;}"
       ],
       "settings": {
