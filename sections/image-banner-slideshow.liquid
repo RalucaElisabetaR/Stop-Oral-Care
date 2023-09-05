@@ -160,35 +160,30 @@
 {% stylesheet %}
 
 .slides-container {
-opacity: 0;
-    transition: opacity 2s linear!important;
-    position: absolute!important;
-    top: 0;
-    left: 0!important;
-    width: 100%!important;
-    z-index: 1!important;
+
+    overflow: hidden!important;
+  
+
+   transform: translate(0)!important;
 }
 
 .slide {
- opacity: 0;
-    transition: opacity 2s linear;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
+ 
+   
+    left: 100%!important;  /* start from the right */
+   
+    opacity: 0!important;  /* start fully transparent */
+    transition: all 2s linear!important;
+    z-index: 1!important;
 }
 
-
 .slide.active {
-   transform: translate(0)!important;
-  left: 0%!important; 
-opacity: 1!important;  /* fade in */
-  
-       z-index: 2!important;
-   
-  
  
+
+    left: 0%!important; 
+  
+    opacity: 1!important;  /* fade in */
+    z-index: 2!important;
 }
 
 {% endstylesheet %}
@@ -529,20 +524,25 @@ document.addEventListener("DOMContentLoaded", function() {
     function startSliding() {
         interval = setInterval(function() {
             slides[currentSlide].classList.remove("active");
+            
+            // Move to next slide
             currentSlide = (currentSlide + 1) % slides.length;
+            
             slides[currentSlide].classList.add("active");
-        }, 4000);
+        }, 4000); // change every 4 seconds
     }
 
+    // Initial setup
     slides[currentSlide].classList.add("active");
+
     startSliding();
 
     container.addEventListener("mouseenter", function() {
-        clearInterval(interval);
+        clearInterval(interval);  // stop sliding on hover
     });
 
     container.addEventListener("mouseleave", function() {
-        startSliding();
+        startSliding();  // resume sliding when hover ends
     });
 });
 
