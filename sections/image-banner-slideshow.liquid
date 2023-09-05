@@ -508,8 +508,9 @@
 
 {% javascript %}
 
-
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Script is running.");  // This should appear in your browser's console
+    
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
     let interval;
