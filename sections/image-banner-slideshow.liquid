@@ -192,6 +192,11 @@ opacity: 1!important;  /* fade in */
 }
 
   @media screen and (max-width: 749px) { 
+    .banner__media, .banner__content {
+        position: static; /* Removes positioning so they stack */
+        width: 100%;
+        height: auto;
+    }
     
       .slides-container {
         height: calc(100% * {{slides.length}}); /* Assuming you can get the count of slides */
