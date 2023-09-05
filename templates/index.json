@@ -2,6 +2,18 @@
   "sections": {
     "3d4955d7-4e3e-43be-ae2b-e879907f7fd6": {
       "type": "image-banner-slideshow",
+      "blocks": {
+        "5bdb562e-3fcc-45bd-930d-a4f8cc49fd7f": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "5bdb562e-3fcc-45bd-930d-a4f8cc49fd7f"
+      ],
       "custom_css": [
 
       ],
