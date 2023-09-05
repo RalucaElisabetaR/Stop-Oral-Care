@@ -160,21 +160,23 @@
 {% stylesheet %}
 
 .slides-container {
-position: absolute!important;
-    overflow: hidden!important;
-  
-
-   transform: translate(0)!important;
+opacity: 0;
+    transition: opacity 2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .slide {
-  transform: translate(0)!important;
-   
-    left: 100%!important;  /* start from the right */
-   
-    opacity: 0!important;  /* start fully transparent */
-    transition: all 2s linear!important;
-    z-index: 1!important;
+ opacity: 0;
+    transition: opacity 2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 
