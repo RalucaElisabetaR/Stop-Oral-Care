@@ -3,8 +3,9 @@
     "3d4955d7-4e3e-43be-ae2b-e879907f7fd6": {
       "type": "image-banner-slideshow",
       "custom_css": [
-        "{height: 100%; background-color: #0d3d6f ;}",
-        ".button {font-size: 16px;}"
+        "{height: 100%; background-color: white;}",
+        ".button {font-size: 16px;}",
+        " @media screen and (max-width: 749px) {h2{color: green; } }"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
