@@ -171,12 +171,15 @@
     width: 100%!important;
 
     opacity: 0!important;  /* start fully transparent */
+      transform: translateX(100%)!important; /* start from the right */
+
     transition: all 1s ease-out!important;
     z-index: 1!important;
 }
 
 .slide.active {
-  
+      transform: translateX(0)!important; /* slide in */
+
 
     opacity: 1!important;  /* fade in */
     z-index: 2!important;
