@@ -111,7 +111,7 @@
       }}
     </div>
   {%- endif -%}
-<div class="slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width banner--content-align-mobile-{{ section.settings.mobile_content_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+<div class="slides-container banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner__content banner__content--{{ section.settings.desktop_content_position }} page-width banner--content-align-mobile-{{ section.settings.mobile_content_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
 
  
   
@@ -160,7 +160,7 @@
 
 .slides-container {
     position: relative!important;
-  transform: translate(-50%, -50%);
+
    overflow: hidden;
 }
 
