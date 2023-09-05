@@ -111,7 +111,7 @@
       }}
     </div>
   {%- endif -%}
-  <div class=" slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class=" slide slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
 
         <!-- Slide 1 --> 
     
@@ -159,7 +159,7 @@
 
 {% stylesheet %}
 
-.slides-container .slide {
+.slide {
 opacity: 0;
     transition: opacity 2s linear!important;
     position: absolute!important;
@@ -169,16 +169,8 @@ opacity: 0;
     z-index: 1!important;
 }
 
-/* .slide {
- opacity: 0;
-    transition: opacity 2s linear;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-}
- */
+
+
 
 .slide.active {
   opacity: 1!important;
