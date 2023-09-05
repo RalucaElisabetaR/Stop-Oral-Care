@@ -177,13 +177,20 @@
     z-index: 1!important;
 }
 
+  slide.active::before {
+ 
+
+   opacity: 1!important;  /* fade in */
+  
+       z-index: 2!important;
+}
+
 .slide.active::after {
  
 
     left: 0%!important; 
   
-    opacity: 1!important;  /* fade in */
-    z-index: 2!important;
+ 
 }
 
 {% endstylesheet %}
