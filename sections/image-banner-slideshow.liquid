@@ -520,11 +520,8 @@ document.addEventListener("DOMContentLoaded", function() {
             // Move to next slide
             currentSlide = (currentSlide + 1) % slides.length;
             
-            // Use a timeout to ensure that the previous slide has completely faded out before showing the next slide
-            setTimeout(function() {
-                slides[currentSlide].classList.add("active");
-            }, 2000); // This should match the transition duration
-        }, 4000);
+            slides[currentSlide].classList.add("active");
+        }, 4000); // change every 4 seconds
     }
 
     // Initial setup
@@ -541,6 +538,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-  
 {% endjavascript %}
-
