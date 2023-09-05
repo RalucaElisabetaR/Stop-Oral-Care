@@ -164,13 +164,13 @@
     overflow: hidden!important;
   
 
-  
+   transform: translate(0)!important;
 }
 
 .slide {
  
    
- left: 0!important; 
+    left: 100%!important;  /* start from the right */
    
     opacity: 0!important;  /* start fully transparent */
     transition: all 2s linear!important;
@@ -180,8 +180,8 @@
 .slide.active {
  
 
-    right: 0!important; 
-   
+    left: 0%!important; 
+   transform: translate(0)!important;
     opacity: 1!important;  /* fade in */
     z-index: 2!important;
 }
