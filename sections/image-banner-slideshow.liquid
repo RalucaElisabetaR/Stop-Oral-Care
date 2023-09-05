@@ -181,7 +181,7 @@
  
 
     left: 0%!important; 
-   transform: translate(0)!important;
+  
     opacity: 1!important;  /* fade in */
     z-index: 2!important;
 }
@@ -515,40 +515,35 @@
 {% endschema %}
 
 {% javascript %}
-  
 document.addEventListener("DOMContentLoaded", function() {
+    let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
     const container = document.querySelector(".slides-container");
-    let currentSlide = 0;
     let interval;
 
-    function updateSlide() {
-        // Remove active class from the current slide
-        slides[currentSlide].classList.remove("active");
-        
-        // Calculate the next slide's index
-        currentSlide = (currentSlide + 1) % slides.length;
-
-        // Assign active class to the next slide
-        slides[currentSlide].classList.add("active");
-    }
-
     function startSliding() {
-        // Set interval to change slide every 4 seconds
-        interval = setInterval(updateSlide, 4000);
+        interval = setInterval(function() {
+            slides[currentSlide].classList.remove("active");
+            
+            // Move to next slide
+            currentSlide = (currentSlide + 1) % slides.length;
+            
+            slides[currentSlide].classList.add("active");
+        }, 4000); // change every 4 seconds
     }
 
-    function stopSliding() {
-        clearInterval(interval);
-    }
+    // Initial setup
+    slides[currentSlide].classList.add("active");
 
-    // Start the slide show initially
     startSliding();
 
-    // Stop sliding when mouse is over the container
-    container.addEventListener("mouseenter", stopSliding);
+    container.addEventListener("mouseenter", function() {
+        clearInterval(interval);  // stop sliding on hover
+    });
 
-    // Restart sliding when mouse leaves the container
-    container.addEventListener("mouseleave", startSliding);
+    container.addEventListener("mouseleave", function() {
+        startSliding();  // resume sliding when hover ends
+    });
 });
+
 {% endjavascript %}
