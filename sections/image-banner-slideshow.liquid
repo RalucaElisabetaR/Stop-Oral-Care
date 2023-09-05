@@ -111,7 +111,7 @@
       }}
     </div>
   {%- endif -%}
-<div class="slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+<div class="slides-container  banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
  
   
        <!-- Slide 1 -->
@@ -158,9 +158,7 @@
 {% stylesheet %}
 
 .slides-container {
-    position: relative!important;
-    overflow: hidden!important;
-  
+ 
 }
 
 .slide {
@@ -168,8 +166,6 @@
     top: 0!important;
     left: 100%!important;  /* start from the right */
     width: 100%!important;
-    
-    height: 100%!important;
     opacity: 0!important;  /* start fully transparent */
     transition: all 1s ease-out!important;
     z-index: 1!important;
