@@ -160,22 +160,31 @@
 {% stylesheet %}
 
 .slides-container {
-   overflow: hidden;
+
+    overflow: hidden!important;
+  
+    height: 100%!important; 
+    width: 100%!important; 
+     display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important; 
 }
 
 .slide {
-   position: absolute; /* This will stack slides on top of each other */
-    width: 100%;
-    opacity: 0;  
-    transition: opacity 2s linear;
+ 
+   
+    left: 100%!important;  /* start from the right */
+   
+    opacity: 0!important;  /* start fully transparent */
+    transition: all 2s linear!important;
+    z-index: 1!important;
 }
 
+.slide.active {
 
-.slide.active::after {
- opacity: 1;
-   
-  
- 
+    left: 0%!important; 
+    opacity: 1!important;  /* fade in */
+    z-index: 2!important;
 }
 
 {% endstylesheet %}
@@ -507,12 +516,10 @@
 {% endschema %}
 
 {% javascript %}
-
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Script is running.");  // This should appear in your browser's console
-    
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
+    const container = document.querySelector(".slides-container");
     let interval;
 
     function startSliding() {
@@ -530,7 +537,14 @@ document.addEventListener("DOMContentLoaded", function() {
     slides[currentSlide].classList.add("active");
 
     startSliding();
-});
 
+    container.addEventListener("mouseenter", function() {
+        clearInterval(interval);  // stop sliding on hover
+    });
+
+    container.addEventListener("mouseleave", function() {
+        startSliding();  // resume sliding when hover ends
+    });
+});
 
 {% endjavascript %}
