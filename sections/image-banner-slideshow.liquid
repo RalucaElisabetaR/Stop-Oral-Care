@@ -95,7 +95,7 @@
         elsif section.settings.image_2 != blank
           assign sizes = half_width
         else
-          assign sizes = full_width
+          assign sizes = full_width 
         endif
       -%}
       {{
@@ -111,76 +111,56 @@
       }}
     </div>
   {%- endif -%}
-<div class="slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width banner--content-align-mobile-{{ section.settings.mobile_content_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-
- 
-  
-       <!-- Slide 1 -->
-        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slide ">
-            <h2 class="banner__heading">Unleash nature's secret for a radiant smile!</h2>
-            <div class="banner__text">Dive into hemp & Dead Sea minerals.</div>
-            <div class="banner__buttons">
-                <a href="#" class="button">Shop Now</a>
+  <div class=" slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'heading' -%}
+            <h2
+              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.heading }}
+            </h2>
+          {%- when 'text' -%}
+            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <p>{{ block.settings.text }}</p>
             </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slide">
-            <h2 class="banner__heading">Experience oral care reimagined.</h2>
-            <div class="banner__text">Where hemp meets Dead Sea magic.</div>
-            <div class="banner__buttons">
-                <a href="#" class="button">Shop Now</a>
+          {%- when 'buttons' -%}
+            <div
+              class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              {%- if block.settings.button_label_1 != blank -%}
+                <a
+                  {% if block.settings.button_link_1 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link_1 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                >
+                  {{- block.settings.button_label_1 | escape -}}
+                </a>
+              {%- endif -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                <a
+                  {% if block.settings.button_link_2 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link_2 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                >
+                  {{- block.settings.button_label_2 | escape -}}
+                </a>
+              {%- endif -%}
             </div>
-        </div>
-
-              <!-- Slide 3 -->
-        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slide">
-            <h2 class="banner__heading">Experience oral care reimagined.</h2>
-            <div class="banner__text">Where hemp meets Dead Sea magic.</div>
-            <div class="banner__buttons">
-                <a href="#" class="button">Shop Now</a>
-            </div>
-        </div>
-              <!-- Slide 4 -->
-        <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slide">
-            <h2 class="banner__heading">dfbsdfgbv</h2>
-            <div class="banner__text">ergerge</div>
-            <div class="banner__buttons">
-                <a href="#" class="button">Shop Now</a>
-            </div>
-        </div>
-
-        <!-- And similarly add other slides... -->
-
+        {%- endcase -%}
+      {%- endfor -%}
     </div>
+  </div>
 </div>
-
-
-{% stylesheet %}
-
-.slides-container {
-    position: relative!important;
-  
-}
-
-.slide {
-    position: absolute!important;
-    top: 0!important;
-    left: 100%!important;  /* start from the right */
-    width: 100%!important;
-    opacity: 0!important;  /* start fully transparent */
-    transition: all 1s ease-out!important;
-    z-index: 1!important;
-}
-
-.slide.active {
-    left: 0!important;  /* slide in */
-    opacity: 1!important;  /* fade in */
-    z-index: 2!important;
-}
-
-{% endstylesheet %}
-
 
 {% schema %}
 {
@@ -506,37 +486,3 @@
   ]
 }
 {% endschema %}
-
-{% javascript %}
-document.addEventListener("DOMContentLoaded", function() {
-    let currentSlide = 0;
-    const slides = document.querySelectorAll(".slide");
-    const container = document.querySelector(".slides-container");
-    let interval;
-
-    function startSliding() {
-        interval = setInterval(function() {
-            slides[currentSlide].classList.remove("active");
-            
-            // Move to next slide
-            currentSlide = (currentSlide + 1) % slides.length;
-            
-            slides[currentSlide].classList.add("active");
-        }, 4000); // change every 4 seconds
-    }
-
-    // Initial setup
-    slides[currentSlide].classList.add("active");
-
-    startSliding();
-
-    container.addEventListener("mouseenter", function() {
-        clearInterval(interval);  // stop sliding on hover
-    });
-
-    container.addEventListener("mouseleave", function() {
-        startSliding();  // resume sliding when hover ends
-    });
-});
-
-{% endjavascript %}
