@@ -508,7 +508,7 @@
 {% endschema %}
 
 {% javascript %}
-document.addEventListener("DOMContentLoaded", function() {
+window.onload = function() {
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
     slides[currentSlide].classList.add("active"); // show the first slide initially
@@ -518,7 +518,8 @@ document.addEventListener("DOMContentLoaded", function() {
         currentSlide = (currentSlide + 1) % slides.length; // move to next slide
         slides[currentSlide].classList.add("active"); // show next slide
     }, 2000); // change every 2 seconds
-});
+};
+
 
   
 {% endjavascript %}
