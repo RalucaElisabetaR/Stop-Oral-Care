@@ -25,7 +25,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div class=\"bottom-div\"><\/div>\n<style>\n  @media screen and (max-width: 749px) { \n  margin-top: 300px !important; \/* Adjust this value same as the height of slides-container *\/\n}\n<\/style>",
+        "custom_liquid": "<div class=\"bottom-div\"><\/div>\n<style>\n  @media screen and (max-width: 749px) { \n  margin-top: 500px !important; \n}\n<\/style>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
