@@ -161,7 +161,7 @@
 .slides-container {
     position: relative!important;
   transform: translate(-50%, -50%);
-   overflow: hidden!important;
+   overflow: hidden;
 }
 
 .slide {
@@ -169,7 +169,7 @@
   
     top: 0!important;
     left: 100%!important;  /* start from the right */
-  transform: translateX(100%)!important;
+  transform: translateX(100%);
    
     opacity: 0!important;  /* start fully transparent */
     transition: all 1s ease-out!important;
@@ -177,7 +177,7 @@
 }
 
 .slide.active {
-   transform: translateX(0)!important;
+   transform: translateX(0);
   
     opacity: 1!important;  /* fade in */
     z-index: 2!important;
