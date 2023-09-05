@@ -168,21 +168,19 @@
 }
 
 .slide {
- 
-   
-    left: 100%!important;  /* start from the right */
-   
+   transform: translateX(100%)!important;  /* start from the right */
     opacity: 0!important;  /* start fully transparent */
+    visibility: hidden!important; /* hide the slide */
     transition: all 2s linear!important;
     z-index: 1!important;
 }
 
 
 .slide.active::after {
-  left: 0%!important; 
-opacity: 1!important;  /* fade in */
-  
-       z-index: 2!important;
+    transform: translateX(0)!important;
+    opacity: 1!important;  /* fade in */
+    visibility: visible!important; /* show the slide */
+    z-index: 2!important;
    
   
  
