@@ -160,8 +160,7 @@
 
 .slides-container {
     overflow: hidden!important;
-    /* white-space: nowrap!important; */
-  
+    white-space: nowrap!important; /* Prevent slides from wrapping to the next line */
     width: 100%!important; 
     height: 100%!important;
 }
@@ -169,7 +168,7 @@
 .slide {
     position: absolute!important;
     top: 0!important;
-    left: 100%!important; /* Place all slides off to the right initially */
+    left: 0!important; /* Place all slides off to the right initially */
     opacity: 1!important;
     display: inline-block!important; /* Allow slides to sit next to each other */
     transform: translateX(100%)!important; 
