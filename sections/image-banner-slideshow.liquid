@@ -164,8 +164,6 @@
 
      width: 100%!important; 
     height: 100%!important;
-      overflow: hidden;
-    white-space: nowrap;
 }
 
 .slide {
@@ -173,16 +171,14 @@
     top: 0!important;
     left: 0!important;
 
-    display: inline-block!important;
-    opacity: 1!important;
-    width: 100%!important; 
-    transform: translateX(100%)!important;
-    transition: transform 0.5s ease-out!important; 
-  
+    opacity: 0!important;
+    transition:  left 2s!important;
+    z-index: 1!important;
 }
 
 .slide.active {
-   transform: translateX(0);
+    opacity: 1!important;
+    z-index: 2!important;
 }
 
 {% endstylesheet %}
@@ -514,39 +510,37 @@
 {% endschema %}
 
 {% javascript %}
-
-
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
-    
-   
-    slides.forEach((slide, index) => {
-        if (index !== 0) {
-            slide.style.transform = "translateX(100%)";
-        }
+    const container = document.querySelector(".slides-container");
+    let interval;
+
+    function startSliding() {
+        interval = setInterval(function() {
+            slides[currentSlide].classList.remove("active");
+            
+            // Move to next slide
+            currentSlide = (currentSlide + 1) % slides.length;
+            
+            // Use a timeout to ensure that the previous slide has completely faded out before showing the next slide
+            setTimeout(function() {
+                slides[currentSlide].classList.add("active");
+            }, 2000); // This should match the transition duration
+        }, 4000);
+    }
+
+    // Initial setup
+    slides[currentSlide].classList.add("active");
+
+    startSliding();
+
+    container.addEventListener("mouseenter", function() {
+        clearInterval(interval);  // stop sliding on hover
     });
-    
-    slides[currentSlide].classList.add("active"); // show the first slide initially
 
-    const slideInterval = setInterval(function() {
-        slides[currentSlide].classList.remove("active");
-        slides[currentSlide].style.transform = "translateX(-100%)"; // Move current slide to the left
-        
-        currentSlide = (currentSlide + 1) % slides.length; // move to next slide
-        
-        slides[currentSlide].classList.add("active");
-        slides[currentSlide].style.transform = "translateX(0)"; // Bring next slide into view from the right
-    }, 2000); // change every 2 seconds
-
-
-    document.querySelector(".slides-container").addEventListener("mouseenter", function() {
-        clearInterval(slideInterval);
-    });
-
-
-    document.querySelector(".slides-container").addEventListener("mouseleave", function() {
-        slideInterval();
+    container.addEventListener("mouseleave", function() {
+        startSliding();  // resume sliding when hover ends
     });
 });
 
