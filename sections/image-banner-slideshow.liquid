@@ -507,10 +507,11 @@
 {% endschema %}
 
 {% javascript %}
-document.addEventListener("DOMContentLoaded", function() {
+
+
+  document.addEventListener("DOMContentLoaded", function() {
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
-    const container = document.querySelector(".slides-container");
     let interval;
 
     function startSliding() {
@@ -528,14 +529,7 @@ document.addEventListener("DOMContentLoaded", function() {
     slides[currentSlide].classList.add("active");
 
     startSliding();
-
-    container.addEventListener("mouseenter", function() {
-        clearInterval(interval);  // stop sliding on hover
-    });
-
-    container.addEventListener("mouseleave", function() {
-        startSliding();  // resume sliding when hover ends
-    });
 });
+
 
 {% endjavascript %}
