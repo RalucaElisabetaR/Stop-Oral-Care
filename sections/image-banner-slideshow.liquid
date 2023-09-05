@@ -160,25 +160,25 @@
 
 .slides-container {
     position: relative!important;
-    overflow: hidden;
-    height: 100%; 
-    width: 100%; 
+    overflow: hidden!important;
+    height: 100%!important; 
+    width: 100%!important; 
   
 }
 
 .slide {
-   position: absolute;
-    top: 50%; 
-    left: 50%;
-    transform: translateX(100%) translateY(-50%);
-    opacity: 0;
-    transition: all 1s ease-out;
-    z-index: 1;
+   position: absolute!important;
+    top: 50%!important; 
+    left: 50%!important;
+    transform: translateX(100%) translateY(-50%)!important;
+    opacity: 0!important;
+    transition: all 1s ease-out!important;
+    z-index: 1!important;
 
 .slide.active {
-   transform: translateX(-50%) translateY(-50%); 
-    opacity: 1;
-    z-index: 2;
+   transform: translateX(-50%) translateY(-50%)!important; 
+    opacity: 1!important;
+    z-index: 2!important;
 }
 
 {% endstylesheet %}
