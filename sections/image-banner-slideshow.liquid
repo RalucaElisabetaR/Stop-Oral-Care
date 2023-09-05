@@ -111,7 +111,7 @@
       }}
     </div>
   {%- endif -%}
-<div class="slides-container banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner__content banner__content--{{ section.settings.desktop_content_position }} page-width banner--content-align-mobile-{{ section.settings.mobile_content_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+<div class="slides-container banner__content banner__content--{{ section.settings.desktop_content_position }} page-width banner--content-align-mobile-{{ section.settings.mobile_content_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
 
  
   
@@ -160,16 +160,14 @@
 
 .slides-container {
     position: relative!important;
-
-   overflow: hidden;
+  
 }
 
 .slide {
-position: absolute!important;
-  
-    top: 0!important;
-    left: 0!important;  /* start from the right */
-  transform: translateX(100%);
+    position: absolute!important;
+  transform: translate(-50%, -50%)!important;
+   
+    left: 100%!important;  /* start from the right */
    
     opacity: 0!important;  /* start fully transparent */
     transition: all 1s ease-out!important;
@@ -177,8 +175,7 @@ position: absolute!important;
 }
 
 .slide.active {
-   transform: translateX(0);
-  
+    left: 0!important;  /* slide in */
     opacity: 1!important;  /* fade in */
     z-index: 2!important;
 }
