@@ -165,7 +165,12 @@
 }
 
 .slide {
-    
+    position: absolute!important;
+   
+    left: 100%!important;  /* start from the right */
+    width: 100%!important;
+
+    opacity: 0!important;  /* start fully transparent */
       transform: translateX(100%)!important; /* start from the right */
 
     transition: all 1s ease-out!important;
