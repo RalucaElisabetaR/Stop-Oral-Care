@@ -384,7 +384,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media screen and (max-width: 749px) {.bottom-div {margin-top: 500px!important; }}"
+      "@media screen and (max-width: 749px) {.bottom-div {margin-top: 400% !important; }}"
     ]
   }
 }
