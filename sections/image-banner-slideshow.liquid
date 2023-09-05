@@ -507,18 +507,32 @@
 {% endschema %}
 
 {% javascript %}
-window.onload = function() {
+
+
+  document.addEventListener("DOMContentLoaded", function() {
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
-    slides[currentSlide].classList.add("active"); // show the first slide initially
+    const container = document.querySelector(".slides-container");
+    let interval;
 
-    setInterval(function() {
-        slides[currentSlide].classList.remove("active"); // hide current slide
-        currentSlide = (currentSlide + 1) % slides.length; // move to next slide
-        slides[currentSlide].classList.add("active"); // show next slide
-    }, 2000); // change every 2 seconds
-};
+    function startSliding() {
+        interval = setInterval(function() {
+            slides[currentSlide].style.left = "-100%";  // move current slide to the left
+            currentSlide = (currentSlide + 1) % slides.length; // move to next slide
+            slides[currentSlide].style.left = "0";  // move next slide to view
+        }, 4000);  // giving it 4 seconds for better view of slide effect
+    }
 
+    startSliding();
+
+    container.addEventListener("mouseenter", function() {
+        clearInterval(interval);  // stop sliding on hover
+    });
+
+    container.addEventListener("mouseleave", function() {
+        startSliding();  // resume sliding when hover ends
+    });
+});
 
   
 {% endjavascript %}
