@@ -160,24 +160,37 @@
 {% stylesheet %}
 
 .slides-container {
-    position: relative!important;
+opacity: 0;
+    transition: opacity 2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .slide {
-    opacity: 0!important;
-    transition: opacity 2s linear!important;
-    position: absolute!important;
-    top: 0!important;
-    left: 0!important;
-    width: 100%!important;
-    z-index: 1!important;
+ opacity: 0;
+    transition: opacity 2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
+
 
 .slide.active {
-    opacity: 1!important;
-    z-index: 2!important; 
+   transform: translate(0)!important;
+  left: 0%!important; 
+  
+opacity: 1!important;  /* fade in */
+  
+       z-index: 2!important;
+   
+  
+ 
 }
-
 
 {% endstylesheet %}
 
@@ -522,19 +535,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 4000);
     }
 
-    // Initialize the first slide as active and start the slideshow
     slides[currentSlide].classList.add("active");
     startSliding();
 
-    // Pause the slideshow on hover
     container.addEventListener("mouseenter", function() {
         clearInterval(interval);
     });
 
-    // Resume the slideshow when no longer hovering
     container.addEventListener("mouseleave", function() {
         startSliding();
     });
 });
-{% endjavascript %}
 
+{% endjavascript %}
