@@ -552,6 +552,7 @@ document.addEventListener("DOMContentLoaded", function() {
             slides[currentSlide].classList.remove("active");
             currentSlide = (currentSlide + 1) % slides.length;
             slides[currentSlide].classList.add("active");
+            adjustMargin();  // Adjust the margin each time the slide changes
         }, 4000);
     }
 
@@ -565,8 +566,22 @@ document.addEventListener("DOMContentLoaded", function() {
     container.addEventListener("mouseleave", function() {
         startSliding();
     });
-});
 
+    // Adjust the margin-top of the next element
+    function adjustMargin() {
+        // Check if on mobile
+        if (window.innerWidth <= 768) {
+            const slideHeight = document.querySelector('.slide').offsetHeight;
+            const bottomDiv = document.querySelector('.bottom-div');
+            if (bottomDiv) {
+                bottomDiv.style.marginTop = slideHeight + 'px';
+            }
+        }
+    }
+
+    // Initial margin adjustment
+    adjustMargin();
+});
 {% endjavascript %}
 
 
