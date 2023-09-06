@@ -163,6 +163,20 @@
   </div>
 </div>
 
+{% stylesheet %}
+  @media screen and (max-device-width: 700px) {
+#shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 .content-container {
+    max-width: 100% !important;
+  }
+  #rotating-text-placeholder {
+    min-height: 200px;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+}
+{% endstylesheet %}
+
+
 {% schema %}
 {
   "name": "Custom Banner S",
@@ -488,5 +502,3 @@
 }
 {% endschema %}
 
-<!-- Rotating Text Placeholder -->
-<div id="rotating-text-placeholder"></div> 
