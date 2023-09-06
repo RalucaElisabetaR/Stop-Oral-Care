@@ -36,8 +36,8 @@
       ],
       "custom_css": [
         ".banner__heading .inline-richtext .h2 {}",
-        "#rotating-text-placeholder {justify-content: left; padding: 0; margin: 0; transition: opacity 1s ease-in-out;}",
-        "@media screen and (max-device-width: 768px) {#rotating-text-placeholder {justify-content: center; min-height: 200px; }}"
+        "#rotating-text-placeholder {padding: 0; margin: 0; transition: opacity 1s ease-in-out;}",
+        "@media screen and (max-device-width: 768px) {#rotating-text-placeholder {min-height: 200px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
