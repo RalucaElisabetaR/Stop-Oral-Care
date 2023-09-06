@@ -24,8 +24,8 @@ function rotateTextHeadings() {
   // Rotate text every 5 seconds (to account for fading time)
   setInterval(() => {
     placeholder.style.opacity = "0";
-    setTimeout(performRotation, 2000); // Wait 1 second (1000 milliseconds) for the fade-out to complete
-  }, 5000);
+    setTimeout(performRotation, 1000); // Wait 1 second (1000 milliseconds) for the fade-out to complete
+  }, 7000);
 }
 
 // Initialize the function when the DOM is ready
