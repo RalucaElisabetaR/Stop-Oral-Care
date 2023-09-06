@@ -35,7 +35,8 @@
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-buttons-1"
       ],
       "custom_css": [
-        "#rotating-text-placeholder {justify-content: left; padding: 0; margin: 0; transition: opacity 1s ease-in-out; display: flex; align-items: center; justify-content: center;}",
+        ".banner__heading .inline-richtext .h2 {}",
+        "#rotating-text-placeholder {justify-content: left; padding: 0; margin: 0; transition: opacity 1s ease-in-out;}",
         "@media screen and (max-device-width: 768px) {#rotating-text-placeholder {justify-content: center; min-height: 200px; }}"
       ],
       "settings": {
