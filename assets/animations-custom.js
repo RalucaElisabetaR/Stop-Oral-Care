@@ -1,6 +1,6 @@
 // Function to rotate text headings
 function rotateTextHeadings() {
-  const headings = ["Heading 1", "Heading 2", "Heading 3", "Heading 4"];  // Add your headings here
+  const headings = ["Unleash nature's secret for a radiant smile!<br> Dive into hemp & Dead Sea minerals", "Experience oral care reimagined <br>Where hemp meets Dead Sea magic", "Elevate every smile with the power of<br> hemp & Dead Sea's healing touch", "Nature's ultimate duo for pristine oral health awaits. <br>  Dive into the hemp & Dead Sea revolution!", "Embrace the extraordinary<br> blend of hemp & Dead Sea minerals"];  // Add your headings here
   let index = 0;
   
   // Locate the placeholder div
