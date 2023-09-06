@@ -37,7 +37,7 @@
       "custom_css": [
         ".content-container {max-width: 50%;}",
         "#rotating-text-placeholder {min-height: 100px; margin-right: -100px; transition: opacity 1s ease-in-out;}",
-        "@media screen and (max-device-width: 700px) {#rotating-text-placeholder {min-height: 200px; margin-right: 0 !important; width: 100% !important; } content-container {max-width: 100%!important; }}"
+        "@media screen and (max-device-width: 700px) {#rotating-text-placeholder {min-height: 200px; margin-right: 0 !important; width: 100% !important; } .content-container {max-width: 100% !important; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
