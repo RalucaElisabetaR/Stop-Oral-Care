@@ -40,7 +40,7 @@
         "@media screen and (max-device-width: 768px) {#rotating-text-placeholder {min-height: 200px; } .content-container {max-width: 100%; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/STOP.png",
+        "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
