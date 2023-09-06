@@ -35,7 +35,7 @@
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-buttons-1"
       ],
       "custom_css": [
-        "#rotating-text-placeholder {transition: opacity 1s ease-in-out; min-height: 300px; \/* Adjust this value based on your needs *\/ display: flex; align-items: center; justify-content: center;}"
+        "#rotating-text-placeholder {transition: opacity 1s ease-in-out; min-height: 200px; \/* Adjust this value based on your needs *\/ display: flex; align-items: center; justify-content: center;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
