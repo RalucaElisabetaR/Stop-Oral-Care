@@ -334,6 +334,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    {{ 'animations-custom.js' | asset_url | script_tag }}
+   <script defer src="{{ 'animations-custom.js' | asset_url }}"></script>
+
   </body>
 </html>
