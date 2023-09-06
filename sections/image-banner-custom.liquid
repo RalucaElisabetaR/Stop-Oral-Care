@@ -120,7 +120,8 @@
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
             >
-              {{ block.settings.heading }}
+                <div id="rotating-text-placeholder" class="inline-richtext {{ block.settings.heading_size }}"></div>
+
             </h2>
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
