@@ -51,13 +51,12 @@
         "show_text_below": true
       }
     },
-    "c7414725-9053-4cb3-9afa-3272e75e57d8": {
-      "type": "slideshow-multiple",
+    "7dc51414-08af-45c3-9ddd-d6fff8a29bd6": {
+      "type": "custom-slideshow",
       "blocks": {
-        "template--20797124903185__c7414725-9053-4cb3-9afa-3272e75e57d8-slide-1": {
+        "template--20797124903185__7dc51414-08af-45c3-9ddd-d6fff8a29bd6-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/STOP.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -72,10 +71,9 @@
             "text_alignment_mobile": "center"
           }
         },
-        "3afb2068-4ceb-4196-b1a5-0fc2393d84a6": {
+        "template--20797124903185__7dc51414-08af-45c3-9ddd-d6fff8a29bd6-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/STOP.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -90,10 +88,9 @@
             "text_alignment_mobile": "center"
           }
         },
-        "2285bcd3-7fa6-4134-a55d-1469cfb83229": {
+        "187e269d-f7bd-4ff3-a2a0-f887189dd721": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/STOP.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -104,19 +101,19 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "template--20797124903185__c7414725-9053-4cb3-9afa-3272e75e57d8-slide-1",
-        "3afb2068-4ceb-4196-b1a5-0fc2393d84a6",
-        "2285bcd3-7fa6-4134-a55d-1469cfb83229"
+        "template--20797124903185__7dc51414-08af-45c3-9ddd-d6fff8a29bd6-slide-1",
+        "template--20797124903185__7dc51414-08af-45c3-9ddd-d6fff8a29bd6-slide-2",
+        "187e269d-f7bd-4ff3-a2a0-f887189dd721"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -128,6 +125,6 @@
   },
   "order": [
     "e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2",
-    "c7414725-9053-4cb3-9afa-3272e75e57d8"
+    "7dc51414-08af-45c3-9ddd-d6fff8a29bd6"
   ]
 }
