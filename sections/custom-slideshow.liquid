@@ -616,48 +616,65 @@
 
 {% javascript %}
 
-  // Your slideshow component is identifiable by the class 'custom-slideshow'
-  const slideshowComponent = document.querySelector('.custom-slideshow');
-  const customSlides = document.querySelectorAll('.custom-slide');
-  let slidesContainer = document.querySelector('.custom-slideshow');
-  
-  // Calculate the width of a single slide
-  const slideWidth = customSlides[0].offsetWidth;
+  document.addEventListener("DOMContentLoaded", function() {
+    // Query your slideshow and slides by the new classes
+    const customSlideshow = document.querySelector('.custom-slideshow');
+    const customSlides = document.querySelectorAll('.custom-slide');
 
-  // Duplicate the first slide and append it at the end
-  const firstSlide = customSlides[0].cloneNode(true);
-  slidesContainer.appendChild(firstSlide);
+    // Auto-rotate attribute from your Liquid file
+    const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
 
-  // Auto-rotate attribute from your Liquid file
-  const autoRotate = slideshowComponent.getAttribute('data-autoplay') === 'true';
+    // Responsive code
+    const updateSlideDisplay = () => {
+      if (window.innerWidth <= 767) {
+        customSlides.forEach((slide) => {
+          slide.setAttribute('data-display-size', 'small-screen');
+        });
+      } else {
+        customSlides.forEach((slide) => {
+          slide.setAttribute('data-display-size', 'big-screen');
+        });
+      }
+    };
 
-  let index = 0;
+    // Initial call
+    updateSlideDisplay();
 
-  // Function to transition to the next slide
-  const nextSlide = () => {
-    index++;
-    slidesContainer.style.transform = `translateX(-${index * slideWidth}px)`;
-    
-    if (index === customSlides.length) {
-      // We're at the last slide (which is a duplicate of the first)
-      // Wait for the transition to complete before resetting
-      setTimeout(() => {
-        slidesContainer.style.transition = 'none';
-        slidesContainer.style.transform = 'translateX(0px)';
-        index = 0;
-        
-        // Re-apply transition
-        slidesContainer.style.transition = 'transform 0.5s ease';
-      }, 500); // 500ms matches the transition duration
+    // Update on window resize
+    window.addEventListener('resize', updateSlideDisplay);
+
+    if (autoRotate) {
+      let index = 0;
+
+      // Function to transition to the next slide
+      const nextSlide = () => {
+        customSlides[index].classList.remove('active');
+        index = (index + 1) % customSlides.length;
+        customSlides[index].classList.add('active');
+      };
+
+      // Adding smooth transitions
+      customSlides.forEach((slide) => {
+        slide.style.transition = 'all 0.5s ease'; // 0.5s can be adjusted
+      });
+
+      // Auto-rotate logic
+      const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
+
+      // For infinite looping
+      customSlideshow.addEventListener('transitionend', () => {
+        if (customSlides[index].classList.contains('last-slide')) {
+          customSlides.forEach((slide) => {
+            slide.style.transition = 'none';
+          });
+          index = 0;
+          customSlides[index].classList.add('active');
+          customSlides.forEach((slide) => {
+            slide.style.transition = 'all 0.5s ease';
+          });
+        }
+      });
     }
-  };
-
-  // Adding smooth transitions
-  slidesContainer.style.transition = 'transform 0.5s ease';
-
-  if (autoRotate) {
-    // Auto-rotate logic
-    const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
-  }
+  });
 
 {% endjavascript %}
