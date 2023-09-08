@@ -119,7 +119,7 @@
         }
       </style>
       <div
-        class="custom-slide slideshow__slide grid__item grid--1-col slider__slide"
+        class="custom-slide slideshow__slide grid__item grid--1-col slider__slide{% if forloop.last %} last-slide{% endif %}"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
@@ -274,7 +274,7 @@
     justify-content: flex-start;
   }
 
- 
+
 
   .custom-slide {
     flex: 0 0 calc(33.333% - 1rem)!important;  /* Show 3 slides */
@@ -599,6 +599,5 @@
       ]
     }
   ]
-} 
+}
 {% endschema %}
-
