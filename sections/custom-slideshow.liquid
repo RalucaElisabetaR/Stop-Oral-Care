@@ -621,48 +621,47 @@
 {% endschema %}
 
 {% javascript %}
-
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
   const customSlideshow = document.querySelector('.custom-slideshow');
-  const slidesWrapper = customSlideshow.querySelector('.slides-wrapper'); // The new wrapper
-  const customSlides = Array.from(document.querySelectorAll('.custom-slide'));
-  const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
-  const speed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000; // Convert to milliseconds
-
-  // Clone the initial slides and append them to the end for infinite looping
-  customSlides.forEach((slide) => {
-    const clone = slide.cloneNode(true);
-    clone.classList.add('clone');
-    slidesWrapper.appendChild(clone); // Append to the wrapper
+  const slidesWrapper = document.createElement('div');
+  slidesWrapper.className = 'slides-wrapper';
+  
+  // Move all the slides into the new slides wrapper
+  customSlideshow.querySelectorAll('.custom-slide').forEach((slide) => {
+    slidesWrapper.appendChild(slide);
   });
 
-  // Re-query to include clones
-  const allSlides = Array.from(document.querySelectorAll('.custom-slide'));
+  customSlideshow.appendChild(slidesWrapper);
 
-  let index = 0; // Start index
-  let slideWidth = allSlides[index].getBoundingClientRect().width;
+  const slides = Array.from(slidesWrapper.querySelectorAll('.custom-slide'));
+  const numSlides = slides.length;
+  const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
+  const speed = parseInt(customSlideshow.getAttribute('data-speed')) * 1000;
+  
+  let index = 0;
+  let target = 0;
+  let current = 0;
 
-  // Initial position
-  slidesWrapper.style.transform = `translateX(-${index * slideWidth}px)`; // Apply to the wrapper
+  // Add cloned slides at the end for infinite looping
+  slides.forEach((slide) => {
+    const clone = slide.cloneNode(true);
+    slidesWrapper.appendChild(clone);
+  });
 
-  const nextSlide = () => {
-    slidesWrapper.style.transition = `transform ${speed / 1000}s ease-in-out`; // Apply to the wrapper
-    index++;
-    slidesWrapper.style.transform = `translateX(-${index * slideWidth}px)`; // Apply to the wrapper
+  const update = () => {
+    current += (target - current) * 0.1;
+    slidesWrapper.style.transform = `translateX(${current}px)`;
+    requestAnimationFrame(update);
   };
 
-  slidesWrapper.addEventListener('transitionend', () => { // Apply to the wrapper
-    if (index >= customSlides.length) {
-      index = 0; // Reset to the first slide
-      slidesWrapper.style.transition = 'none'; // Apply to the wrapper
-      slidesWrapper.style.transform = `translateX(-${index * slideWidth}px)`; // Apply to the wrapper
-    }
-  });
+  requestAnimationFrame(update);
 
   if (autoRotate) {
-    setInterval(nextSlide, speed);
+    setInterval(() => {
+      index = (index + 1) % numSlides;
+      target = -index * customSlideshow.clientWidth;
+    }, speed);
   }
 });
-
 
 {% endjavascript %}
