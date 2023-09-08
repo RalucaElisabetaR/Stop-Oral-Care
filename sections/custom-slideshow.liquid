@@ -716,10 +716,10 @@
     });
   }
    const scaleStyles = () => {
-    const slides = document.querySelectorAll('.banner__content');
+    const slides = document.querySelectorAll('.slideshow__text-wrapper');
     
     slides.forEach((slide) => {
-      const contentContainers = slide.querySelectorAll('.content-container');
+      const contentContainers = slide.querySelectorAll('.slideshow__text');
       contentContainers.forEach((container) => {
         const originalPadding = window.getComputedStyle(container).padding;
         const originalMargin = window.getComputedStyle(container).margin;
