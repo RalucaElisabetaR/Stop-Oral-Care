@@ -630,6 +630,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const firstClone = firstSlide.cloneNode(true);
   const lastClone = lastSlide.cloneNode(true);
 
+  // Add a class to identify clones, if you need to style them specifically
+  firstClone.classList.add('slide-clone');
+  lastClone.classList.add('slide-clone');
+
   // Insert clones
   customSlideshow.appendChild(firstClone);
   customSlideshow.insertBefore(lastClone, firstSlide);
@@ -650,8 +654,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (autoRotate) {
     setInterval(() => {
-      slideIndex++;
-      smoothSlide();
+      moveToSlide(slideIndex + 1);
     }, speed);
   }
 
@@ -675,18 +678,19 @@ document.addEventListener("DOMContentLoaded", function() {
     customSlideshow.removeEventListener('mousemove', onMouseMove);
     customSlideshow.removeEventListener('mouseup', onMouseUp);
 
-    // Logic for infinite loop after drag
     slideIndex = Math.round(-currentTranslate / slideWidth);
-    smoothSlide();
+    moveToSlide(slideIndex);
   }
 
-  function smoothSlide() {
+  function moveToSlide(index) {
     customSlideshow.style.transition = 'transform 0.4s ease-in-out';
+    slideIndex = index;
     currentTranslate = -(slideWidth * slideIndex);
     prevTranslate = currentTranslate;
     customSlideshow.style.transform = `translateX(${currentTranslate}px)`;
 
-    if (slideIndex === slides.length - 1) {
+    // Reset to the first slide if at the last clone
+    if (slideIndex >= slides.length) {
       setTimeout(() => {
         customSlideshow.style.transition = 'none';
         slideIndex = 1;
