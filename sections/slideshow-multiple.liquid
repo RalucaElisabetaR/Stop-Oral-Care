@@ -1,8 +1,6 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
-{{ 'slideshow-multiple-updated.css' | asset_url | stylesheet_tag }}
-
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
@@ -121,7 +119,7 @@
         }
       </style>
       <div
-        class="slideshow__slide--multiple grid__item grid--1-col slider__slide"
+        class="slideshow__slide grid__item grid--1-col slider__slide"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
@@ -267,7 +265,7 @@
 
 {% schema %}
 {
-  "name": "Custom Slideshow",
+  "name": "t:sections.custom_slideshow.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -569,11 +567,8 @@
   ],
   "presets": [
     {
-      "name": "Custom Slideshow",
+      "name": "t:sections.slideshow.presets.name",
       "blocks": [
-        {
-          "type": "slide"
-        },
         {
           "type": "slide"
         },
