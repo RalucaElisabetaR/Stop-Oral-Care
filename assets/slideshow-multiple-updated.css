@@ -1,0 +1,10 @@
+
+/* Custom styles for multiple slides visible at once */
+#Slider-multiple--custom {
+  display: flex;
+  overflow: hidden;
+}
+
+#Slider-multiple--custom .slideshow__slide--multiple {
+  flex: 1 0 calc(33.333% - 10px); /* Show 3 slides, with a little space between */
+}
