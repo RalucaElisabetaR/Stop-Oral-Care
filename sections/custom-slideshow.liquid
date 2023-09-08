@@ -622,7 +622,18 @@
   document.addEventListener("DOMContentLoaded", function() {
     // Query your slideshow and slides by the new classes
     const customSlideshow = document.querySelector('.custom-slideshow');
+    const slidesWrapper = customSlideshow.querySelector('.slides-wrapper');  // Assuming your slides are wrapped in a div with class 'slides-wrapper'
     const customSlides = document.querySelectorAll('.custom-slide');
+
+    // Clone first and last slides
+    const firstSlide = customSlides[0];
+    const lastSlide = customSlides[customSlides.length - 1];
+    const firstClone = firstSlide.cloneNode(true);
+    const lastClone = lastSlide.cloneNode(true);
+
+    // Add clones to the beginning and end of the slides
+    slidesWrapper.appendChild(firstClone);
+    slidesWrapper.insertBefore(lastClone, firstSlide);
 
     // Auto-rotate attribute from your Liquid file
     const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
@@ -654,27 +665,29 @@
         customSlides[index].classList.remove('active');
         index = (index + 1) % customSlides.length;
         customSlides[index].classList.add('active');
+
+        // If we're at the first clone, jump to the original first slide without animation
+        if (index === 0) {
+          slidesWrapper.style.transition = 'none';
+          index = 1;
+          slidesWrapper.style.transform = `translateX(-${index * slideWidth}px)`;
+        }
       };
 
       // Adding smooth transitions
       customSlides.forEach((slide) => {
-        slide.style.transition = 'all 0.5s ease'; // 0.5s can be adjusted
+        slide.style.transition = 'all 0.5s ease';
       });
 
       // Auto-rotate logic
-      const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
+      const rotateInterval = setInterval(nextSlide, 5000);
 
       // For infinite looping
       customSlideshow.addEventListener('transitionend', () => {
         if (customSlides[index].classList.contains('last-slide')) {
-          customSlides.forEach((slide) => {
-            slide.style.transition = 'none';
-          });
-          index = 0;
-          customSlides[index].classList.add('active');
-          customSlides.forEach((slide) => {
-            slide.style.transition = 'all 0.5s ease';
-          });
+          slidesWrapper.style.transition = 'none';
+          index = customSlides.length - 1;
+          slidesWrapper.style.transform = `translateX(-${index * slideWidth}px)`;
         }
       });
     }
