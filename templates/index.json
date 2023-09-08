@@ -72,6 +72,42 @@
             "text_alignment_mobile": "center"
           }
         },
+        "b48c4eb8-e97e-4a33-beaa-8ac8aff28683": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "49a3ec95-0794-4892-a53c-113f74147f53": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
         "bbaad51f-4437-417b-ba4c-e74cc3bf4135": {
           "type": "slide",
           "settings": {
@@ -107,33 +143,17 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "f93a6f90-eb31-41ef-9cb5-bef4b4f30326": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-1",
+        "b48c4eb8-e97e-4a33-beaa-8ac8aff28683",
+        "49a3ec95-0794-4892-a53c-113f74147f53",
         "bbaad51f-4437-417b-ba4c-e74cc3bf4135",
-        "1b46c9bc-9004-4757-9f14-9f680d453536",
-        "f93a6f90-eb31-41ef-9cb5-bef4b4f30326"
+        "1b46c9bc-9004-4757-9f14-9f680d453536"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": true,
