@@ -630,29 +630,25 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   const customSlideshow = document.querySelector('.custom-slideshow');
-  const slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
-  const slideWidth = customSlideshow.clientWidth;
-  
-  let position = 0; // Start at the first slide
-  customSlideshow.style.transform = `translateX(${position}px)`;
+  let slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
 
-  // User-defined speed in milliseconds
-  const userSpeed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000 || 5000;
-  
+  let position = 0;
+
   const moveSlides = () => {
+    let slideWidth = customSlideshow.clientWidth;  // Dynamic slide width
+
     if (position <= -slideWidth * (slides.length - 1)) {
-      // If we're at the last slide, reset to the first one
       position = 0;
       customSlideshow.style.transition = 'none';
     } else {
-      // Otherwise, move to the next slide
       position -= slideWidth;
       customSlideshow.style.transition = 'transform 0.4s ease-in-out';
     }
     customSlideshow.style.transform = `translateX(${position}px)`;
   };
 
-  // Auto-move slides at user-defined intervals
+  const userSpeed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000 || 5000;
+  
   setInterval(moveSlides, userSpeed);
 });
 
