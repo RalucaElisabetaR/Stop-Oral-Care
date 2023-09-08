@@ -621,8 +621,10 @@
 {% endschema %}
 
 {% javascript %}
-document.addEventListener("DOMContentLoaded", function() {
+
+  document.addEventListener("DOMContentLoaded", function() {
   const customSlideshow = document.querySelector('.custom-slideshow');
+  const slidesWrapper = customSlideshow.querySelector('.slides-wrapper'); // The new wrapper
   const customSlides = Array.from(document.querySelectorAll('.custom-slide'));
   const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
   const speed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000; // Convert to milliseconds
@@ -631,7 +633,7 @@ document.addEventListener("DOMContentLoaded", function() {
   customSlides.forEach((slide) => {
     const clone = slide.cloneNode(true);
     clone.classList.add('clone');
-    customSlideshow.appendChild(clone);
+    slidesWrapper.appendChild(clone); // Append to the wrapper
   });
 
   // Re-query to include clones
@@ -641,19 +643,19 @@ document.addEventListener("DOMContentLoaded", function() {
   let slideWidth = allSlides[index].getBoundingClientRect().width;
 
   // Initial position
-  customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
+  slidesWrapper.style.transform = `translateX(-${index * slideWidth}px)`; // Apply to the wrapper
 
   const nextSlide = () => {
-    customSlideshow.style.transition = `transform ${speed / 1000}s ease-in-out`;
+    slidesWrapper.style.transition = `transform ${speed / 1000}s ease-in-out`; // Apply to the wrapper
     index++;
-    customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
+    slidesWrapper.style.transform = `translateX(-${index * slideWidth}px)`; // Apply to the wrapper
   };
 
-  customSlideshow.addEventListener('transitionend', () => {
+  slidesWrapper.addEventListener('transitionend', () => { // Apply to the wrapper
     if (index >= customSlides.length) {
       index = 0; // Reset to the first slide
-      customSlideshow.style.transition = 'none';
-      customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
+      slidesWrapper.style.transition = 'none'; // Apply to the wrapper
+      slidesWrapper.style.transform = `translateX(-${index * slideWidth}px)`; // Apply to the wrapper
     }
   });
 
