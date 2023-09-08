@@ -628,14 +628,11 @@
 {% javascript %}
 
 document.addEventListener("DOMContentLoaded", function() {
- console.log("DOM fully loaded and parsed");
-  
-  const customSlideshow = document.querySelector('.custom-slideshow');
-  console.log("customSlideshow:", customSlideshow);
-  
-  const slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
-  console.log("slides:", slides);
-  
+   console.log("DOM loaded");
+  console.log("customSlideshow exists: ", !!document.querySelector('.custom-slideshow'));
+  console.log("customSlide exists: ", !!document.querySelector('.custom-slide'));
+  console.log("Data speed attribute: ", document.querySelector('.custom-slideshow') ? document.querySelector('.custom-slideshow').getAttribute('data-speed') : 'custom-slideshow not found');
+
   
   const customSlideshow = document.querySelector('.custom-slideshow');
   const slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
