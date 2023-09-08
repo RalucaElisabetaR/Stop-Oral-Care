@@ -57,6 +57,7 @@
         "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -71,9 +72,10 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-2": {
+        "bbaad51f-4437-417b-ba4c-e74cc3bf4135": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -88,9 +90,10 @@
             "text_alignment_mobile": "center"
           }
         },
-        "d0f45cf8-20d9-4b2b-94c8-f1849f56a9f1": {
+        "1b46c9bc-9004-4757-9f14-9f680d453536": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -101,19 +104,19 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
         "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-1",
-        "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-2",
-        "d0f45cf8-20d9-4b2b-94c8-f1849f56a9f1"
+        "bbaad51f-4437-417b-ba4c-e74cc3bf4135",
+        "1b46c9bc-9004-4757-9f14-9f680d453536"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
