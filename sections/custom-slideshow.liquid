@@ -258,7 +258,7 @@
         </div>
       </div>
     </noscript>
-  {%- endif -%} 
+  {%- endif -%}
 </slideshow-component>
 
 {%- if request.design_mode -%}
@@ -276,24 +276,23 @@
     justify-content: flex-start;
   }
 
-  /* Existing styles */
-  .custom-slide {
-    flex: 1;  /* This allows the slide to grow and shrink */
+/* Existing styles */
+.custom-slide {
+     flex: 1;  /* This allows the slide to grow and shrink */
     min-width: calc(33.333% - 1rem);  /* This sets the minimum width */
-    margin-right: 1rem;
-    scroll-snap-align: start;
-    visibility: visible;
-    transition-timing-function: linear;
-  }
+  
+  margin-right: 1rem!important;
+  scroll-snap-align: start!important;
+  visibility: visible!important;
+  transition-timing-function: linear;
+}
 
-  /* Mobile styles */
-  @media screen and (max-width: 767px) {
-    .custom-slide {
-      flex: 1;  /* This allows the slide to grow */
-      min-width: 100%;  /* This sets the minimum width */
-    }
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  .custom-slide[data-display-size="big-screen"] {
+    flex: 0 0 calc(100% - 1rem)!important;
   }
-
+}
 
 {% endstylesheet %}
 
