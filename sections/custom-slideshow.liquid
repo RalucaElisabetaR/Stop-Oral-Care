@@ -603,7 +603,7 @@
 {% javascript %}
     // Custom functionalities for new slideshow
     document.addEventListener('DOMContentLoaded', function() {
-      const customSlideshow = document.querySelector('.custom-slideshow.banner');
+      const customSlideshow = document.querySelector('.custom-slideshow');
       if (!customSlideshow) return;
 
       class CustomSlideshowComponent extends SlideshowComponent {
@@ -639,7 +639,7 @@
   // Initialize the custom slideshow when the DOM is fully loaded
   // Initialize the custom slideshow when the DOM is fully loaded
   document.addEventListener('DOMContentLoaded', function() {
-    const customSlideshowElement = document.querySelector('.custom-slideshow.banner');
+    const customSlideshowElement = document.querySelector('.custom-slideshow');
     if (customSlideshowElement) {
       new CustomSlideshowComponent(customSlideshowElement);
     }
