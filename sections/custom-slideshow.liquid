@@ -621,6 +621,7 @@
 {% endschema %}
 
 {% javascript %}
+
 document.addEventListener("DOMContentLoaded", function() {
   const customSlideshow = document.querySelector('.custom-slideshow');
   const slidesWrapper = document.createElement('div');
@@ -629,7 +630,6 @@ document.addEventListener("DOMContentLoaded", function() {
   // Add styles to make slides-wrapper horizontal
   slidesWrapper.style.display = 'flex';
   slidesWrapper.style.flexDirection = 'row';
-  slidesWrapper.style.width = '100%';
   slidesWrapper.style.overflow = 'hidden';
   
   // Move all the slides into the new slides wrapper
@@ -645,29 +645,38 @@ document.addEventListener("DOMContentLoaded", function() {
   const speed = parseInt(customSlideshow.getAttribute('data-speed')) * 1000;
   
   let index = 0;
-  let target = 0;
-  let current = 0;
 
-  // Add cloned slides at the end for infinite looping
+  // Clone first slide to the end
   slides.forEach((slide) => {
     const clone = slide.cloneNode(true);
     slidesWrapper.appendChild(clone);
   });
 
-  const update = () => {
-    current += (target - current) * 0.1;
-    slidesWrapper.style.transform = `translateX(${current}px)`;
-    requestAnimationFrame(update);
+  slidesWrapper.style.transition = `transform ${speed / 1000}s ease-in-out`;
+
+  const moveSlides = () => {
+    index = (index + 1) % (numSlides * 2); // Multiply by 2 because we have cloned the slides
+    slidesWrapper.style.transform = `translateX(-${index * customSlideshow.clientWidth}px)`;
+
+    // Reset to the first slide without a transition to create the illusion of an infinite loop
+    if (index === numSlides) {
+      setTimeout(() => {
+        slidesWrapper.style.transition = 'none';
+        slidesWrapper.style.transform = 'translateX(0)';
+        setTimeout(() => {
+          slidesWrapper.style.transition = `transform ${speed / 1000}s ease-in-out`;
+        });
+        index = 0;
+      }, speed);
+    }
   };
 
-  requestAnimationFrame(update);
-
   if (autoRotate) {
-    setInterval(() => {
-      index = (index + 1) % numSlides;
-      target = -index * customSlideshow.clientWidth;
-    }, speed);
+    setInterval(moveSlides, speed);
   }
 });
 
+
+
+  
 {% endjavascript %}
