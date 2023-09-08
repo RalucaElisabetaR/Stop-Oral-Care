@@ -121,7 +121,9 @@
       <div
         class="custom-slide slideshow__slide grid__item grid--1-col slider__slide{% if forloop.last %} last-slide{% endif %}"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
-        {{ block.shopify_attributes }}
+          data-display-size="big-screen" 
+
+      {{ block.shopify_attributes }}
         role="group"
         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
