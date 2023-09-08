@@ -715,4 +715,30 @@
       }
     });
   }
+   const scaleStyles = () => {
+    const slides = document.querySelectorAll('.custom-slide');
+    
+    slides.forEach((slide) => {
+      const contentContainers = slide.querySelectorAll('.contains-content-container, .content-container');
+      contentContainers.forEach((container) => {
+        const originalPadding = window.getComputedStyle(container).padding;
+        const originalMargin = window.getComputedStyle(container).margin;
+
+        // Convert the original px values to vw (viewport width) for responsiveness
+        const paddingInVw = parseFloat(originalPadding) / window.innerWidth * 100;
+        const marginInVw = parseFloat(originalMargin) / window.innerWidth * 100;
+
+        // Apply the new responsive styles to the container
+        container.style.padding = `${paddingInVw}vw`;
+        container.style.margin = `${marginInVw}vw`;
+      });
+    });
+  };
+
+  // Run the function initially
+  scaleStyles();
+
+  // Run the function whenever the window is resized
+  window.addEventListener('resize', scaleStyles);
+
 {% endjavascript %}
