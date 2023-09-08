@@ -630,7 +630,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   const customSlideshow = document.querySelector('.custom-slideshow');
   const slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
-  const slideWidth = customSlideshow.clientWidth;
+  const slideWidth = customSlideshow.clientWidth; 
   
   let position = 0; // Start at the first slide
   customSlideshow.style.transform = `translateX(${position}px)`;
