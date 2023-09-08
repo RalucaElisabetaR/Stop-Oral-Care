@@ -295,6 +295,31 @@
     margin: 0;
     padding: 0;
   }
+   /* Define CSS variables for font size, padding, and margin */
+  :root {
+    --font-size: 1em;
+    --heading-font-size: 2em;
+    --padding: 20px;
+    --margin: 10px;
+  }
+
+  /* New styles for content scaling */
+  .custom-slide .slideshow__text,
+  .custom-slide .banner__box,
+  .custom-slide .content-container {
+    font-size: var(--font-size);
+    padding: var(--padding);
+    margin: var(--margin);
+  }
+
+  .custom-slide .banner__heading {
+    font-size: var(--heading-font-size);
+  }
+
+  .custom-slide .banner__text p {
+    font-size: var(--font-size);
+  }
+
 
   /* Mobile styles */
   @media screen and (max-width: 767px) {
@@ -303,7 +328,12 @@
       min-width: 100%;
       font-size: 0.8em; /* adjustable */
     }
-
+    :root {
+      --font-size: 0.8em;
+      --heading-font-size: 1.6em;
+      --padding: calc(var(--padding) * 0.8);
+      --margin: calc(var(--margin) * 0.8);
+    }
     /* Inner Content */
     .custom-slide h2,
     .custom-slide p {
