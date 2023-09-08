@@ -271,6 +271,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: visible;
+          overflow-x: auto; /* Allows for horizontal scrolling */
+
     margin: 0;
     gap: 0;
     justify-content: flex-start;
@@ -278,7 +280,6 @@
 
 /* Existing styles */
 .custom-slide {
-      overflow-x: auto; /* Allows for horizontal scrolling */
 
      flex: 1;  /* This allows the slide to grow and shrink */
     min-width: calc(30% - 1rem);  /* This sets the minimum width */
