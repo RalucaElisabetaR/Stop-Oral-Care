@@ -719,7 +719,7 @@
     const slides = document.querySelectorAll('.custom-slide');
     
     slides.forEach((slide) => {
-      const contentContainers = slide.querySelectorAll('.contains-content-container, .content-container');
+      const contentContainers = slide.querySelectorAll('.content-container');
       contentContainers.forEach((container) => {
         const originalPadding = window.getComputedStyle(container).padding;
         const originalMargin = window.getComputedStyle(container).margin;
