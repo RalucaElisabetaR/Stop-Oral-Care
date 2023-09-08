@@ -627,12 +627,17 @@
 
 {% javascript %}
 
-document.addEventListener("DOMContentLoaded", function() {
-   console.log("DOM loaded");
+  document.addEventListener("DOMContentLoaded", function() {
+  console.log("DOM loaded");
   console.log("customSlideshow exists: ", !!document.querySelector('.custom-slideshow'));
   console.log("customSlide exists: ", !!document.querySelector('.custom-slide'));
   console.log("Data speed attribute: ", document.querySelector('.custom-slideshow') ? document.querySelector('.custom-slideshow').getAttribute('data-speed') : 'custom-slideshow not found');
+});
 
+
+document.addEventListener("DOMContentLoaded", function() {
+ 
+  
   
   const customSlideshow = document.querySelector('.custom-slideshow');
   const slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
