@@ -659,7 +659,7 @@ document.addEventListener("DOMContentLoaded", function() {
   customSlideshow.style.transform = `translateX(${position}px)`;
 
   // User-defined speed in milliseconds
-  const userSpeed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000 || 5000;
+const userSpeed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000; // convert to milliseconds
 
   const moveSlides = () => {
     position -= slideWidth;
