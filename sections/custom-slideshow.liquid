@@ -119,7 +119,7 @@
         }
       </style>
       <div
-        class="custom-slide slideshow__slide grid__item grid--1-col slider__slide"
+        class="custom-slide slideshow__slide grid__item grid--1-col slider__slide{% if forloop.last %} last-slide{% endif %}"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
@@ -127,6 +127,7 @@
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
+
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
           {%- if block.settings.image -%}
             {%- liquid
@@ -277,6 +278,8 @@
  
 
   .custom-slide {
+      transition-timing-function: linear;
+
     flex: 0 0 calc(33.333% - 1rem)!important;  /* Show 3 slides */
     margin-right: 1rem!important;
         scroll-snap-align: start!important;
