@@ -604,13 +604,7 @@
 
 
 
-<style>
-
-</style>
-
-
-
-<script>
+{% javascript %}
   // Custom functionalities for new slideshow
   document.addEventListener('DOMContentLoaded', function() {
     const customSlideshow = document.querySelector('.custom-slideshow.banner');
@@ -655,48 +649,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
     // ...
   });
-</script>
 
+{% endjavascript %}
 
-
-<script>
-  // CustomSlideshowComponent extending the original SlideshowComponent to customize its behavior
-class CustomSlideshowComponent extends SlideshowComponent {
-  constructor(element) {
-    super(element); // Call the constructor of the parent class (SlideshowComponent)
-
-    // Detect if it's a mobile device
-    this.isMobile = window.innerWidth <= 768;
-
-    // Update the number of slides to show based on device
-    this.slidesToShow = this.isMobile ? 1 : 3;
-
-    // Add custom initialization logic if needed
-    this.customInitialize();
-  }
-
-  // Custom initialization logic
-  customInitialize() {
-    // You can add custom initialization logic here, or override existing methods of the parent class
-
-    // For example, if the parent class has a method called 'initializeSlides', you could override it like this:
-    // this.initializeSlides = this.customInitializeSlides;
-  }
-
-  // Custom logic to initialize slides (example)
-  customInitializeSlides() {
-    // Custom logic to initialize slides can be added here
-
-    // You can also call the original method from the parent class if needed
-    // super.initializeSlides();
-  }
-}
-
-// Initialize custom slideshow when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-  const customSlideshowElement = document.querySelector('.custom-slideshow.banner');
-  if (customSlideshowElement) {
-    new CustomSlideshowComponent(customSlideshowElement);
-  }
-});
-</script>
