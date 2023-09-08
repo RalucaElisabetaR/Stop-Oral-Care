@@ -581,9 +581,8 @@
 }
 {% endschema %}
 
+{% stylesheet %}
 
-
-<style>
   /* Only Custom Slideshow Styles */
   .custom-slideshow.banner {
     flex-direction: row;
@@ -597,11 +596,13 @@
     flex: 0 0 calc(33.333% - 1rem);  /* Show 3 slides */
     margin-right: 1rem;
   }
-</style>
+{% endstylesheet %}
 
 
 
-<script>
+
+{% javascript %}
+
   // Custom functionalities for new slideshow
   document.addEventListener('DOMContentLoaded', function() {
     const customSlideshow = document.querySelector('.custom-slideshow.banner');
@@ -610,11 +611,11 @@
     // Your existing slideshow logic adapted for the custom slideshow can be placed here
     // ...
   });
-</script>
 
 
 
-<script>
+
+
   // CustomSlideshowComponent extending the original SlideshowComponent to customize its behavior
 class CustomSlideshowComponent extends SlideshowComponent {
   constructor(element) {
@@ -654,4 +655,4 @@ document.addEventListener('DOMContentLoaded', function() {
     new CustomSlideshowComponent(customSlideshowElement);
   }
 });
-</script>
+{% endjavascript %}
