@@ -616,11 +616,13 @@
 
 {% javascript %}
 
-
   // Your slideshow component is identifiable by the class 'custom-slideshow'
   const slideshowComponent = document.querySelector('.custom-slideshow');
   const customSlides = document.querySelectorAll('.custom-slide');
   let slidesContainer = document.querySelector('.custom-slideshow');
+  
+  // Calculate the width of a single slide
+  const slideWidth = customSlides[0].offsetWidth;
 
   // Duplicate the first slide and append it at the end
   const firstSlide = customSlides[0].cloneNode(true);
@@ -634,14 +636,14 @@
   // Function to transition to the next slide
   const nextSlide = () => {
     index++;
-    slidesContainer.style.transform = `translateX(-${index * 100}%)`;
+    slidesContainer.style.transform = `translateX(-${index * slideWidth}px)`;
     
     if (index === customSlides.length) {
       // We're at the last slide (which is a duplicate of the first)
       // Wait for the transition to complete before resetting
       setTimeout(() => {
         slidesContainer.style.transition = 'none';
-        slidesContainer.style.transform = 'translateX(0%)';
+        slidesContainer.style.transform = 'translateX(0px)';
         index = 0;
         
         // Re-apply transition
@@ -657,7 +659,5 @@
     // Auto-rotate logic
     const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
   }
-
-
 
 {% endjavascript %}
