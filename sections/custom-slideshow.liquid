@@ -624,55 +624,37 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   const customSlideshow = document.querySelector('.custom-slideshow');
-  const slidesWrapper = document.createElement('div');
-  slidesWrapper.className = 'slides-wrapper';
+  const slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
+  const firstSlide = slides[0];
+  const lastSlide = slides[slides.length - 1];
+  const firstClone = firstSlide.cloneNode(true);
+  const lastClone = lastSlide.cloneNode(true);
 
-  // Add styles to make slides-wrapper horizontal
-  slidesWrapper.style.display = 'flex';
-  slidesWrapper.style.flexDirection = 'row';
-  slidesWrapper.style.overflow = 'visible';
+  customSlideshow.appendChild(firstClone);
+  customSlideshow.insertBefore(lastClone, firstSlide);
   
-  // Move all the slides into the new slides wrapper
-  customSlideshow.querySelectorAll('.custom-slide').forEach((slide) => {
-    slidesWrapper.appendChild(slide);
-  });
+  let slideIndex = 1;  // Start from the first original slide, not the clone
+  const slideWidth = customSlideshow.clientWidth;
 
-  customSlideshow.appendChild(slidesWrapper);
+  customSlideshow.style.transform = `translateX(-${slideWidth * slideIndex}px)`;
 
-  const slides = Array.from(slidesWrapper.querySelectorAll('.custom-slide'));
-  const numSlides = slides.length;
   const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
-  const speed = parseInt(customSlideshow.getAttribute('data-speed')) * 1000;
-  
-  let index = 0;
-
-  // Clone first slide to the end
-  slides.forEach((slide) => {
-    const clone = slide.cloneNode(true);
-    slidesWrapper.appendChild(clone);
-  });
-
-  slidesWrapper.style.transition = `transform ${speed / 1000}s ease-in-out`;
-
-  const moveSlides = () => {
-    index = (index + 1) % (numSlides * 2); // Multiply by 2 because we have cloned the slides
-    slidesWrapper.style.transform = `translateX(-${index * customSlideshow.clientWidth}px)`;
-
-    // Reset to the first slide without a transition to create the illusion of an infinite loop
-    if (index === numSlides) {
-      setTimeout(() => {
-        slidesWrapper.style.transition = 'none';
-        slidesWrapper.style.transform = 'translateX(0)';
-        setTimeout(() => {
-          slidesWrapper.style.transition = `transform ${speed / 1000}s ease-in-out`;
-        });
-        index = 0;
-      }, speed);
-    }
-  };
+  const speed = customSlideshow.getAttribute('data-speed') * 1000;
 
   if (autoRotate) {
-    setInterval(moveSlides, speed);
+    setInterval(() => {
+      slideIndex++;
+      customSlideshow.style.transition = 'transform 0.4s ease-in-out';
+      customSlideshow.style.transform = `translateX(-${slideWidth * slideIndex}px)`;
+      
+      if (slideIndex === slides.length - 1) {
+        setTimeout(() => {
+          customSlideshow.style.transition = 'none';
+          slideIndex = 1;
+          customSlideshow.style.transform = `translateX(-${slideWidth * slideIndex}px)`;
+        }, 400);  // Corresponds to the transition duration
+      }
+    }, speed);
   }
 });
 
