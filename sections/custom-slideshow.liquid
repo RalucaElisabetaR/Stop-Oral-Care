@@ -622,45 +622,40 @@ document.addEventListener("DOMContentLoaded", function() {
   const customSlideshow = document.querySelector('.custom-slideshow');
   const customSlides = Array.from(document.querySelectorAll('.custom-slide'));
   const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
+  const speed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000; // Convert to milliseconds
 
-  // Clone all slides and append/prepend them to the slideshow for infinite looping
+  // Clone the initial slides and append them to the end for infinite looping
   customSlides.forEach((slide) => {
     const clone = slide.cloneNode(true);
     clone.classList.add('clone');
     customSlideshow.appendChild(clone);
   });
 
-  customSlides.slice().reverse().forEach((slide) => {
-    const clone = slide.cloneNode(true);
-    clone.classList.add('clone');
-    customSlideshow.insertBefore(clone, customSlideshow.firstChild);
-  });
-
   // Re-query to include clones
   const allSlides = Array.from(document.querySelectorAll('.custom-slide'));
   
-  let index = customSlides.length; // Start index at the first "real" slide, not a clone
+  let index = 0; // Start index
   let slideWidth = allSlides[index].getBoundingClientRect().width;
 
   // Initial position
   customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
 
   const nextSlide = () => {
-    customSlideshow.style.transition = 'transform 0.5s ease-in-out';
+    customSlideshow.style.transition = `transform ${speed / 1000}s ease-in-out`;
     index++;
     customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
   };
 
   customSlideshow.addEventListener('transitionend', () => {
-    if (allSlides[index].classList.contains('clone') && index >= customSlides.length) {
-      index = customSlides.length; // Reset to the first "real" slide
+    if (index >= customSlides.length) {
+      index = 0; // Reset to the first slide
       customSlideshow.style.transition = 'none';
       customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
     }
   });
 
   if (autoRotate) {
-    setInterval(nextSlide, 5000);
+    setInterval(nextSlide, speed);
   }
 });
 
