@@ -616,47 +616,48 @@
 
 {% javascript %}
 
-  // ... (Your existing JavaScript code)
 
   // Your slideshow component is identifiable by the class 'custom-slideshow'
   const slideshowComponent = document.querySelector('.custom-slideshow');
   const customSlides = document.querySelectorAll('.custom-slide');
+  let slidesContainer = document.querySelector('.custom-slideshow');
+
+  // Duplicate the first slide and append it at the end
+  const firstSlide = customSlides[0].cloneNode(true);
+  slidesContainer.appendChild(firstSlide);
 
   // Auto-rotate attribute from your Liquid file
   const autoRotate = slideshowComponent.getAttribute('data-autoplay') === 'true';
 
+  let index = 0;
+
+  // Function to transition to the next slide
+  const nextSlide = () => {
+    index++;
+    slidesContainer.style.transform = `translateX(-${index * 100}%)`;
+    
+    if (index === customSlides.length) {
+      // We're at the last slide (which is a duplicate of the first)
+      // Wait for the transition to complete before resetting
+      setTimeout(() => {
+        slidesContainer.style.transition = 'none';
+        slidesContainer.style.transform = 'translateX(0%)';
+        index = 0;
+        
+        // Re-apply transition
+        slidesContainer.style.transition = 'transform 0.5s ease';
+      }, 500); // 500ms matches the transition duration
+    }
+  };
+
+  // Adding smooth transitions
+  slidesContainer.style.transition = 'transform 0.5s ease';
+
   if (autoRotate) {
-    let index = 0;
-
-    // Function to transition to the next slide
-    const nextSlide = () => {
-      customSlides[index].classList.remove('active');
-      index = (index + 1) % customSlides.length;
-      customSlides[index].classList.add('active');
-
-      if (index === 0) {  // If it's the first slide, remove transitions temporarily
-        customSlides.forEach((slide) => {
-          slide.style.transition = 'none';
-        });
-      }
-    };
-
-    // Adding smooth transitions
-    customSlides.forEach((slide) => {
-      slide.style.transition = 'all 0.5s ease'; // 0.5s can be adjusted
-    });
-
     // Auto-rotate logic
     const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
-
-    // For smooth infinite looping
-    slideshowComponent.addEventListener('transitionend', () => {
-      if (index === 0) {  // Reset transitions after coming back to the first slide
-        customSlides.forEach((slide) => {
-          slide.style.transition = 'all 0.5s ease';
-        });
-      }
-    });
   }
+
+
 
 {% endjavascript %}
