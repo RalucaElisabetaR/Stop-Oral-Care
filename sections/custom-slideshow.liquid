@@ -619,56 +619,50 @@
 
 {% javascript %}
 document.addEventListener("DOMContentLoaded", function() {
-  // Query your slideshow and slides by the custom classes
   const customSlideshow = document.querySelector('.custom-slideshow');
-  const customSlides = document.querySelectorAll('.custom-slide');
-  
-  // Get the autoplay setting from the data attribute
+  const customSlides = Array.from(document.querySelectorAll('.custom-slide'));
   const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
-  
-  // Clone all slides for infinite looping
+
+  // Clone all slides and append/prepend them to the slideshow for infinite looping
   customSlides.forEach((slide) => {
     const clone = slide.cloneNode(true);
+    clone.classList.add('clone');
     customSlideshow.appendChild(clone);
   });
+
+  customSlides.slice().reverse().forEach((slide) => {
+    const clone = slide.cloneNode(true);
+    clone.classList.add('clone');
+    customSlideshow.insertBefore(clone, customSlideshow.firstChild);
+  });
+
+  // Re-query to include clones
+  const allSlides = Array.from(document.querySelectorAll('.custom-slide'));
   
-  // The slides, including clones
-  const allSlides = document.querySelectorAll('.custom-slide');
-  
-  let index = 0;
-  
-  // Function to transition to the next slide
+  let index = customSlides.length; // Start index at the first "real" slide, not a clone
+  let slideWidth = allSlides[index].getBoundingClientRect().width;
+
+  // Initial position
+  customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
+
   const nextSlide = () => {
-    allSlides[index].classList.remove('active');
-    index = (index + 1) % allSlides.length;
-    allSlides[index].classList.add('active');
-    
-    // Reset to the first slide if we've reached the end
-    if (index === allSlides.length - customSlides.length) {
+    customSlideshow.style.transition = 'transform 0.5s ease-in-out';
+    index++;
+    customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
+  };
+
+  customSlideshow.addEventListener('transitionend', () => {
+    if (allSlides[index].classList.contains('clone') && index >= customSlides.length) {
+      index = customSlides.length; // Reset to the first "real" slide
       customSlideshow.style.transition = 'none';
-      index = 0;
       customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
     }
-  };
-  
-  // Adding smooth transitions
-  allSlides.forEach((slide) => {
-    slide.style.transition = 'all 0.5s ease';
   });
-  
+
   if (autoRotate) {
-    // Auto-rotate logic
-    const rotateInterval = setInterval(nextSlide, 5000);
-    
-    // Reset the transition if we're at the end
-    customSlideshow.addEventListener('transitionend', () => {
-      if (allSlides[index].classList.contains('last-clone')) {
-        customSlideshow.style.transition = 'none';
-        index = customSlides.length - 1;
-        customSlideshow.style.transform = `translateX(-${index * slideWidth}px)`;
-      }
-    });
+    setInterval(nextSlide, 5000);
   }
 });
+
 
 {% endjavascript %}
