@@ -627,59 +627,32 @@
 
 {% javascript %}
 
-  document.addEventListener("DOMContentLoaded", function() {
-  console.log("DOM loaded");
-  console.log("customSlideshow exists: ", !!document.querySelector('.custom-slideshow'));
-  console.log("customSlide exists: ", !!document.querySelector('.custom-slide'));
-  console.log("Data speed attribute: ", document.querySelector('.custom-slideshow') ? document.querySelector('.custom-slideshow').getAttribute('data-speed') : 'custom-slideshow not found');
-});
-
-
 document.addEventListener("DOMContentLoaded", function() {
- 
-  
-  
   const customSlideshow = document.querySelector('.custom-slideshow');
   const slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
+  const slideWidth = customSlideshow.clientWidth;
   
-  if (!customSlideshow || slides.length === 0) return; // Safety check
-  
-  const slideWidth = slides[0].clientWidth; // Use one slide's width as all should be equal
-  
-  // Clone first and last slide
-  const firstSlide = slides[0];
-  const lastSlide = slides[slides.length - 1];
-  const firstClone = firstSlide.cloneNode(true);
-  const lastClone = lastSlide.cloneNode(true);
-
-  customSlideshow.appendChild(firstClone);
-  customSlideshow.insertBefore(lastClone, firstSlide);
-  
-  let position = -slideWidth; // Start from the first slide, not the clone
+  let position = 0; // Start at the first slide
   customSlideshow.style.transform = `translateX(${position}px)`;
 
   // User-defined speed in milliseconds
-const userSpeed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000; // convert to milliseconds
-
+  const userSpeed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000 || 5000;
+  
   const moveSlides = () => {
-    position -= slideWidth;
-    customSlideshow.style.transition = 'transform 0.4s ease-in-out';
-    customSlideshow.style.transform = `translateX(${position}px)`;
-  };
-
-  const resetPosition = () => {
-    if (position <= -slideWidth * (slides.length + 1)) {
-      position = -slideWidth;
+    if (position <= -slideWidth * (slides.length - 1)) {
+      // If we're at the last slide, reset to the first one
+      position = 0;
       customSlideshow.style.transition = 'none';
-      customSlideshow.style.transform = `translateX(${position}px)`;
+    } else {
+      // Otherwise, move to the next slide
+      position -= slideWidth;
+      customSlideshow.style.transition = 'transform 0.4s ease-in-out';
     }
+    customSlideshow.style.transform = `translateX(${position}px)`;
   };
 
   // Auto-move slides at user-defined intervals
   setInterval(moveSlides, userSpeed);
-
-  // Listen for the end of the transition to reset slide position
-  customSlideshow.addEventListener('transitionend', resetPosition);
 });
 
 
