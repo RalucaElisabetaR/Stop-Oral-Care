@@ -133,7 +133,7 @@
         "f93a6f90-eb31-41ef-9cb5-bef4b4f30326"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": true,
