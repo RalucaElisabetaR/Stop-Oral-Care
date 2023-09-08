@@ -153,7 +153,7 @@
         "1b46c9bc-9004-4757-9f14-9f680d453536"
       ],
       "custom_css": [
-        ".banner__box {padding: inherit; max-width: inherit;}"
+        "div > div .slideshow__text {padding: 10% 0; max-width: initial; margin: 0;}"
       ],
       "settings": {
         "layout": "full_bleed",
