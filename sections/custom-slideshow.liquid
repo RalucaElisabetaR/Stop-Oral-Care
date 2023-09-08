@@ -108,11 +108,8 @@
     class="custom-slideshow slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
-        data-speed="{{ section.settings.change_slides_speed }}"
-
     aria-atomic="true"
     data-autoplay="{{ section.settings.auto_rotate }}"
-    
     data-speed="{{ section.settings.change_slides_speed }}"
   >
     {%- for block in section.blocks -%}
@@ -121,18 +118,15 @@
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
       </style>
-     
       <div
-        class="custom-slide slideshow__slide grid__item grid--1-col slider__slide{% if forloop.last %} last-slide{% endif %}"
+        class="custom-slide slideshow__slide grid__item grid--1-col slider__slide"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
-        data-display-size="big-screen" 
         {{ block.shopify_attributes }}
         role="group"
         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
-
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
           {%- if block.settings.image -%}
             {%- liquid
@@ -188,7 +182,6 @@
           </div>
         </div>
       </div>
-     
     {%- endfor -%}
   </div>
 
@@ -271,7 +264,6 @@
 {%- endif -%}
 
 {% stylesheet %}
-  
   /* Only Custom Slideshow Styles */
   .custom-slideshow {
     flex-direction: row;
@@ -282,31 +274,15 @@
     justify-content: flex-start;
   }
 
-  /* Existing styles */
+ 
+
   .custom-slide {
-     background-color: red; 
-       min-height: 400px;  
-    flex: 0 0 calc(33.333% - 1rem)!important;  
+    flex: 0 0 calc(33.333% - 1rem)!important;  /* Show 3 slides */
     margin-right: 1rem!important;
-    scroll-snap-align: start!important;
+        scroll-snap-align: start!important;
     visibility: visible!important;
-    transition-timing-function: linear;
   }
-  .custom-slide:active {
-  visibility: visible !important;
-}
-
-  /* Mobile styles */
-  @media screen and (max-width: 767px) {
-    .custom-slide {
-     
-
-      flex: 0 0 calc(100% - 1rem)!important;
-    }
-  }
-
 {% endstylesheet %}
-
 
 {% schema %}
 {
@@ -626,33 +602,3 @@
 } 
 {% endschema %}
 
-{% javascript %}
-
-document.addEventListener("DOMContentLoaded", function() {
-  const customSlideshow = document.querySelector('.custom-slideshow');
-  let slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
-
-  let position = 0;
-
-  const moveSlides = () => {
-    let slideWidth = customSlideshow.clientWidth;  // Dynamic slide width
-
-    if (position <= -slideWidth * (slides.length - 1)) {
-      position = 0;
-      customSlideshow.style.transition = 'none';
-    } else {
-      position -= slideWidth;
-      customSlideshow.style.transition = 'transform 0.4s ease-in-out';
-    }
-    customSlideshow.style.transform = `translateX(${position}px)`;
-  };
-
-  const userSpeed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000 || 5000;
-  
-  setInterval(moveSlides, userSpeed);
-});
-
-
-
-  
-{% endjavascript %}
