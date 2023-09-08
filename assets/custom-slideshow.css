@@ -1,10 +1,29 @@
 
-/* Custom styles for multiple slides visible at once */
-#Slider-multiple--custom {
-  display: flex;
-  overflow: hidden;
+/* Custom Slideshow CSS */
+
+/* Existing styles */
+  .no-js slideshow-component .slider {{
+    padding-bottom: 3rem;
+  }}
+}}
+
+slideshow-component .slideshow.banner {{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  gap: 0;
+}}
+
+/* Custom styles for showing 3 slides at once on desktop */
+.custom-slideshow.banner {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  gap: 0;
+  justify-content: flex-start;
 }
 
-#Slider-multiple--custom .slideshow__slide--multiple {
-  flex: 1 0 calc(33.333% - 10px); /* Show 3 slides, with a little space between */
+.custom-slideshow .slideshow__slide {
+  flex: 0 0 calc(33.333% - 1rem);  /* Show 3 slides */
+  margin-right: 1rem;
 }
