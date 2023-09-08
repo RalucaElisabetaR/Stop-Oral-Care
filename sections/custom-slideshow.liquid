@@ -265,7 +265,7 @@
 
 {% schema %}
 {
-  "name": "Custom Slideshow",
+  "name": "t:sections.custom_slideshow.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -567,7 +567,7 @@
   ],
   "presets": [
     {
-      "name": "Custom Slideshow",
+      "name": "t:sections.slideshow.presets.name",
       "blocks": [
         {
           "type": "slide"
@@ -580,3 +580,34 @@
   ]
 }
 {% endschema %}
+
+
+
+<style>
+  /* Only Custom Slideshow Styles */
+  .custom-slideshow.banner {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    gap: 0;
+    justify-content: flex-start;
+  }
+
+  .custom-slideshow .slideshow__slide {
+    flex: 0 0 calc(33.333% - 1rem);  /* Show 3 slides */
+    margin-right: 1rem;
+  }
+</style>
+
+
+
+<script>
+  // Custom functionalities for new slideshow
+  document.addEventListener('DOMContentLoaded', function() {
+    const customSlideshow = document.querySelector('.custom-slideshow.banner');
+    if (!customSlideshow) return;
+
+    // Your existing slideshow logic adapted for the custom slideshow can be placed here
+    // ...
+  });
+</script>
