@@ -152,6 +152,9 @@
         "bbaad51f-4437-417b-ba4c-e74cc3bf4135",
         "1b46c9bc-9004-4757-9f14-9f680d453536"
       ],
+      "custom_css": [
+        ".banner__box {padding: inherit; max-width: inherit;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
