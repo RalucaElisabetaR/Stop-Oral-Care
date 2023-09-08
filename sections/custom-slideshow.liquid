@@ -289,21 +289,28 @@
   visibility: visible!important;
   transition-timing-function: linear;
 }
-    /* New styles for content scaling */
-  .custom-slide .slideshow__text,
-  .custom-slide .banner__box,
-  .custom-slide .content-container {
-    font-size: 1em;  /* adjustable */
+  /* Inner Content */
+  .custom-slide h2,
+  .custom-slide p {
+    font-size: 100%; /* You can adjust this */
+    margin: 0;
+    padding: 0;
   }
 
-  .custom-slide .banner__heading {
-    font-size: 2em;  /* adjustable */
-  }
+  /* Mobile styles */
+  @media screen and (max-width: 767px) {
+    .custom-slide {
+      flex: 1;
+      min-width: 100%;
+      font-size: 0.8em; /* adjustable */
+    }
 
-  .custom-slide .banner__text p {
-    font-size: 1em;  /* adjustable */
+    /* Inner Content */
+    .custom-slide h2,
+    .custom-slide p {
+      font-size: 80%; /* You can adjust this */
+    }
   }
-
 
 /* Mobile styles */
 @media screen and (max-width: 767px) {
