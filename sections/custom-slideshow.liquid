@@ -266,99 +266,99 @@
 {%- endif -%}
 
 {% stylesheet %}
-    /* Only Custom Slideshow Styles */
-    .custom-slideshow {
-      flex-direction: row;
-      flex-wrap: nowrap;
-      overflow: visible;
-      margin: 0;
-      gap: 0;
-      justify-content: flex-start;
-    }
-
-  /* Existing styles */
-*[@id="Slide-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-1"]/div[2]/div
- {
-    min-width: initial;
-  }
-  .custom-slide {
-
-       flex: 1;  /* This allows the slide to grow and shrink */
-      min-width: calc(30% - 1rem);  /* This sets the minimum width */
-      max-width: calc(33.333% - 1rem);  /* This sets the minimum width */
-
-    margin-right: 1rem!important;
-    scroll-snap-align: start!important;
-    visibility: visible!important;
-    transition-timing-function: linear;
-  }
-    /* Inner Content */
-    .custom-slide h2,
-    .custom-slide p {
-      font-size: 100%; /* You can adjust this */
-      margin: 0;
-      padding: 0;
-    }
-     /* Define CSS variables for font size, padding, and margin */
-    :root {
-      --font-size: 1em;
-      --heading-font-size: 2em;
-      --padding: 20px;
-      --margin: 10px;
-    }
-
-    /* New styles for content scaling */
-    .custom-slide .slideshow__text,
-    .custom-slide .banner__box,
-    .custom-slide .content-container {
-      font-size: var(--font-size);
-      padding: var(--padding);
-      margin: var(--margin);
-    }
-
-    .custom-slide .banner__heading {
-      font-size: var(--heading-font-size);
-    }
-
-    .custom-slide .banner__text p {
-      font-size: var(--font-size);
-    }
-
-    /* Make the content container responsive */
-    .custom-slide .slideshow__text.banner__box.content-container {
-      padding: calc(2vw + 10px);  /* Minimum padding of 10px, grows with viewport */
-      margin: calc(1vw + 5px);    /* Minimum margin of 5px, grows with viewport */
-    }
-
-
-    /* Mobile styles */
-    @media screen and (max-width: 767px) {
-       .custom-slide[data-display-size="big-screen"] {
-      flex: 0 0 calc(100% - 1rem)!important;
-    }
-
-      .custom-slide {
-        flex: 1;
-        min-width: 100%;
-        font-size: 0.8em; /* adjustable */
+      /* Only Custom Slideshow Styles */
+      .custom-slideshow {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: visible;
+        margin: 0;
+        gap: 0;
+        justify-content: flex-start;
       }
-      :root {
-        --font-size: 0.8em;
-        --heading-font-size: 1.6em;
-        --padding: calc(var(--padding) * 0.8);
-        --margin: calc(var(--margin) * 0.8);
-      }
+
+    /* Existing styles */
+  *[@id="Slide-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-1"]/div[2]/div
+   {
+      min-width: initial;
+    }
+    .custom-slide {
+
+         flex: 1;  /* This allows the slide to grow and shrink */
+        min-width: calc(30% - 1rem);  /* This sets the minimum width */
+        max-width: calc(33.333% - 1rem);  /* This sets the minimum width */
+
+      margin-right: 1rem!important;
+      scroll-snap-align: start!important;
+      visibility: visible!important;
+      transition-timing-function: linear;
+    }
       /* Inner Content */
       .custom-slide h2,
       .custom-slide p {
-        font-size: 80%; /* You can adjust this */
+        font-size: 100%; /* You can adjust this */
+        margin: 0;
+        padding: 0;
       }
-        .custom-slide .slideshow__text.banner__box.content-container {
-        padding: 15px;  /* Fixed padding for small screens */
-        margin: 10px;   /* Fixed margin for small screens */
+       /* Define CSS variables for font size, padding, and margin */
+      :root {
+        --font-size: 1em;
+        --heading-font-size: 2em;
+        --padding: 20px;
+        --margin: 10px;
       }
 
-    }
+      /* New styles for content scaling */
+      .custom-slide .slideshow__text,
+      .custom-slide .banner__box,
+      .custom-slide .content-container {
+        font-size: var(--font-size);
+        padding: var(--padding);
+        margin: var(--margin);
+      }
+
+      .custom-slide .banner__heading {
+        font-size: var(--heading-font-size);
+      }
+
+      .custom-slide .banner__text p {
+        font-size: var(--font-size);
+      }
+
+      /* Make the content container responsive */
+      .custom-slide .slideshow__text.banner__box.content-container {
+        padding: calc(2vw + 10px);  /* Minimum padding of 10px, grows with viewport */
+        margin: calc(1vw + 5px);    /* Minimum margin of 5px, grows with viewport */
+      }
+
+
+      /* Mobile styles */
+      @media screen and (max-width: 767px) {
+         .custom-slide[data-display-size="big-screen"] {
+        flex: 0 0 calc(100% - 1rem)!important;
+      }
+
+        .custom-slide {
+          flex: 1;
+          min-width: 100%;
+          font-size: 0.8em; /* adjustable */
+        }
+        :root {
+          --font-size: 0.8em;
+          --heading-font-size: 1.6em;
+          --padding: calc(var(--padding) * 0.8);
+          --margin: calc(var(--margin) * 0.8);
+        }
+        /* Inner Content */
+        .custom-slide h2,
+        .custom-slide p {
+          font-size: 80%; /* You can adjust this */
+        }
+          .custom-slide .slideshow__text.banner__box.content-container {
+          padding: 15px;  /* Fixed padding for small screens */
+          margin: 10px;   /* Fixed margin for small screens */
+        }
+
+      }
 {% endstylesheet %}
 
 {% schema %}
@@ -680,6 +680,7 @@
 {% endschema %}
 
 {% javascript %}
+  
   // ... (Your existing JavaScript code)
 
   // Query your slideshow component by the class 'custom-slideshow'
@@ -744,5 +745,6 @@
 
   // Run the function whenever the window is resized
   window.addEventListener('resize', scaleStyles);
+
 
 {% endjavascript %}
