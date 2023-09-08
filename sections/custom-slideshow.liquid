@@ -625,81 +625,42 @@
 document.addEventListener("DOMContentLoaded", function() {
   const customSlideshow = document.querySelector('.custom-slideshow');
   const slides = Array.from(customSlideshow.querySelectorAll('.custom-slide'));
+  const slideWidth = customSlideshow.clientWidth;
+
+  // Clone first and last slide
   const firstSlide = slides[0];
   const lastSlide = slides[slides.length - 1];
   const firstClone = firstSlide.cloneNode(true);
   const lastClone = lastSlide.cloneNode(true);
 
-  // Add a class to identify clones, if you need to style them specifically
-  firstClone.classList.add('slide-clone');
-  lastClone.classList.add('slide-clone');
-
-  // Insert clones
   customSlideshow.appendChild(firstClone);
   customSlideshow.insertBefore(lastClone, firstSlide);
 
-  let slideIndex = 1;
-  let startPos = 0;
-  let currentTranslate = 0;
-  let prevTranslate = 0;
-  let animationID = 0;
+  let position = -slideWidth; // start from the first slide, not the clone
+  customSlideshow.style.transform = `translateX(${position}px)`;
 
-  const slideWidth = customSlideshow.clientWidth;
+  // User-defined speed in milliseconds
+  const userSpeed = parseInt(customSlideshow.getAttribute('data-speed'), 10) * 1000 || 5000;
 
-  customSlideshow.style.transform = `translateX(-${slideWidth * slideIndex}px)`;
-
-  // Auto-rotate settings
-  const autoRotate = customSlideshow.getAttribute('data-autoplay') === 'true';
-  const speed = customSlideshow.getAttribute('data-speed') * 1000;
-
-  if (autoRotate) {
-    setInterval(() => {
-      moveToSlide(slideIndex + 1);
-    }, speed);
-  }
-
-  // Drag settings
-  customSlideshow.addEventListener('mousedown', (e) => {
-    startPos = e.pageX - currentTranslate;
-    customSlideshow.addEventListener('mousemove', onMouseMove);
-    customSlideshow.addEventListener('mouseup', onMouseUp);
-  });
-
-  function onMouseMove(e) {
-    currentTranslate = e.pageX - startPos;
-    cancelAnimationFrame(animationID);
-    animationID = requestAnimationFrame(() => {
-      customSlideshow.style.transform = `translateX(${currentTranslate}px)`;
-    });
-  }
-
-  function onMouseUp() {
-    prevTranslate = currentTranslate;
-    customSlideshow.removeEventListener('mousemove', onMouseMove);
-    customSlideshow.removeEventListener('mouseup', onMouseUp);
-
-    slideIndex = Math.round(-currentTranslate / slideWidth);
-    moveToSlide(slideIndex);
-  }
-
-  function moveToSlide(index) {
+  const moveSlides = () => {
+    position -= slideWidth;
     customSlideshow.style.transition = 'transform 0.4s ease-in-out';
-    slideIndex = index;
-    currentTranslate = -(slideWidth * slideIndex);
-    prevTranslate = currentTranslate;
-    customSlideshow.style.transform = `translateX(${currentTranslate}px)`;
+    customSlideshow.style.transform = `translateX(${position}px)`;
+  };
 
-    // Reset to the first slide if at the last clone
-    if (slideIndex >= slides.length) {
-      setTimeout(() => {
-        customSlideshow.style.transition = 'none';
-        slideIndex = 1;
-        currentTranslate = -(slideWidth * slideIndex);
-        prevTranslate = currentTranslate;
-        customSlideshow.style.transform = `translateX(${currentTranslate}px)`;
-      }, 400);
+  const resetPosition = () => {
+    if (position <= -slideWidth * (slides.length + 1)) {
+      position = -slideWidth;
+      customSlideshow.style.transition = 'none';
+      customSlideshow.style.transform = `translateX(${position}px)`;
     }
-  }
+  };
+
+  // Auto-move slides at user-defined intervals
+  setInterval(moveSlides, userSpeed);
+
+  // Listen for the end of the transition to reset slide position
+  customSlideshow.addEventListener('transitionend', resetPosition);
 });
 
 
