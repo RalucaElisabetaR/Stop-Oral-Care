@@ -280,57 +280,20 @@
 .custom-slide {
      flex: 1;  /* This allows the slide to grow and shrink */
     max-width: calc(33.333% - 1rem);  /* This sets the minimum width */
-  min-width: 30%;
+  
   margin-right: 1rem!important;
   scroll-snap-align: start!important;
   visibility: visible!important;
   transition-timing-function: linear;
-  
 }
-    /* New styles for content scaling */
-  .custom-slide .slideshow__text,
-  .custom-slide .banner__box,
-  .custom-slide .content-container {
-    font-size: 1em;  /* adjustable */
-  }
-
-  .custom-slide .banner__heading {
-    font-size: 2em;  /* adjustable */
-  }
-
-  .custom-slide .banner__text p {
-    font-size: 1em;  /* adjustable */
-  }
-
-  
 
 /* Mobile styles */
 @media screen and (max-width: 767px) {
   .custom-slide[data-display-size="big-screen"] {
     flex: 0 0 calc(100% - 1rem)!important;
   }
-
-      .custom-slide .slideshow__text,
-    .custom-slide .banner__box,
-    .custom-slide .content-container {
-      font-size: 0.8em;  /* adjustable */
-    }
-
-    .custom-slide .banner__heading {
-      font-size: 1.6em;  /* adjustable */
-    }
-
-    .custom-slide .banner__text p {
-      font-size: 0.8em;  /* adjustable */
-    }
-  
 }
 
-
-
-
-
-  
 {% endstylesheet %}
 
 {% schema %}
