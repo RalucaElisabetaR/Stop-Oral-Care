@@ -99,7 +99,7 @@
               {{ forloop.index }}
             </a>
           {%- endfor -%}
-        </div>
+        </div> 
       </div>
     </noscript>
   {%- endif -%}
@@ -178,13 +178,13 @@
                   class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
                 >
                   {{- block.settings.button_label | escape -}}
-                </a>
+                </a> 
               </div>
             {%- endif -%}
           </div>
         </div>
       </div>
-    {%- endfor -%}
+    {%- endfor -%} 
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
