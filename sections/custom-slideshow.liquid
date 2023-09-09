@@ -12,7 +12,7 @@
         content: '';
         display: block;
       }
-    } 
+    }
 
     @media screen and (min-width: 750px) {
       #Slider-{{ section.id }}::before,
@@ -346,8 +346,11 @@
   /* Large Screen */
   @media screen and (max-width: 1500px) {
     .custom-slide {
-      min-width: calc(32% - 1rem) !important;
-    }
+        flex: 1;
+    min-width: calc(25% - 1rem) !important;
+    max-width: calc(28% - 1rem) !important;
+     
+    } 
      .banner__box {
       margin: 0 !important;
     }
@@ -359,12 +362,10 @@
 
   /* Tablet */
   @media screen and (max-width: 1022px) {
-    .custom-slide {
-      min-width: calc(40% - 1rem) !important;
-      max-width: calc(43.333% - 1rem) !important;
-      margin: 0 !important;
+  .custom-slide {
+      min-width: calc(32% - 1rem) !important;
     }
-    .banner__box {
+    .banner__box { 
       margin: 0 !important;
     }
     .banner__box:last-child, .banner__box:first-child {
