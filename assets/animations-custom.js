@@ -4,7 +4,7 @@
 
 // Function to rotate text headings with fade-in and fade-out effect
 function rotateTextHeadings() {
-  const headings = ["Unleash nature's secret for a radiant smile! Dive into hemp & Dead Sea minerals", "Experience oral care reimagined Where hemp meets Dead Sea magic", "Elevate every smile with the power of hemp & Dead Sea's healing touch", "Nature's ultimate duo for pristine oral health Dive into the hemp & Dead Sea revolution!", "Embrace the extraordinary blend of hemp & Dead Sea minerals"];
+  const headings = ["STOP Searching, Start Smiling!", "Experience oral care reimagined", "Where hemp meets Dead Sea magic", "Nature's ultimate duo" "Dive into the hemp & Dead Sea revolution!", "Embrace the extraordinary blend of hemp & Dead Sea minerals"];
   let index = 0;
 
   // Locate the placeholder div
