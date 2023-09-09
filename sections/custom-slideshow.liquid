@@ -324,7 +324,9 @@
       /* Mobile styles */
       @media screen and (max-width: 749px) {
          .custom-slide[data-display-size="big-screen"] {
-        flex: 0 0 calc(95% - 1rem)!important;
+               flex: 1;  
+        min-width: calc(85% - 1rem);  /* This sets the minimum width */
+        max-width: calc(90% - 1rem);  /* This sets the minimum width */
       }
 
         /* .custom-slide {
