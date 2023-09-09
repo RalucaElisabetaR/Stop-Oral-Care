@@ -319,16 +319,17 @@
         "template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43-buttons-1"
       ],
       "custom_css": [
-        "{background-color:#0D3D6F}"
+        ".banner__media {display: none;}",
+        ".banner__content {background-color: #0d3d6f;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP.png",
-        "image_overlay_opacity": 100,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
