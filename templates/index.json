@@ -374,7 +374,7 @@
     "47286e89-ded2-402e-974e-90dc82947c8c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n  #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43\n    > div .banner__media.media{\n    background-image: url(https:\/\/stop-oral-care.myshopify.com\/cdn\/shop\/files\/Stop_2.png)!important;\n  }\n}<\/style>",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
