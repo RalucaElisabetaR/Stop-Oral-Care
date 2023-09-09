@@ -270,10 +270,17 @@
             "heading": "Innovation & Research at STOP Oral Care",
             "heading_size": "h1"
           }
+        },
+        "bfdb3ddf-4525-422f-9331-d824301646ac": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our innovative STOP products combine the power of  Hemp & Dead Sea Salt to reduce tooth sensitivity, alleviate inflammation, whiten teeth, and effectively combat dental plaque and bacteria.<\/p>"
+          }
         }
       },
       "block_order": [
-        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-heading-1"
+        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-heading-1",
+        "bfdb3ddf-4525-422f-9331-d824301646ac"
       ],
       "settings": {
         "desktop_content_position": "center",
