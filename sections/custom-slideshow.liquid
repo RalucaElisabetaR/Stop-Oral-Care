@@ -275,7 +275,7 @@
              flex-direction: row;
              flex-wrap: nowrap;
              overflow: visible;
-             gap: 0;
+             gap: 0!important;
              justify-content: flex-start;
             background-color: #f7f7f7 !important;
         }
@@ -294,7 +294,7 @@
   /* Existing styles */
     .banner__content {
            flex-wrap: wrap;
-           align-items: stretch;
+           align-items: stretch; 
            align-content: stretch;
            margin: 0!important;
            padding: 50px 0;
@@ -314,8 +314,8 @@
 
       .custom-slide {
              flex: 1;
-             min-width: calc(25% - 1rem);  /* This sets the minimum width */
-             max-width: calc(28% - 1rem);  /* This sets the minimum width */
+             min-width: calc(25% - 1rem)!important;  /* This sets the minimum width */
+             max-width: calc(28% - 1rem)!important;  /* This sets the minimum width */
 
              scroll-snap-align: start!important;
              visibility: visible!important;
@@ -348,11 +348,11 @@
           }
            .custom-slide {
                flex: 1;
-               min-width: calc(32% - 1rem);  /* This sets the minimum width */
+               min-width: calc(32% - 1rem)!important;  /* This sets the minimum width */
 
            }
                #shopify-section-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f .banner__box {
-                margin: 0px!important;
+                margin: 0px!important!important;
 
       }
            #shopify-section-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f .banner__box:last-child {
