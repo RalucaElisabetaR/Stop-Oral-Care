@@ -153,8 +153,8 @@
         "1b46c9bc-9004-4757-9f14-9f680d453536"
       ],
       "custom_css": [
-        "{background-color: #F7F7F7 ;}",
-        ".banner__box {flex: 1; min-width: initial;}",
+        ".custom-slideshow{background-color: #f7f7f7 !important;}",
+        ".banner__box {background-color: white; min-width: initial;}",
         ".banner__media {display: none;}"
       ],
       "settings": {
