@@ -1,7 +1,7 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
- 
+
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
@@ -99,7 +99,7 @@
               {{ forloop.index }}
             </a>
           {%- endfor -%}
-        </div> 
+        </div>
       </div>
     </noscript>
   {%- endif -%}
@@ -178,13 +178,13 @@
                   class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
                 >
                   {{- block.settings.button_label | escape -}}
-                </a> 
+                </a>
               </div>
             {%- endif -%}
           </div>
         </div>
       </div>
-    {%- endfor -%} 
+    {%- endfor -%}
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
@@ -262,12 +262,11 @@
 </slideshow-component>
 
 {%- if request.design_mode -%}
-  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script> 
+  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
 {% stylesheet %}
 
-  
 
   .custom-banner-media {
     display: none!important;
@@ -754,6 +753,7 @@
   
   
   
+  
   // ... (Your existing JavaScript code)
 
   // Query your slideshow component by the class 'custom-slideshow'
@@ -818,6 +818,7 @@
 
   // Run the function whenever the window is resized
   window.addEventListener('resize', scaleStyles);
+
 
 
 
