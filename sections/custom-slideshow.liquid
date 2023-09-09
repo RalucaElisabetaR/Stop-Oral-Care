@@ -265,9 +265,7 @@
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
-
-{% stylesheet %}
-  @keyframes slideAnimation {
+@keyframes slideAnimation {
   0% {
     transform: translateX(0%);
   }
@@ -275,6 +273,7 @@
     transform: translateX(-1000%);
   }
 }  
+{% stylesheet %}
   
   #Slider-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f .banner__media {
     display: none!important;
@@ -338,9 +337,8 @@
     max-width: calc(28% - 1rem) !important;
    scroll-snap-align: none center !important;
     visibility: visible !important;
-  
-
-   
+    transition-timing-function: linear !important;
+     transition-duration: 5s!important;
        margin: 10px !important; 
  
  
@@ -755,7 +753,7 @@
     };
 
     customSlides.forEach((slide) => {
-      slide.style.tanimation = 'slideAnimation 5s linear!important';
+      slide.style.transition = 'all 1s linear';
     });
 
     const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
@@ -768,8 +766,7 @@
         index = 0;
         customSlides[index].classList.add('active');
         customSlides.forEach((slide) => {
-          slide.style.animation = 'slideAnimation 5s linear!important';
-        
+          slide.style.transition = 'all 1s linear';
         });
       }
     });
