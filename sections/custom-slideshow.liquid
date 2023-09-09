@@ -129,7 +129,7 @@
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
-        <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+        <div class=" custom-banner-media slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
           {%- if block.settings.image -%}
             {%- liquid
               assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
@@ -266,7 +266,7 @@
 {%- endif -%}
 
 {% stylesheet %}
-#Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in {    
+.custom-banner-media {    
     display: none!important;
   }
 
@@ -302,7 +302,7 @@
     padding: 50px 0;
   }
 
-
+ 
   h2 {
     font-size: 1.2em !important;
   }
