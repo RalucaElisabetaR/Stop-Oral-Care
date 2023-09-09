@@ -313,7 +313,17 @@
             "caption": "",
             "heading": "Evidence-Based Excellence",
             "text": "<p>Every product that bears the STOP name is backed by solid scientific research. Our in-house team of researchers and dental experts work tirelessly to ensure that we deliver not just promises, but proven results.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1c8980ac-186f-46f4-b367-3630b5c761b0": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Leading Oral Health Into the Future",
+            "text": "<p>STOP Oral Care isn't just following advancements; we're creating them. Our passion? Merging nature's wonders like hemp and Dead Sea minerals with modern dental science.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -321,7 +331,8 @@
       "block_order": [
         "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-1",
         "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-2",
-        "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-3"
+        "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-3",
+        "1c8980ac-186f-46f4-b367-3630b5c761b0"
       ],
       "settings": {
         "image_height": "medium",
