@@ -105,7 +105,7 @@
   {%- endif -%}
 
   <div
-    class="custom-slideshow slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    class="custom-slideshow  slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
@@ -270,9 +270,15 @@
   #Slider-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f .banner__media {
     display: none!important;
   }
+    h2 {
+    font-size: 1.2em !important;
+  }
 
- 
-  
+  p {
+    font-size: 0.9em !important;
+  }
+
+
   .custom-slideshow {
     margin: 0 !important;
     flex-direction: row;
@@ -297,29 +303,8 @@
   }
 
 
-  h2 {
-    font-size: 1.2em !important;
-  }
-
-  p {
-    font-size: 0.9em !important;
-  }
-
-  /* Shopify Section Specific Styles */
 
 
-  /* Custom Slide Styles */
-  .custom-slide {
-    flex: 1;
-    min-width: calc(25% - 1rem) !important;
-    max-width: calc(28% - 1rem) !important;
-    scroll-snap-align: start !important;
-    visibility: visible !important;
-    transition-timing-function: linear !important;
-   
-  }
-
-  /* Responsive Content Container */
   .custom-slide .custom-banner-box {
     height: initial;
     display: flex;
@@ -336,16 +321,17 @@
     .custom-slideshow { 
     margin: 0 !important;
      
- 
+  }
+   .custom-slide {
+    flex: 1;
+    min-width: calc(25% - 1rem) !important;
+    max-width: calc(28% - 1rem) !important;
+    scroll-snap-align: start !important;
+    visibility: visible !important;
+    transition-timing-function: linear !important;
+   
   }
 
-  .custom-slideshow:last-child {
-    margin-right: 50px !important;
-  } 
-
-  .custom-slideshow:first-child {
-    margin-left: 50px !important;
-  }
   
 
   /* Media Queries */
