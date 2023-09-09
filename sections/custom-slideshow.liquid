@@ -338,7 +338,7 @@
     max-width: calc(28% - 1rem) !important;
    scroll-snap-align: none center !important;
     visibility: visible !important;
-  animation: slideAnimation 5s linear!important; /* Adjust time as needed */
+  
 
    
        margin: 10px !important; 
@@ -755,7 +755,7 @@
     };
 
     customSlides.forEach((slide) => {
-      slide.style.transition = 'all 1s linear';
+      slide.style.tanimation = 'slideAnimation 5s linear!important';
     });
 
     const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
@@ -768,7 +768,8 @@
         index = 0;
         customSlides[index].classList.add('active');
         customSlides.forEach((slide) => {
-          slide.style.transition = 'all 1s linear';
+          slide.style.animation = 'slideAnimation 5s linear!important';
+        
         });
       }
     });
