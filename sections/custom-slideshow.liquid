@@ -262,13 +262,16 @@
 </slideshow-component>
 
 {%- if request.design_mode -%}
-  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script> 
 {%- endif -%}
 
 {% stylesheet %}
 
-  /* Only Custom Slideshow Styles */
+  
 
+  .custom-banner-media {
+    display: none!important;
+  }
 
         .custom-slideshow {
            margin:0!important;
@@ -301,9 +304,6 @@
      }
 
 
-  .custom-banner-media {
-    display: none;
-  }
 
       h2 {
         font-size: 1.2em!important;
