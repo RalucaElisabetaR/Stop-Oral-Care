@@ -260,10 +260,109 @@
         "show_text_below": false,
         "accessibility_info": ""
       }
+    },
+    "ff684c3c-49a3-4f0c-947b-bec335d0359a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Innovation & Research at STOP Oral Care",
+            "heading_size": "h0"
+          }
+        },
+        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-heading-1",
+        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-text-1",
+        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e45afbf8-ae48-4d51-86ba-554d8c3e1c3a": {
+      "type": "multirow",
+      "blocks": {
+        "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-1": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-2": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-3": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-1",
+        "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-2",
+        "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2",
-    "22be69e8-d7c5-49d8-9783-332751c48a9f"
+    "22be69e8-d7c5-49d8-9783-332751c48a9f",
+    "ff684c3c-49a3-4f0c-947b-bec335d0359a",
+    "e45afbf8-ae48-4d51-86ba-554d8c3e1c3a"
   ]
 }
