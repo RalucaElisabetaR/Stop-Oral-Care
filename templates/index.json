@@ -392,6 +392,10 @@
         "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-3",
         "1c8980ac-186f-46f4-b367-3630b5c761b0"
       ],
+      "custom_css": [
+        ".image-with-text__grid {display: flex; flex-direction: alternate; align-content: center; align-items: center;}",
+        ".image-with-text__content {max-width: 500px; display: flex; flex-direction: column; align-content: center; align-items: center; justify-content: space=between;}"
+      ],
       "settings": {
         "image_height": "small",
         "desktop_image_width": "small",
@@ -399,7 +403,7 @@
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
