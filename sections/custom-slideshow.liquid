@@ -266,60 +266,61 @@
 {%- endif -%}
 
 {% stylesheet %} 
-      /* Only Custom Slideshow Styles */
+  
+/* Only Custom Slideshow Styles */   
+  
       .custom-slideshow {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow: visible;
-        margin: 0; 
-        gap: 0;
-        justify-content: flex-start;
+           flex-direction: row;
+           flex-wrap: nowrap;
+           overflow: visible;
+           margin: 0; 
+           gap: 0;
+           justify-content: flex-start;
       }
 
-    /* Existing styles */
+/* Existing styles */
+  
     .custom-slide {
-               flex: 1;  
-        min-width: calc(25% - 1rem);  /* This sets the minimum width */
-        max-width: calc(28% - 1rem);  /* This sets the minimum width */  
-
- 
-      margin-right: 1rem!important;
-      scroll-snap-align: start!important;
-      visibility: visible!important;
-      transition-timing-function: linear;
+           flex: 1;  
+           min-width: calc(25% - 1rem);  /* This sets the minimum width */
+           max-width: calc(28% - 1rem);  /* This sets the minimum width */  
+           margin-right: 1rem!important;
+           scroll-snap-align: start!important;
+           visibility: visible!important;
+           transition-timing-function: linear;
     } 
-      /* Make the content container responsive */
-      .custom-slide .slideshow__text.banner__box.content-container {
-        padding: calc(2vw + 10px);  /* Minimum padding of 10px, grows with viewport */
-        margin: calc(1vw + 5px);    /* Minimum margin of 5px, grows with viewport */
-      }
 
-     @media screen and (max-width: 1500px) {
-
-      .custom-slide {
- 
-         flex: 1;  
-        min-width: calc(32% - 1rem);  /* This sets the minimum width */
-        /* max-width: calc(33.333% - 1rem);  /* This sets the minimum width */ */
-
+  
+/* Make the content container responsive */
+  
+    .custom-slide .slideshow__text.banner__box.content-container {
+           padding: calc(2vw + 10px);  /* Minimum padding of 10px, grows with viewport */
+           margin: calc(1vw + 5px);    /* Minimum margin of 5px, grows with viewport */
     }
-       
-     }
+
+       @media screen and (max-width: 1500px) {
+         .custom-slide {
+             flex: 1;  
+             min-width: calc(32% - 1rem);  /* This sets the minimum width */  
+         }       
+      }
   
 /* tablet styles */
+  
       @media screen and (max-width: 1022px) {
-  .custom-slide {
-         flex: 1;  
-        min-width: calc(40% - 1rem);  /* This sets the minimum width */
-        max-width: calc(43.333% - 1rem);  /* This sets the minimum width */
-     scroll-snap-align: start!important;
-      visibility: visible!important;
+         .custom-slide {
+             flex: 1;  
+             min-width: calc(40% - 1rem);  /* This sets the minimum width */
+             max-width: calc(43.333% - 1rem);  /* This sets the minimum width */
+             scroll-snap-align: start!important;
+             visibility: visible!important;
         }        
-      }
+   }
 
 
-      /* Mobile styles */
-      @media screen and (max-width: 749px) {
+ /* Mobile styles */
+  
+     @media screen and (max-width: 749px) {
          .custom-slide[data-display-size="big-screen"] {
                flex: 1;  
                min-width: calc(89% - 1rem);  /* This sets the minimum width */
@@ -333,7 +334,7 @@
                margin-right: 0!important;
          } 
 
-      }
+    }
 
 {% endstylesheet %}
 
