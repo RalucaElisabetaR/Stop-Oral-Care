@@ -265,7 +265,9 @@
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
-@keyframes slideAnimation {
+
+{% stylesheet %}
+  @keyframes slideAnimation {
   0% {
     transform: translateX(0%);
   }
@@ -273,7 +275,6 @@
     transform: translateX(-1000%);
   }
 }  
-{% stylesheet %}
   
   #Slider-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f .banner__media {
     display: none!important;
