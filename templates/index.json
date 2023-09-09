@@ -97,7 +97,7 @@
             "heading": "Dead Sea Salt: Nature's Healing Elixir",
             "heading_size": "h2",
             "subheading": "But the uniqueness of our approach truly shines with the inclusion of Dead Sea salt. Unlike any other salt on Earth, the Dead Sea variety boasts a rich mineral content, encompassing essential nutrients known for their therapeutic properties. These minerals not only enhance the antimicrobial action of hemp but also promote healing and rejuvenation in the oral cavity. It's a holistic approach whereprotection meets regeneration.",
-            "button_label": "Button label",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -156,7 +156,9 @@
         ".banner__content {margin: 0; padding: 0;}",
         ".custom-slideshow {background-color: #f7f7f7 !important;}",
         ".banner__box {margin: 0; background-color: white; min-width: initial;}",
-        ".banner__media {display: none;}"
+        ".banner__media {display: none;}",
+        "h2 {font-size: 1.2em;}",
+        "p {font-size: 0.9em;}"
       ],
       "settings": {
         "layout": "full_bleed",
