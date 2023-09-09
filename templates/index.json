@@ -385,9 +385,10 @@
         "template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf-buttons-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
