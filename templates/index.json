@@ -248,7 +248,7 @@
         "69611c13-fe04-4986-abfd-fc2292e9fa0f"
       ],
       "custom_css": [
-        ".slider__slide {transition-duration: 2s;}"
+        ".slider__slide {transition: transform 250ms linear;}"
       ],
       "settings": {
         "layout": "full_bleed",
