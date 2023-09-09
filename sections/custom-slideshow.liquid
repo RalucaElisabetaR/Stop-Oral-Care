@@ -293,7 +293,7 @@
 .banner__media {
   display: none;
 }
-
+ 
     h2 {
       font-size: 1.2em!important;
     }
@@ -302,19 +302,20 @@
     }
   
     .custom-slide {
-           flex: 1;   
-           min-width: calc(25% - 1rem);  /* This sets the minimum width */
-           max-width: calc(28% - 1rem);  /* This sets the minimum width */    
-           margin-right: 1rem!important;
-           scroll-snap-align: start!important;  
-           visibility: visible!important;
-           transition-timing-function: linear;
+  
     }    
  
    
 /* Make the content container responsive */
   
     .custom-slide .slideshow__text.banner__box.content-container {  
+               flex: 1;   
+           min-width: calc(25% - 1rem);  /* This sets the minimum width */
+           max-width: calc(28% - 1rem);  /* This sets the minimum width */    
+           margin-right: 1rem!important;
+           scroll-snap-align: start!important;  
+           visibility: visible!important;
+           transition-timing-function: linear;
           height: initial;
          display: flex;
          align-content: flex-start;
@@ -324,20 +325,17 @@
          justify-content: center;
          background-color: white;
          min-width: initial;
-       padding-top: 50px!important;
-       padding-left: 20px!important;
-       padding-right: 20px!important;
-       margin: 5px!important;       
+         padding-top: 50px!important;
+         padding-left: 20px!important;
+         padding-right: 20px!important;
+         margin: 5px!important;       
     } 
 
        @media screen and (max-width: 1500px) {
          .custom-slide {
              flex: 1;  
              min-width: calc(32% - 1rem);  /* This sets the minimum width */  
-                padding-top: 50px!important;
-       padding-left: 20px!important;
-       padding-right: 20px!important;
-       margin: 5px!important;       
+        
          }       
       }
   
@@ -349,11 +347,8 @@
              min-width: calc(40% - 1rem);  /* This sets the minimum width */
              max-width: calc(43.333% - 1rem);  /* This sets the minimum width */
              scroll-snap-align: start!important;
-             visibility: visible!important;
-                padding-top: 50px!important;
-       padding-left: 20px!important;
-       padding-right: 20px!important;
-       margin: 5px!important;       
+            visibility: visible!important;
+           
         }        
    }
 
