@@ -284,6 +284,60 @@
         "padding_bottom": 52
       }
     },
+    "c134cac8-5947-4516-ad46-7c73019ca723": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20797124903185__c134cac8-5947-4516-ad46-7c73019ca723-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care_4.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20797124903185__c134cac8-5947-4516-ad46-7c73019ca723-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20797124903185__c134cac8-5947-4516-ad46-7c73019ca723-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20797124903185__c134cac8-5947-4516-ad46-7c73019ca723-column-1",
+        "template--20797124903185__c134cac8-5947-4516-ad46-7c73019ca723-column-2",
+        "template--20797124903185__c134cac8-5947-4516-ad46-7c73019ca723-column-3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "e45afbf8-ae48-4d51-86ba-554d8c3e1c3a": {
       "type": "multirow",
       "blocks": {
@@ -301,6 +355,7 @@
         "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-2": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care_3.png",
             "caption": "",
             "heading": "Unlocking Nature's Potential",
             "text": "<p>Our rigorous research has led us to discover and harness the unparalleled benefits of hemp and the Dead Sea salt minerals. Through a meticulous process of trial and validation, we've created products that marry age-old natural remedies with contemporary dental science.<\/p>",
@@ -311,6 +366,7 @@
         "template--20797124903185__e45afbf8-ae48-4d51-86ba-554d8c3e1c3a-row-3": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care_2.png",
             "caption": "",
             "heading": "Evidence-Based Excellence",
             "text": "<p>Every product that bears the STOP name is backed by solid scientific research. Our in-house team of researchers and dental experts work tirelessly to ensure that we deliver not just promises, but proven results.<\/p>",
@@ -321,6 +377,7 @@
         "1c8980ac-186f-46f4-b367-3630b5c761b0": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care_4.png",
             "caption": "",
             "heading": "Leading Oral Health Into the Future",
             "text": "<p>STOP Oral Care isn't just following advancements; we're creating them. Our passion? Merging nature's wonders like hemp and Dead Sea minerals with modern dental science.<\/p>",
@@ -336,13 +393,13 @@
         "1c8980ac-186f-46f4-b367-3630b5c761b0"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "image_height": "small",
+        "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "image_layout": "alternate-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
@@ -398,13 +455,57 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "f674c81e-b2cd-4a33-8a88-b61844df7287": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-heading-1",
+        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-text-1",
+        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2",
     "22be69e8-d7c5-49d8-9783-332751c48a9f",
     "ff684c3c-49a3-4f0c-947b-bec335d0359a",
+    "c134cac8-5947-4516-ad46-7c73019ca723",
     "e45afbf8-ae48-4d51-86ba-554d8c3e1c3a",
-    "11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf"
+    "11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf",
+    "f674c81e-b2cd-4a33-8a88-b61844df7287"
   ]
 }
