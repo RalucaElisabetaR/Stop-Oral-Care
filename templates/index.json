@@ -368,7 +368,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "c134cac8-5947-4516-ad46-7c73019ca723": {
