@@ -745,7 +745,7 @@
     };
 
     customSlides.forEach((slide) => {
-      slide.style.transition = 'all 0.5s linear';
+      slide.style.transition = 'all 1s linear';
     });
 
     const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
@@ -758,7 +758,7 @@
         index = 0;
         customSlides[index].classList.add('active');
         customSlides.forEach((slide) => {
-          slide.style.transition = 'all 0.5s linear';
+          slide.style.transition = 'all 1s linear';
         });
       }
     });
