@@ -280,7 +280,7 @@
  
     .custom-slide {
 
-         flex: 1;  /* This allows the slide to grow and shrink */
+         flex: 1;  
         min-width: calc(32% - 1rem);  /* This sets the minimum width */
         max-width: calc(33.333% - 1rem);  /* This sets the minimum width */
 
@@ -296,6 +296,23 @@
         margin: calc(1vw + 5px);    /* Minimum margin of 5px, grows with viewport */
       }
 
+
+
+  
+/* tablet styles */
+      @media screen and (max-width: 1023px) {
+  .custom-slide {
+         flex: 1;  
+        min-width: calc(40% - 1rem);  /* This sets the minimum width */
+        max-width: calc(43.333% - 1rem);  /* This sets the minimum width */
+        }
+
+
+        
+      }
+
+
+  
 
       /* Mobile styles */
       @media screen and (max-width: 749px) {
