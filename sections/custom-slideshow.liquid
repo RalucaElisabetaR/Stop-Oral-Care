@@ -756,10 +756,10 @@
     });
   }
    const scaleStyles = () => {
-    const slides = document.querySelectorAll('.slideshow__text-wrapper');
+    const slides = document.querySelectorAll('.custom-banner-content');
     
     slides.forEach((slide) => {
-      const contentContainers = slide.querySelectorAll('.slideshow__text');
+      const contentContainers = slide.querySelectorAll('.custom-banner-box');
       contentContainers.forEach((container) => {
         const originalPadding = window.getComputedStyle(container).padding;
         const originalMargin = window.getComputedStyle(container).margin;
