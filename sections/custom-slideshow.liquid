@@ -99,7 +99,7 @@
               {{ forloop.index }}
             </a>
           {%- endfor -%}
-        </div> 
+        </div>
       </div>
     </noscript>
   {%- endif -%}
@@ -178,13 +178,13 @@
                   class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
                 >
                   {{- block.settings.button_label | escape -}}
-                </a> 
+                </a>
               </div>
             {%- endif -%}
           </div>
         </div>
       </div>
-    {%- endfor -%} 
+    {%- endfor -%}
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
@@ -196,7 +196,7 @@
         aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
         aria-controls="Slider-{{ section.id }}"
       >
-        {% render 'icon-caret' %}
+        {% render 'icon-caret' %} 
       </button>
       <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
         {%- if section.settings.slider_visual == 'counter' -%}
@@ -306,7 +306,7 @@
  
   h2 {
     font-size: 1.2em !important;
-  } 
+  }
 
   p {
     font-size: 0.9em !important;
@@ -324,7 +324,7 @@
   /* Responsive Content Container */
   custom-container .custom-container-wraper{
     height: initial;
-    display: flex; 
+    display: flex;
     align-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
@@ -362,10 +362,9 @@
       margin: 0 !important;
     }
 
-    .custom-container-wraper {
+    .custom-container {
       border-radius: 20px!important;
       padding: 35px 20px !important;
-      margin-left: 5px!important;
       
     } 
 
