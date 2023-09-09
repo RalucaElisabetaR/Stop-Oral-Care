@@ -153,9 +153,9 @@
         "1b46c9bc-9004-4757-9f14-9f680d453536"
       ],
       "custom_css": [
-        "{background-color: }",
+        "{background-color: #F7F7F7 ;}",
         ".banner__box {flex: 1; min-width: initial;}",
-        " .banner__media {display: none; }"
+        ".banner__media {display: none;}"
       ],
       "settings": {
         "layout": "full_bleed",
