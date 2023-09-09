@@ -271,15 +271,19 @@
         flex-direction: row;
         flex-wrap: nowrap;
         overflow: visible;
-        margin: 0;
+        margin: 0; 
         gap: 0;
         justify-content: flex-start;
       }
 
     /* Existing styles */
+    .custom-slide {
  
- 
-
+      margin-right: 1rem!important;
+      scroll-snap-align: start!important;
+      visibility: visible!important;
+      transition-timing-function: linear;
+    }
       /* Make the content container responsive */
       .custom-slide .slideshow__text.banner__box.content-container {
         padding: calc(2vw + 10px);  /* Minimum padding of 10px, grows with viewport */
@@ -294,10 +298,6 @@
         min-width: calc(32% - 1rem);  /* This sets the minimum width */
         /* max-width: calc(33.333% - 1rem);  /* This sets the minimum width */ */
 
-      margin-right: 1rem!important;
-      scroll-snap-align: start!important;
-      visibility: visible!important;
-      transition-timing-function: linear;
     }
        
      }
