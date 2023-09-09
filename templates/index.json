@@ -356,7 +356,7 @@
       "custom_css": [
         ".banner__box {max-width: 500px; margin: auto;}",
         "p {color: white;}",
-        "@media screen and (max-width: 749px) {#Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43 > div.banner__media.media.scroll-trigger.animate--fade-in {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0821\/8558\/4913\/files\/Stop_2.png?v=1694285397)!important; }}"
+        "@media screen and (max-width: 749px) {#Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43 > div .banner__media .media .scroll-trigger .animate--fade-in {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0821\/8558\/4913\/files\/Stop_2.png?v=1694285397) !important; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_4.png",
