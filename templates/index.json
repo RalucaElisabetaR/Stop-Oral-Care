@@ -355,12 +355,11 @@
       ],
       "custom_css": [
         ".banner__box {max-width: 500px; margin: auto;}",
-        "p {color: white;}",
-        "@media screen and (max-width: 749px) {#Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43 > div .banner__media .media {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0821\/8558\/4913\/files\/Stop_2.png) !important; background-size: contain; }}"
+        "p {color: white;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_4.png",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -368,7 +367,7 @@
         "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
@@ -515,6 +514,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "47286e89-ded2-402e-974e-90dc82947c8c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n  #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43\n    > div .banner__media.media .scroll-trigger .animate--fade-in {\n    background-image: url(https:\/\/stop-oral-care.myshopify.com\/cdn\/shop\/files\/Stop_2.png)!important;\n  }\n}<\/style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -525,6 +533,7 @@
     "8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43",
     "c134cac8-5947-4516-ad46-7c73019ca723",
     "11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf",
-    "f674c81e-b2cd-4a33-8a88-b61844df7287"
+    "f674c81e-b2cd-4a33-8a88-b61844df7287",
+    "47286e89-ded2-402e-974e-90dc82947c8c"
   ]
 }
