@@ -349,12 +349,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "For Smiles That Tell a Story",
+            "heading_size": "h1"
+          }
+        },
+        "template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Experience a radiant smile powered by nature, perfected by STOP",
+            "text_style": "body"
+          }
+        },
+        "template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf-heading-1",
+        "template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf-text-1",
+        "template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf-buttons-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2",
     "22be69e8-d7c5-49d8-9783-332751c48a9f",
     "ff684c3c-49a3-4f0c-947b-bec335d0359a",
-    "e45afbf8-ae48-4d51-86ba-554d8c3e1c3a"
+    "e45afbf8-ae48-4d51-86ba-554d8c3e1c3a",
+    "11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf"
   ]
 }
