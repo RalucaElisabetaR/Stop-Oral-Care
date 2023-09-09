@@ -354,18 +354,17 @@
         "template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43-buttons-1"
       ],
       "custom_css": [
-        ".banner__media {display: none;}",
-        ".banner__content {min-width: 100%; background-color: #0d3d6f;}"
+        ".banner__content {min-width: 100%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/STOP.png",
-        "image_overlay_opacity": 0,
+        "image_2": "shopify:\/\/shop_images\/Stop_2.png",
+        "image_overlay_opacity": 80,
         "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "inverse",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
