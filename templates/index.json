@@ -155,7 +155,7 @@
       "custom_css": [
         ".banner__content {flex-wrap: wrap; align-items: stretch; align-content: stretch; margin: auto; padding: 50px 0;}",
         ".custom-slideshow {background-color: #f7f7f7 !important;}",
-        ".banner__box {background-color: white; min-width: initial;}",
+        ".banner__box {height: -webkit-fill-available; background-color: white; min-width: initial;}",
         ".banner__media {display: none;}",
         "h2 {font-size: 1.2em;}",
         "p {font-size: 0.9em;}"
