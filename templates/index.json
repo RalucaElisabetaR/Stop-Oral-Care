@@ -270,29 +270,10 @@
             "heading": "Innovation & Research at STOP Oral Care",
             "heading_size": "h0"
           }
-        },
-        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-heading-1",
-        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-text-1",
-        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-button-1"
+        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-heading-1"
       ],
       "settings": {
         "desktop_content_position": "center",
