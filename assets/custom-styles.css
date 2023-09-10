@@ -23,10 +23,10 @@
 }
 
 @media screen and (max-width: 749px) {
-   .image-with-text__media--medium {
+  .image-with-text__media--medium {
     min-height: 100%;
-}
-  
+  }
+
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div {
@@ -37,16 +37,13 @@
     img {
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/I_care_for_you_1080_x_700_px.png");
     margin: auto;
-
-    
   }
 }
 
 @media screen and (max-width: 450px) {
-
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div {
-    max-width: 100%; 
+    max-width: 100%;
   }
 }
