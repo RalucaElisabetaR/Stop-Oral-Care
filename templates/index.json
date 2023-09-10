@@ -359,7 +359,8 @@
       ],
       "custom_css": [
         ".banner__content--middle-center {max-width: 600px; margin: auto; overflow-x: hidden;}",
-        "p, h2 {color: white;}",
+        "p,h2 {color: white;}",
+        "p {font-size: 1.1em;}",
         "h2 {margin-left: -100px; margin-right: -100px; overflow-x: hidden;}"
       ],
       "settings": {
