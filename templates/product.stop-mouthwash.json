@@ -53,7 +53,7 @@
           "settings": {
             "heading": "Ingredients:",
             "icon": "check_mark",
-            "content": "<ul><li>Hemp-based compound: Harnessing nature's power for optimal oral care.<\/li><li>Dead Sea Salt Minerals: Packed with unique minerals that rejuvenate gums and teeth.<\/li><li>Pomegranate Extracts: Known for its antibacterial properties and adds a burst of freshness.<\/li><li>Sea Algae: A potent antibacterial agent that helps maintain oral balance.<\/li><li>Natural Flavorings: For a refreshing and invigorating taste.<\/li><\/ul>",
+            "content": "<ul><li><strong>Hemp-based compound<\/strong>: Harnessing nature's power for optimal oral care.<\/li><li><strong>Dead Sea Salt Minerals<\/strong>: Packed with unique minerals that rejuvenate gums and teeth.<\/li><li><strong>Pomegranate Extracts<\/strong>: Known for its antibacterial properties and adds a burst of freshness.<\/li><li><strong>Sea Algae<\/strong>: A potent antibacterial agent that helps maintain oral balance.<\/li><li><strong>Natural Flavorings<\/strong>: For a refreshing and invigorating taste.<\/li><\/ul>",
             "page": ""
           }
         }
