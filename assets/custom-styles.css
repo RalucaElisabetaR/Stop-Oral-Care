@@ -10,7 +10,7 @@
   .custom-section h2 {
     color: #0d3d6f!important;
     font-size: 30px;
-     margin-left: 0px;
+     margin-left: 0px; 
   margin-right: 0px;
       overflow-x: hidden;
   }
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 749px) {
 #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div {
-  max-width: 375px;
+  max-width: 80vw;
 }
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     img {
