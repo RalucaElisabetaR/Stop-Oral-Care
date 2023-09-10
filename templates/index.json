@@ -546,6 +546,9 @@
         "ed6698e6-0d5a-4862-b263-20da4bb1a2ef",
         "73f49998-e1aa-4b9e-a375-ad5d01d75ea9"
       ],
+      "custom_css": [
+        ".banner__media {display: none;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
