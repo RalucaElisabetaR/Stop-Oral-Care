@@ -33,3 +33,11 @@ function rotateTextHeadings() {
 document.addEventListener("DOMContentLoaded", function() {
   rotateTextHeadings();
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const section = document.getElementById('shopify-section-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43');
+  if (section) {
+    section.classList.add('custom-section');
+  }
+});
