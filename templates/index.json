@@ -117,7 +117,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
-            "heading": "<b>Dead Sea Salt: Nature's Healing Elixir<\/b>",
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/3.png\" alt=\"\" style=\"width:100px;height:100px;\">\n\n<\/div>\n<b>Dead Sea Salt: Nature's Healing Elixir<\/b>",
             "heading_size": "h2",
             "subheading": "The uniqueness of our approach shines with the inclusion of Dead Sea salt, encompassing essential nutrients known for their therapeutic properties. These minerals not only enhance the antimicrobial action of hemp but also promote healing and rejuvenation in the oral cavity. It's a holistic approach where protection meets regeneration.",
             "button_label": "",
@@ -207,7 +207,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
-            "heading": "<b>Dead Sea Salt: Nature's Healing Elixir<\/b>",
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/3.png\" alt=\"\" style=\"width:100px;height:100px;\">\n\n<\/div>\n<b>Dead Sea Salt: Nature's Healing Elixir<\/b>",
             "heading_size": "h2",
             "subheading": "The uniqueness of our approach shines with the inclusion of Dead Sea salt, encompassing essential nutrients known for their therapeutic properties. These minerals not only enhance the antimicrobial action of hemp but also promote healing and rejuvenation in the oral cavity. It's a holistic approach where protection meets regeneration.",
             "button_label": "",
