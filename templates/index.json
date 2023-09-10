@@ -394,7 +394,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
-            "heading": "Flemish Government Grant - 2019",
+            "heading": "<b>Flemish Government Grant - 2019<\/b>",
             "heading_size": "h2",
             "subheading": "In recognition of our groundbreaking work, we received a grant from the Flemish government in 2019. This esteemed award propelled our mission to develop an innovative portfolio of personal dental products that redefine oral care standards",
             "button_label": "",
@@ -412,7 +412,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
-            "heading": "U.S. Patent Recognition - 2023",
+            "heading": "<b>U.S. Patent Recognition - 2023<\/b>",
             "heading_size": "h2",
             "subheading": "Our dedication to pushing the boundaries of natural oral care culminated in a U.S. granted patent. This patent, centered around plant-based treatments for various oral ailments linked to broader health issues, stands as a testament to our innovative approach and the tangible impact of Dr. Stahl's visionary research.",
             "button_label": "",
@@ -512,48 +512,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "f674c81e-b2cd-4a33-8a88-b61844df7287": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-heading-1",
-        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-text-1",
-        "template--20797124903185__f674c81e-b2cd-4a33-8a88-b61844df7287-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -563,7 +521,6 @@
     "8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43",
     "75e22fe0-d4de-4d38-9e61-a2ea4fe819e8",
     "0e7a7f70-a2a5-48d3-a195-f28d8fdb4527",
-    "11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf",
-    "f674c81e-b2cd-4a33-8a88-b61844df7287"
+    "11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf"
   ]
 }
