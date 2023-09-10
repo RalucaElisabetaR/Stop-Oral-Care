@@ -176,8 +176,9 @@
       ],
       "custom_css": [
         "li {background-color: white !important;}",
-        ".grid__item {padding: 40px 20px; display: ; width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}",
-        ".media img{object-fit: cover; max-width: 50px; max-height: 50px; padding-bottom:0;}"
+        ".grid__item {border-radius: 20px; padding: 40px 20px; display: ; width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}",
+        ".media img {object-fit: cover; max-width: 50px; max-height: 50px;}",
+        " .media--adapt {padding-bottom: 50%!important;}"
       ],
       "settings": {
         "title": "How to Use:",
