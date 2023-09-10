@@ -4,7 +4,7 @@
 
 // Function to rotate text headings with fade-in and fade-out effect
 function rotateTextHeadings() {
-  const headings = ["STOP Searching, Start Smiling !", "Experience Oral Care Reimagined", "Soothe & Strengthen","Natural Whitening", "Combat Inflammation", "Advanced Plaque Defense"
+  const headings = ["STOP Searching, Start Smiling !", "Experience Oral Care Reimagined"
                    ];
   let index = 0;
 
