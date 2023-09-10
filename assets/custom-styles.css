@@ -38,7 +38,8 @@
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     img {
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/I_care_for_you_1080_x_700_px.png");
-    margin: auto;
+    object-fit: cover;
+      margin: auto;
   }
 }
 
