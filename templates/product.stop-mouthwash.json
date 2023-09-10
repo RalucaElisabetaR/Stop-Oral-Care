@@ -48,22 +48,11 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "ea934c0b-1a51-4166-b7f5-fd97c72e9004": {
+          "type": "popup",
           "settings": {
-            "share_label": "Share"
-          }
-        },
-        "3566c59c-bbb7-413b-b1ff-ca551d0110fe": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "heart",
-            "heading_1": "Heading",
-            "icon_2": "return",
-            "heading_2": "Heading",
-            "icon_3": "truck",
-            "heading_3": "Heading"
+            "text": "Pop-up link text",
+            "page": "contact"
           }
         }
       },
@@ -76,8 +65,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "3566c59c-bbb7-413b-b1ff-ca551d0110fe"
+        "ea934c0b-1a51-4166-b7f5-fd97c72e9004"
       ],
       "settings": {
         "enable_sticky_info": true,
