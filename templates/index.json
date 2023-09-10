@@ -450,7 +450,7 @@
         "b0e1469f-9e0d-4afa-843b-c351c7390a05"
       ],
       "custom_css": [
-        "{font-size: 25px !important;}",
+        "h3 {font-size: 22px !important; letter-spacing: 1.5px;}",
         ".banner__media {display: none;}",
         ".slideshow__controls {display: none;}"
       ],
