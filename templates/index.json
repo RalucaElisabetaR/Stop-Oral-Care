@@ -35,7 +35,7 @@
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-buttons-1"
       ],
       "custom_css": [
-        "p {color: white;}",
+        "p {color: white; margin-right: -100px }",
         "#rotating-text-placeholder {font-size: 30px; margin-right: -200px !important;}"
       ],
       "settings": {
