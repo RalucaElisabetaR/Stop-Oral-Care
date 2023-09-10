@@ -52,6 +52,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+
+      ],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",
