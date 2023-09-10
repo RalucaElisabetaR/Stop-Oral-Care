@@ -498,6 +498,14 @@
     margin-right: -50px;
   }
 
+
+ #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 img{
+object-fit: contain;
+    height: fit-content;
+    margin: auto;
+ }
+
+
   /* TABLET SCREEN */
   @media screen and (min-width: 750px) {
    #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 .banner__box {
