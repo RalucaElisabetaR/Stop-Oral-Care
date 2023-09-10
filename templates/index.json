@@ -336,10 +336,10 @@
         "template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8-row-1"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) and (max-width: 989px) {.image-with-text__media img {object-fit: scale-down !important; }}"
+        "@media screen and (min-width: 750px) and (max-width: 989px) {.image-with-text__media-item--middle {object-fit: scale-down !important; }}"
       ],
       "settings": {
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
