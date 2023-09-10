@@ -30,7 +30,7 @@
     > div
     > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
     > div {
-   margin-bottom: -3em;
+    margin-bottom: -3em;
   }
 }
 
@@ -55,8 +55,15 @@
     margin: auto;
   }
 }
-
-margin-bottom: -1em;
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  > div
+  > div
+  > div
+  > div
+  > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
+  > div {
+  margin-bottom: -4.5em;
+}
 
 @media screen and (max-width: 450px) {
   .image-with-text__media--medium {
