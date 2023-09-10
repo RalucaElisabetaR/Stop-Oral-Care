@@ -26,6 +26,7 @@
   .image-with-text__media--medium {
     min-height: 38rem;
       height: 24rem;
+    border-radius:20px;
 }
 
  
