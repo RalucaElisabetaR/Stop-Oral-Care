@@ -327,14 +327,14 @@
           "type": "heading",
           "settings": {
             "heading": "Nature's Ultimate Duo",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43-text-1": {
           "type": "text",
           "settings": {
             "text": "Harnessing the power of nature and science to fight bacteria more effectively with the world’s ONLY fluoride-free, hemp-infused, and Dead Sea salt mineral-enriched oral care range",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43-buttons-1": {
