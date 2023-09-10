@@ -36,7 +36,7 @@
       ],
       "custom_css": [
         "p {color: white;}",
-        ".banner__media {max-height: 25vh;}"
+        " @media screen and (max-width: 749px) {.banner__media{max-height: 25vh;}}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_Oral_Products_1.png",
