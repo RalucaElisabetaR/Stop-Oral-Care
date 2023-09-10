@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 749px) {
    .image-with-text__media--medium {
-    height: 100%;
+    min-height: 100%;
 }
   
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
