@@ -35,7 +35,8 @@
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-buttons-1"
       ],
       "custom_css": [
-        "p {color: white;}"
+        "p {color: white;}",
+        " @media screen and (max-width: 750px) {p {color: } }"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
