@@ -534,11 +534,7 @@
 }
 
 /* mobile screen  */
-#Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
-  > div.banner__media.media.scroll-trigger.animate--fade-in
-  > img {
-  object-fit: cover;
-}
+
 @media screen and (max-width: 749px) {
   #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     .banner__media {
@@ -550,7 +546,11 @@
     > div.banner__media.media.scroll-trigger.animate--fade-in
     > img {
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_Oral_Products.png");
-    object-fit: cover;
+      width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  margin: auto;
   }
   #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     .content-container {
