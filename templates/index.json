@@ -336,7 +336,8 @@
         "template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8-row-1"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) and (max-width: 1089px) {img {object-fit: scale-down !important; } .image-with-text__text--caption {font-size: 0.55em; } h2 {font-size: 1.85em; } p {font-size: 0.88em; }}"
+        "@media screen and (min-width: 766px) and (max-width: 1089px) {img {object-fit: scale-down !important; } .image-with-text__text--caption {font-size: 0.55em; } h2 {font-size: 1.85em; } p {font-size: 0.88em; }}",
+        "@media screen and (min-width: 766px) and (max-width: 1022px) {.image-with-text__text--caption {font-size: 0.55em; } h2 {font-size: 1.8em; } p {font-size: 0.8em; }}"
       ],
       "settings": {
         "image_height": "medium",
