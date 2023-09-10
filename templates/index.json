@@ -153,7 +153,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
-            "heading": "<b>Redefining Oral Care<\/b>",
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/5.png\" alt=\"\" style=\"width:100px;height:100px;\">\n\n<\/div><b>Redefining Oral Care<\/b>",
             "heading_size": "h2",
             "subheading": "Guided by Dr. Stahl's commitment to excellence and innovation, STOP Oral Care is pioneering a transformative journey in oral health. Dive into a regimen powered by the unparalleled synergy of hemp and Dead Sea minerals, and embrace a smile that’s as naturally vibrant as it is healthy.",
             "button_label": "",
