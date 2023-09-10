@@ -355,8 +355,7 @@
       ],
       "custom_css": [
         ".banner__box {max-width: 500px; margin: auto;}",
-        "p {color: white;}",
-        ".banner__media{height: 180px;}"
+        "p {color: white;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_4.png",
