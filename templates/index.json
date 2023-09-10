@@ -355,8 +355,7 @@
         "template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43-buttons-1"
       ],
       "custom_css": [
-        ".banner__box {max-width: 500px; margin: auto;}",
-        "p {color: white;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_4.png",
