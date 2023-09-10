@@ -15,7 +15,7 @@
       overflow-x: hidden;
   }
   .custom-section p {
-    color: #0d3d6f;
+    color: #0d3d6f!important;
   }
   .custom-section .button {
     background-color: #0093c1;
