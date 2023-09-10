@@ -16,7 +16,7 @@
           "type": "announcement",
           "settings": {
             "text": "Natural Whitening: Flaunt a brighter, more radiant smile.",
-            "link": ""
+            "link": "shopify:\/\/collections\/all"
           }
         },
         "97c7136b-068f-4041-952d-420fc8a0c514": {
@@ -44,7 +44,7 @@
         "color_scheme": "accent-1",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
