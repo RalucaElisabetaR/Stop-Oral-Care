@@ -394,7 +394,7 @@
         "5febc70a-6529-4be1-b7bd-6b28929df75a": {
           "type": "slide",
           "settings": {
-            "heading": "<b>Flemish Government Grant - 2019<\/b>",
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_eb77fcec-7a14-428b-94a6-bd1edcc08241.png\" alt=\"\" style=\"width:100px;height:100px;\">\n<\/div>\n<b>Flemish Government Grant - 2019<\/b>",
             "heading_size": "h2",
             "subheading": "In recognition of our groundbreaking work, we received a grant from the Flemish government in 2019. This esteemed award propelled our mission to develop an innovative portfolio of personal dental products that redefine oral care standards",
             "button_label": "",
@@ -450,7 +450,7 @@
         "b0e1469f-9e0d-4afa-843b-c351c7390a05"
       ],
       "custom_css": [
-        ".banner__heading{font-size: 28px!important;}",
+        ".banner__heading {font-size: 28px !important;}",
         ".banner__media {display: none;}",
         ".slideshow__controls {display: none;}"
       ],
