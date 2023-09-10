@@ -177,7 +177,7 @@
       "custom_css": [
         "li {background-color: white !important;}",
         ".grid__item {padding: 40px 20px; display: ; width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}",
-        "img {object-fit: cover; max-width: 50px; max-height: 50px;}"
+        ".media img{object-fit: cover; max-width: 50px; max-height: 50px; padding-bottom:0;}"
       ],
       "settings": {
         "title": "How to Use:",
