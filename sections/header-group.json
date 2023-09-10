@@ -61,7 +61,7 @@
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
-        "color_scheme": "inverse",
+        "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
         "menu_color_scheme": "inverse",
         "enable_country_selector": true,
         "enable_language_selector": true,
