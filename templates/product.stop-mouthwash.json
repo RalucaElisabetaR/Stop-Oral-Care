@@ -175,17 +175,18 @@
         "323825b0-19d5-4c01-9658-c1e71e71f46d"
       ],
       "custom_css": [
-        "li {background-color: white!important;}",
-        ".grid__item {display: ; width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}"
+        "li {background-color: white !important;}",
+        ".grid__item {padding: 40px 20px; display: ; width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}",
+        "img {object-fit: cover; max-width: 50px; max-height: 50px;}"
       ],
       "settings": {
         "title": "How to Use:",
         "heading_size": "h1",
         "image_width": "third",
-        "image_ratio": "circle",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
