@@ -23,21 +23,24 @@
 }
 
 @media screen and (min-width: 450px) and (max-width: 749px) {
-       #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
-    img {
-      margin-bottom: -1em;
-    }
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
+    > div {
+    margin-bottom: -1em;
+  }
 }
 
 @media screen and (max-width: 749px) {
   .image-with-text__media--medium {
-    min-height: 38rem; 
-      height: 24rem;
-     border:1px solid none;
-    border-radius:20px;
-}
-
- 
+    min-height: 38rem;
+    height: 24rem;
+    border: 1px solid none;
+    border-radius: 20px;
+  }
 
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
@@ -48,23 +51,19 @@
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     img {
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/I_care_for_you_1080_x_700_px.png");
-   object-fit: scale-down;
-    margin: auto;;
-    
-      
+    object-fit: scale-down;
+    margin: auto;
   }
 }
-
-
 
 margin-bottom: -1em;
 
 @media screen and (max-width: 450px) {
-    .image-with-text__media--medium {
+  .image-with-text__media--medium {
     min-height: 24rem;
-       height: 24rem;
-}
- 
+    height: 24rem;
+  }
+
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div {
