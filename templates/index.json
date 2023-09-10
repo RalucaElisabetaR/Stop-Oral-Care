@@ -294,6 +294,9 @@
     },
     "aa21ca84-d3d4-41bf-8a9b-e0a10be6c126": {
       "type": "featured-collection",
+      "custom_css": [
+        "{overflow-x: hidden;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
