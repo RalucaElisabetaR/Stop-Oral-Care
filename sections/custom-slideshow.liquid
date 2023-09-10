@@ -748,7 +748,7 @@ div.custom-banner-content.slideshow__text-wrapper.banner__content.banner__conten
       slide.style.transition = 'all 1s linear';
     });
 
-    const rotateInterval = setInterval(nextSlide, 5000); // 5000ms = 5s
+    const rotateInterval = setInterval(nextSlide, 3000); // 5000ms = 5s
 
     slideshowComponent.addEventListener('transitionend', () => {
       if (customSlides[index].classList.contains('last-slide')) {
