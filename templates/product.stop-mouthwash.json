@@ -175,6 +175,7 @@
         "323825b0-19d5-4c01-9658-c1e71e71f46d"
       ],
       "custom_css": [
+        "li {background-color: white!important;}",
         ".grid__item {display: ; width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}"
       ],
       "settings": {
