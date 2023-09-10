@@ -12,6 +12,7 @@
     font-size: 30px;
      margin-left: 0px;
   margin-right: 0px;
+      overflow-x: hidden;
   }
   .custom-section p {
     color: #0d3d6f;
