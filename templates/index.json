@@ -81,7 +81,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
-            "heading": "Harnessing the Dual Power of Hemp & Dead Sea Salt for Revolutionary Oral Health",
+            "heading": "<b>Harnessing the Dual Power of Hemp & Dead Sea Salt for Revolutionary Oral Health<\/b>",
             "heading_size": "h2",
             "subheading": "At STOP Oral Care, we believe in the fusion of nature's wonders with cutting-edge research. Under the visionary leadership of Dr. Veronica Stahl, we're setting new benchmarks in oral care by tapping into the unmatched benefits of hemp and the distinctive healing minerals of the Dead Sea.",
             "button_label": "",
@@ -89,7 +89,7 @@
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
-            "text_alignment": "left",
+            "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center"
@@ -271,7 +271,8 @@
         "69611c13-fe04-4986-abfd-fc2292e9fa0f"
       ],
       "custom_css": [
-        "{overflow-x: hidden;}"
+        "{overflow-x: hidden;}",
+        ".banner__box {background-color: white;}"
       ],
       "settings": {
         "layout": "full_bleed",
