@@ -74,6 +74,6 @@
     > div
     > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
     > div {
-    margin-bottom: -4.5em;
+    margin-bottom: 0em;
   }
 }
