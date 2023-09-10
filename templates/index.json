@@ -135,7 +135,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
-            "heading": "<b>Innovative and Uncompromising<\/b>",
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/2.png\" alt=\"\" style=\"width:100px;height:100px;\">\n\n<\/div><b>Innovative and Uncompromising<\/b>",
             "heading_size": "h2",
             "subheading": "Each product at STOP is a testament to our dedication to quality and efficacy. We combine the innate wisdom of nature with rigorous scientific scrutiny, ensuring a dental experience that’s not only soothing but also potent against oral challenges.",
             "button_label": "",
