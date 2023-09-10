@@ -3,7 +3,7 @@
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_2.png");
   }
   .custom-section .banner__box {
-    background-color: white;
+   background-color: initial;
     padding: 10% 20px;
   }
   .custom-section h2 {
