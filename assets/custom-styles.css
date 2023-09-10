@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 749px) {
+  .custom-section img {
+    content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_2.png");
+  }
+  .custom-section .banner__box {
+    background-color: white;
+    padding: 10% 20px;
+  }
+  .custom-section h2 {
+    color: #0d3d6f;
+    font-size: 30px;
+  }
+  .custom-section p {
+    color: #0d3d6f;
+  }
+  .custom-section .button {
+    background-color: #0093c1;
+    color: white;
+  }
+}
