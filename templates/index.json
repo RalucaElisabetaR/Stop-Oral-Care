@@ -51,6 +51,29 @@
         "show_text_below": true
       }
     },
+    "31863453-994d-4e53-bf38-ad881e653fe9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20797124903185__31863453-994d-4e53-bf38-ad881e653fe9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Quality & Efficacy at STOP Oral Care<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20797124903185__31863453-994d-4e53-bf38-ad881e653fe9-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "22be69e8-d7c5-49d8-9783-332751c48a9f": {
       "type": "custom-slideshow",
       "blocks": {
@@ -544,6 +567,7 @@
   },
   "order": [
     "e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2",
+    "31863453-994d-4e53-bf38-ad881e653fe9",
     "22be69e8-d7c5-49d8-9783-332751c48a9f",
     "8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43",
     "75e22fe0-d4de-4d38-9e61-a2ea4fe819e8",
