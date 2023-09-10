@@ -25,6 +25,7 @@
 @media screen and (max-width: 749px) {
   .image-with-text__media--medium {
     min-height: 38rem;
+      height: 24rem;
 }
 
  
