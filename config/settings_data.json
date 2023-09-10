@@ -140,7 +140,7 @@
           "background_gradient": "",
           "text": "#0e1b4d",
           "button": "#0093c1",
-          "button_label": "#f7f7f7",
+          "button_label": "#fff",
           "secondary_button_label": "#0e1b4d",
           "shadow": "#0e1b4d"
         }
