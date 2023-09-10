@@ -15,20 +15,9 @@
           "settings": {
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -56,18 +45,29 @@
             "content": "<ul><li><strong>Hemp-based compound<\/strong>: Harnessing nature's power for optimal oral care.<\/li><li><strong>Dead Sea Salt Minerals<\/strong>: Packed with unique minerals that rejuvenate gums and teeth.<\/li><li><strong>Pomegranate Extracts<\/strong>: Known for its antibacterial properties and adds a burst of freshness.<\/li><li><strong>Sea Algae<\/strong>: A potent antibacterial agent that helps maintain oral balance.<\/li><li><strong>Natural Flavorings<\/strong>: For a refreshing and invigorating taste.<\/li><\/ul>",
             "page": ""
           }
+        },
+        "428f24a6-ef62-4a00-898b-3f89167c7e31": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "rating",
         "price",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470"
+        "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
+        "428f24a6-ef62-4a00-898b-3f89167c7e31"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -76,7 +76,7 @@
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -101,10 +101,64 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "961099bf-29e7-4e6f-9631-ef603d784cd0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-1",
+        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-2",
+        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-3"
+      ],
+      "settings": {
+        "title": "How to Use:",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "961099bf-29e7-4e6f-9631-ef603d784cd0"
   ]
 }
