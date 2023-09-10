@@ -262,67 +262,6 @@
         "accessibility_info": ""
       }
     },
-    "ff684c3c-49a3-4f0c-947b-bec335d0359a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Experience Oral Care Reimagined",
-            "heading_size": "h1"
-          }
-        },
-        "bfdb3ddf-4525-422f-9331-d824301646ac": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Where hemp meets Dead Sea magic<\/h2>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20797124903185__ff684c3c-49a3-4f0c-947b-bec335d0359a-heading-1",
-        "bfdb3ddf-4525-422f-9331-d824301646ac"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "aa21ca84-d3d4-41bf-8a9b-e0a10be6c126": {
-      "type": "featured-collection",
-      "custom_css": [
-        "{overflow-x: hidden;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "stop-searching-start-smiling",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43": {
       "type": "image-banner",
       "blocks": {
@@ -535,8 +474,6 @@
   "order": [
     "e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2",
     "22be69e8-d7c5-49d8-9783-332751c48a9f",
-    "ff684c3c-49a3-4f0c-947b-bec335d0359a",
-    "aa21ca84-d3d4-41bf-8a9b-e0a10be6c126",
     "8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43",
     "47286e89-ded2-402e-974e-90dc82947c8c",
     "c134cac8-5947-4516-ad46-7c73019ca723",
