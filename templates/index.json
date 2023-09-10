@@ -249,7 +249,7 @@
         "69611c13-fe04-4986-abfd-fc2292e9fa0f"
       ],
       "custom_css": [
-
+        "{overflow-x: hidden;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -356,7 +356,7 @@
       ],
       "custom_css": [
         ".banner__content--middle-center {max-width: 600px; margin: auto;}",
-        " h2 {margin-left: -100px; margin-right: -100px; }"
+        "h2 {margin-left: -100px; margin-right: -100px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_4.png",
