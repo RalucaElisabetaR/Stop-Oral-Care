@@ -361,7 +361,7 @@
         ".banner__content--middle-center {max-width: 600px; margin: auto; overflow-x: hidden;}",
         "p,h2 {color: white;}",
         "p {font-size: 1.1em;}",
-        "h2 {margin-left: -100px; margin-right: -100px; overflow-x: hidden;}"
+        "h2 {font-weight: 800; margin-left: -100px; margin-right: -100px; overflow-x: hidden;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_4.png",
