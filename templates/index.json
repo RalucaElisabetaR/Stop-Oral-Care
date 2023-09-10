@@ -323,6 +323,7 @@
         "template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8-row-1": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/I_care_for_you.png",
             "caption": "The Visionary Behind the Revolution:",
             "heading": "Dr. Veronica Stahl",
             "text": "<p>In the dental field, Dr. Veronica Stahl stands out with over 28 years of experience and a focus on innovation. She has specialized in implantology at the University of London and conducted research at Harvard. Her key achievement is the creation of STOP Oral Health Care Products, which uniquely combines hemp-derived cannabinoids with Dead Sea minerals. Holding multiple patents and grants, including a U.S. patent for plant-based oral treatments, Dr. Stahl aims to make oral health naturally better through her brand.<\/p>",
@@ -334,8 +335,11 @@
       "block_order": [
         "template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8-row-1"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
