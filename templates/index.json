@@ -337,10 +337,9 @@
       ],
       "custom_css": [
         ".image-with-text__media-item--middle,.placeholder .image-with-text {margin: auto;}",
-        "img {object-fit: cover !important; min-height: 100%;}",
-        "@media screen and (min-width: 750px) and (max-width: 1089px) {.image-with-text__text--caption {font-size: 0.55em; } h2 {font-size: 1.85em; } p {font-size: 0.88em; }}",
-        "@media screen and (min-width: 750px) and (max-width: 1089px) {img {margin: auto; object-fit: cover !important; max-height: 430px; }}",
-        "@media screen and (max-width: 750px) {img {object-fit: cover !important; max-height: 100%; max-width: 100%; }}"
+        "img {object-fit:cover !important;min-height:100%;}",
+        "@media screen and (min-width: 750px) and (max-width: 1089px) {.image-with-text__text--caption {font-size: 0.55em;} h2{font-size: 1.85em;} p {font-size: 0.88em;}}",
+        "@media screen and (min-width: 750px) and (max-width: 1089px) {img {margin: auto;object-fit: cover !important;max-height: 430px;}}"
       ],
       "settings": {
         "image_height": "medium",
