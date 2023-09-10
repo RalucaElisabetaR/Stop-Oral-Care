@@ -23,6 +23,13 @@
           "type": "announcement",
           "settings": {
             "text": "Combat Inflammation: Nature's touch for a calmer mouth.",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "fa13e7e5-1619-4d51-a027-1221180dba59": {
+          "type": "announcement",
+          "settings": {
+            "text": "Advanced Plaque Defense: Harnessing the power of nature and science to fight bacteria more effectively.",
             "link": ""
           }
         }
@@ -30,7 +37,8 @@
       "block_order": [
         "announcement-bar-0",
         "8586bee9-ab28-4d44-b083-ba59853d6281",
-        "97c7136b-068f-4041-952d-420fc8a0c514"
+        "97c7136b-068f-4041-952d-420fc8a0c514",
+        "fa13e7e5-1619-4d51-a027-1221180dba59"
       ],
       "settings": {
         "color_scheme": "accent-1",
