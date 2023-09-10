@@ -3499,3 +3499,78 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+
+
+/* IMAGE BANNER CUSTOM SECTION */
+
+/* wide screen */
+
+  #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+    .content-container {
+    max-width: 50%;
+  }
+  #rotating-text-placeholder {
+    letter-spacing: 3px !important;
+    font-weight: 800;
+    transition: opacity 1s ease-in-out;
+    margin-right: -50px;
+  }
+
+  /* TABLET SCREEN */
+  @media screen and (min-width: 750px) {
+   #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 .banner__box {
+    width: auto;
+    max-width: 45% !important;
+  }
+  }
+  @media screen and (max-width: 1024px) {
+    #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+      .content-container {
+      max-width: 40% !important;
+
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  /* mobile screen  */
+
+  @media screen and (max-width: 749px) {
+    #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 .banner__media {
+    min-height: 40vh;
+    height: 50vh;
+}
+    
+    #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+      > div.banner__media.media.scroll-trigger.animate--fade-in
+      > img {
+      content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_Oral_Products.png");
+          object-fit: cover;
+    }
+    #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+      .content-container {
+      background-color: initial;
+      min-width: 100% !important;
+    }
+    #rotating-text-placeholder {
+      margin: auto;
+    }
+    #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+      p,
+    .h2 {
+      color: #0d3d6f !important;
+    }
+    #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2.h2 {
+      font-size: 1.2em;
+      max-width: 300px;
+      margin: auto;
+    }
+    #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+      .button--primary {
+      background-color: #0093c1;
+      color: white;
+    }
+  }
+/* END IMAGE BANNER CUSTOM SECTION END */
+
