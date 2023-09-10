@@ -395,7 +395,25 @@
             "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
             "heading": "U.S. Patent Recognition - 2023",
             "heading_size": "h2",
-            "subheading": "Our dedication to pushing the boundaries of natural oral care culminated in a U.S. granted patent.\nThis patent, centered around plant-based treatments for various oral ailments linked to broader\nhealth issues, stands as a testament to our innovative approach and the tangible impact of Dr. Stahl's\nvisionary research.",
+            "subheading": "Our dedication to pushing the boundaries of natural oral care culminated in a U.S. granted patent. This patent, centered around plant-based treatments for various oral ailments linked to broader health issues, stands as a testament to our innovative approach and the tangible impact of Dr. Stahl's visionary research.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "b0e1469f-9e0d-4afa-843b-c351c7390a05": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
+            "heading": "A Commitment to Breakthroughs",
+            "heading_size": "h2",
+            "subheading": "While these awards underscore our achievements, they also serve as a catalyst for ongoing exploration and innovation. At STOP, our ambition extends beyond merely meeting industry standards; we strive to establish them.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -411,7 +429,8 @@
       "block_order": [
         "741e1566-3442-46e2-9688-1940ea25809c",
         "5febc70a-6529-4be1-b7bd-6b28929df75a",
-        "a83592cc-b2e1-4cde-a2cd-790c68388f8c"
+        "a83592cc-b2e1-4cde-a2cd-790c68388f8c",
+        "b0e1469f-9e0d-4afa-843b-c351c7390a05"
       ],
       "custom_css": [
         ".banner__media {display: none;}"
