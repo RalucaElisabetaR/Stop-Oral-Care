@@ -336,8 +336,8 @@
         "template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8-row-1"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {img {object-fit: scale-down !important; }}",
-        "@media screen and (max-width: 989px) {p {font-size: 0.85em; }}"
+        "@media screen and (min-width: 750px) and (max-width: 989px) {img {object-fit: scale-down !important; }}",
+        "@media screen and (max-width: 989px) {.image-with-text__text--caption {font-size: 0.55em; } h2 {font-size: 1.9em; } p {font-size: 0.9em; }}"
       ],
       "settings": {
         "image_height": "medium",
