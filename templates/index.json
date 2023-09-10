@@ -36,7 +36,7 @@
       ],
       "custom_css": [
         "p {color: white;}",
-        "@media screen and (max-width: 749px) {.banner__box {background-color: white; } p, h2 {color: #0d3d6f!important; }}"
+        "@media screen and (max-width: 749px) {.banner__box {background-color: white; } p, .h2 {color: #0d3d6f !important; } .h2{font-size: 1.5em; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP_Oral_Care.png",
