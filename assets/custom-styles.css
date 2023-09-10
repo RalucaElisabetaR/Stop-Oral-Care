@@ -32,7 +32,9 @@
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/I_care_for_you_1080_x_700_px.png");
  margin: auto;
     
-    
+  width:100%;
+      height: 100%;
+  object-fit: scale-down;
  
 
     
