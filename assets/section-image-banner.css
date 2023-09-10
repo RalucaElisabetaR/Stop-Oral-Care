@@ -547,7 +547,7 @@
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_Oral_Products.png");
       width: 100%;
  min-height: 40vh;
-  object-fit: cover;
+  object-fit: cover; 
 
   margin: auto; 
   }
