@@ -18,11 +18,19 @@
             "text": "Natural Whitening: Flaunt a brighter, more radiant smile.",
             "link": ""
           }
+        },
+        "97c7136b-068f-4041-952d-420fc8a0c514": {
+          "type": "announcement",
+          "settings": {
+            "text": "Combat Inflammation: Nature's touch for a calmer mouth.",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "8586bee9-ab28-4d44-b083-ba59853d6281"
+        "8586bee9-ab28-4d44-b083-ba59853d6281",
+        "97c7136b-068f-4041-952d-420fc8a0c514"
       ],
       "settings": {
         "color_scheme": "accent-1",
