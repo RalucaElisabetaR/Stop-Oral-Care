@@ -39,9 +39,9 @@
 }
 
 @media screen and (max-width: 450px) {
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
-    > div
-    > div {
-    max-width: 100%; 
-  }
+  .image-with-text__media--medium {
+    height: 200px;
+}
+ 
+  
 }
