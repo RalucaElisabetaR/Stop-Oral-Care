@@ -11,10 +11,18 @@
             "text": "Soothe & Strengthen: Say goodbye to tooth sensitivity",
             "link": "shopify:\/\/collections\/all"
           }
+        },
+        "8586bee9-ab28-4d44-b083-ba59853d6281": {
+          "type": "announcement",
+          "settings": {
+            "text": "Natural Whitening: Flaunt a brighter, more radiant smile.",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "8586bee9-ab28-4d44-b083-ba59853d6281"
       ],
       "settings": {
         "color_scheme": "accent-1",
