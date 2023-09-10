@@ -337,7 +337,7 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) and (max-width: 1089px) {img {object-fit: scale-down !important; } .image-with-text__text--caption {font-size: 0.55em; } h2 {font-size: 1.85em; } p {font-size: 0.88em; }}",
-        "@media screen and (min-width: 766px) and (max-width: 1089px) {img {object-fit: cover!important; max-height: 430px; }}"
+        "@media screen and (min-width: 750px) and (max-width: 1089px) {img {object-fit: cover !important; max-height: 430px; }}"
       ],
       "settings": {
         "image_height": "medium",
