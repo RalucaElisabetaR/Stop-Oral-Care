@@ -4,6 +4,9 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "custom_css": [
+        ".copyright__content {display: none;}"
+      ],
       "settings": {
         "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
         "newsletter_enable": false,
