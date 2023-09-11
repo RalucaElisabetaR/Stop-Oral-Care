@@ -38,12 +38,6 @@
           "settings": {
           }
         },
-        "d133e6c3-a05f-4403-b7bc-52edd3369647": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n\n    .column-layout .custom-li-item {\n      width: 100%;\n      float: none;\n    }\n  <\/style>\n\n<ul id=\"custom-icon-list\" class=\"icon-with-text icon-with-text--horizontal custom-icon-with-text list-unstyled\">\n  <li class=\"my-custom-icon icon-with-text__item custom-li-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0821\/8558\/4913\/files\/2_348e69a0-90a6-418a-be7c-0539b807c78f.png\" role=\"presentation\" height=\"auto\" width=\"auto\" loading=\"lazy\">\n    <h3><strong>Morning Routine<\/strong><\/h3>\n    <p>Start your day by brushing with STOP Toothpaste followed by a rinse with STOP Mouthwash.<\/p>\n  <\/li>\n  <li class=\"my-custom-icon icon-with-text__item custom-li-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0821\/8558\/4913\/files\/3_afedfe6b-40ef-46ed-a0a7-7c1f9dc891ea.png\" role=\"presentation\" height=\"auto\" width=\"auto\" loading=\"lazy\">\n    <h3><strong>On-the-Go<\/strong><\/h3>\n    <p>Use the STOP Oral Spray for quick freshness throughout the day.<\/p>\n  <\/li>\n  <li class=\"my-custom-icon icon-with-text__item custom-li-item\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0821\/8558\/4913\/files\/1_76e87f3a-2827-40e7-ae55-ee5fef0158e3.png?v=1694426743\" role=\"presentation\" height=\"auto\" width=\"auto\" loading=\"lazy\">\n    <h3><strong>Night Routine<\/strong><\/h3>\n    <p>Conclude your day with another brushing and rinsing session to ensure 24-hour protection.<\/p>\n  <\/li>\n<\/ul>\n\n<script>\n\n<\/script>"
-          }
-        },
         "f8820d95-b2eb-48fd-b3c6-d063c433fa89": {
           "type": "icon-with-text",
           "settings": {
@@ -52,8 +46,10 @@
             "image_1": "shopify:\/\/shop_images\/2_348e69a0-90a6-418a-be7c-0539b807c78f.png",
             "heading_1": "<h3 class=\"my-custom-icon\">Morning Routine<\/h3>\n<p class=\"my-custom-icon\">Start your day by brushing with STOP Toothpaste followed by a rinse with STOP Mouthwash.<\/p>",
             "icon_2": "none",
+            "image_2": "shopify:\/\/shop_images\/3_afedfe6b-40ef-46ed-a0a7-7c1f9dc891ea.png",
             "heading_2": "<h3 class=\"my-custom-icon\">On-the-Go<\/h3>\n<p class=\"my-custom-icon\">Use the STOP Oral Spray for quick freshness throughout the day.<\/p>",
             "icon_3": "none",
+            "image_3": "shopify:\/\/shop_images\/1_76e87f3a-2827-40e7-ae55-ee5fef0158e3.png",
             "heading_3": "<h3 class=\"my-custom-icon\">Night Routine<\/h3>\n<p class=\"my-custom-icon\">Conclude your day with another brushing and rinsing session to ensure 24-hour protection.\n<\/p>"
           }
         }
@@ -65,13 +61,10 @@
         "rating",
         "variant_picker",
         "description",
-        "d133e6c3-a05f-4403-b7bc-52edd3369647",
         "f8820d95-b2eb-48fd-b3c6-d063c433fa89"
       ],
       "custom_css": [
-        ".custom-icon-with-text .custom-li-item {width: 30%; float: left;}",
-        ".column-layout .icon-with-text__item {margin-bottom: 20px;}",
-        ".column-layout .custom-li-item {width: 100%; float: none;}"
+
       ],
       "settings": {
         "enable_sticky_info": true,
