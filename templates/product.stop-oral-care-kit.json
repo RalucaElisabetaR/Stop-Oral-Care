@@ -134,13 +134,23 @@
             "row_content": "<p>STOP Oral Health Care Products represent a fusion of research, innovation, and deep respect fornatural ingredients. Here's what sets ourproducts apart:1. **Natural Ingredients**: Our formulations are rooted in the richness of hemp and the uniqueminerals of Dead Sea salts, providing a distinct approach to oral care.2. **Combatting Plaque**: Our products are crafted to help address dental plaque, supporting acleaner oral environment.3. **Nature's Gentle Touch**: Hemp and Dead Sea salts are recognized for their soothing properties,making our products a choice for those looking for gentle care.4. **Mineral-Infused Care**: The Dead Sea salt in our products is celebrated for its unique mineralcontent, offering a different dimension to daily oral routines.5. **Safety and Quality**: We prioritize rigorous testing to ensure our products align with thestandards we set for quality and user experience.6. **Expertise in Every Product**: Dr. Veronica Stahl's extensive background in dental care informsour product line, making sure they resonate with modern needs and preferences.Choose STOP Oral Health Care Products for a natural touch inyour daily oral care regimen, reflectinga blend of tradition, nature, and innovation.<\/p>",
             "page": ""
           }
+        },
+        "f9dbe76c-cdfe-478a-88fe-ef04278d37dc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "*How often should I use STOP Oral Health Care Products?",
+            "icon": "check_mark",
+            "row_content": "<p>**For optimal results with STOP Oral Health Care Products, consider the following guidelines:1. **Twice Daily Routine**: It's suggested to use STOPOral Health Care toothpaste twice a day, oncein the morning and once before bedtime, for a refreshed and clean oral feel.2. **After Meals**: To help neutralize odors and maintain a fresh mouth, consider using the STOPOral Health Care oral spray after meals. It's a convenient way to enhance your oral freshness on thego.3. **Consistency is Key**: Regular and consistent use can help you appreciate the distinctivequalities of our hemp and Dead Sea salt-infused products.4. **Tailor to Your Needs**: Each individual's oral health needs vary. If you have particular concerns,consult with your dentist or oral health professional to best integrate STOP Oral Health Care Productsinto your daily regimen.Keep in mind, as with any oral care product, combiningregular use of STOP products with a balanceddiet, reduced sugar intake, and regular dental visits can guide you toward optimal oral health.--<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--20887088300305__7eb73bf5-f6de-4f9b-86a0-071517561421-collapsible_row-1",
         "template--20887088300305__7eb73bf5-f6de-4f9b-86a0-071517561421-collapsible_row-2",
         "template--20887088300305__7eb73bf5-f6de-4f9b-86a0-071517561421-collapsible_row-3",
-        "template--20887088300305__7eb73bf5-f6de-4f9b-86a0-071517561421-collapsible_row-4"
+        "template--20887088300305__7eb73bf5-f6de-4f9b-86a0-071517561421-collapsible_row-4",
+        "f9dbe76c-cdfe-478a-88fe-ef04278d37dc"
       ],
       "custom_css": [
         "p {font-size: 1.1em;}",
