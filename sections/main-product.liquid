@@ -479,7 +479,7 @@
                       </div>
                       {%- if block.settings.make_collapsible_row -%}
                           {% render 'icon-caret' %}
-                        </summary>
+                        </summary> 
                       {%- endif -%}
                       <slideshow-component class="slider-mobile-gutter">
                         {%- assign number_of_slides = recommendations.products_count | plus: 0.0 | divided_by: block.settings.products_per_page | ceil -%}
@@ -680,7 +680,6 @@
       ]
     }
   </script>
-      <script src="{{ 'beunique-custom.js' | asset_url }}" defer="defer"></script>
 </section>
 
 {% schema %}
@@ -1087,7 +1086,7 @@
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.label"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "content",
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.content.label"
         },
@@ -1136,7 +1135,7 @@
           "content": "t:sections.main-product.blocks.complementary_products.settings.paragraph.content"
         },
         {
-          "type": "textarea",
+          "type": "text",
           "id": "block_heading",
           "default": "Pairs well with",
           "label": "t:sections.main-product.blocks.complementary_products.settings.heading.label"
@@ -1613,7 +1612,7 @@
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_1.label"
         },
         {
-          "type": "textarea",
+          "type": "inline_richtext",
           "id": "heading_1",
           "default": "Heading",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_1.label",
@@ -1809,7 +1808,7 @@
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_2.label"
         },
         {
-          "type": "textarea",
+          "type": "inline_richtext",
           "id": "heading_2",
           "default": "Heading",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_2.label",
@@ -2005,7 +2004,7 @@
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_3.label"
         },
         {
-          "type": "textarea",
+          "type": "inline_richtext",
           "id": "heading_3",
           "default": "Heading",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
