@@ -509,7 +509,13 @@
                   </p>
                 {%- endif -%}
               {%- when 'icon-with-text' -%}
-                {% render 'icon-with-text', block: block %}
+                
+{% if block.type == 'icon-with-text' %}
+  {% render 'icon-with-text-custom', block: block %}
+{% else %}
+  {% render 'icon-with-text', block: block %}
+{% endif %}
+ block: block %}
             {%- endcase -%}
           {%- endfor -%}
           <a
@@ -1658,7 +1664,7 @@
     }
   ],
   "presets": [
-    { 
+    {
       "name": "t:sections.featured-product.presets.name",
       "blocks": [
         {
