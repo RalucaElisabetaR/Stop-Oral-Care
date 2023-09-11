@@ -48,10 +48,11 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
-            "icon_1": "heart",
-            "heading_1": "<",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/2_348e69a0-90a6-418a-be7c-0539b807c78f.png",
+            "heading_1": "<h3>Morning Routine<\/h3>\n<p>Start your day by brushing with STOP Toothpaste followed by a rinse with STOP Mouthwash.<\/p>",
             "icon_2": "return",
-            "heading_2": "Heading",
+            "heading_2": "<h3>On-the-Go<\/h3>\n<p>Use the STOP Oral Spray for quick freshness throughout the day.<\/p>",
             "icon_3": "truck",
             "heading_3": "Heading"
           }
