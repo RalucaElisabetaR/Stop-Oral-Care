@@ -170,7 +170,7 @@
     "related-products": {
       "type": "related-products",
       "custom_css": [
-        ".card {border: none; }"
+        ".card {background-color: white; border: none; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02), 0px 5px 15px rgba(0, 0, 0, 0.01);}"
       ],
       "settings": {
         "heading": "You may also like:",
