@@ -403,7 +403,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".my-custom-icon h3 {font-size: 1em; margin-bottom: 0;}",
+      ".my-custom-icon p {font-size: 0.8em;}"
     ]
   }
 }
