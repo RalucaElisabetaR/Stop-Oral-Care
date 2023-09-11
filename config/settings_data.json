@@ -403,10 +403,11 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".my-custom-icon {text-align: center !important; font-size: 1em; margin-bottom: 0;}",
-      ".my-custom-icon p {font-size: 1em; text-align: center;}",
-      ".my-custom-icon img {margin-bottom: 0; height: 70px; width: 70px;}",
-      "@media screen and (max-width: 1050px) {#ProductInfo-template--20887088300305__main > ul {display: block; } #ProductInfo-template--20887088300305__main > ul li {width: 100%; margin: auto; } #ProductInfo-template--20887088300305__main > ul li p {max-width: 400px;}}"
+      "#ProductInfo-template--20887088300305__main ul {padding-top: 40px; text-align: center !important; margin-bottom: 0;}",
+      "#ProductInfo-template--20887088300305__main ul li h3{font-size: 20px;}",
+      "#ProductInfo-template--20887088300305__main ul li p {font-size: 1em; text-align: center;}",
+      "#ProductInfo-template--20887088300305__main ul li img {margin-bottom: 0; height: 70px; width: 70px;}",
+      "@media screen and (max-width: 1050px) {#ProductInfo-template--20887088300305__main ul {display: block; } #ProductInfo-template--20887088300305__main ul li {width: 100%; margin: auto; margin-bottom: 50px; } #ProductInfo-template--20887088300305__main ul li p {max-width: 400px; }}"
     ]
   }
 }
