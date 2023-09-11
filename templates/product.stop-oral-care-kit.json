@@ -10,6 +10,18 @@
             "text_style": "subtitle"
           }
         },
+        "850482e4-bc23-4457-93c6-80b832ef1fe7": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "e18b12ce-24c7-4d6f-8492-e9fc060c8255": {
+          "type": "text",
+          "settings": {
+            "text": "Save 10% when you purchase the STOP Complete Oral Care Kit.",
+            "text_style": "body"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -26,19 +38,34 @@
           "settings": {
           }
         },
-        "0459dc9e-7c82-4298-8d49-6d17a1e8072a": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "d133e6c3-a05f-4403-b7bc-52edd3369647": {
+          "type": "custom_liquid",
           "settings": {
-            "shortcode": ""
+            "custom_liquid": ""
+          }
+        },
+        "9692dd51-c26d-46e7-b929-5b63328005e8": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "<strong>Morning Routine<\/strong>",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
           }
         }
       },
       "block_order": [
         "d415de16-3d41-4476-9dc7-02dedda85497",
+        "850482e4-bc23-4457-93c6-80b832ef1fe7",
+        "e18b12ce-24c7-4d6f-8492-e9fc060c8255",
         "rating",
         "variant_picker",
         "description",
-        "0459dc9e-7c82-4298-8d49-6d17a1e8072a"
+        "d133e6c3-a05f-4403-b7bc-52edd3369647",
+        "9692dd51-c26d-46e7-b929-5b63328005e8"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -72,10 +99,64 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "b115521b-74d1-469c-bd3f-d4c0b5a723a3": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20887088300305__b115521b-74d1-469c-bd3f-d4c0b5a723a3-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20887088300305__b115521b-74d1-469c-bd3f-d4c0b5a723a3-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20887088300305__b115521b-74d1-469c-bd3f-d4c0b5a723a3-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20887088300305__b115521b-74d1-469c-bd3f-d4c0b5a723a3-column-1",
+        "template--20887088300305__b115521b-74d1-469c-bd3f-d4c0b5a723a3-column-2",
+        "template--20887088300305__b115521b-74d1-469c-bd3f-d4c0b5a723a3-column-3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "b115521b-74d1-469c-bd3f-d4c0b5a723a3"
   ]
 }
