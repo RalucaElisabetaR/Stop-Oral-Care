@@ -55,6 +55,13 @@
             "icon_3": "truck",
             "heading_3": "<strong>Night Routine<\/strong>: Conclude your day with another brushing and rinsing session to ensure 24-hour protection."
           }
+        },
+        "e28eaf20-9dca-4cd6-8979-9e61bbf4cd49": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -65,7 +72,8 @@
         "variant_picker",
         "description",
         "d133e6c3-a05f-4403-b7bc-52edd3369647",
-        "9692dd51-c26d-46e7-b929-5b63328005e8"
+        "9692dd51-c26d-46e7-b929-5b63328005e8",
+        "e28eaf20-9dca-4cd6-8979-9e61bbf4cd49"
       ],
       "settings": {
         "enable_sticky_info": true,
