@@ -53,6 +53,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "0459dc9e-7c82-4298-8d49-6d17a1e8072a": {
+          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": ""
+          }
         }
       },
       "block_order": [
@@ -64,7 +70,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "0459dc9e-7c82-4298-8d49-6d17a1e8072a"
       ],
       "settings": {
         "enable_sticky_info": true,
