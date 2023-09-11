@@ -1,5 +1,7 @@
 /* MULTIROW SECTION  STYLES */
-#285989
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > h2 {
+color: #285989;
+}
 
 .image-with-text__media-item--middle,
 .placeholder .image-with-text {
@@ -18,7 +20,7 @@
     object-fit: cover !important;
     max-height: 430px;
   }
-  h2 {
+ #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > h2  {
     margin-top: 15px;
     font-size: 1.85em;
     color: #285989;
