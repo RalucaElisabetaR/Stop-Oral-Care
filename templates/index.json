@@ -67,7 +67,7 @@
         "template--20797124903185__31863453-994d-4e53-bf38-ad881e653fe9-heading-1"
       ],
       "custom_css": [
-        "h2 {color: #204569; font-size: 32px; font-weight: 500; margin-left:-50px; margin-right:-50px;}"
+        "h2 {color: #204569; font-size: 32px; font-weight: 500; margin-left: -50px; margin-right: -50px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -320,7 +320,7 @@
       "custom_css": [
         ".banner__content--middle-center {max-width: 600px; margin: auto; overflow-x: hidden;}",
         "p,h2 {color: white;}",
-        "p {font-size: 1.1em;}",
+        "p {font-size: 1.1em; padding: 20px 0px;}",
         "h2 {font-weight: 800; margin-left: -100px; margin-right: -100px; overflow-x: hidden;}",
         ".button {background-color: #0093c1; color: white;}"
       ],
