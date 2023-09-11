@@ -3,6 +3,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "d415de16-3d41-4476-9dc7-02dedda85497": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.title }}",
+            "text_style": "subtitle"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -27,6 +34,7 @@
         }
       },
       "block_order": [
+        "d415de16-3d41-4476-9dc7-02dedda85497",
         "rating",
         "variant_picker",
         "description",
