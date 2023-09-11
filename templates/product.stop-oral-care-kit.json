@@ -64,7 +64,7 @@
         "f8820d95-b2eb-48fd-b3c6-d063c433fa89"
       ],
       "custom_css": [
-
+        ".product__description {font-size: 1em;}"
       ],
       "settings": {
         "enable_sticky_info": true,
