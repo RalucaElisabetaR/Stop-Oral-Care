@@ -53,8 +53,8 @@
             "heading_1": "<h3>Morning Routine<\/h3>\n<p>Start your day by brushing with STOP Toothpaste followed by a rinse with STOP Mouthwash.<\/p>",
             "icon_2": "return",
             "heading_2": "<h3>On-the-Go<\/h3>\n<p>Use the STOP Oral Spray for quick freshness throughout the day.<\/p>",
-            "icon_3": "truck",
-            "heading_3": "Heading"
+            "icon_3": "none",
+            "heading_3": "<h3>Night Routine<\/h3>\n<p>Conclude your day with another brushing and rinsing session to ensure 24-hour protection.\n<\/p>"
           }
         }
       },
