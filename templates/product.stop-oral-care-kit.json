@@ -153,6 +153,7 @@
         "f9dbe76c-cdfe-478a-88fe-ef04278d37dc"
       ],
       "custom_css": [
+        ".h2 {letter-spacing: 1.5px;}",
         "p {font-size: 1.1em;}",
         "h3 {font-size: 20px;}"
       ],
@@ -160,7 +161,7 @@
         "caption": "",
         "heading": "<strong>Frequently Asked Questions (FAQ)<\/strong>",
         "heading_size": "h2",
-        "heading_alignment": "center",
+        "heading_alignment": "left",
         "layout": "section",
         "color_scheme": "",
         "container_color_scheme": "",
