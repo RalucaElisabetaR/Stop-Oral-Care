@@ -1,10 +1,11 @@
 /* MULTIROW SECTION  STYLES */
+#285989
 
 .image-with-text__media-item--middle,
 .placeholder .image-with-text {
   margin: auto;
 }
-img {
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item > div > img {
   object-fit: cover;
   min-height: 100%;
 }
@@ -12,7 +13,7 @@ img {
   .image-with-text__text--caption {
     font-size: 0.55em;
   }
-  img {
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item > div > img {
     margin: auto;
     object-fit: cover !important;
     max-height: 430px;
@@ -28,7 +29,7 @@ img {
 }
 
 
-/* END MULTIROW SECTION  STYLES END */
+/* END MULTIROW SECTION STYLES END */
 
 
 
