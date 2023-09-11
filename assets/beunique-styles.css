@@ -34,6 +34,7 @@ color: #204569;
 /* END MULTIROW SECTION STYLES END */
 
 
+/* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
 @media screen and (max-width: 749px) {
   .custom-section img {
@@ -115,3 +116,4 @@ color: #204569;
   }
 }
 
+/* END HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT END */
