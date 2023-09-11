@@ -1,4 +1,34 @@
+/* MULTIROW STYLES */
 
+.image-with-text__media-item--middle,
+.placeholder .image-with-text {
+  margin: auto;
+}
+img {
+  object-fit: cover;
+  min-height: 100%;
+}
+@media screen and (min-width: 750px) and (max-width: 1089px) {
+  .image-with-text__text--caption {
+    font-size: 0.55em;
+  }
+  img {
+    margin: auto;
+    object-fit: cover !important;
+    max-height: 430px;
+  }
+  h2 {
+    margin-top: 15px;
+    font-size: 1.85em;
+    color: #285989;
+  }
+  p {
+    font-size: 0.88em;
+  }
+}
+
+
+/* END MULTIROW STYLES END */
 
 
 
