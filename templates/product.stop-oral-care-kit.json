@@ -55,9 +55,9 @@
         "d133e6c3-a05f-4403-b7bc-52edd3369647"
       ],
       "custom_css": [
-        ".custom-icon-with-text .custom-li-item {width: 30%; float: left; }",
-        " .column-layout .icon-with-text__item {margin-bottom: 20px; }",
-        " .column-layout .custom-li-item {width: 100%; float: none; }"
+        ".custom-icon-with-text .custom-li-item {width: 30%; float: left;}",
+        ".column-layout .icon-with-text__item {margin-bottom: 20px;}",
+        ".column-layout .custom-li-item {width: 100%; float: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
