@@ -35,7 +35,7 @@
         "370249e5-0add-42e2-ab61-96e9e87d3401": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
