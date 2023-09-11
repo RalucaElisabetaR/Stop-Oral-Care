@@ -133,6 +133,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "5918445685253060206": {
+        "type": "shopify:\/\/apps\/bundler\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -193,7 +201,7 @@
         "settings": {
           "background": "#05294f",
           "background_gradient": "",
-          "text": "#fff",
+          "text": "#ffffff",
           "button": "#0093c1",
           "button_label": "#ffffff",
           "secondary_button_label": "#0e1b4d",
