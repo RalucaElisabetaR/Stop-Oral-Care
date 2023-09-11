@@ -509,13 +509,7 @@
                   </p>
                 {%- endif -%}
               {%- when 'icon-with-text' -%}
-                
-{% if block.type == 'icon-with-text' %}
-  {% render 'icon-with-text-custom', block: block %}
-{% else %}
-  {% render 'icon-with-text', block: block %}
-{% endif %}
- block: block %}
+                {% render 'icon-with-text-custom-html-only', block: block %}
             {%- endcase -%}
           {%- endfor -%}
           <a
