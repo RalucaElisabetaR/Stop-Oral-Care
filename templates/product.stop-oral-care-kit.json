@@ -135,7 +135,7 @@
         "template--20887088300305__7eb73bf5-f6de-4f9b-86a0-071517561421-collapsible_row-4"
       ],
       "custom_css": [
-        "{}",
+        "p{font-size: 1.1em;}",
         "h3 {font-size: 25px;}"
       ],
       "settings": {
