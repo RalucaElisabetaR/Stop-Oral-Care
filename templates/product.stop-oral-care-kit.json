@@ -44,6 +44,13 @@
           "settings": {
           }
         },
+        "697375bd-042b-46b0-863c-1def112871ee": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>How to Use the STOP Complete Oral Care Kit for Best Results:<\/strong>",
+            "text_style": "body"
+          }
+        },
         "f8820d95-b2eb-48fd-b3c6-d063c433fa89": {
           "type": "icon-with-text",
           "settings": {
@@ -68,6 +75,7 @@
         "2df18c26-0998-4c9b-989d-78d8c26e7f93",
         "370249e5-0add-42e2-ab61-96e9e87d3401",
         "description",
+        "697375bd-042b-46b0-863c-1def112871ee",
         "f8820d95-b2eb-48fd-b3c6-d063c433fa89"
       ],
       "custom_css": [
@@ -135,7 +143,7 @@
         "template--20887088300305__7eb73bf5-f6de-4f9b-86a0-071517561421-collapsible_row-4"
       ],
       "custom_css": [
-        "p{font-size: 1.1em;}",
+        "p {font-size: 1.1em;}",
         "h3 {font-size: 25px;}"
       ],
       "settings": {
