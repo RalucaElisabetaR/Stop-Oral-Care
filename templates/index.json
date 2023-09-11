@@ -36,7 +36,7 @@
       ],
       "custom_css": [
         "p {color: white; margin-right: -30px;}",
-        "#rotating-text-placeholder {margin-right: -30px; height: 80px; margin: auto auto; font-size: 5rem;}"
+        "#rotating-text-placeholder {margin-right: -100px; height: 80px; margin: auto auto; font-size: 5rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_Oral_Products_1.png",
