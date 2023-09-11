@@ -403,7 +403,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#ProductInfo-template--20887088300305__main .icon-with-text {padding-top: 50px;}",
+      "#ProductInfo-template--20887088300305__main .icon-with-text {padding-top: 20px;}",
       "#ProductInfo-template--20887088300305__main .my-custom-icon {text-align: center !important;}",
       "#ProductInfo-template--20887088300305__main .icon-with-text .my-custom-icon h3 {font-size: 18px;}",
       "#ProductInfo-template--20887088300305__main .icon-with-text .my-custom-icon p {font-size: 0.85em; text-align: center;}",
