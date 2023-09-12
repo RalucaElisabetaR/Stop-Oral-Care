@@ -236,8 +236,9 @@
     margin-right: 0px;
   }
   #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
-    .banner__box {
-    padding: 50px;
+    > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
+    > div {
+    padding: 4rem 2rem;
   }
 }
 
