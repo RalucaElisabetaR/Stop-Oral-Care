@@ -79,6 +79,11 @@
 
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
+
+
+ /* MOBILE devices  */
+
+
 @media screen and (max-width: 749px) {
   #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     > div.banner__media.media.scroll-trigger.animate--fade-in
@@ -106,8 +111,12 @@
     > div.banner__text.rte.body
     > p {
     color: #4f4f4f;
+      font-size: 1em;
   }
 }
+ /* END MOBILE devices ENF */
+
+
 
 /* IMAGE BANNER CUSTOM SECTION */
 
