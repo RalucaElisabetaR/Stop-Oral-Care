@@ -93,6 +93,14 @@
   font-weight: 600;
   letter-spacing: 2px;
 }
+/* medium device  */
+
+@media screen and (max-width: 922px) {
+  #rotating-text-placeholder {
+  max-width: 50vw;
+  }
+}
+
 
 /* MOBILE devices  */
 
@@ -156,6 +164,10 @@
     padding-right: 3em;
   }
 }
+
+
+
+
 /* END MOBILE devices END */
 
 /* END HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT END */
