@@ -80,6 +80,9 @@
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
 
+
+/* rotating text */
+
 #rotating-text-placeholder {
   font-weight: 600;
   letter-spacing: 2px;
@@ -91,9 +94,14 @@
 
 
 @media screen and (max-width: 749px) {
+
+  /* text container  */
+  
 #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in > div{
   padding: 4rem 2rem;
+   background-color: white;
 }
+  /* image */
   
   #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     > div.banner__media.media.scroll-trigger.animate--fade-in
@@ -102,22 +110,26 @@
     background-color: #05284c;
     object-fit: contain;
   }
+  
+  /* image banner  */
+  
   #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     .banner--mobile-bottom
     .banner__media {
     min-height: 415px;
   }
-  #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
-    > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
-    > div {
-    background-color: white;
-  }
+  
+/* rotating text */
+  
   #rotating-text-placeholder {
     color: #05284c;
     
     font-size: 1.6em;
     
   }
+  
+/*  body text  */
+  
   #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
     > div
@@ -127,7 +139,7 @@
       font-size: 1.1em;
   }
 }
- /* END MOBILE devices ENF */
+ /* END MOBILE devices END */
 
 
 
