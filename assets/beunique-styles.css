@@ -91,6 +91,10 @@
 
 
 @media screen and (max-width: 749px) {
+#Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in > div{
+  padding: 4rem 2rem;
+}
+  
   #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     > div.banner__media.media.scroll-trigger.animate--fade-in
     > img {
