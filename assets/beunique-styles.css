@@ -76,6 +76,9 @@
     font-size: 2em;
     
   }
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > div {
+    
+  }
 
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
@@ -86,6 +89,7 @@
     > div
     > p {
     font-size: 0.9rem !important;
+        margin-top: 5px;
   }
 
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
