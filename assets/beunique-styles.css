@@ -37,7 +37,7 @@ color: #204569;
 
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
-@media screen and (max-width: 749px) {
+/* @media screen and (max-width: 749px) {
   .custom-section img {
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_2.png");
   }
@@ -73,7 +73,7 @@ color: #204569;
     object-fit: scale-down;
     margin: auto;
   }
- }
+ } */
   /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div
