@@ -78,14 +78,15 @@
 /* END MULTIROW SECTION STYLES END */
 
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
+
 @media screen and (max-width: 749px) {
-  img {
+#Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 > div.banner__media.media.scroll-trigger.animate--fade-in > img {
     content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/StopOralProducts_1080x1080px.png");
     background-color: red;
     object-fit: contain;
       
   }
-  .banner--mobile-bottom .banner__media {
+ #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 .banner--mobile-bottom .banner__media  {
  min-height: 415px;
   }
 }
