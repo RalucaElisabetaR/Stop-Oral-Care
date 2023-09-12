@@ -80,23 +80,32 @@
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
 @media screen and (max-width: 749px) {
-#Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 > div.banner__media.media.scroll-trigger.animate--fade-in > img {
+  #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+    > div.banner__media.media.scroll-trigger.animate--fade-in
+    > img {
     content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/StopOralProducts_1080x1080px.png");
     background-color: #05284c;
     object-fit: contain;
-      
   }
- #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 .banner--mobile-bottom .banner__media  {
- min-height: 415px;
+  #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+    .banner--mobile-bottom
+    .banner__media {
+    min-height: 415px;
   }
-  #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in > div {
+  #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+    > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
+    > div {
     background-color: initial;
   }
   #rotating-text-placeholder {
     color: #05284c;
   }
-  #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in > div > div.banner__text.rte.body > p {
-    color: red;
+  #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+    > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
+    > div
+    > div.banner__text.rte.body
+    > p {
+    color: #4f4f4f;
   }
 }
 
