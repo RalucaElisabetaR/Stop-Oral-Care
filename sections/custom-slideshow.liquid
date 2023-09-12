@@ -294,14 +294,21 @@
 }
 
 .custom-slideshow {
-  align-items: stretch;
+  display: flex;
+flex-direction: row;
+ justify-content: flex-start;
+  flex-flow: row wrap;
+  align-items: stretch;  
+
+  
+  
   margin: 0 !important;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  
+
   overflow: visible;
  
   gap: 0 !important;
-  justify-content: flex-start;
+  
 
   background-color: #f7f7f7 !important;
 }
