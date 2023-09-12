@@ -42,6 +42,7 @@ color: #204569;
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_2.png");
   }
   .custom-section .banner__box {
+    min-height: 50vh;
     background-color: initial;
     padding: 10% 20px;
     margin: 0px;
