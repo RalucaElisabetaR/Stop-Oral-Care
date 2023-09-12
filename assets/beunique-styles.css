@@ -1,51 +1,93 @@
 /* MULTIROW SECTION  STYLES */
-/* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > h2 {
-color: #204569;
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  > div
+  > div
+  > div
+  > div
+  > div.image-with-text__text-item.grid__item
+  > div
+  > h2 {
+  color: #204569;
   font-size: 3em;
 }
 
-#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 .image-with-text__media-item--middle,
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  .image-with-text__media-item--middle,
 .placeholder .image-with-text {
   margin: auto;
 }
-#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item > div > img {
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  > div
+  > div
+  > div
+  > div
+  > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
+  > div
+  > img {
   object-fit: cover;
   min-height: 100%;
-} */
-/* @media screen and (min-width: 750px) and (max-width: 1089px) {
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > p {
+}
+@media screen and (min-width: 750px) and (max-width: 1089px) {
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div
+    > p {
     font-size: 0.55em;
   }
-#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item > div > img {
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
+    > div
+    > img {
     margin: auto;
     object-fit: cover !important;
     max-height: 430px;
   }
- #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > h2  {
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div
+    > h2 {
     margin-top: 15px;
     font-size: 1.85em;
     color: #285989;
   }
-#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > div > p {
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div
+    > div
+    > p {
     font-size: 0.88em;
   }
-} */
-
+}
 
 /* END MULTIROW SECTION STYLES END */
 
-
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
-/* @media screen and (max-width: 749px) {
+@media screen and (max-width: 749px) {
   .custom-section img {
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_2.png");
   }
-  .custom-section .banner__box {
-    
+  /* .custom-section .banner__box {
+    min-height: 50vh;
     background-color: initial;
     padding: 10% 20px;
-    margin: 0px 0px;;
+    margin: 0px;
     
   }
   .custom-section h2 {
@@ -63,17 +105,10 @@ color: #204569;
   .custom-section .button {
     background-color: #0093c1;
     color: white;
-  }
+  } */
 }
 
- @media screen and (min-width: 450px) and (max-width: 555px) {
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
-    img {
-    content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/I_care_for_you_1080_x_700_px.png");
-    object-fit: scale-down;
-    margin: auto;
-  }
- } */
+@media screen and (min-width: 450px) and (max-width: 555px) {
   /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div
@@ -85,14 +120,14 @@ color: #204569;
   } */
 }
 
-/* @media screen and (max-width: 749px) {
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+@media screen and (max-width: 749px) {
+  /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div {
     max-width: 85vw;
-  } */
+  }
 
-  /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div
     > div
@@ -102,13 +137,18 @@ color: #204569;
     height: 24rem;
     border: 1px solid none;
     border-radius: 20px;
-  }
- */
+  } */
 
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    img {
+    content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/I_care_for_you_1080_x_700_px.png");
+    /* object-fit: scale-down;
+    margin: auto; */
+  }
 }
 
-/* @media screen and (max-width: 450px) {
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+@media screen and (max-width: 450px) {
+  /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div {
     max-width: 100%;
@@ -131,7 +171,7 @@ color: #204569;
     > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
     > div {
     margin-bottom: 0em;
-  }
+  } */
 }
- */
+
 /* END HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT END */
