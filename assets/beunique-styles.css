@@ -89,7 +89,7 @@
 
 /* rotating text */
 
-#rotating-text-placeholder {
+#rotating-text-placeholder .h2 {
   font-size: 1.6em;
   font-weight: 600;
   letter-spacing: 2px;
