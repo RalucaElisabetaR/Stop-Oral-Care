@@ -1,4 +1,8 @@
- .custom-slide .banner__box {
+#Slider-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f
+  > div
+  > div
+  .custom-slide
+  .banner__box {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02),
     0px 5px 15px rgba(0, 0, 0, 0.01);
 }
