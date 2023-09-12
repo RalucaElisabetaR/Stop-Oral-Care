@@ -111,6 +111,7 @@
     > div
     > img {
     margin: auto;
+      margin-right: 10px;
     object-fit: cover !important;
     max-height: 430px;
     width: 100%;
