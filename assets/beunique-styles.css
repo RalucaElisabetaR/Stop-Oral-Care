@@ -28,32 +28,6 @@
 
 /* body text abt witch section homepage */
 
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
-    > div
-    > div
-    > div
-    > div
-    > div.image-with-text__text-item.grid__item
-    > div
-    > div {
-      font-size: 1em;
-    }
-#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
-  .image-with-text__media-item--middle,
-.placeholder .image-with-text {
-  margin: auto;
- 
-}
-
-/* tablet to medium screen  */
-
-@media screen and (min-width: 750px) and (max-width: 1089px) {
-
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div{
-    padding: 0px 3rem;
-  }
-
-  /* tablet above title home page about the witch*/
 #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
   > div
   > div
@@ -61,11 +35,46 @@
   > div
   > div.image-with-text__text-item.grid__item
   > div
-  > p {
-  font-size: 1rem;
+  > div {
+  font-size: 1em;
+}
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  .image-with-text__media-item--middle,
+.placeholder .image-with-text {
+  margin: auto;
 }
 
-  
+/* tablet to medium screen  */
+
+@media screen and (min-width: 750px) and (max-width: 1089px) {
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div {
+    padding: 0px 3rem;
+  }
+
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div {
+      margin-left: -20px; 
+  }
+
+  /* tablet above title home page about the witch*/
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div
+    > p {
+    font-size: 1rem;
+  }
+
   /* title tablet  */
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
@@ -88,10 +97,8 @@
     > div.image-with-text__text-item.grid__item
     > div
     > div {
-      margin-top: 10px;
-      font-size: 0.9em;
-      
-       
+    margin-top: 10px;
+    font-size: 0.9em;
   }
 
   /* tablet image  */
