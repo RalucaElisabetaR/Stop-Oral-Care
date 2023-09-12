@@ -44,6 +44,7 @@ color: #204569;
   .custom-section .banner__box {
     background-color: initial;
     padding: 10% 20px;
+    margin: auto;
     
   }
   .custom-section h2 {
