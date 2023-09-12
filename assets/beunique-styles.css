@@ -81,6 +81,10 @@
 @media screen and (max-width: 749px) {
   img {
     content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/StopOralProducts_1080x1080px.png");
+      
+  }
+  .banner--mobile-bottom .banner__media {
+ min-height: 415px;
   }
 }
 
@@ -116,6 +120,7 @@
 /* @media screen and (min-width: 750px) {
   #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     .banner__box {
+
     width: auto;
     max-width: 45% !important;
   }
