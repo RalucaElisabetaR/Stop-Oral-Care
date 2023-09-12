@@ -79,8 +79,6 @@
 
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
-
-
 /* rotating text */
 
 #rotating-text-placeholder {
@@ -88,21 +86,19 @@
   letter-spacing: 2px;
 }
 
-
-
- /* MOBILE devices  */
-
+/* MOBILE devices  */
 
 @media screen and (max-width: 749px) {
-
   /* text container  */
-  
-#Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2 > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in > div{
-  padding: 4rem 2rem;
-   background-color: white;
-}
+
+  #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+    > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
+    > div {
+    padding: 4rem 2rem;
+    background-color: white;
+  }
   /* image */
-  
+
   #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     > div.banner__media.media.scroll-trigger.animate--fade-in
     > img {
@@ -110,38 +106,44 @@
     background-color: #05284c;
     object-fit: contain;
   }
-  
+
   /* image banner  */
-  
+
   #shopify-section-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     .banner--mobile-bottom
     .banner__media {
     min-height: 415px;
   }
-  
-/* rotating text */
-  
+
+  /* rotating text */
+
   #rotating-text-placeholder {
     color: #05284c;
-    
+
     font-size: 1.6em;
-    
   }
-  
-/*  body text  */
-  
+
+  /*  body text  */
+
   #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
     > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
     > div
     > div.banner__text.rte.body
     > p {
     color: #4f4f4f;
-      font-size: 1.1em;
+    font-size: 1.1em;
+  }
+
+  /* buttons */
+
+  #Banner-template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2
+    > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
+    > div
+    > div.banner__buttons {
+    background-color: red;
   }
 }
- /* END MOBILE devices END */
-
-
+/* END MOBILE devices END */
 
 /* IMAGE BANNER CUSTOM SECTION */
 
