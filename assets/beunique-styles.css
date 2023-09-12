@@ -28,7 +28,6 @@
 }
 
 /* body text abt witch section homepage */
-
 #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
   > div
   > div
@@ -57,7 +56,12 @@
   min-height: 100%;
 } */
 
+
+/* tablet to medium screen  */
+
 @media screen and (min-width: 750px) and (max-width: 1089px) {
+
+  /* title tablet  */
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div
@@ -89,17 +93,10 @@
     > div
     > div.image-with-text__text-item.grid__item
     > div
-    > div,
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
-    > div
-    > div
-    > div
-    > div
-    > div.image-with-text__text-item.grid__item
-    > div
-    > p {
+    > div {
     font-size: 0.85em;
   }
+  /* tablet image  */
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div
