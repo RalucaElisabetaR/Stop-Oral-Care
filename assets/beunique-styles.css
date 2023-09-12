@@ -90,6 +90,7 @@
 /* rotating text */
 
 #rotating-text-placeholder {
+  font-size: 2em;
   font-weight: 600;
   letter-spacing: 2px;
 }
