@@ -141,7 +141,7 @@
 
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     img {
-    content: url("/cdn/shop/files/Products_1080x1080px.png");
+    content: src("/cdn/shop/files/Products_1080x1080px.png");
     /* object-fit: scale-down;
     margin: auto; */
   }
