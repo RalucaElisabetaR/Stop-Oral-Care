@@ -35,13 +35,12 @@
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-buttons-1"
       ],
       "custom_css": [
-        "p {color: white; margin-right: -30px;}",
-        "#rotating-text-placeholder {margin-right: -100px !important; height: 80px; margin: auto auto; font-size: 5rem;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stop_Oral_Products_1.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -454,7 +453,7 @@
         "b0e1469f-9e0d-4afa-843b-c351c7390a05"
       ],
       "custom_css": [
-        "h3 {padding-top: 10px; font-size: 1.2em !important; letter-spacing: 1px; padding: 0px 50px; }",
+        "h3 {padding-top: 10px; font-size: 1.2em !important; letter-spacing: 1px; padding: 0px 50px;}",
         ".banner__media {display: none;}",
         ".slideshow__controls {display: none;}",
         "p {font-size: 1em !important;}",
