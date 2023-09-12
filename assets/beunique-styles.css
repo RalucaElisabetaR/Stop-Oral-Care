@@ -80,9 +80,9 @@
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
 @media screen and (max-width: 749px) {
-  .custom-section img {
-    content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_2.png");
-  }
+     img {
+    content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Products_1080x1080px.png");
+     }
   /* .custom-section .banner__box {
     min-height: 50vh;
     background-color: initial;
@@ -108,7 +108,7 @@
   } */
 }
 
-@media screen and (min-width: 450px) and (max-width: 555px) {
+/* @media screen and (min-width: 450px) and (max-width: 555px) { */
   /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div
@@ -120,7 +120,7 @@
   } */
 }
 
-@media screen and (max-width: 749px) {
+/* @media screen and (max-width: 749px) { */
   /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div {
@@ -139,15 +139,15 @@
     border-radius: 20px;
   } */
 
-  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     img {
-    content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Products_1080x1080px.png");
+    content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Products_1080x1080px.png"); */
     /* object-fit: scale-down;
     margin: auto; */
   }
-}
+/* } */
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) { */
   /* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div {
