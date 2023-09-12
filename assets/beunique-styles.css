@@ -44,6 +44,7 @@ color: #204569;
   .custom-section .banner__box {
     background-color: initial;
     padding: 10% 20px;
+    
   }
   .custom-section h2 {
     color: #0d3d6f !important;
@@ -54,6 +55,8 @@ color: #204569;
   }
   .custom-section p {
     color: #0d3d6f !important;
+     margin-left: 0px;
+    margin-right: 0px;
   }
   .custom-section .button {
     background-color: #0093c1;
