@@ -1,7 +1,6 @@
 /* MULTIROW SECTION  STYLES */
 
 /* above title home page about the witch*/
-
 #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
   > div
   > div
@@ -10,7 +9,7 @@
   > div.image-with-text__text-item.grid__item
   > div
   > p {
-  font-size: 1.4rem !important;
+  font-size: 1em;
 }
 
 /* title about the witch section  */
@@ -28,16 +27,7 @@
 }
 
 /* body text abt witch section homepage */
-#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
-  > div
-  > div
-  > div
-  > div
-  > div.image-with-text__text-item.grid__item
-  > div
-  > p {
-  font-size: 1em;
-}
+
 
 #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
   .image-with-text__media-item--middle,
