@@ -141,24 +141,31 @@
     > div
     > div.banner__buttons
     > a {
-      color: white;
-    background-color: #0093C1;
-      padding-left: 3em;
-      padding-right: 3em;
+    color: white;
+    background-color: #0093c1;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }
 /* END MOBILE devices END */
 
-
 /* END HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT END */
 
+/* HOMEPAGE 1st CAROUSEL TITLE */
 
- /* HOMEPAGE 1st CAROUSEL TITLE */
-
-#shopify-section-template--20797124903185__31863453-994d-4e53-bf38-ad881e653fe9 > div > div > div > div > h2 {
-    color: #405061;
+/* title  */
+#shopify-section-template--20797124903185__31863453-994d-4e53-bf38-ad881e653fe9
+  > div
+  > div
+  > div
+  > div
+  > h2 {
+  color: #405061;
   font-size: 1.6em;
-    font-weight: 600;
- 
-  
+  font-weight: 600;
 }
+/* HOMEPAGE 1st CAROUSEL TITLE */
+
+/* HOMEPAGE second IMAGE  BANNER */
+
+/* END HOMEPAGE second IMAGE  BANNER END */
