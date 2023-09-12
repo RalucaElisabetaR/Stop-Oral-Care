@@ -1,5 +1,5 @@
 /* MULTIROW SECTION  STYLES */
-#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > h2 {
+/* #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > h2 {
 color: #204569;
   font-size: 3em;
 }
@@ -11,8 +11,8 @@ color: #204569;
 #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item > div > img {
   object-fit: cover;
   min-height: 100%;
-}
-@media screen and (min-width: 750px) and (max-width: 1089px) {
+} */
+/* @media screen and (min-width: 750px) and (max-width: 1089px) {
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > p {
     font-size: 0.55em;
   }
@@ -29,7 +29,7 @@ color: #204569;
 #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8 > div > div > div > div > div.image-with-text__text-item.grid__item > div > div > p {
     font-size: 0.88em;
   }
-}
+} */
 
 
 /* END MULTIROW SECTION STYLES END */
@@ -45,7 +45,7 @@ color: #204569;
     
     background-color: initial;
     padding: 10% 20px;
-    margin: 0px;
+    margin: 0px 0px;;
     
   }
   .custom-section h2 {
