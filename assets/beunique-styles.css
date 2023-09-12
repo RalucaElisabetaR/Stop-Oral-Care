@@ -143,6 +143,8 @@
     > a {
       color: white;
     background-color: #0093C1;
+      padding-left: 5em;
+      padding-right: 5em;
   }
 }
 /* END MOBILE devices END */
