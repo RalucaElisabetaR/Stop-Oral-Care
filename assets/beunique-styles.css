@@ -81,6 +81,8 @@
 @media screen and (max-width: 749px) {
   img {
     content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/StopOralProducts_1080x1080px.png");
+    background-color: red;
+    object-fit: contain;
       
   }
   .banner--mobile-bottom .banner__media {
