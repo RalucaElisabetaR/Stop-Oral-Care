@@ -169,13 +169,15 @@
 
 /* HOMEPAGE second IMAGE  BANNER */
 
+/* content container  */
+
 #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
   > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in {
   max-width: 600px;
   margin: auto;
   overflow-x: hidden;
 }
-
+/* title, body text */
 #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
   > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
   > div
@@ -187,6 +189,9 @@
   > h2 {
   color: white;
 }
+
+/* body-text */  
+
 #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
   > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
   > div
@@ -195,6 +200,8 @@
   font-size: 1.1em;
   padding: 20px 0px;
 }
+
+/* title */
 #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
   > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
   > div
@@ -204,6 +211,9 @@
   margin-right: -100px;
   overflow-x: hidden;
 }
+
+/* button */
+
 #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
   > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
   > div
