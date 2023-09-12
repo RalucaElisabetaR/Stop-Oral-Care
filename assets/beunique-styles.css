@@ -33,6 +33,7 @@
   .image-with-text__media-item--middle,
 .placeholder .image-with-text {
   margin: auto;
+  font-size: 1rem;
 }
 
 /* tablet to medium screen  */
