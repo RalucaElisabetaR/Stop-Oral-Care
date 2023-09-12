@@ -63,6 +63,7 @@
     margin: auto;
     object-fit: cover !important;
     max-height: 430px;
+      width: 100%;
   }
 
   
