@@ -42,7 +42,7 @@ color: #204569;
     content: url("https://stop-oral-care.myshopify.com/cdn/shop/files/Stop_2.png");
   }
   .custom-section .banner__box {
-    min-height: 50vh;
+    
     background-color: initial;
     padding: 10% 20px;
     margin: 0px;
@@ -66,7 +66,7 @@ color: #204569;
   }
 }
 
-@media screen and (min-width: 450px) and (max-width: 555px) {
+/* @media screen and (min-width: 450px) and (max-width: 555px) {
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div
@@ -77,7 +77,7 @@ color: #204569;
     margin-bottom: -3em;
   }
 }
-
+ */
 @media screen and (max-width: 749px) {
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
