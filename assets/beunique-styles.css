@@ -164,8 +164,18 @@
   font-size: 1.6em;
   font-weight: 600;
 }
-/* HOMEPAGE 1st CAROUSEL TITLE */
+
+
+/* END HOMEPAGE 1st CAROUSEL TITLE END */
 
 /* HOMEPAGE second IMAGE  BANNER */
+
+#Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43 > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in {
+    max-width: 600px;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+
 
 /* END HOMEPAGE second IMAGE  BANNER END */
