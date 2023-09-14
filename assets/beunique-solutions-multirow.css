@@ -1,0 +1,121 @@
+/* MULTIROW SECTION  STYLES */
+
+/* above title home page about the witch*/
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  > div
+  > div
+  > div
+  > div
+  > div.image-with-text__text-item.grid__item
+  > div
+  > p {
+  font-size: 1.55rem;
+}    
+
+/* title about the witch section  */
+
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  > div
+  > div
+  > div
+  > div
+  > div.image-with-text__text-item.grid__item
+  > div
+  > h2 {
+  color: #285989;
+  font-size: 5rem;
+}
+
+/* body text abt witch section homepage */
+
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  > div
+  > div
+  > div
+  > div
+  > div.image-with-text__text-item.grid__item
+  > div
+  > div {
+  font-size: 1em;
+}
+#shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+  .image-with-text__media-item--middle,
+.placeholder .image-with-text {
+  margin: auto;
+}
+
+/* tablet to medium screen  */
+
+@media screen and (min-width: 750px) and (max-width: 1089px) {
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div {
+    padding: 0px 3rem;
+  }
+
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div {
+      margin-left: -20px; 
+  }
+
+  /* tablet above title home page about the witch*/
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div
+    > p {
+    font-size: 1rem;
+  }
+
+  /* title tablet  */
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div
+    > h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 2.1em;
+  }
+  /* body text tablet */
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__text-item.grid__item
+    > div
+    > div {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+
+  /* tablet image  */
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
+    > div
+    > img {
+    margin: auto;
+      padding-right: 10px;
+    object-fit: cover !important;
+    max-height: 430px;
+    width: 100%;
+  }
+}
+
+/* END MULTIROW SECTION STYLES END */
