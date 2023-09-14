@@ -3,20 +3,22 @@
   display: none !important;
 }
 
-#Slider-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
+#shopify-section-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
   .slideshow__controls {
   display: none !important;
 }
 
-#Slider-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f
+#shopify-section-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f
   .banner__text,
 #Slider-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
   .banner__text {
   margin-top: 1rem;
 }
 
-#Slider-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f h3,
-#Slider-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527 h3 {
+#shopify-section-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f
+  h3,
+#shopify-section-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
+  h3 {
   color: #204569;
   padding-top: 10px;
   font-size: 1.2em !important;
@@ -24,7 +26,8 @@
   padding-bottom: 0;
   margin-bottom: 0;
 }
-#Slider-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f p,
+#shopify-section-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f
+  p,
 #Slider-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527 p {
   padding-top: 0;
   margin-top: 5px;
@@ -51,10 +54,6 @@
 
 /* slide title */
 
-#shopify-section-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
-  .slideshow__controls {
-  display: none;
-}
 #shopify-section-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
   h3 {
   padding: 0px 50px;
