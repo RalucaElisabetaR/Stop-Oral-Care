@@ -264,7 +264,6 @@
         "69611c13-fe04-4986-abfd-fc2292e9fa0f"
       ],
       "custom_css": [
-        ".banner__text {margin-top: 1rem;}",
         ".slideshow__controls {display: none;}",
         " {overflow-x: hidden;}",
         ".banner__box {background-color: white;}",
