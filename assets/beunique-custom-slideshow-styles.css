@@ -9,19 +9,26 @@
   }
   .custom-slide {
     border-radius: 20px;
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02),
-    0px 5px 15px rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02),
+      0px 5px 15px rgba(0, 0, 0, 0.01);
+  }
 }
-
-}
-
 
 /* HOMEPAGE SECOND SLIDESHOW */
 
 /* slide title */
 
-#shopify-section-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527 h3 {
-   padding-top: 10px;
+#shopify-section-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
+  .banner__media {
+  display: none;
+}
+#shopify-section-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
+  .slideshow__controls {
+  display: none;
+}
+#shopify-section-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
+  h3 {
+  padding-top: 10px;
   font-size: 1.2em !important;
   letter-spacing: 1px;
   padding: 0px 50px;
