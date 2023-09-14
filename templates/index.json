@@ -264,8 +264,7 @@
         "69611c13-fe04-4986-abfd-fc2292e9fa0f"
       ],
       "custom_css": [
-        ".slideshow__controls {display: none;}",
-        " {overflow-x: hidden;}",
+        "{overflow-x: hidden;}",
         ".banner__box {background-color: white;}",
         "p {font-size: 1em !important;}"
       ],
