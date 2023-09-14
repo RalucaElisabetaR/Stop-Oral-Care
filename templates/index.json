@@ -265,8 +265,7 @@
       ],
       "custom_css": [
         "{overflow-x: hidden;}",
-        ".banner__box {background-color: white;}",
-        "p {font-size: 1em !important;}"
+        ".banner__box {background-color: white;}"
       ],
       "settings": {
         "layout": "full_bleed",
