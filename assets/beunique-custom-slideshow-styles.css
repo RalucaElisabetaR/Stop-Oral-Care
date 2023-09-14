@@ -2,7 +2,7 @@
   .slideshow__controls,
 #Slider-template--20797124903185__0e7a7f70-a2a5-48d3-a195-f28d8fdb4527
   .slideshow__controls {
-  display: none;
+  display: none!important;
 }
 
 #Slider-template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f
