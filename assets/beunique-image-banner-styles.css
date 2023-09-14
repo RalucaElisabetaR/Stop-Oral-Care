@@ -37,7 +37,7 @@
   > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
   > div
   > h2 {
-    font-size: 5rem;
+  font-size: 5rem;
   margin-left: -100px;
   margin-right: -100px;
   overflow-x: hidden;
@@ -57,19 +57,24 @@
 
 @media screen and (max-width: 1150px) {
   #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
-  > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
-  > div
-  > h2 {
+    > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
+    > div
+    > h2 {
     font-size: 4vw;
   }
 }
 
-
-
-
 /* MOBILE DEVICE  */
 
 @media screen and (max-width: 749px) {
+  #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
+    > div.banner__media.media.scroll-trigger.animate--fade-in
+    > img {
+         content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/Stop_5.png?v=1694699286");
+    background-color: #05284c;
+    object-fit: contain;
+  }
+
   /* content container mobile */
   #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
     > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
