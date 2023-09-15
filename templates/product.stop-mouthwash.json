@@ -82,7 +82,8 @@
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
-        "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093c1;}"
+        "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093c1;}",
+        ".card {background-color: white; border: none; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02), 0px 5px 15px rgba(0, 0, 0, 0.01);}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -99,105 +100,11 @@
         "padding_bottom": 60
       }
     },
-    "961099bf-29e7-4e6f-9631-ef603d784cd0": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_c39d32fd-66b0-45c3-a5b7-b0fc5318f24c.png",
-            "title": "Shake the bottle gently before use.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_ba80dbbd-853d-4193-9462-cae053fdff6b.png",
-            "title": "Press down on the bottle until the dosser in the bottle neck is filled up to the indicated line.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_c783ffdd-0bd4-4ebe-b60a-45d1e617aa96.png",
-            "title": "Empty the dosser content into your mouth.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "778e0597-6fdb-4cb0-8454-01141363100f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_d29e129f-d9eb-4864-bd10-7eb7393661d1.png",
-            "title": "Swish around your mouth for about 60 seconds, ensuring you cover every corner.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "dd52e8b6-1720-4286-8768-844b66904d17": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_e51008b4-bc9e-41b6-bd30-b372ae29617a.png",
-            "title": "Spit out the solution into the sink.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "323825b0-19d5-4c01-9658-c1e71e71f46d": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/6_80760b69-9de8-42f2-95df-62db12b82ff0.png",
-            "title": "For optimal results, wait at least 30 minutes before eating or drinking andavoid rinsing yourmouth immediately after use.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-1",
-        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-2",
-        "template--20881243210001__961099bf-29e7-4e6f-9631-ef603d784cd0-column-3",
-        "778e0597-6fdb-4cb0-8454-01141363100f",
-        "dd52e8b6-1720-4286-8768-844b66904d17",
-        "323825b0-19d5-4c01-9658-c1e71e71f46d"
-      ],
-      "custom_css": [
-        "li {background-color: white !important;}",
-        ".grid__item {border-radius: 20px; padding: 40px 20px; display: ; width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 \/ 3);}",
-        ".media img {object-fit: cover; max-width: 50px; max-height: 50px;}",
-        ".media--adapt {padding-bottom: 50% !important;}"
-      ],
-      "settings": {
-        "title": "How to Use:",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "custom_css": [
-        ".card {background-color: white; border: none; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02), 0px 5px 15px rgba(0, 0, 0, 0.01);}"
+
       ],
       "settings": {
         "heading": "You may also like:",
@@ -218,7 +125,6 @@
   },
   "order": [
     "main",
-    "961099bf-29e7-4e6f-9631-ef603d784cd0",
     "related-products"
   ]
 }
