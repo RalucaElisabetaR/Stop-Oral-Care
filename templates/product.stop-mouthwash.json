@@ -84,7 +84,8 @@
         "aa6fc72c-68e6-41a3-aa12-23450a297062"
       ],
       "custom_css": [
-        "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093C1;}"
+        "h1 {color: #0D3D6F;}",
+        "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093c1;}"
       ],
       "settings": {
         "enable_sticky_info": true,
