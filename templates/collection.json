@@ -2,6 +2,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {color: #0D3D6F;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
