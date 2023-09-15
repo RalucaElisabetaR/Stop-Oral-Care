@@ -55,24 +55,12 @@
             "page": ""
           }
         },
-        "4da89380-9018-4b70-8f9e-2e6e2974e758": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "check_mark",
-            "heading_1": "Embark on a refreshing journey that's more than just a mouthwash. With STOP, you're not only\ncleaning\n–\nyou're elevating your oral care experience.",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "none",
-            "heading_3": ""
-          }
-        },
         "aa6fc72c-68e6-41a3-aa12-23450a297062": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with:",
-            "make_collapsible_row": false,
-            "icon": "star",
+            "block_heading": "For optimal results, use it together with:",
+            "make_collapsible_row": true,
+            "icon": "check_mark",
             "product_list_limit": 3,
             "products_per_page": 3,
             "pagination_style": "counter",
@@ -90,7 +78,6 @@
         "description",
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
         "6d1fc4b7-5d53-4f9c-96aa-6020bf37b390",
-        "4da89380-9018-4b70-8f9e-2e6e2974e758",
         "aa6fc72c-68e6-41a3-aa12-23450a297062"
       ],
       "custom_css": [
