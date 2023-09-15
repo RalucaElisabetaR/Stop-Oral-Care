@@ -46,6 +46,18 @@
             "page": ""
           }
         },
+        "4da89380-9018-4b70-8f9e-2e6e2974e758": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "Embark on a refreshing journey that's more than just a mouthwash. With STOP, you're not only\ncleaning\n–\nyou're elevating your oral care experience.",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
         "aa6fc72c-68e6-41a3-aa12-23450a297062": {
           "type": "complementary",
           "settings": {
@@ -58,18 +70,6 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
-        },
-        "4da89380-9018-4b70-8f9e-2e6e2974e758": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "heart",
-            "heading_1": "Embark on a refreshing journey that's more than just a mouthwash. With STOP, you're not only\ncleaning\n–\nyou're elevating your oral care experience.",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "none",
-            "heading_3": ""
-          }
         }
       },
       "block_order": [
@@ -80,8 +80,11 @@
         "buy_buttons",
         "description",
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
-        "aa6fc72c-68e6-41a3-aa12-23450a297062",
-        "4da89380-9018-4b70-8f9e-2e6e2974e758"
+        "4da89380-9018-4b70-8f9e-2e6e2974e758",
+        "aa6fc72c-68e6-41a3-aa12-23450a297062"
+      ],
+      "custom_css": [
+        "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093C1;}"
       ],
       "settings": {
         "enable_sticky_info": true,
