@@ -45,6 +45,19 @@
             "content": "<ul><li><strong>Hemp-based compound<\/strong>: Harnessing nature's power for optimal oral care.<\/li><li><strong>Dead Sea Salt Minerals<\/strong>: Packed with unique minerals that rejuvenate gums and teeth.<\/li><li><strong>Pomegranate Extracts<\/strong>: Known for its antibacterial properties and adds a burst of freshness.<\/li><li><strong>Sea Algae<\/strong>: A potent antibacterial agent that helps maintain oral balance.<\/li><li><strong>Natural Flavorings<\/strong>: For a refreshing and invigorating taste.<\/li><\/ul>",
             "page": ""
           }
+        },
+        "aa6fc72c-68e6-41a3-aa12-23450a297062": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
         }
       },
       "block_order": [
@@ -54,7 +67,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470"
+        "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
+        "aa6fc72c-68e6-41a3-aa12-23450a297062"
       ],
       "settings": {
         "enable_sticky_info": true,
