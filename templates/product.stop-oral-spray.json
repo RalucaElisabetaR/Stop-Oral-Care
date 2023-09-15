@@ -48,10 +48,13 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "fbb768d0-1c67-4f67-80c6-5e4ec5b71508": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Benefits:",
+            "icon": "check_mark",
+            "content": "<ul>\n<li>\n<span class=\"custom-weight\">Sustained Freshness:\n<li>\n<span class=\"custom-weight\">Soothing Experience:<\/span> \nDelight in a unique blend of ingredients that not only cleanses but soothes the mouth, providing a delicious and refreshing taste.\n<\/li>\n<li>\n<span class=\"custom-weight\">Safe and Gentle: \n<\/span> \nCrafted to be alcohol-free and without artificial sweeteners. Ideal for daily use.\n<\/li>\n<li>\n<span class=\"custom-weight\">Relief for Dry Mouth: \n<\/span> \nSpecially formulated to assist those experiencing dry mouth syndrome, offering hydration and relief.\n<\/li>\n<\/span>\n<\/li>\n<\/ul>",
+            "page": ""
           }
         }
       },
@@ -64,7 +67,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "fbb768d0-1c67-4f67-80c6-5e4ec5b71508"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
