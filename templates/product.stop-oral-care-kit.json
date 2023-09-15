@@ -44,13 +44,6 @@
           "settings": {
           }
         },
-        "697375bd-042b-46b0-863c-1def112871ee": {
-          "type": "text",
-          "settings": {
-            "text": "How to Use the STOP Complete Oral Care Kit for Best Results:",
-            "text_style": "body"
-          }
-        },
         "f8820d95-b2eb-48fd-b3c6-d063c433fa89": {
           "type": "icon-with-text",
           "settings": {
@@ -65,6 +58,15 @@
             "image_3": "shopify:\/\/shop_images\/1_76e87f3a-2827-40e7-ae55-ee5fef0158e3.png",
             "heading_3": "<div class=\"my-custom-icon\">\n<h3>Night Routine<\/h3>\n<p>Conclude your day with another brushing and rinsing session to ensure 24-hour protection.\n<\/p>\n<\/div>"
           }
+        },
+        "a7872fe8-4501-4878-b41c-92ce4814c96a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to Use the STOP Complete Oral Care Kit for Best Results:",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -75,8 +77,8 @@
         "2df18c26-0998-4c9b-989d-78d8c26e7f93",
         "370249e5-0add-42e2-ab61-96e9e87d3401",
         "description",
-        "697375bd-042b-46b0-863c-1def112871ee",
-        "f8820d95-b2eb-48fd-b3c6-d063c433fa89"
+        "f8820d95-b2eb-48fd-b3c6-d063c433fa89",
+        "a7872fe8-4501-4878-b41c-92ce4814c96a"
       ],
       "custom_css": [
         ".product__description {font-size: 1em;}"
