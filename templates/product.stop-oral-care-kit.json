@@ -62,9 +62,9 @@
         "a7872fe8-4501-4878-b41c-92ce4814c96a": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How to Use the STOP Complete Oral Care Kit for Best Results:",
+            "heading": "How to Use:",
             "icon": "check_mark",
-            "content": "",
+            "content": "<ul class=\"icon-with-text icon-with-text--horizontal list-unstyled\">\n<li class=\"icon-with-text__item\">\n<img loading=\"lazy\" width=\"77\" height=\"77\" role=\"presentation\" src=\"https:\/\/stop-oral-care.myshopify.com\/cdn\/shop\/files\/2_348e69a0-90a6-418a-be7c-0539b807c78f.png?v=1694426743\" data-mce-src=\"https:\/\/stop-oral-care.myshopify.com\/cdn\/shop\/files\/2_348e69a0-90a6-418a-be7c-0539b807c78f.png?v=1694426743\">\n<div class=\"my-custom-icon\">\n<h3>Morning Routine<\/h3>\n<p>Start your day by brushing with STOP Toothpaste followed by a rinse with STOP Mouthwash.<\/p>\n<\/div>\n<\/li>\n<li class=\"icon-with-text__item\">\n<img loading=\"lazy\" width=\"81\" height=\"81\" role=\"presentation\" src=\"https:\/\/stop-oral-care.myshopify.com\/cdn\/shop\/files\/3_afedfe6b-40ef-46ed-a0a7-7c1f9dc891ea.png?v=1694426743\" data-mce-src=\"https:\/\/stop-oral-care.myshopify.com\/cdn\/shop\/files\/3_afedfe6b-40ef-46ed-a0a7-7c1f9dc891ea.png?v=1694426743\">\n<div class=\"my-custom-icon\">\n<h3>On-the-Go<\/h3>\n<p>Use the STOP Oral Spray for quick freshness throughout the day.<\/p>\n<\/div>\n<\/li>\n<li class=\"icon-with-text__item\">\n<img loading=\"lazy\" width=\"87\" height=\"87\" role=\"presentation\" src=\"https:\/\/stop-oral-care.myshopify.com\/cdn\/shop\/files\/1_76e87f3a-2827-40e7-ae55-ee5fef0158e3.png?v=1694426743\" data-mce-src=\"https:\/\/stop-oral-care.myshopify.com\/cdn\/shop\/files\/1_76e87f3a-2827-40e7-ae55-ee5fef0158e3.png?v=1694426743\">\n<div class=\"my-custom-icon\">\n<h3>Night Routine<\/h3>\n<p>Conclude your day with another brushing and rinsing session to ensure 24-hour protection.<\/p>\n<\/div>\n<\/li>\n<\/ul>",
             "page": ""
           }
         }
