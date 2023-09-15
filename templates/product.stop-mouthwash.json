@@ -58,7 +58,7 @@
         "aa6fc72c-68e6-41a3-aa12-23450a297062": {
           "type": "complementary",
           "settings": {
-            "block_heading": "For optimal results, use it together with:",
+            "block_heading": "<span class=\"custom-ttl\">For optimal results, use it together with:<\/span>",
             "make_collapsible_row": true,
             "icon": "star",
             "product_list_limit": 10,
@@ -83,6 +83,7 @@
       "custom_css": [
         "h1 {color: #0d3d6f;}",
         "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093c1;}",
+        ".custom-ttl{font-size: 1em;}",
         ".card {background-color: white; border: none; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02), 0px 5px 15px rgba(0, 0, 0, 0.01);}"
       ],
       "settings": {
