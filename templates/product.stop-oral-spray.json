@@ -74,6 +74,19 @@
             "content": "<p>\n<span class=\"custom-weight\">1.<\/span>\nShake the bottle gently before each use.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n2.\n<\/span> \nOpen your mouth and target the spray towards the back of your throat, ensuring it reaches both teeth and gums.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n3.\n<\/span> \nSpray 2-3 times for a refreshing cleanse.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n4.\n<\/span> \nAvoid eating or drinking for at least 15 minutes after application for optimal results.\n<\/p>",
             "page": ""
           }
+        },
+        "2b15b7bd-d8c7-401c-b54a-c31f0ccbedb4": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 2,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
         }
       },
       "block_order": [
@@ -87,7 +100,8 @@
         "description",
         "fbb768d0-1c67-4f67-80c6-5e4ec5b71508",
         "ec4584df-4143-438d-a740-67c266d0bd12",
-        "95191113-dba5-4156-aae1-4b5559a63494"
+        "95191113-dba5-4156-aae1-4b5559a63494",
+        "2b15b7bd-d8c7-401c-b54a-c31f0ccbedb4"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
