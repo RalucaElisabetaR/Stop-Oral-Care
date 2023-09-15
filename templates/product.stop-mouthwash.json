@@ -46,6 +46,15 @@
             "page": ""
           }
         },
+        "6d1fc4b7-5d53-4f9c-96aa-6020bf37b390": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use:",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "4da89380-9018-4b70-8f9e-2e6e2974e758": {
           "type": "icon-with-text",
           "settings": {
@@ -80,11 +89,12 @@
         "buy_buttons",
         "description",
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
+        "6d1fc4b7-5d53-4f9c-96aa-6020bf37b390",
         "4da89380-9018-4b70-8f9e-2e6e2974e758",
         "aa6fc72c-68e6-41a3-aa12-23450a297062"
       ],
       "custom_css": [
-        "h1 {color: #0D3D6F;}",
+        "h1 {color: #0d3d6f;}",
         "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093c1;}"
       ],
       "settings": {
