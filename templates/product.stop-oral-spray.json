@@ -56,6 +56,15 @@
             "content": "<ul>\n<li>\n<span class=\"custom-weight\">Sustained Freshness:\n<li>\n<span class=\"custom-weight\">Soothing Experience:<\/span> \nDelight in a unique blend of ingredients that not only cleanses but soothes the mouth, providing a delicious and refreshing taste.\n<\/li>\n<li>\n<span class=\"custom-weight\">Safe and Gentle: \n<\/span> \nCrafted to be alcohol-free and without artificial sweeteners. Ideal for daily use.\n<\/li>\n<li>\n<span class=\"custom-weight\">Relief for Dry Mouth: \n<\/span> \nSpecially formulated to assist those experiencing dry mouth syndrome, offering hydration and relief.\n<\/li>\n<\/span>\n<\/li>\n<\/ul>",
             "page": ""
           }
+        },
+        "ec4584df-4143-438d-a740-67c266d0bd12": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients:",
+            "icon": "check_mark",
+            "content": "<ul>\n<li>\n<span class=\"custom-weight\">Hemp-based compound:\n<li>\n<span class=\"custom-weight\">\nDead Sea Salt Minerals:\n<\/span> \nWith its myriad of unique minerals, it supports and revitalizes gums and teeth.\n<\/li>\n<li>\n<span class=\"custom-weight\">\nPomegranate Extracts:\n<\/span> \nRenowned for its antibacterial properties, adding a touch of freshness.\n<\/li>\n<li>\n<span class=\"custom-weight\">\nRelief for Dry Mouth: \n<\/span> \nSpecially formulated to assist those experiencing dry mouth syndrome, offering hydration and relief.\n<\/li>\n<\/span>\n<\/li>\n<\/ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -67,7 +76,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "fbb768d0-1c67-4f67-80c6-5e4ec5b71508"
+        "fbb768d0-1c67-4f67-80c6-5e4ec5b71508",
+        "ec4584df-4143-438d-a740-67c266d0bd12"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
@@ -92,6 +102,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
