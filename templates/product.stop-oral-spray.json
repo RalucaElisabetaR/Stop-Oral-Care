@@ -65,6 +65,15 @@
             "content": "<p>\n<span class=\"custom-weight\">-  Hemp-based compound:<\/span>\nOffering nature's touch for enriched oral care.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Dead Sea Salt Minerals:\n<\/span> \nWith its myriad of unique minerals, it supports and revitalizes gums and teeth.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Pomegranate Extracts:\n<\/span> \nRenowned for its antibacterial properties, adding a touch of freshness.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Sea Algae:\n<\/span> \n A robust antibacterial, ensuring a balanced and clean oral environment.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Natural Flavorings:\n<\/span> \nCreated to invigorate and refresh with every spray.\n<\/p>",
             "page": ""
           }
+        },
+        "95191113-dba5-4156-aae1-4b5559a63494": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to Use:",
+            "icon": "check_mark",
+            "content": "<p>\n<span class=\"custom-weight\">1.<\/span>\nShake the bottle gently before each use.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n2.\n<\/span> \nOpen your mouth and target the spray towards the back of your throat, ensuring it reaches both teeth and gums.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Pomegranate Extracts:\n<\/span> \nRenowned for its antibacterial properties, adding a touch of freshness.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Sea Algae:\n<\/span> \n A robust antibacterial, ensuring a balanced and clean oral environment.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Natural Flavorings:\n<\/span> \nCreated to invigorate and refresh with every spray.\n<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -77,7 +86,8 @@
         "buy_buttons",
         "description",
         "fbb768d0-1c67-4f67-80c6-5e4ec5b71508",
-        "ec4584df-4143-438d-a740-67c266d0bd12"
+        "ec4584df-4143-438d-a740-67c266d0bd12",
+        "95191113-dba5-4156-aae1-4b5559a63494"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
