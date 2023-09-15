@@ -48,10 +48,13 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "47591496-f88c-4893-82ba-124f0a73372d": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Key Highlights:",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
           }
         },
         "6f68cb6b-29e2-4736-a7ba-8dca0dd4944c": {
@@ -77,7 +80,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
+        "47591496-f88c-4893-82ba-124f0a73372d",
         "6f68cb6b-29e2-4736-a7ba-8dca0dd4944c"
       ],
       "custom_css": [
