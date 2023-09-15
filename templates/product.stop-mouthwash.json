@@ -49,10 +49,10 @@
         "aa6fc72c-68e6-41a3-aa12-23450a297062": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": true,
-            "icon": "question_mark",
-            "product_list_limit": 10,
+            "block_heading": "Pairs well with:",
+            "make_collapsible_row": false,
+            "icon": "star",
+            "product_list_limit": 3,
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
