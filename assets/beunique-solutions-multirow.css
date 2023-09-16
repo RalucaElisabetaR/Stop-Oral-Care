@@ -120,6 +120,11 @@
 
 @media screen and (max-width: 749px) {
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
     > div
     > div
@@ -136,8 +141,8 @@
     > div
     > div.image-with-text__text-item.grid__item
     > div {
-      padding-left: 10px;
-      padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div
