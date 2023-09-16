@@ -24,7 +24,7 @@
       ],
       "custom_css": [
         "{}",
-        "div {min-height: 100%; height: 100%; margin: auto; background-color: #0d3d6f;}"
+        "div {min-height: 100%; height: 100%; margin: auto; background-color: #05294F;}"
       ],
       "settings": {
         "image_overlay_opacity": 0,
@@ -32,7 +32,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
+        "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
