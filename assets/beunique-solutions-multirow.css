@@ -10,7 +10,7 @@
   > div
   > p {
   font-size: 1.55rem;
-}    
+}
 
 /* title about the witch section  */
 
@@ -60,7 +60,7 @@
     > div
     > div.image-with-text__text-item.grid__item
     > div {
-      margin-left: -20px; 
+    margin-left: -20px;
   }
 
   /* tablet above title home page about the witch*/
@@ -111,10 +111,23 @@
     > div
     > img {
     margin: auto;
-      padding-right: 10px;
+    padding-right: 10px;
     object-fit: cover !important;
     max-height: 430px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
+    > div
+    > div
+    > div
+    > div
+    > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item
+    > div
+    > img {
+    content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/I_care_for_you_1080_x_700_px.png?v=1694353526");
   }
 }
 
