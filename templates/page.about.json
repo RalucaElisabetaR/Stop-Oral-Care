@@ -31,8 +31,8 @@
         "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/credentials_3.png",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
