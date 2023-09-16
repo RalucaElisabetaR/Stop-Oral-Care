@@ -61,7 +61,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/I_care_for_you_1080_x_700_px.png",
-        "height": "medium",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -89,8 +89,8 @@
         "13cbbae3-a0d4-405e-83ec-f0364d11205f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/I_care_for_you_1080_x_700_px.png",
-        "height": "medium",
+        "image": "shopify:\/\/shop_images\/credentials.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
