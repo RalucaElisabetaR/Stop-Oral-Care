@@ -70,7 +70,7 @@
   #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
     > div.banner__media.media.scroll-trigger.animate--fade-in
     > img {
-         content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/Stop_5.png?v=1694699286");
+    content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/Stop_5.png?v=1694699286");
     background-color: #05284c;
     object-fit: contain;
   }
@@ -120,15 +120,17 @@
 
 /* END HOMEPAGE second IMAGE  BANNER END */
 
-
 /* 3rd IMAGE BANNER */
 
 @media screen and (max-width: 749px) {
-#shopify-section-template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf h2 {
-  color: #405061;
-}
+  #Banner-template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf
+    > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
+    > div
+    > h2 {
+    color: #405061;
+  }
   #shopify-section-template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf
-  p {
+    p {
     color: #4f4f4f;
   }
 }
