@@ -119,3 +119,14 @@
 }
 
 /* END HOMEPAGE second IMAGE  BANNER END */
+
+
+/* 3rd IMAGE BANNER */
+
+@media screen and (max-width: 749px) {
+#shopify-section-template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf h2 {
+  color: #405061;
+}
+}
+
+/* END 3RD IMAGE BANNER END  */
