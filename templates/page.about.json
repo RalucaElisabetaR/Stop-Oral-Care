@@ -144,7 +144,7 @@
         "13cbbae3-a0d4-405e-83ec-f0364d11205f"
       ],
       "custom_css": [
-        "@media screen and (max-width: 750px) {img {height: 60%; } .image-with-text__media {width: 85%; margin: auto 10px; } .content-container {margin-right: 10px; padding: 50px 25px; }}"
+        "@media screen and (max-width: 750px) {.image-with-text__media {width: 80%; margin: auto 10px; } .content-container {margin-right: 10px; padding: 50px 25px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_2.png",
