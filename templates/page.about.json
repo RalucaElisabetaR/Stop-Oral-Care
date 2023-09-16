@@ -14,7 +14,7 @@
         "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>A Visionary in Dental Excellence<\/strong>",
+            "heading": "A Visionary in Dental Excellence",
             "heading_size": "h2"
           }
         },
@@ -48,6 +48,13 @@
     "c6799cf2-8cb5-475f-9644-364d394364e7": {
       "type": "image-with-text",
       "blocks": {
+        "94b5a149-4b4c-4854-a34e-aece687d9b07": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr. Stahl's Fusion",
+            "heading_size": "h2"
+          }
+        },
         "37beb72e-1f3a-4e3f-afe4-4b95df47dd32": {
           "type": "text",
           "settings": {
@@ -57,6 +64,7 @@
         }
       },
       "block_order": [
+        "94b5a149-4b4c-4854-a34e-aece687d9b07",
         "37beb72e-1f3a-4e3f-afe4-4b95df47dd32"
       ],
       "settings": {
