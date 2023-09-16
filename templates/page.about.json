@@ -104,7 +104,7 @@
         "37beb72e-1f3a-4e3f-afe4-4b95df47dd32"
       ],
       "custom_css": [
-        "@media screen and (max-width: 750px) {.image-with-text__media {width: 80%; margin: auto 10px; } .content-container {margin-right: 10px; padding: 50px 25px; }}"
+        "@media screen and (max-width: 750px) {.image-with-text__media {width: 85%; margin: auto 10px; } .content-container {margin-right: 10px; padding: 50px 25px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_1.png",
