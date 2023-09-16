@@ -17,24 +17,17 @@
             "heading": "About Dr. Veronica Stahl",
             "heading_size": "h1"
           }
-        },
-        "template--20969701212433__4d95ce51-2fbd-4bfd-870d-c5308e07670b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "template--20969701212433__4d95ce51-2fbd-4bfd-870d-c5308e07670b-heading-1",
-        "template--20969701212433__4d95ce51-2fbd-4bfd-870d-c5308e07670b-text-1"
+        "template--20969701212433__4d95ce51-2fbd-4bfd-870d-c5308e07670b-heading-1"
       ],
       "custom_css": [
-        "{background-color: #0D3D6F;}"
+        "{align-self: stretch; height: 200px;}",
+        "div {min-height: 100%; height: 100%; margin: auto; background-color: #0d3d6f;}"
       ],
       "settings": {
-        "image_overlay_opacity": 100,
+        "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
