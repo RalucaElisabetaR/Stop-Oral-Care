@@ -9,7 +9,10 @@
   > h2 {
   color: #405061;
   font-size: 1.6em;
-  font-weight: 600;
+  font-weight: 500;
+}
+@media screen and (max-width: 749px) {
+   font-size: 1.2em;
 }
 
 /* END HOMEPAGE 1st CAROUSEL TITLE END */
