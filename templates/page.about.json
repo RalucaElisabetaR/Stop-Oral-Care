@@ -6,9 +6,47 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>A Visionary in Dental Excellence<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Veronica Stahl stands as a beacon of innovation in the expansive world of oral health care. With a decorated career spanning over 28 years, her expertise resides not only in traditional dental methodologies but also in the realm of pioneering innovation.<\/p><p>In March, the USA recognised her groundbreaking work, granting a patent for her plant-based treatments addressing various oral ailments. These revolutionary treatments not only focus on the oral cavity but also highlight the correlation between oral health and general wellness.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-heading-1",
+        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/I_care_for_you_1080_x_700_px.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4"
   ]
 }
