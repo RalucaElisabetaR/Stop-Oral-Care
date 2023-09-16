@@ -85,6 +85,13 @@
     "406aec41-5bf2-4ecd-8129-c450ea754fe8": {
       "type": "image-with-text",
       "blocks": {
+        "db3da122-4ad3-4d9f-a592-4fb1b52f9903": {
+          "type": "heading",
+          "settings": {
+            "heading": "Redefining Dentistry",
+            "heading_size": "h2"
+          }
+        },
         "13cbbae3-a0d4-405e-83ec-f0364d11205f": {
           "type": "text",
           "settings": {
@@ -94,6 +101,7 @@
         }
       },
       "block_order": [
+        "db3da122-4ad3-4d9f-a592-4fb1b52f9903",
         "13cbbae3-a0d4-405e-83ec-f0364d11205f"
       ],
       "settings": {
