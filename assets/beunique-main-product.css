@@ -4,6 +4,13 @@
   > div
   > div
   > div.card__inner.ratio
+  > div.card__media,
+#Slide-6f68cb6b-29e2-4736-a7ba-8dca0dd4944c-1
+  > ul
+  > li
+  > div
+  > div
+  > div.card__inner.ratio
   > div.card__media {
   border-radius: 20px;
 }
@@ -12,11 +19,11 @@
   align-items: center;
 }
 #quick-add-template--20881243210001__main8793075941649-submit,
-#quick-add-template--20952521179409__main8793072304401-submit{
+#quick-add-template--20952521179409__main8793072304401-submit {
   font-size: 0.9em;
   padding: 10px 20px;
 }
 #CardLink-template--20881243210001__main-8793075941649,
-#CardLink-template--20952521179409__main-8793072304401{
-  color:  #0D3D6F;
+#CardLink-template--20952521179409__main-8793072304401 {
+  color: #0d3d6f;
 }
