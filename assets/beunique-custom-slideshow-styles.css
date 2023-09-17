@@ -4,7 +4,7 @@
   .slideshow__controls,
 #shopify-section-template--20969701212433__497235a5-89b7-4189-8165-9a399981cb04
   .slideshow__controls,
-#shopify-section-template--20797124608273__31625f4b-8342-40df-80f5-c8c52b479357 > div.slideshow__controls{
+#shopify-section-template--20797124608273__31625f4b-8342-40df-80f5-c8c52b479357 .slideshow__controls{
   display: none !important;
 }
 
