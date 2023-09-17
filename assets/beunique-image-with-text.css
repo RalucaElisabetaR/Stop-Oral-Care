@@ -22,7 +22,7 @@
   > div
   > div.image-with-text__media-item.image-with-text__media-item--small.image-with-text__media-item--top.grid__item
   > div {
- box-shadow: 1px 0px 69px -27px rgba(0,0,0,0.6);
+box-shadow: 1px 0px 69px -47px rgba(0,0,0,0.6);
 }
 
 @media screen and (max-width: 909px) {
