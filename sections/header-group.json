@@ -56,19 +56,19 @@
 
       ],
       "settings": {
-        "logo_position": "middle-center",
+        "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "reduce-logo-size",
         "show_line_separator": false,
         "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
         "menu_color_scheme": "inverse",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     }
   },
