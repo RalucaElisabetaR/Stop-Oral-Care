@@ -1,7 +1,17 @@
+#Slide-aa6fc72c-68e6-41a3-aa12-23450a297062-1
+  > ul
+  > li
+  > div
+  > div
+  > div.card__inner.ratio
+  > div.card__media {
+  border-radius: 20px;
+}
+
+#Slide-aa6fc72c-68e6-41a3-aa12-23450a297062-1 > ul > li > div > div {
+  align-items: center;
+}
 #quick-add-template--20881243210001__main8793075941649-submit {
   font-size: 0.9em;
   padding: 10px 20px;
-}
-#Slide-aa6fc72c-68e6-41a3-aa12-23450a297062-1 > ul > li > div > div{
-  align-items: center;
 }
