@@ -76,6 +76,9 @@ box-shadow: -2px 8px 24px -18px rgba(0,0,0,0.33);
   padding-right: 20px ;
  
   }
+  #ImageWithText--template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4 {
+    width: 100%;
+  }
 
   .media > *:not(.zoom):not(.deferred-media__poster-button),
   .media model-viewer {
