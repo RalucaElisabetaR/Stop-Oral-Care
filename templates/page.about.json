@@ -67,6 +67,7 @@
       ],
       "custom_css": [
         "{max-width: 1100px; margin: auto;}",
+        " h2 {color: #0D3D6F; }",
         ".image-with-text__media-item {max-width: 400px; height: 100%;}"
       ],
       "settings": {
