@@ -43,126 +43,6 @@
         "show_text_below": false
       }
     },
-    "09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "A Visionary in Dental Excellence",
-            "heading_size": "h2"
-          }
-        },
-        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dr. Veronica Stahl stands as a beacon of innovation in the expansive world of oral health care. With a decorated career spanning over 28 years, her expertise resides not only in traditional dental methodologies but also in the realm of pioneering innovation.<\/p><p>In March, the USA recognised her groundbreaking work, granting a patent for her plant-based treatments addressing various oral ailments. These revolutionary treatments not only focus on the oral cavity but also highlight the correlation between oral health and general wellness.<\/p><p><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-heading-1",
-        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1"
-      ],
-      "custom_css": [
-        ".grid__item {width: 35%; margin: 10px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Veronica_Stahl_4.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "c6799cf2-8cb5-475f-9644-364d394364e7": {
-      "type": "image-with-text",
-      "blocks": {
-        "94b5a149-4b4c-4854-a34e-aece687d9b07": {
-          "type": "heading",
-          "settings": {
-            "heading": "Dr. Stahl's Fusion",
-            "heading_size": "h2"
-          }
-        },
-        "37beb72e-1f3a-4e3f-afe4-4b95df47dd32": {
-          "type": "text",
-          "settings": {
-            "text": "<p>She was also the mind behind the industry's first-ever patents, which ingeniously merged hemp-based solutions with the mineral-rich potency of the Dead Sea. This unique fusion underscores Dr. Stahl's commitment to integrating nature’s gifts into advanced dental care.<\/p><p>Her contributions to the dental community were further cemented in 2019 when the Flemish government awarded her a significant grant, celebrating her dedication and novel approaches in the field.<\/p><p><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "94b5a149-4b4c-4854-a34e-aece687d9b07",
-        "37beb72e-1f3a-4e3f-afe4-4b95df47dd32"
-      ],
-      "custom_css": [
-        ".grid__item {width: 35%; margin: 10px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_1.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
-    "406aec41-5bf2-4ecd-8129-c450ea754fe8": {
-      "type": "image-with-text",
-      "blocks": {
-        "db3da122-4ad3-4d9f-a592-4fb1b52f9903": {
-          "type": "heading",
-          "settings": {
-            "heading": "Redefining Dentistry",
-            "heading_size": "h2"
-          }
-        },
-        "13cbbae3-a0d4-405e-83ec-f0364d11205f": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Beyond her clinical prowess, Dr. Stahl's educational journey is a testament to her commitment to excellence. With credentials from esteemed institutions like Harvard Clinical Research and the Technion Israel Institute of Technology, she has continuously been at the forefront of dental advancements. Moreover, her dual role as a clinical researcher has birthed inventions that are shaping the future of dentistry.<\/p><p>A polyglot, entrepreneur, and influential figure in global dental circles, Dr. Stahl’s legacy is characterised by relentless pursuit, innovation, and an unwavering dedication to enhancing oral health care globally.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "db3da122-4ad3-4d9f-a592-4fb1b52f9903",
-        "13cbbae3-a0d4-405e-83ec-f0364d11205f"
-      ],
-      "custom_css": [
-        ".grid__item {width: 35%; margin: 10px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_2.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "497235a5-89b7-4189-8165-9a399981cb04": {
       "type": "custom-slideshow",
       "blocks": {
@@ -327,14 +207,134 @@
         "show_text_below": false,
         "accessibility_info": ""
       }
+    },
+    "09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Visionary in Dental Excellence",
+            "heading_size": "h2"
+          }
+        },
+        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Veronica Stahl stands as a beacon of innovation in the expansive world of oral health care. With a decorated career spanning over 28 years, her expertise resides not only in traditional dental methodologies but also in the realm of pioneering innovation.<\/p><p>In March, the USA recognised her groundbreaking work, granting a patent for her plant-based treatments addressing various oral ailments. These revolutionary treatments not only focus on the oral cavity but also highlight the correlation between oral health and general wellness.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-heading-1",
+        "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1"
+      ],
+      "custom_css": [
+        ".grid__item {width: 35%; margin: 10px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Veronica_Stahl_4.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "c6799cf2-8cb5-475f-9644-364d394364e7": {
+      "type": "image-with-text",
+      "blocks": {
+        "94b5a149-4b4c-4854-a34e-aece687d9b07": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr. Stahl's Fusion",
+            "heading_size": "h2"
+          }
+        },
+        "37beb72e-1f3a-4e3f-afe4-4b95df47dd32": {
+          "type": "text",
+          "settings": {
+            "text": "<p>She was also the mind behind the industry's first-ever patents, which ingeniously merged hemp-based solutions with the mineral-rich potency of the Dead Sea. This unique fusion underscores Dr. Stahl's commitment to integrating nature’s gifts into advanced dental care.<\/p><p>Her contributions to the dental community were further cemented in 2019 when the Flemish government awarded her a significant grant, celebrating her dedication and novel approaches in the field.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "94b5a149-4b4c-4854-a34e-aece687d9b07",
+        "37beb72e-1f3a-4e3f-afe4-4b95df47dd32"
+      ],
+      "custom_css": [
+        ".grid__item {width: 35%; margin: 10px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_1.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "406aec41-5bf2-4ecd-8129-c450ea754fe8": {
+      "type": "image-with-text",
+      "blocks": {
+        "db3da122-4ad3-4d9f-a592-4fb1b52f9903": {
+          "type": "heading",
+          "settings": {
+            "heading": "Redefining Dentistry",
+            "heading_size": "h2"
+          }
+        },
+        "13cbbae3-a0d4-405e-83ec-f0364d11205f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Beyond her clinical prowess, Dr. Stahl's educational journey is a testament to her commitment to excellence. With credentials from esteemed institutions like Harvard Clinical Research and the Technion Israel Institute of Technology, she has continuously been at the forefront of dental advancements. Moreover, her dual role as a clinical researcher has birthed inventions that are shaping the future of dentistry.<\/p><p>A polyglot, entrepreneur, and influential figure in global dental circles, Dr. Stahl’s legacy is characterised by relentless pursuit, innovation, and an unwavering dedication to enhancing oral health care globally.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "db3da122-4ad3-4d9f-a592-4fb1b52f9903",
+        "13cbbae3-a0d4-405e-83ec-f0364d11205f"
+      ],
+      "custom_css": [
+        ".grid__item {width: 35%; margin: 10px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_2.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
     "4d95ce51-2fbd-4bfd-870d-c5308e07670b",
+    "497235a5-89b7-4189-8165-9a399981cb04",
     "09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4",
     "c6799cf2-8cb5-475f-9644-364d394364e7",
-    "406aec41-5bf2-4ecd-8129-c450ea754fe8",
-    "497235a5-89b7-4189-8165-9a399981cb04"
+    "406aec41-5bf2-4ecd-8129-c450ea754fe8"
   ]
 }
