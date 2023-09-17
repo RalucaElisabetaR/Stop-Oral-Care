@@ -23,7 +23,7 @@
         "template--20969701212433__4d95ce51-2fbd-4bfd-870d-c5308e07670b-heading-1"
       ],
       "custom_css": [
-        ".media{display: none;}",
+        ".media {display: none;}",
         ".banner__content {min-width: 100% !important; margin: 0; padding: 0;}",
         ".banner {height: 150px;}",
         "div {min-height: 100%; max-height: 100%; background-color: #05294f;}",
@@ -162,6 +162,95 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "497235a5-89b7-4189-8165-9a399981cb04": {
+      "type": "custom-slideshow",
+      "blocks": {
+        "template--20969701212433__497235a5-89b7-4189-8165-9a399981cb04-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--20969701212433__497235a5-89b7-4189-8165-9a399981cb04-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "5b380371-9c14-4483-b765-66c1ff62e391": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1c8ea163-7a89-42ef-b961-456e7eca8ca2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20969701212433__497235a5-89b7-4189-8165-9a399981cb04-slide-1",
+        "template--20969701212433__497235a5-89b7-4189-8165-9a399981cb04-slide-2",
+        "5b380371-9c14-4483-b765-66c1ff62e391",
+        "1c8ea163-7a89-42ef-b961-456e7eca8ca2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -169,6 +258,7 @@
     "4d95ce51-2fbd-4bfd-870d-c5308e07670b",
     "09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4",
     "c6799cf2-8cb5-475f-9644-364d394364e7",
-    "406aec41-5bf2-4ecd-8129-c450ea754fe8"
+    "406aec41-5bf2-4ecd-8129-c450ea754fe8",
+    "497235a5-89b7-4189-8165-9a399981cb04"
   ]
 }
