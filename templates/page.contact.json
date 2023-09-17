@@ -82,11 +82,43 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "457be427-3719-4bad-85aa-e6132b855ff0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alternatively, fill out our contact form below and a representative will get back to you as soon as possible:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "316466e9-5a73-4d46-88bd-3acfd667f970": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -95,6 +127,8 @@
   "order": [
     "0056e8f8-5756-436e-a605-6dd0b2884c55",
     "main",
-    "48ce4bb7-49fa-4601-8a02-7958b34ed5d1"
+    "48ce4bb7-49fa-4601-8a02-7958b34ed5d1",
+    "457be427-3719-4bad-85aa-e6132b855ff0",
+    "316466e9-5a73-4d46-88bd-3acfd667f970"
   ]
 }
