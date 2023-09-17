@@ -80,8 +80,8 @@
         "8ec4836a-0dee-4f84-90d5-7b48131982db": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Mailing Address",
+            "text": "<p>Cannibite bvba<\/p><p>Prins Leopoldlei 12<\/p><p>2640 Mortsel, Belgium<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -89,10 +89,10 @@
         "d9db3140-763d-48e5-85a9-226785fd7774": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Phone",
+            "text": "",
+            "link_label": "+32 03 44 98 374",
+            "link": "tel:+32 03 44 98 374"
           }
         }
       },
@@ -152,6 +152,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "20215fc0-70c9-44d7-bd0e-3a8fb5ad18f8": {
+      "type": "rich-text",
+      "blocks": {
+        "d6216839-3b7b-4a1d-986c-642d4cbd5e5f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thank you for reaching out to STOP Oral Health Care. We look forward to connecting with you!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d6216839-3b7b-4a1d-986c-642d4cbd5e5f"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -159,6 +181,7 @@
     "main",
     "48ce4bb7-49fa-4601-8a02-7958b34ed5d1",
     "457be427-3719-4bad-85aa-e6132b855ff0",
-    "316466e9-5a73-4d46-88bd-3acfd667f970"
+    "316466e9-5a73-4d46-88bd-3acfd667f970",
+    "20215fc0-70c9-44d7-bd0e-3a8fb5ad18f8"
   ]
 }
