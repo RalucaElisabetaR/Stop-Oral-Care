@@ -18,7 +18,7 @@
       "custom_css": [
         ".card {background-color: white; border: none; box-shadow: -2px 8px 24px -18px rgba(0, 0, 0, 0.33);}",
         ".card__heading {padding-top: 20px; font-size: 1.1em; color: #1773b0;}",
-        " @media screen and (max-width: 949px) {{display: flex; flex-direction: row; } .card {width: 30%; }}"
+        "@media screen and (max-width: 949px) {#product-grid {display: flex; flex-direction: row; margin: auto; } li {max-width: 30%; }}"
       ],
       "settings": {
         "products_per_page": 16,
