@@ -47,7 +47,7 @@
             "title": "General Inquiries",
             "text": "<p>For questions about our products, your order, or any general concerns.<\/p><p>Email: info@cannibite.com<\/p>",
             "link_label": "Email: info@cannibite.com",
-            "link": ""
+            "link": "mailto:info@cannibite.com"
           }
         },
         "template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1-column-2": {
@@ -56,7 +56,7 @@
             "title": "Customer Support",
             "text": "<p>Need help with an order or product? Our team is here to assist.<\/p>",
             "link_label": "Email: info@cannibite.com",
-            "link": ""
+            "link": "mailto:info@cannibite.com"
           }
         },
         "template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1-column-3": {
