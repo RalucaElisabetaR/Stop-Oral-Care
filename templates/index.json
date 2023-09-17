@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify:\/\/collections\/stop-searching-start-smiling",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -439,8 +439,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_first",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "0e7a7f70-a2a5-48d3-a195-f28d8fdb4527": {
