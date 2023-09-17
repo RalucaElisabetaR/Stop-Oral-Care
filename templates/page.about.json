@@ -26,7 +26,7 @@
         ".media {display: none;}",
         ".banner__content {min-width: 100% !important; margin: 0; padding: 0;}",
         ".banner {height: 150px;}",
-        "div {min-height: 100%; max-height: 100%; background-color: #0093C1;}",
+        "div {min-height: 100%; max-height: 100%; background-color: #0093c1;}",
         ".banner__content--middle-center {margin: auto;}",
         "@media screen and (max-width: 750px) {h2 {font-size: 1.45em !important; }}"
       ],
@@ -233,13 +233,85 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "fd955665-9112-4d3f-b0d6-f9edc229011f": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDr. Stahl's Vision: Revolutionizing Oral Health\n<\/h3>",
+            "heading_size": "h2",
+            "subheading": "Under the expert guidance of Dr.\nVeronica Stahl, STOP Oral Care has transcended traditional boundaries. Drawing from her 28 years in the field, she's pioneered the integration of nature's best - hemp and Dead Sea minerals - with modern dental science.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "a48a6e5f-0218-46c0-9361-d42150867263": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nUnlocking Nature's Potential\n<\/h3>",
+            "heading_size": "h2",
+            "subheading": "Our rigorous research has led us to discover and harness the unparalleled benefits of hemp and the Dead Sea salt minerals. Through a meticulous process of trial and validation, we've created products that marry age-old natural remedies with contemporary dental science.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "7a4084cf-7926-4505-94b2-ce465c6295a3": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nEvidence-Based Excellence\n<\/h3>",
+            "heading_size": "h2",
+            "subheading": "Every product that bears the STOP name is backed by solid scientific research. Our in-house team of researchers and dental experts work tirelessly to ensure that we deliver not just promises, but proven results.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "c1d8fd6a-f57a-4076-9c9e-d4b1d9664206": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nLeading Oral Health Into the Future\n<\/h3>",
+            "heading_size": "h2",
+            "subheading": "STOP Oral Care isn't just following advancements; we're creating them. Our passion? Merging nature's wonders like hemp and Dead Sea minerals with modern dental science.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-1",
         "69611c13-fe04-4986-abfd-fc2292e9fa0f",
         "b48c4eb8-e97e-4a33-beaa-8ac8aff28683",
-        "49a3ec95-0794-4892-a53c-113f74147f53"
+        "49a3ec95-0794-4892-a53c-113f74147f53",
+        "fd955665-9112-4d3f-b0d6-f9edc229011f",
+        "a48a6e5f-0218-46c0-9361-d42150867263",
+        "7a4084cf-7926-4505-94b2-ce465c6295a3",
+        "c1d8fd6a-f57a-4076-9c9e-d4b1d9664206"
       ],
       "custom_css": [
         "{overflow-x: hidden;}",
