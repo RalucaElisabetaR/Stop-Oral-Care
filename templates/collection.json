@@ -3,6 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
+        ".collection-hero {padding-top: 100px; padding-bottom: 100px;}",
         "div {background-color: #05294f;}"
       ],
       "settings": {
