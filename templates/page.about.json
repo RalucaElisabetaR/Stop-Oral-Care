@@ -105,13 +105,13 @@
       ],
       "custom_css": [
         ".grid__item {width: 40%;}",
-        "img{padding-bottom: 30px;}"
+        "img {margin-top: -30px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_1.png",
         "height": "adapt",
         "desktop_image_width": "small",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
