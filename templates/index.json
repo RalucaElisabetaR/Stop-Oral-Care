@@ -426,6 +426,9 @@
         "template--20797124903185__11af51ef-07c5-4fbe-bd39-7b3f853b611a-collapsible_row-4",
         "9ac6fa13-9af8-429f-8168-66c3ccdc7e17"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 1px;}"
+      ],
       "settings": {
         "caption": "",
         "heading": "<strong>Frequently Asked Questions (FAQ)<\/strong>",
