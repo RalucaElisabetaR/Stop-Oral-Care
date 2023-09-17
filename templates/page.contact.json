@@ -22,12 +22,12 @@
         "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1"
       ],
       "custom_css": [
-        "h2 {color: #0d3d6f;}"
+        "h2 {color: #white;}"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
