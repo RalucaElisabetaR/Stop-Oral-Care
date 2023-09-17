@@ -28,7 +28,7 @@
     > div.image-with-text__media-item.image-with-text__media-item--small.image-with-text__media-item--top.grid__item
     > div {
     margin-top: -40%;
-    margin-right: 40px;
+  
   }
 
   .media > *:not(.zoom):not(.deferred-media__poster-button),
