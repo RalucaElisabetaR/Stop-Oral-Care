@@ -183,6 +183,23 @@
             "text_alignment_mobile": "center"
           }
         },
+        "69611c13-fe04-4986-abfd-fc2292e9fa0f": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nUnlocking Nature's Potential\n<\/h3>",
+            "heading_size": "h2",
+            "subheading": "Our rigorous research has led us to discover and harness the unparalleled benefits of hemp and the Dead Sea salt minerals. Through a meticulous process of trial and validation, we've created products that marry age-old natural remedies with contemporary dental science.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
         "b48c4eb8-e97e-4a33-beaa-8ac8aff28683": {
           "type": "slide",
           "settings": {
@@ -216,102 +233,13 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "bbaad51f-4437-417b-ba4c-e74cc3bf4135": {
-          "type": "slide",
-          "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nInnovative and Uncompromising\n<\/h3>",
-            "heading_size": "h2",
-            "subheading": "Each product at STOP is a testament to our dedication to quality and efficacy. We combine the innate wisdom of nature with rigorous scientific scrutiny, ensuring a dental experience that’s not only soothing but also potent against oral challenges.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "1b46c9bc-9004-4757-9f14-9f680d453536": {
-          "type": "slide",
-          "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nRedefining Oral Care\n<\/h3>",
-            "heading_size": "h2",
-            "subheading": "Guided by Dr. Stahl's commitment to excellence and innovation, STOP Oral Care is pioneering a transformative journey in oral health. Dive into a regimen powered by the unparalleled synergy of hemp and Dead Sea minerals, and embrace a smile that’s as naturally vibrant as it is healthy.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "9b942daa-4829-4b63-8be0-8dc4bbb1593d": {
-          "type": "slide",
-          "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDead Sea Salt: Nature's Healing Elixir\n<\/h3>",
-            "heading_size": "h2",
-            "subheading": "The uniqueness of our approach shines with the inclusion of Dead Sea salt, encompassing essential nutrients known for their therapeutic properties. These minerals not only enhance the antimicrobial action of hemp but also promote healing and rejuvenation in the oral cavity. It's a holistic approach where protection meets regeneration.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "56cb83db-ac4c-4862-af0b-98caf493bd38": {
-          "type": "slide",
-          "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nInnovative and Uncompromising\n<\/h3>",
-            "heading_size": "h2",
-            "subheading": "Each product at STOP is a testament to our dedication to quality and efficacy. We combine the innate wisdom of nature with rigorous scientific scrutiny, ensuring a dental experience that’s not only soothing but also potent against oral challenges.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "69611c13-fe04-4986-abfd-fc2292e9fa0f": {
-          "type": "slide",
-          "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nUnlocking Nature's Potential\n<\/h3>",
-            "heading_size": "h2",
-            "subheading": "Our rigorous research has led us to discover and harness the unparalleled benefits of hemp and the Dead Sea salt minerals. Through a meticulous process of trial and validation, we've created products that marry age-old natural remedies with contemporary dental science.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-1",
+        "69611c13-fe04-4986-abfd-fc2292e9fa0f",
         "b48c4eb8-e97e-4a33-beaa-8ac8aff28683",
-        "49a3ec95-0794-4892-a53c-113f74147f53",
-        "bbaad51f-4437-417b-ba4c-e74cc3bf4135",
-        "1b46c9bc-9004-4757-9f14-9f680d453536",
-        "9b942daa-4829-4b63-8be0-8dc4bbb1593d",
-        "56cb83db-ac4c-4862-af0b-98caf493bd38",
-        "69611c13-fe04-4986-abfd-fc2292e9fa0f"
+        "49a3ec95-0794-4892-a53c-113f74147f53"
       ],
       "custom_css": [
         "{overflow-x: hidden;}",
