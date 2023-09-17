@@ -61,10 +61,10 @@
           "type": "complementary",
           "settings": {
             "block_heading": "For optimal results, use it together with:",
-            "make_collapsible_row": false,
+            "make_collapsible_row": true,
             "icon": "star",
-            "product_list_limit": 10,
-            "products_per_page": 3,
+            "product_list_limit": 2,
+            "products_per_page": 2,
             "pagination_style": "counter",
             "image_ratio": "square",
             "enable_quick_add": true
