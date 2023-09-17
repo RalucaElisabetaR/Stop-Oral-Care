@@ -118,12 +118,17 @@
   }
 }
 
-
-@media screen and (max-width: 1140px) {
-  
-  
+@media screen and (max-width: 909px) {
+  #shopify-section-template--20969701212433__c6799cf2-8cb5-475f-9644-364d394364e7
+    > div
+    > div
+    > div.image-with-text__media-item.image-with-text__media-item--small.image-with-text__media-item--top.grid__item,
+  #shopify-section-template--20969701212433__c6799cf2-8cb5-475f-9644-364d394364e7
+    > div
+    > div
+    > div.image-with-text__media-item.image-with-text__media-item--small.image-with-text__media-item--top.grid__item {
+  }
 }
-
 @media screen and (max-width: 749px) {
   #shopify-section-template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8
     > div {
