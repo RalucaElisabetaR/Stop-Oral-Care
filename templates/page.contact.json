@@ -65,7 +65,7 @@
             "title": "Press & Media Inquiries",
             "text": "<p>For press releases, media kits, and interview requests.<\/p>",
             "link_label": "Email: veronica@cannibite.com",
-            "link": ""
+            "link": "mailto:veronica@cannibite.com"
           }
         }
       },
