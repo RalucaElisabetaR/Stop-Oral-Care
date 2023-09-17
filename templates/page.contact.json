@@ -104,6 +104,10 @@
         "8ec4836a-0dee-4f84-90d5-7b48131982db",
         "d9db3140-763d-48e5-85a9-226785fd7774"
       ],
+      "custom_css": [
+        ".multicolumn-card {background-color: white; box-shadow: -2px 8px 24px -18px rgba(0,0,0,0.33);}",
+        "h3 {color: #0d3d6f;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
