@@ -7,5 +7,11 @@
 }
 
 @media screen and (max-width: 749px) {
-    margin-left: 0px;
+  #shopify-section-sections--20797124247825__footer
+  > footer
+  > div.footer__content-top.page-width
+  > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in
+  > div:nth-child(2) {
+  margin-left: 0px;
+}
 }
