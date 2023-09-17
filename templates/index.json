@@ -511,13 +511,85 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "9b96d1c7-30bf-49e8-aab2-11a583b08469": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>\nExcellence in Innovation & Dedication\n<\/h3>",
+            "heading_size": "h2",
+            "subheading": "At STOP Oral Care, our dedication to innovative solutions and premium product quality has garnered international recognition. Under the esteemed leadership of Dr. Veronica Stahl, our trajectory has been marked by numerous awards, highlighting our unwavering commitment to excellence.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "ba2c8a3a-28ac-4525-a54e-f6780f1e300c": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>\nFlemish Government Grant - 2019\n<\/h3>",
+            "heading_size": "h2",
+            "subheading": "In recognition of our groundbreaking work, we received a grant from the Flemish government in 2019. This esteemed award propelled our mission to develop an innovative portfolio of personal dental products that redefine oral care standards",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "36aa1626-8a16-49c8-929d-ee472536318a": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>U.S. Patent Recognition - 2023<\/h3>",
+            "heading_size": "h2",
+            "subheading": "Our dedication to pushing the boundaries of natural oral care culminated in a U.S. granted patent. This patent, centered around plant-based treatments for various oral ailments linked to broader health issues, stands as a testament to our innovative approach and the tangible impact of Dr. Stahl's visionary research.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "d3637a82-2da0-49ad-83e7-ff42e5ac9dd3": {
+          "type": "slide",
+          "settings": {
+            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>A Commitment to Breakthroughs<\/h3>",
+            "heading_size": "h2",
+            "subheading": "While these awards underscore our achievements, they also serve as a catalyst for ongoing exploration and innovation. At STOP, our ambition extends beyond merely meeting industry standards; we strive to establish them.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "741e1566-3442-46e2-9688-1940ea25809c",
         "5febc70a-6529-4be1-b7bd-6b28929df75a",
         "a83592cc-b2e1-4cde-a2cd-790c68388f8c",
-        "b0e1469f-9e0d-4afa-843b-c351c7390a05"
+        "b0e1469f-9e0d-4afa-843b-c351c7390a05",
+        "9b96d1c7-30bf-49e8-aab2-11a583b08469",
+        "ba2c8a3a-28ac-4525-a54e-f6780f1e300c",
+        "36aa1626-8a16-49c8-929d-ee472536318a",
+        "d3637a82-2da0-49ad-83e7-ff42e5ac9dd3"
       ],
       "custom_css": [
 
