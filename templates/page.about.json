@@ -14,20 +14,13 @@
         "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Contact Us",
+            "heading": "About Dr. Veronica Stahl",
             "heading_size": "h1"
-          }
-        },
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We value your feedback, questions, and insights. Whether you're a current customer, a potential user, or just someone curious about our products, we're here to help.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-heading-1",
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1"
+        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-heading-1"
       ],
       "custom_css": [
         "h2 {color: white;}"
