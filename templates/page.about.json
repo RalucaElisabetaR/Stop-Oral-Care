@@ -105,7 +105,7 @@
         "37beb72e-1f3a-4e3f-afe4-4b95df47dd32"
       ],
       "custom_css": [
-        ".grid__item {width: 35%;}"
+        ".grid__item {width: 35%; margin: 10px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_1.png",
@@ -114,7 +114,7 @@
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -145,7 +145,7 @@
         "13cbbae3-a0d4-405e-83ec-f0364d11205f"
       ],
       "custom_css": [
-        ".grid__item {width: 35%;}"
+        ".grid__item {width: 35%; margin: 10px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/credentials_1080_x_1080_px_2.png",
