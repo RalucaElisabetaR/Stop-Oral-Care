@@ -5,3 +5,7 @@
   > div:nth-child(2) {
   margin-left: 150px;
 }
+
+@media screen and (max-width: 749px) {
+    margin-left: 0px;
+}
