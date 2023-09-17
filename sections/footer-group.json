@@ -4,19 +4,39 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "e8b43a54-e89d-42da-97e9-25c009f373de": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Links",
+            "menu": "footer"
+          }
+        },
+        "c2fe9ae0-9f19-4d14-8e69-45aa059f5d3f": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "products"
+          }
+        }
+      },
+      "block_order": [
+        "e8b43a54-e89d-42da-97e9-25c009f373de",
+        "c2fe9ae0-9f19-4d14-8e69-45aa059f5d3f"
+      ],
       "custom_css": [
-        ".copyright__content {display: none;}"
+
       ],
       "settings": {
         "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
         "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 0,
         "padding_top": 44,
         "padding_bottom": 60
