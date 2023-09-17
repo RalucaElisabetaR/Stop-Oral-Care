@@ -66,7 +66,7 @@
         "template--20797124903185__31863453-994d-4e53-bf38-ad881e653fe9-heading-1"
       ],
       "custom_css": [
-
+        "h2 {letter-spacing: 1px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
