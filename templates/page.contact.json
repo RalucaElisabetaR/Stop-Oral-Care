@@ -1,20 +1,41 @@
 {
   "sections": {
+    "0056e8f8-5756-436e-a605-6dd0b2884c55": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We value your feedback, questions, and insights. Whether you're a current customer, a potential user, or just someone curious about our products, we're here to help.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-heading-1",
+        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 0
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 60
       }
     },
     "48ce4bb7-49fa-4601-8a02-7958b34ed5d1": {
@@ -23,18 +44,18 @@
         "template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1-column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "title": "General Inquiries",
+            "text": "<p>For questions about our products, your order, or any general concerns.<\/p><p>Email: info@cannibite.com<\/p>",
+            "link_label": "Email: info@cannibite.com",
             "link": ""
           }
         },
         "template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "title": "Customer Support",
+            "text": "<p>Need help with an order or product? Our team is here to assist.<\/p>",
+            "link_label": "Email: info@cannibite.com",
             "link": ""
           }
         },
@@ -54,7 +75,7 @@
         "template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1-column-3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -69,54 +90,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "0056e8f8-5756-436e-a605-6dd0b2884c55": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact Us",
-            "heading_size": "h1"
-          }
-        },
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-heading-1",
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1",
-        "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
+    "0056e8f8-5756-436e-a605-6dd0b2884c55",
     "main",
-    "form",
-    "48ce4bb7-49fa-4601-8a02-7958b34ed5d1",
-    "0056e8f8-5756-436e-a605-6dd0b2884c55"
+    "48ce4bb7-49fa-4601-8a02-7958b34ed5d1"
   ]
 }
