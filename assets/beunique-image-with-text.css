@@ -70,7 +70,7 @@ box-shadow: -2px 8px 24px -18px rgba(0,0,0,0.33);
     > div.image-with-text__media-item.image-with-text__media-item--small.image-with-text__media-item--top.grid__item
   {
     
-  margin: auto 20px 50px;
+  margin: auto 20px auto 50px;
      padding-left: 20px ;
   padding-right: 20px ;
  
