@@ -3,12 +3,12 @@
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
-        "h1 {color: #0D3D6F;}"
+        "div {background-color: #05294f;}"
       ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
-        "color_scheme": "background-1"
+        "color_scheme": "inverse"
       }
     },
     "product-grid": {
