@@ -71,6 +71,9 @@ box-shadow: -2px 8px 24px -18px rgba(0,0,0,0.33);
   {
     
     margin-left: 0px;
+     padding-left: 20px ;
+  padding-right: 20px ;
+  margin-bottom: 50px;
   }
 
   .media > *:not(.zoom):not(.deferred-media__poster-button),
