@@ -15,14 +15,17 @@
   border-radius: 20px;
 }
 
-#Slide-aa6fc72c-68e6-41a3-aa12-23450a297062-1 > ul > li > div > div {
+#Slide-aa6fc72c-68e6-41a3-aa12-23450a297062-1 > ul > li > div > div,
+#Slide-6f68cb6b-29e2-4736-a7ba-8dca0dd4944c-1 > ul > li > div > div {
   align-items: center;
 }
+
 #quick-add-template--20881243210001__main8793075941649-submit,
 #quick-add-template--20952521179409__main8793072304401-submit {
   font-size: 0.9em;
   padding: 10px 20px;
 }
+
 #CardLink-template--20881243210001__main-8793075941649,
 #CardLink-template--20952521179409__main-8793072304401 {
   color: #0d3d6f;
