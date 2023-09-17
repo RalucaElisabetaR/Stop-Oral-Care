@@ -18,9 +18,10 @@
   > div
   > div.image-with-text__media-item.image-with-text__media-item--small.image-with-text__media-item--top.grid__item
   > div {
-  -webkit-box-shadow: 1px 0px 44px -16px rgba(0, 0, 0, 0.53);
-  -moz-box-shadow: 1px 0px 44px -16px rgba(0, 0, 0, 0.53);
-  box-shadow: 1px 0px 44px -16px rgba(0, 0, 0, 0.53);
+-webkit-box-shadow: 1px 0px 44px -43px rgba(0,0,0,0.53);
+-moz-box-shadow: 1px 0px 44px -43px rgba(0,0,0,0.53);
+box-shadow: 1px 0px 44px -43px rgba(0,0,0,0.53);
+
 }
 
 @media screen and (max-width: 750px) {
