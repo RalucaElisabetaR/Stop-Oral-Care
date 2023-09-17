@@ -23,7 +23,7 @@
         "template--20969701212433__4d95ce51-2fbd-4bfd-870d-c5308e07670b-heading-1"
       ],
       "custom_css": [
-        "img {display: none;}",
+        ".media{display: none;}",
         ".banner__content {min-width: 100% !important; margin: 0; padding: 0;}",
         ".banner {height: 150px;}",
         "div {min-height: 100%; max-height: 100%; background-color: #05294f;}",
