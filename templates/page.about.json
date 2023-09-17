@@ -241,15 +241,18 @@
         "5b380371-9c14-4483-b765-66c1ff62e391",
         "1c8ea163-7a89-42ef-b961-456e7eca8ca2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "show_text_below": false,
+        "accessibility_info": ""
       }
     }
   },
