@@ -4,7 +4,8 @@
       "type": "main-collection-banner",
       "custom_css": [
         ".collection-hero {padding-top: 100px; padding-bottom: 100px;}",
-        "div {background-color: #05294f;}"
+        "div {background-color: #05294f;}",
+        "@media screen and (max-width: 749px) {.collection-hero{padding: 0 20px; }}"
       ],
       "settings": {
         "show_collection_description": true,
@@ -16,7 +17,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         ".card {background-color: white; border: none; box-shadow: -2px 8px 24px -18px rgba(0, 0, 0, 0.33);}",
-        ".card__heading {padding-top: 20px; font-size: 1.1em; color: #1773B0;}"
+        ".card__heading {padding-top: 20px; font-size: 1.1em; color: #1773b0;}"
       ],
       "settings": {
         "products_per_page": 16,
