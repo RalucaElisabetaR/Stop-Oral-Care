@@ -65,7 +65,7 @@
         "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1"
       ],
       "custom_css": [
-        ".grid__item {width: 40%;}"
+        ".grid__item {width: 40%; margin-right: 25px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Veronica_Stahl_4.png",
