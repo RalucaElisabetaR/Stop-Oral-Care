@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Soothe & Strengthen: Say goodbye to tooth sensitivity",
+            "text": "Soothe &amp; Strengthen: <br> Say goodbye to tooth sensitivity",
             "link": "shopify:\/\/collections\/all"
           }
         },
