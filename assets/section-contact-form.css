@@ -37,3 +37,11 @@
     grid-column-gap: 2rem;
   }
 }
+
+
+/* BEUNIQUE CUSTOM  */
+@media screen and (max-width: 750px) {
+#ContactForm{
+  padding: 0 10px;
+}
+}
