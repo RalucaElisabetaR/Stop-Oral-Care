@@ -67,6 +67,16 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
+        },
+        "adec28e4-68ca-4d7d-8d9b-18f351a8fd54": {
+          "type": "shopify:\/\/apps\/paywhirl\/blocks\/paywhirl-plan-selector\/41e95d60-82cf-46e8-84de-618d7e4c37b7",
+          "settings": {
+            "font_scale": 100,
+            "theme": "default",
+            "selling_plans_first": false,
+            "theme_color": "#334FB4",
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -78,7 +88,8 @@
         "description",
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
         "6d1fc4b7-5d53-4f9c-96aa-6020bf37b390",
-        "aa6fc72c-68e6-41a3-aa12-23450a297062"
+        "aa6fc72c-68e6-41a3-aa12-23450a297062",
+        "adec28e4-68ca-4d7d-8d9b-18f351a8fd54"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
