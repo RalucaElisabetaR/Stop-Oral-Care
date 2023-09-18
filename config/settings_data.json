@@ -141,8 +141,8 @@
         "disabled": false,
         "settings": {
           "show_subscriptions_link": true,
-          "show_customer_login_note": false,
-          "show_address_change_note": false,
+          "show_customer_login_note": true,
+          "show_address_change_note": true,
           "container_selector": "main"
         }
       }
