@@ -28,6 +28,18 @@
   
     font-weight: 600;
   }
+/* CONTACT PAGE ABOVE FORM */
+     #shopify-section-template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0
+    > div
+    > div
+    > div
+    > div
+    > div
+    > p {
+    text-align: left!important;
+  }
+
+  
 }
 
 /* END HOMEPAGE 1st CAROUSEL TITLE END */
