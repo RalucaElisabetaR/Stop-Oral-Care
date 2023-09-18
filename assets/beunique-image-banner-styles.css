@@ -86,6 +86,10 @@
   #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
     > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
     > div
+    > h2,
+  #Banner-template--20969701212433__0b53e008-4ff6-4bb6-9b96-b725bf3672be
+    > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
+    > div
     > h2 {
     color: #405061;
     font-size: 1.4em;
@@ -97,6 +101,11 @@
 
   #Banner-template--20797124903185__8d9855b4-8ddd-4bf0-b7ed-d4df004a1f43
     > div.banner__content.banner__content--middle-center.page-width.scroll-trigger.animate--slide-in
+    > div
+    > div.banner__text.rte.body
+    > p,
+  #Banner-template--20969701212433__0b53e008-4ff6-4bb6-9b96-b725bf3672be
+    > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
     > div
     > div.banner__text.rte.body
     > p {
@@ -123,16 +132,17 @@
 /* 3rd IMAGE BANNER */
 
 @media screen and (max-width: 749px) {
-   #Banner-template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf   > div.banner__media.media.scroll-trigger.animate--fade-in
-    > img  {
-       content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/STOP_Oral_Care_kit_9f324f88-7055-46e3-a2c0-7ccedae0253a.png?v=1695031539");
-   }
+  #Banner-template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf
+    > div.banner__media.media.scroll-trigger.animate--fade-in
+    > img {
+    content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/STOP_Oral_Care_kit_9f324f88-7055-46e3-a2c0-7ccedae0253a.png?v=1695031539");
+  }
   #Banner-template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf
     > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
     > div
     > h2 {
     color: #405061;
-      font-size: 1.6em;
+    font-size: 1.6em;
   }
   #Banner-template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf
     > div.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in
@@ -140,7 +150,7 @@
     > div.banner__text.rte.body
     > p {
     color: #4f4f4f;
-       font-size: 1.3em;
+    font-size: 1.3em;
   }
 }
 
@@ -148,9 +158,11 @@
 
 /* ABOUT PAGE BOTTOM IMAGE BANNER */
 @media screen and (max-width: 749px) {
-  #Banner-template--20969701212433__0b53e008-4ff6-4bb6-9b96-b725bf3672be > div.banner__media.media.scroll-trigger.animate--fade-in > img {
-       content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/STOP_Oral_Care_kit_9f324f88-7055-46e3-a2c0-7ccedae0253a.png?v=1695031539");
-   }
+  #Banner-template--20969701212433__0b53e008-4ff6-4bb6-9b96-b725bf3672be
+    > div.banner__media.media.scroll-trigger.animate--fade-in
+    > img {
+    content: url("https://cdn.shopify.com/s/files/1/0821/8558/4913/files/STOP_Oral_Care_kit_9f324f88-7055-46e3-a2c0-7ccedae0253a.png?v=1695031539");
+  }
 }
 
 /* END ABOUT PAGE BOTTOM IMAGE BANNER  END*/
