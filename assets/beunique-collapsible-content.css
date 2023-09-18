@@ -2,7 +2,7 @@
   align-self: flex-start;
 }
 
-.accordion > div.accordion__content .rte
+div.accordion__content
 {padding-top: 20px;
 }
 
