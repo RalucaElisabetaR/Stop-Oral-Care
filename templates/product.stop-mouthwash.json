@@ -72,9 +72,9 @@
           "type": "shopify:\/\/apps\/paywhirl\/blocks\/paywhirl-plan-selector\/41e95d60-82cf-46e8-84de-618d7e4c37b7",
           "settings": {
             "font_scale": 100,
-            "theme": "default",
-            "selling_plans_first": false,
-            "theme_color": "#334FB4",
+            "theme": "classic",
+            "selling_plans_first": true,
+            "theme_color": "#334fb4",
             "product": "{{product}}"
           }
         }
