@@ -7,7 +7,7 @@
   > div
   > div
   > h2 {
-  color:#0D3D6F;
+  color: #0d3d6f;
   font-size: 2.6em;
   font-weight: 500;
 }
@@ -19,33 +19,37 @@
     padding: 0;
   }
   #shopify-section-template--20797124903185__31863453-994d-4e53-bf38-ad881e653fe9
-  > div
-  > div
-  > div
-  > div
-  > h2 {
+    > div
+    > div
+    > div
+    > div
+    > h2 {
     font-size: 1.6em;
-  
+
     font-weight: 600;
   }
-/* TOP TEXT ABOUT PAGE MOBILE */
+  /* TOP TEXT ABOUT PAGE MOBILE */
 
-  
+  #shopify-section-template--20969701212433__6571c467-d750-436f-be03-c742801d6c32
+    > div
+    > div
+    > div
+    > div
+    > h2 {
+    font-size: 1em;
+  }
 
-  
-/* CONTACT PAGE ABOVE FORM  MOBILE */
+  /* CONTACT PAGE ABOVE FORM  MOBILE */
 
-     #shopify-section-template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0
+  #shopify-section-template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0
     > div
     > div
     > div
     > div
     > div
     > p {
-    text-align: left!important;
+    text-align: left !important;
   }
-
-  
 }
 
 /* END HOMEPAGE 1st CAROUSEL TITLE END */
