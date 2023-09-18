@@ -2,9 +2,8 @@
   align-self: flex-start;
 }
 
-#Summary-template--20797124903185__11af51ef-07c5-4fbe-bd39-7b3f853b611a-collapsible_row-1-template--20797124903185__11af51ef-07c5-4fbe-bd39-7b3f853b611a
-  > .accordion__content {
-  padding-top: 20px;
+.accordion > details > div.accordion__content .rte
+{padding-top: 20px;
 }
 
 #shopify-section-template--20797124903185__11af51ef-07c5-4fbe-bd39-7b3f853b611a
