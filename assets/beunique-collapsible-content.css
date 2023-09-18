@@ -2,7 +2,9 @@
   align-self: flex-start;
 }
 
-.rte > *:first-child {
+#Summary-template--20797124903185__11af51ef-07c5-4fbe-bd39-7b3f853b611a-collapsible_row-1-template--20797124903185__11af51ef-07c5-4fbe-bd39-7b3f853b611a
+.accordion__content .rte > *:first-child 
+{
   padding-top: 20px;
 }
 
