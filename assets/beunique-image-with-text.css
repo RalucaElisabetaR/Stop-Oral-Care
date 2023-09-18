@@ -116,11 +116,7 @@
     height: auto;
     bottom: 0;
   }
-}
-
-/* CONTACT PAGE  */
-@media screen and (max-width: 750px) {
-  #shopify-section-template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0
+    #shopify-section-template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0
     > div
     > div
     > div
@@ -130,4 +126,7 @@
     text-align: left;
   }
 }
+
+/* CONTACT PAGE  */
+
 /* END CONTACT PAGE END */
