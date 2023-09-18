@@ -30,7 +30,7 @@
           "settings": {
             "font_scale": 100,
             "theme": "default",
-            "selling_plans_first": true,
+            "selling_plans_first": false,
             "theme_color": "#334fb4",
             "product": "{{product}}"
           }
