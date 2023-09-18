@@ -36,11 +36,21 @@
           "settings": {
           }
         },
+        "d948fec1-4a63-4e1b-a695-07e699ae4ff1": {
+          "type": "shopify:\/\/apps\/paywhirl\/blocks\/paywhirl-plan-selector\/41e95d60-82cf-46e8-84de-618d7e4c37b7",
+          "settings": {
+            "font_scale": 100,
+            "theme": "default",
+            "selling_plans_first": false,
+            "theme_color": "#334FB4",
+            "product": "{{product}}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "description": {
@@ -78,6 +88,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "d948fec1-4a63-4e1b-a695-07e699ae4ff1",
         "buy_buttons",
         "description",
         "47591496-f88c-4893-82ba-124f0a73372d",
