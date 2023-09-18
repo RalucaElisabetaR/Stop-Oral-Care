@@ -116,8 +116,8 @@
     "currency_code_enabled": false,
     "cart_type": "drawer",
     "show_vendor": false,
-    "show_cart_note": true,
-    "cart_drawer_collection": "",
+    "show_cart_note": false,
+    "cart_drawer_collection": "stop-searching-start-smiling",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -135,14 +135,6 @@
     "content_for_index": [
 
     ],
-    "blocks": {
-      "341186785192672687": {
-        "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
-        "disabled": true,
-        "settings": {
-        }
-      }
-    },
     "color_schemes": {
       "background-1": {
         "settings": {
