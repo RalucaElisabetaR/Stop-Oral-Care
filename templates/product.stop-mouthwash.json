@@ -74,13 +74,13 @@
             "layout": "horizontal",
             "icon_1": "none",
             "image_1": "shopify:\/\/shop_images\/Stop_Icon_6.png",
-            "heading_1": "<div class=\" custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nAdvanced Plaque Prevention\n<\/h3>\n\n<p>\nBid farewell to the earliest signs of dental concerns.\n<\/p>\n<\/div>",
+            "heading_1": "<div class=\" custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nAdvanced Plaque Prevention\n<\/h3>\n\n<p class=\"custom-icon-p\">\nBid farewell to the earliest signs of dental concerns.\n<\/p>\n<\/div>",
             "icon_2": "return",
             "image_2": "shopify:\/\/shop_images\/Stop_Icon_6.png",
-            "heading_2": "<div class=\"custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nEveryday Excellence\n<\/h3>\n\n<p>Formulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
+            "heading_2": "<div class=\"custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nEveryday Excellence\n<\/h3>\n\n<p class=\"custom-icon-p\">\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
             "icon_3": "none",
             "image_3": "shopify:\/\/shop_images\/Stop_Icon_6.png",
-            "heading_3": "<div class=\"custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nGentle Yet Effective\n<\/h3>\n\n<p>\n No irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>"
+            "heading_3": "<div class=\"custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nGentle Yet Effective\n<\/h3>\n\n<p class=\"custom-icon-p\">\n No irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>"
           }
         }
       },
