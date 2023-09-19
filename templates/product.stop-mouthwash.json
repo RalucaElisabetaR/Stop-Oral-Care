@@ -101,7 +101,7 @@
         "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093c1;}",
         ".card {background-color: white; border: none; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02), 0px 5px 15px rgba(0, 0, 0, 0.01);}",
         "#Details-aa6fc72c-68e6-41a3-aa12-23450a297062-template--20881243210001__main > summary > div > h2 {font-size: 1em;}",
-        "ul .icon-with-text {column-gap: 0em;}"
+        "ul .icon-with-text--horizontal {column-gap: 0em;}"
       ],
       "settings": {
         "enable_sticky_info": true,
