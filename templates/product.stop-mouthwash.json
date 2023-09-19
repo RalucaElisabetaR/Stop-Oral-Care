@@ -177,11 +177,11 @@
         "314a1750-ad5b-4227-b04e-417e405af598"
       ],
       "custom_css": [
-        ".title{margin: auto;}",
+        ".title {margin: auto;}",
         ".multicolumn-card {background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}"
       ],
       "settings": {
-        "title": "Benefits",
+        "title": "",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
