@@ -25,16 +25,6 @@
           "settings": {
           }
         },
-        "adec28e4-68ca-4d7d-8d9b-18f351a8fd54": {
-          "type": "shopify:\/\/apps\/paywhirl\/blocks\/paywhirl-plan-selector\/41e95d60-82cf-46e8-84de-618d7e4c37b7",
-          "settings": {
-            "font_scale": 100,
-            "theme": "default",
-            "selling_plans_first": false,
-            "theme_color": "#334fb4",
-            "product": "{{product}}"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -77,6 +67,20 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
+        },
+        "4515d560-e283-41d8-8469-692c65ccc724": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/Stop_Icon_6.png",
+            "heading_1": "Advanced Plaque Prevention<br> Bid farewell to the earliest signs of dental concerns.",
+            "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/Stop_Icon_6.png",
+            "heading_2": "<div>\n<h3>\nEveryday Excellence\n<\/h3>\n<br> \n<p>Formulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
         }
       },
       "block_order": [
@@ -84,12 +88,12 @@
         "title",
         "price",
         "quantity_selector",
-        "adec28e4-68ca-4d7d-8d9b-18f351a8fd54",
         "buy_buttons",
         "description",
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
         "6d1fc4b7-5d53-4f9c-96aa-6020bf37b390",
-        "aa6fc72c-68e6-41a3-aa12-23450a297062"
+        "aa6fc72c-68e6-41a3-aa12-23450a297062",
+        "4515d560-e283-41d8-8469-692c65ccc724"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
