@@ -177,8 +177,8 @@
         "314a1750-ad5b-4227-b04e-417e405af598"
       ],
       "custom_css": [
-        "h3 {color: #0D3D6F ;}",
-        ".multicolumn-card {background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}"
+        "h3 {color: #0d3d6f;}",
+        ".multicolumn-card {padding: 20px 0px 10px; background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}"
       ],
       "settings": {
         "title": "",
