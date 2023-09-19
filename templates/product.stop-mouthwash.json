@@ -154,6 +154,7 @@
         "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Icon_7.png",
             "title": "Gentle Yet Effective",
             "text": "<p>No irritations. No stains. Just pure, uncompromised cleanliness.<\/p>",
             "link_label": "",
