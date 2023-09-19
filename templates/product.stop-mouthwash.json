@@ -67,21 +67,6 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
-        },
-        "4515d560-e283-41d8-8469-692c65ccc724": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/Stop_Icon_6.png",
-            "heading_1": "<div class=\"custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nEveryday Excellence\n<\/h3>\n\n<p class=\"custom-icon-p\">\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
-            "icon_2": "return",
-            "image_2": "shopify:\/\/shop_images\/Stop_Icon_6.png",
-            "heading_2": "<div class=\" custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nSwift Recover\n<\/h3>\n\n<p class=\"custom-icon-p\">\n Specially designed to support and expedite the healing of gum tissues.\n<\/p>\n<\/div>",
-            "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/Stop_Icon_6.png",
-            "heading_3": "<div class=\"custom-icon-div\">\n<h3 class=\"custom-icon-h3\">\nGentle Yet Effective\n<\/h3>\n\n<p class=\"custom-icon-p\">\n No irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>"
-          }
         }
       },
       "block_order": [
@@ -93,8 +78,7 @@
         "description",
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
         "6d1fc4b7-5d53-4f9c-96aa-6020bf37b390",
-        "aa6fc72c-68e6-41a3-aa12-23450a297062",
-        "4515d560-e283-41d8-8469-692c65ccc724"
+        "aa6fc72c-68e6-41a3-aa12-23450a297062"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
@@ -145,11 +129,78 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "dfeab778-3e4b-4c95-aaed-ffb71db16821": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Everyday Excellence",
+            "text": "<p>Formulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Swift Recover",
+            "text": "<p>Specially designed to support and expedite the healing of gum tissues.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Gentle Yet Effective",
+            "text": "<p>No irritations. No stains. Just pure, uncompromised cleanliness.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "314a1750-ad5b-4227-b04e-417e405af598": {
+          "type": "column",
+          "settings": {
+            "title": "Everyday Excellence",
+            "text": "<p>Formulated for daily use, ensuring your mouth feels clean and invigoratedthroughout the day.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-1",
+        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-2",
+        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-3",
+        "314a1750-ad5b-4227-b04e-417e405af598"
+      ],
+      "custom_css": [
+        ".multicolumn-card {background-color: white;}"
+      ],
+      "settings": {
+        "title": "Benefits",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1695059956e2aa74a0"
+    "1695059956e2aa74a0",
+    "dfeab778-3e4b-4c95-aaed-ffb71db16821"
   ]
 }
