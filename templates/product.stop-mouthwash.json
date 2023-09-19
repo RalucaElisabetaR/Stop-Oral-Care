@@ -136,6 +136,7 @@
         "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Icon_7.png",
             "title": "Everyday Excellence",
             "text": "<p>Formulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.<\/p>",
             "link_label": "",
@@ -145,6 +146,7 @@
         "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Icon_7.png",
             "title": "Swift Recover",
             "text": "<p>Specially designed to support and expedite the healing of gum tissues.<\/p>",
             "link_label": "",
@@ -164,6 +166,7 @@
         "314a1750-ad5b-4227-b04e-417e405af598": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/STOP_Icon_7.png",
             "title": "Everyday Excellence",
             "text": "<p>Formulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.<\/p>",
             "link_label": "",
@@ -179,7 +182,7 @@
       ],
       "custom_css": [
         ".media--adapt img {width: 60%; height: auto;}",
-        ".media {padding-bottom: 60%!important;}",
+        ".media {padding-bottom: 60% !important;}",
         "h3 {color: #0d3d6f;}",
         ".multicolumn-card {padding: 20px 0px 10px; background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}"
       ],
