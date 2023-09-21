@@ -48,7 +48,7 @@
           "type": "column",
           "settings": {
             "title": "General Inquiries",
-            "text": "<p>For questions about our products, your order, or any general concerns.<\/p><p>Email: info@cannibite.com<\/p>",
+            "text": "<p>For questions about our products, your order, or any general concerns.<\/p><p><\/p>",
             "link_label": "Email: info@cannibite.com",
             "link": "mailto:info@cannibite.com"
           }
