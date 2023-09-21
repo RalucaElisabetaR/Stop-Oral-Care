@@ -16,7 +16,7 @@
   > div:nth-child(1)
   > div
   > h2 {
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
 
 @media screen and (max-width: 1049px) {
