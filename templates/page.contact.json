@@ -22,7 +22,7 @@
         "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1"
       ],
       "custom_css": [
-        "h2 {color: white;}"
+        "h2,p {color: white; letter-spacing: 1px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
