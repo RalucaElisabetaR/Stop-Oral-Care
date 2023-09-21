@@ -53,7 +53,7 @@
           "settings": {
             "heading": "Benefits:",
             "icon": "check_mark",
-            "content": "<p>\n<span class=\"custom-weight\">\n- All-Day Freshness: <\/span>\n Leave behind a lasting impression with fresh breath that endures from dawn to dusk.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Shield Against Sensitivity:\n<\/span> \nOur unique formula offers unparalleled protection against those unexpected jolts of sensitivity, ensuring comfort in every bite.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Tartar’s Nemesis:\n<\/span> \nA diligent defense against tartar\nbuild-up, ensuring your teeth’s pristine condition.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n-Fluoride-Free Assurance:\n<\/span> \nDelivering top-notch dental care, sans fluoride.\n<\/p>",
+            "content": "<p>\n  <span class=\"custom-weight\">\n    - All-Day Freshness: \n  <\/span>\n  Experience prolonged freshness, designed to last from morning till evening.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    - Shield Against Sensitivity: \n  <\/span>\n  Our specialized formula provides effective protection against sporadic sensitivity, promoting consistent oral comfort.\n<\/p>\n<p>\n <span class=\"custom-weight\">\n    - Anti-Tartar Efficacy: \n  <\/span>\n  Formulated to effectively reduce tartar buildup, supporting optimal dental hygiene.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    - Fluoride-Free Assurance: \n  <\/span>\n  Offers comprehensive dental care without the inclusion of fluoride.\n<\/p>",
             "page": ""
           }
         },
