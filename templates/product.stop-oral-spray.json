@@ -53,7 +53,7 @@
           "settings": {
             "heading": "Benefits:",
             "icon": "check_mark",
-            "content": "<ul>\n  <li>\n    <span class=\"custom-weight\">Extended Freshness:<\/span> Formulated for up to 48-hour efficacy, ensuring consistent oral hygiene.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Balanced Formulation:<\/span> \n    Comprises a synergistic blend of ingredients that cleanse and condition the oral cavity, imparting a subtly refreshing flavor.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Safe and Gentle:<\/span> \n    Alcohol-free and devoid of artificial sweeteners, suitable for routine application.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Hydration Support:<\/span> \n    Specifically engineered to address the symptoms of <i>dry mouth syndrome<\/i>, providing targeted hydration and comfort.\n  <\/li>\n<\/ul>",
+            "content": "<ul>\n  <li>\n    <span class=\"custom-weight\">Extended Freshness:<\/span> Formulated for up to 48-hour efficacy, ensuring consistent oral hygiene.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Balanced Formulation:<\/span> \n    Comprises a synergistic blend of ingredients that cleanse and condition the oral cavity, imparting a subtly refreshing flavor.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Safe and Gentle:<\/span> \n    Alcohol-free and devoid of artificial sweeteners, suitable for routine application.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Hydration Support:<\/span> \n Specially formulated to assist those experiencing <i>dry mouth syndrome<\/i>, providing targeted hydration and relief.\n  <\/li>\n<\/ul>",
             "page": ""
           }
         },
