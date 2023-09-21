@@ -285,6 +285,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "6ef2bf54-d159-4274-a455-0b493e0dee80": {
+      "type": "announcement-bar",
+      "blocks": {
+        "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "<h3>Advanced Plaque Prevention<\/h3>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
@@ -292,6 +316,7 @@
     "related-products",
     "1695059956e2aa74a0",
     "301eea18-44c9-4734-aabd-9f7dc7413d81",
-    "dfeab778-3e4b-4c95-aaed-ffb71db16821"
+    "dfeab778-3e4b-4c95-aaed-ffb71db16821",
+    "6ef2bf54-d159-4274-a455-0b493e0dee80"
   ]
 }
