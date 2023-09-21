@@ -146,22 +146,50 @@
     "f91433a6-4ea9-4869-940f-608c1d3c184d": {
       "type": "announcement-bar",
       "blocks": {
-        "template--20952529568017__f91433a6-4ea9-4869-940f-608c1d3c184d-announcement-1": {
+        "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>Advanced Plaque Prevention<\/h3>\n<p>Bid farewell to the earliest signs of dental concerns.<\/p>\n<\/div>",
+            "link": ""
+          }
+        },
+        "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
+          "type": "announcement",
+          "settings": {
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSwift Recovery\n<\/h3>\n\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>\n<\/div>",
+            "link": ""
+          }
+        },
+        "822ac0b1-711e-45e4-a940-eeca2c83c782": {
+          "type": "announcement",
+          "settings": {
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nGentle Yet Effective\n<\/h3>\n\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
+            "link": ""
+          }
+        },
+        "c26e8518-d6e9-4dce-96d5-4f3249878770": {
+          "type": "announcement",
+          "settings": {
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nEveryday Excellence\n<\/h3>\n\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
             "link": ""
           }
         }
       },
       "block_order": [
-        "template--20952529568017__f91433a6-4ea9-4869-940f-608c1d3c184d-announcement-1"
+        "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1",
+        "e697a80e-a7fc-4451-90b4-2272b09f4f28",
+        "822ac0b1-711e-45e4-a940-eeca2c83c782",
+        "c26e8518-d6e9-4dce-96d5-4f3249878770"
+      ],
+      "custom_css": [
+        ".custom-announcement {justify-content: center;}",
+        "h3,p {letter-spacing: 2px; text-align: center;}"
       ],
       "settings": {
-        "color_scheme": "",
-        "show_line_separator": true,
+        "color_scheme": "accent-1",
+        "show_line_separator": false,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
