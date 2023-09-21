@@ -101,6 +101,9 @@
 
 .custom-announcement{
   padding: 20px 0;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 .custom-announcement p, 
