@@ -96,7 +96,9 @@
 /* END HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT END */
 
 /* MOUTHWASH ANNOUNCEMENT PAGE */
-
+#shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80 > div > div > slideshow-component {
+  overflow: hidden;
+}
 #shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80
   > div
   > div {
