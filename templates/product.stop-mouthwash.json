@@ -233,14 +233,14 @@
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"slideshow__slide slider__slide\">\n<h3>\nGentle Yet Effective\n<\/h3>\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
+            "text": "<div class=\"slideshow__slide slider__slide grid__item grid--1-col\">\n<h3>\nGentle Yet Effective\n<\/h3>\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
             "link": ""
           }
         },
         "c26e8518-d6e9-4dce-96d5-4f3249878770": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"slideshow__slide slider__slide\">\n<h3>\nEveryday Excellence\n<\/h3>\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
+            "text": "<div class=\"slideshow__slide slider__slide grid__item grid--1-col\">\n<h3>\nEveryday Excellence\n<\/h3>\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
             "link": ""
           }
         }
