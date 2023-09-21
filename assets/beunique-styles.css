@@ -99,6 +99,10 @@
 #shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80
   > div
   > div
+  > slideshow-component,
+#shopify-section-template--20952521179409__3c5e1297-515e-4b3c-adfd-4c2961fd9b5c
+  > div
+  > div
   > slideshow-component {
   overflow: hidden;
 }
@@ -138,10 +142,11 @@
     flex-direction: row;
     align-content: center;
   }
- #shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80>div>div {
-  
+  #shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80
+    > div
+    > div {
     padding: 20px 15px;
-}
+  }
 }
 
 /* END MOUTHWASH ANNOUNCEMENT PAGE */
