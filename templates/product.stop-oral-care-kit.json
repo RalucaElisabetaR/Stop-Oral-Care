@@ -182,11 +182,36 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "c1596889-2ac3-4215-a3e8-b30923961005": {
+      "type": "announcement-bar",
+      "blocks": {
+        "template--20887088300305__c1596889-2ac3-4215-a3e8-b30923961005-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20887088300305__c1596889-2ac3-4215-a3e8-b30923961005-announcement-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "main",
     "7eb73bf5-f6de-4f9b-86a0-071517561421",
-    "related-products"
+    "related-products",
+    "c1596889-2ac3-4215-a3e8-b30923961005"
   ]
 }
