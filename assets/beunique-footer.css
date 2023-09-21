@@ -22,7 +22,7 @@
   width: 70px;
 }
 
-/* @media screen and (max-width: 1049px) {
+@media screen and (max-width: 1049px) {
   #shopify-section-sections--20797124247825__footer
     > footer
     > div.footer__content-top.page-width
@@ -30,7 +30,7 @@
     > div:nth-child(2) {
     margin-left: 0px;
   }
-} */
+}
 .footer__content-bottom-wrapper {
   display: flex;
   width: 100%;
