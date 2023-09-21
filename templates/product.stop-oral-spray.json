@@ -153,7 +153,7 @@
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nGentle Yet Effective\n<\/h3>\n\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSafe and Gentle\n<\/h3>\n\n<p>\nAlcohol-free and devoid of artificial sweeteners, suitable for routine application.\n<\/p>\n<\/div>",
             "link": ""
           }
         },
