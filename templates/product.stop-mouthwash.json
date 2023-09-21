@@ -230,8 +230,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_84d2c528-6f8d-432d-9446-a561aff9f70d.png",
-            "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -240,8 +240,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/4_b4b6da28-a984-4e11-a9a3-7cd1109f6e1d.png",
-            "title": "",
-            "text": "<p>Swish around your mouth for about 60 seconds, ensuring you cover every corner.<\/p>",
+            "title": "Swish around your mouth for about 60 seconds, ensuring you cover every corner.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
