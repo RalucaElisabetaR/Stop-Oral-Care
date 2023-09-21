@@ -213,79 +213,6 @@
         "padding_bottom": 36
       }
     },
-    "dfeab778-3e4b-4c95-aaed-ffb71db16821": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STOP_Icon_7.png",
-            "title": "Advanced Plaque Prevention",
-            "text": "<p>Bid farewell to the earliest signs of dental concerns.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STOP_Icon_7.png",
-            "title": "Swift Recover",
-            "text": "<p>Specially designed to support and expedite the healing of gum tissues.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STOP_Icon_7.png",
-            "title": "Gentle Yet Effective",
-            "text": "<p>No irritations. No stains. Just pure, uncompromised cleanliness.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "314a1750-ad5b-4227-b04e-417e405af598": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STOP_Icon_7.png",
-            "title": "Everyday Excellence",
-            "text": "<p>Formulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-1",
-        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-2",
-        "template--20881243210001__dfeab778-3e4b-4c95-aaed-ffb71db16821-column-3",
-        "314a1750-ad5b-4227-b04e-417e405af598"
-      ],
-      "custom_css": [
-        ".media--adapt img {width: 60%; height: auto;}",
-        ".media {padding-bottom: 60% !important;}",
-        "h3 {color: #0d3d6f;}",
-        ".multicolumn-card {padding: 20px 0px 10px; background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "6ef2bf54-d159-4274-a455-0b493e0dee80": {
       "type": "announcement-bar",
       "blocks": {
@@ -299,21 +226,21 @@
         "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
           "type": "announcement",
           "settings": {
-            "text": "<div>\n<h3>\nSwift Recovery\n<\/h3>\n<p><\/p>\n<\/div>",
+            "text": "<div>\n<h3>\nSwift Recovery\n<\/h3>\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>\n<\/div>",
             "link": ""
           }
         },
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>Advanced Plaque Prevention<\/h3>\n<p><\/p>",
+            "text": "<div>\n<h3>\nGentle Yet Effective\n<\/h3>\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
             "link": ""
           }
         },
         "c26e8518-d6e9-4dce-96d5-4f3249878770": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>Advanced Plaque Prevention<\/h3>\n<p><\/p>",
+            "text": "<div>\n<h3>\nEveryday Excellence\n<\/h3>\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
             "link": ""
           }
         }
@@ -340,7 +267,6 @@
     "related-products",
     "1695059956e2aa74a0",
     "301eea18-44c9-4734-aabd-9f7dc7413d81",
-    "dfeab778-3e4b-4c95-aaed-ffb71db16821",
     "6ef2bf54-d159-4274-a455-0b493e0dee80"
   ]
 }
