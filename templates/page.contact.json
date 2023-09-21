@@ -152,8 +152,11 @@
     },
     "316466e9-5a73-4d46-88bd-3acfd667f970": {
       "type": "contact-form",
+      "custom_css": [
+        "h2 {color:#05294F ;}"
+      ],
       "settings": {
-        "heading": "",
+        "heading": "Contact Form",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 36,
