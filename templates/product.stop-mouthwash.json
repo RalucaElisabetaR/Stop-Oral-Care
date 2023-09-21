@@ -260,8 +260,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/6_3a59e0c0-99c2-4608-84fe-2c72d2d7deb3.png",
-            "title": "",
-            "text": "<p>For optimal results, wait at least 30 minutes before eating or drinking and avoid rinsing your mouth immediately after use.<\/p>",
+            "title": "Wait 30 minutes before eating, drinking, or rinsing for best results.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
