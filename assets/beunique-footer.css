@@ -6,12 +6,11 @@
   margin-left: 150px;
 }
 
-
 /* footer branding text  */
 
 .footer-block__brand-info h2 {
   letter-spacing: 2px;
-    margin-right: -60px;
+  margin-right: -60px;
 }
 
 .footer-block__brand-info p {
@@ -28,13 +27,21 @@
     > div.footer__content-top.page-width
     > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in
     > div:nth-child(2) {
-   margin-left: 0px;
+    margin-left: 0px;
+    margin-right: -251px;
+  }
+  #shopify-section-sections--20797124247825__footer
+    > footer
+    > div.footer__content-top.page-width
+    > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in
+    > div:nth-child(3) {
+        margin-left: 0px;
     margin-right: -251px;
   }
 }
 
 @media screen and (max-width: 990px) {
-  .footer-block__brand-info{
+  .footer-block__brand-info {
     margin: 0;
   }
 }
