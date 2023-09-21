@@ -2,6 +2,7 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/STOP_LOGO.png",
     "logo_width": 80,
+    "favicon": "shopify:\/\/shop_images\/STOP_LOGO_1.png",
     "type_header_font": "basic_commercial_n4",
     "heading_scale": 100,
     "type_body_font": "basic_commercial_n3",
