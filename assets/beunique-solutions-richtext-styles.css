@@ -37,7 +37,7 @@
     > div
     > h2 {
     font-size: 1.7em;
-      text-align: left;
+    text-align: left;
   }
 
   /* CONTACT PAGE ABOVE FORM  MOBILE */
@@ -54,3 +54,13 @@
 }
 
 /* END HOMEPAGE 1st CAROUSEL TITLE END */
+
+/* CONTACT PAGE RICH TECT HERO */
+@media screen and (max-width: 749px) {
+#shopify-section-template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55
+  > div
+  > div
+  > div {
+  padding: 0 1rem;
+}
+}
