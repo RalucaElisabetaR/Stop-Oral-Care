@@ -36,16 +36,6 @@
           "settings": {
           }
         },
-        "c96f311d-94ee-4a62-8f7f-c0fd9fb1190c": {
-          "type": "shopify:\/\/apps\/paywhirl\/blocks\/paywhirl-plan-selector\/41e95d60-82cf-46e8-84de-618d7e4c37b7",
-          "settings": {
-            "font_scale": 100,
-            "theme": "default",
-            "selling_plans_first": false,
-            "theme_color": "#334FB4",
-            "product": "{{product}}"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -106,7 +96,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "c96f311d-94ee-4a62-8f7f-c0fd9fb1190c",
         "buy_buttons",
         "description",
         "fbb768d0-1c67-4f67-80c6-5e4ec5b71508",
@@ -153,10 +142,35 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "f91433a6-4ea9-4869-940f-608c1d3c184d": {
+      "type": "announcement-bar",
+      "blocks": {
+        "template--20952529568017__f91433a6-4ea9-4869-940f-608c1d3c184d-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20952529568017__f91433a6-4ea9-4869-940f-608c1d3c184d-announcement-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "f91433a6-4ea9-4869-940f-608c1d3c184d"
   ]
 }
