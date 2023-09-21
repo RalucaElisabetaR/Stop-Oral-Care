@@ -57,10 +57,17 @@
 
 /* CONTACT PAGE RICH TECT HERO */
 @media screen and (max-width: 749px) {
-#shopify-section-template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55
-  > div
-  > div
-  > div {
-  padding: 0 1rem;
-}
+  #shopify-section-template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55
+    > div
+    > div
+    > div {
+    padding: 0 1rem;
+  }
+
+  /* title cards */
+
+  #shopify-section-template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1
+    h3{
+      font-size: 2rem;
+  }
 }
