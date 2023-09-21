@@ -1,4 +1,3 @@
-
 /* HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT  */
 
 /* content container wide screen  */
@@ -62,7 +61,7 @@
   /* rotating text mobile */
 
   #rotating-text-placeholder {
-    color: #0D3D6F;
+    color: #0d3d6f;
 
     font-size: 1.6em;
   }
@@ -96,24 +95,26 @@
 
 /* END HOMEPAGE CUSTOM BANNER WITH ROTATING TEXT END */
 
-
 /* MOUTHWASH ANNOUNCEMENT PAGE */
 
-#shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80 > div > div {
+#shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80
+  > div
+  > div {
   margin: auto;
   justify-content: center;
 }
 @media screen and (max-width: 749px) {
-#shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80 > div > div > slideshow-component > div{
-display: flex;
+  #shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80
+    > div
+    > div
+    > slideshow-component
+    > div {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     align-content: center;
-   
-}
-
-}
+  }
 }
 
 /* END MOUTHWASH ANNOUNCEMENT PAGE */
