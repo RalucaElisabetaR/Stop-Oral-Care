@@ -251,6 +251,9 @@
         "822ac0b1-711e-45e4-a940-eeca2c83c782",
         "c26e8518-d6e9-4dce-96d5-4f3249878770"
       ],
+      "custom_css": [
+        "{justify-content: center;}"
+      ],
       "settings": {
         "color_scheme": "",
         "show_line_separator": true,
