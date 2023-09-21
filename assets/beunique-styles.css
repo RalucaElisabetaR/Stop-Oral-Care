@@ -99,18 +99,6 @@
 
 /* MOUTHWASH ANNOUNCEMENT PAGE */
 
-.custom-announcement{
-  padding: 20px 0;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-}
-
-.custom-announcement p, 
-.custom-announcement h3,
-{
-  letter-spacing: 5px;
-}
 
 
 /* END MOUTHWASH ANNOUNCEMENT PAGE */
