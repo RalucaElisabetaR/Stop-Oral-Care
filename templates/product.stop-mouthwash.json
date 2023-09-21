@@ -255,8 +255,8 @@
         "{text-align: center;}"
       ],
       "settings": {
-        "color_scheme": "",
-        "show_line_separator": true,
+        "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
+        "show_line_separator": false,
         "show_social": false,
         "auto_rotate": true,
         "change_slides_speed": 4,
