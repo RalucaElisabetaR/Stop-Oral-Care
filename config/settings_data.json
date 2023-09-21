@@ -408,7 +408,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      "div .header__search {display: none;}"
     ]
   }
 }
