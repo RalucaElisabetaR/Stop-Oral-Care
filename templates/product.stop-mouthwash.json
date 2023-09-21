@@ -240,7 +240,7 @@
         "c26e8518-d6e9-4dce-96d5-4f3249878770": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>\nEveryday Excellence\n<\/h3>\n<div>\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
+            "text": "<h3>\nEveryday Excellence\n<\/h3>\n<br>\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>",
             "link": ""
           }
         }
