@@ -252,6 +252,7 @@
         "c26e8518-d6e9-4dce-96d5-4f3249878770"
       ],
       "custom_css": [
+        ".custom-announcement {justify-content: center;}",
         "h3,p {letter-spacing: 2px; text-align: center;}"
       ],
       "settings": {
