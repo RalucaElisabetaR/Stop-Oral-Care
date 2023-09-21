@@ -179,54 +179,97 @@
     "e700eb06-0229-41ef-bf48-d67634679ffc": {
       "type": "multicolumn",
       "blocks": {
-        "template--20952521179409__e700eb06-0229-41ef-bf48-d67634679ffc-column-1": {
+        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/1_210b996f-1a8c-4c4a-89e4-7d3d57c16442.png",
+            "title": "Shake the bottle gently before use.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "template--20952521179409__e700eb06-0229-41ef-bf48-d67634679ffc-column-2": {
+        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/2_4724b293-c0eb-46de-8bdb-8f1fb8c509ac.png",
+            "title": "Press on the bottle until bottle's dosser fills to line.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "template--20952521179409__e700eb06-0229-41ef-bf48-d67634679ffc-column-3": {
+        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/3_84d2c528-6f8d-432d-9446-a561aff9f70d.png",
+            "title": "Empty the dosser content into your mouth.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5d9de803-d453-45e9-bd83-26ffd91df943": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_b4b6da28-a984-4e11-a9a3-7cd1109f6e1d.png",
+            "title": "Swish for 60 seconds, covering all areas.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b381ec4b-031c-460f-ab07-6ee7805cbc67": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_ffb61878-9270-4231-844b-50114b0f8fb6.png",
+            "title": "Spit out the solution into the sink.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_3a59e0c0-99c2-4608-84fe-2c72d2d7deb3.png",
+            "title": "Wait 30 minutes before eating, drinking, or rinsing for best results.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "template--20952521179409__e700eb06-0229-41ef-bf48-d67634679ffc-column-1",
-        "template--20952521179409__e700eb06-0229-41ef-bf48-d67634679ffc-column-2",
-        "template--20952521179409__e700eb06-0229-41ef-bf48-d67634679ffc-column-3"
+        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1",
+        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2",
+        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3",
+        "5d9de803-d453-45e9-bd83-26ffd91df943",
+        "b381ec4b-031c-460f-ab07-6ee7805cbc67",
+        "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a"
+      ],
+      "custom_css": [
+        ".background-primary {background-color: #f7f7f7;}",
+        ".center {margin-top: 20px; margin-bottom: 20px;}",
+        ".multicolumn-card {background-color: #fff; box-shadow: 0px 5px 35px -18px rgba(0, 0, 0, 0.33);}",
+        "h3,h2 {color: #0d3d6f;}",
+        ".grid {row-gap: initial;}"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "How To Use",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "swipe_on_mobile": true,
+        "padding_top": 72,
+        "padding_bottom": 56
       }
     }
   },
