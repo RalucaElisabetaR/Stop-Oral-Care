@@ -9,14 +9,17 @@
 
 /* footer branding text  */
 
-#shopify-section-sections--20797124247825__footer
-  > footer
-  > div.footer__content-top.page-width
-  > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in
-  > div:nth-child(1)
-  > div
-  > h2 {
-  letter-spacing: 3px;
+.footer-block__brand-info h2 {
+  letter-spacing: 2px;
+    margin-right: -60px;
+}
+
+.footer-block__brand-info p {
+  width: 300px;
+  letter-spacing: 1.5px;
+}
+.footer-block__image-wrapper {
+  width: 70px;
 }
 
 @media screen and (max-width: 1049px) {
