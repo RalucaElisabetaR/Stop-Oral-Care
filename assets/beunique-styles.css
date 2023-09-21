@@ -103,5 +103,11 @@
   padding: 20px 0;
 }
 
+.custom-announcement p, 
+.custom-announcement h3,
+{
+  letter-spacing: 1px;
+}
+
 
 /* END MOUTHWASH ANNOUNCEMENT PAGE */
