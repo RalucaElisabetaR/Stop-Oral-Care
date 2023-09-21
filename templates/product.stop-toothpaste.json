@@ -57,6 +57,15 @@
             "page": ""
           }
         },
+        "f8427654-ffed-40ba-9c70-81c99dc3053c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients:",
+            "icon": "check_mark",
+            "content": "<p>\n<span class=\"custom-weight\">\nHemp-Based Compound: <\/span>\n  A testament to nature's protective potential.\n<\/p>\n<p>\n<span class=\"custom-weight\">\nDead Sea Salt Minerals:\n<\/span> \nHarnessing the Dead Sea's therapeutic allure for its unmatched restorative traits.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Tartar’s Nemesis:\n<\/span> \nA diligent defense against tartar\nbuild-up, ensuring your teeth’s pristine condition.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n-Fluoride-Free Assurance:\n<\/span> \nDelivering top-notch dental care, sans fluoride.\n<\/p>",
+            "page": ""
+          }
+        },
         "6f68cb6b-29e2-4736-a7ba-8dca0dd4944c": {
           "type": "complementary",
           "settings": {
@@ -81,6 +90,7 @@
         "buy_buttons",
         "description",
         "47591496-f88c-4893-82ba-124f0a73372d",
+        "f8427654-ffed-40ba-9c70-81c99dc3053c",
         "6f68cb6b-29e2-4736-a7ba-8dca0dd4944c"
       ],
       "custom_css": [
