@@ -210,8 +210,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_210b996f-1a8c-4c4a-89e4-7d3d57c16442.png",
-            "title": "",
-            "text": "<p>Shake the bottle gently before use.<\/p>",
+            "title": "Shake the bottle gently before use.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -220,8 +220,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_4724b293-c0eb-46de-8bdb-8f1fb8c509ac.png",
-            "title": "",
-            "text": "<p>Press down on the bottle until the dosser in the bottle neck is filled up to the indicated line.<\/p>",
+            "title": "Press down on the bottle until the dosser in the bottle neck is filled up to the indicated line.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
