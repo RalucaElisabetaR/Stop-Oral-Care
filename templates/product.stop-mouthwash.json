@@ -276,10 +276,11 @@
         "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a"
       ],
       "custom_css": [
-        ".multicolumn-card {background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}"
+        ".multicolumn-card {background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}",
+        "h3 {color: #0d3d6f;}"
       ],
       "settings": {
-        "title": "",
+        "title": "How To Use",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
