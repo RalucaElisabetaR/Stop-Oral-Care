@@ -103,5 +103,17 @@
   margin: auto;
   justify-content: center;
 }
+@media screen and (max-width: 749px) {
+#shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80 > div > div > slideshow-component > div{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+   
+}
+
+}
+}
 
 /* END MOUTHWASH ANNOUNCEMENT PAGE */
