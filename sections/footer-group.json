@@ -32,7 +32,7 @@
         "e8b43a54-e89d-42da-97e9-25c009f373de"
       ],
       "custom_css": [
-        ".footer-block__brand-info {margin-right: -50px;}",
+        ".footer-block__brand-info {margin-right: -40px;}",
         ".footer-block__image-wrapper {width: 70px;}"
       ],
       "settings": {
