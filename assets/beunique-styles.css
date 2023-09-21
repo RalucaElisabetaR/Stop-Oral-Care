@@ -104,7 +104,8 @@
   justify-content: center;
 }
 .custom-announcement {
-  max-width: 380px;
+  max-width: 390px;
+  padding: 20px 0;
 }
 .custom-announcement h3 {
   text-decoration: underline;
