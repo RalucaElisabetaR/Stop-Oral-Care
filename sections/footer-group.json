@@ -32,7 +32,7 @@
         "e8b43a54-e89d-42da-97e9-25c009f373de"
       ],
       "custom_css": [
-
+        "{overflow: hidden;}"
       ],
       "settings": {
         "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
