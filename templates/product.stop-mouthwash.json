@@ -235,12 +235,45 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "5d9de803-d453-45e9-bd83-26ffd91df943": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_b4b6da28-a984-4e11-a9a3-7cd1109f6e1d.png",
+            "title": "",
+            "text": "<p>Swish around your mouth for about 60 seconds, ensuring you cover every corner.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b381ec4b-031c-460f-ab07-6ee7805cbc67": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_ffb61878-9270-4231-844b-50114b0f8fb6.png",
+            "title": "",
+            "text": "<p>Spit out the solution into the sink.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_3a59e0c0-99c2-4608-84fe-2c72d2d7deb3.png",
+            "title": "",
+            "text": "<p>For optimal results, wait at least 30 minutes before eating or drinking and avoid rinsing your mouth immediately after use.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1",
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2",
-        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3"
+        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3",
+        "5d9de803-d453-45e9-bd83-26ffd91df943",
+        "b381ec4b-031c-460f-ab07-6ee7805cbc67",
+        "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a"
       ],
       "settings": {
         "title": "",
