@@ -245,9 +245,9 @@
         "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a"
       ],
       "custom_css": [
-        "{background-color: #F7F7F7;}",
+        "{background-color: #f7f7f7;}",
         ".center {margin-top: 20px; margin-bottom: 20px;}",
-        ".multicolumn-card {background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}",
+        ".multicolumn-card {background-color: #fff; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}",
         "h3,h2 {color: #0d3d6f;}"
       ],
       "settings": {
