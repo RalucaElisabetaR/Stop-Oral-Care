@@ -40,13 +40,31 @@
     text-align: left;
   }
 
-/* CONTACT PAGE HERE TITLE */
-
-  #shopify-section-template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55 > div > div > div > div > h2{
+  /* CONTACT PAGE HERE TITLE */
+  #shopify-section-template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55
+    > div
+    > div
+    > div
+    > div
+    > h2,
+  #shopify-section-template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55
+    > div
+    > div
+    > div
+    > div
+    > p {
+    color: white;
+    letter-spacing: 1px;
+  }
+  #shopify-section-template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55
+    > div
+    > div
+    > div
+    > div
+    > h2 {
     font-size: 3rem;
   }
 
-  
   /* CONTACT PAGE ABOVE FORM  MOBILE */
 
   #shopify-section-template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0
@@ -62,13 +80,12 @@
 
 /* END HOMEPAGE 1st CAROUSEL TITLE END */
 
-
-  /* contact page title cards */
-  #shopify-section-template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1
-    h3{
-      font-size: 2rem;
-      letter-spacing: 1px;
-  }
+/* contact page title cards */
+#shopify-section-template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1
+  h3 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
 /* CONTACT PAGE RICH TECT HERO */
 @media screen and (max-width: 749px) {
   #shopify-section-template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55
@@ -79,6 +96,4 @@
   }
 
   /* title cards */
-
-
 }
