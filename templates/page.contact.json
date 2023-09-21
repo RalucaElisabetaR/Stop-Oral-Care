@@ -150,6 +150,9 @@
         "ddf72fa9-3b26-4167-831e-e3d65a9a33a5",
         "template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0-text-1"
       ],
+      "custom_css": [
+        "h2 {color: #0d3d6f;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -162,10 +165,10 @@
     "316466e9-5a73-4d46-88bd-3acfd667f970": {
       "type": "contact-form",
       "custom_css": [
-        "h2 {color: #05294f;}"
+
       ],
       "settings": {
-        "heading": "Contact Form",
+        "heading": "",
         "heading_size": "h2",
         "color_scheme": "",
         "padding_top": 36,
