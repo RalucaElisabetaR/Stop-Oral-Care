@@ -1,7 +1,7 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/STOP_LOGO_Concept_1.png",
-    "logo_width": 100,
+    "logo": "shopify:\/\/shop_images\/STOP_LOGO.png",
+    "logo_width": 80,
     "type_header_font": "basic_commercial_n4",
     "heading_scale": 100,
     "type_body_font": "basic_commercial_n3",
@@ -99,7 +99,7 @@
     "sold_out_badge_color_scheme": "background-1",
     "brand_headline": "STOP Searching, Start Smiling !",
     "brand_description": "",
-    "brand_image": "shopify:\/\/shop_images\/STOP_LOGO_Concept_1.png",
+    "brand_image": "shopify:\/\/shop_images\/STOP_LOGO.png",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
