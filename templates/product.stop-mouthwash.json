@@ -219,7 +219,7 @@
         "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>Advanced Plaque Prevention<\/h3>\n<p>Bid farewell to the earliest signs of dental concerns.<\/p>",
+            "text": "<div class=\"custom-announcement\">\n<h3>Advanced Plaque Prevention<\/h3>\n<p>Bid farewell to the earliest signs of dental concerns.<\/p>\n<\/div>",
             "link": ""
           }
         },
@@ -253,7 +253,7 @@
       ],
       "custom_css": [
         "h3,p {text-align: center;}",
-        " .announcement-bar__message {display: flex !important; justify-content: center !important; flex-wrap: wrap !important; align-content: center !important; grid-area: announcements !important; flex-direction: column !important;}"
+        ".announcement-bar__message, .custom-announcement {display: flex !important; justify-content: center !important; flex-wrap: wrap !important; align-content: center !important; grid-area: announcements !important; flex-direction: column !important;}"
       ],
       "settings": {
         "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
