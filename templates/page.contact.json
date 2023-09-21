@@ -108,7 +108,7 @@
         "d9db3140-763d-48e5-85a9-226785fd7774"
       ],
       "custom_css": [
-        ".color-background-1 {background-color: #F7F7F7;}",
+        ".color-background-1 {background-color: #f7f7f7;}",
         ".multicolumn-card {background-color: #fff; box-shadow: 0px 5px 33px -18px rgba(0, 0, 0, 0.33);}",
         "h3,a {color: #0d3d6f;}"
       ],
@@ -132,6 +132,13 @@
     "457be427-3719-4bad-85aa-e6132b855ff0": {
       "type": "rich-text",
       "blocks": {
+        "ddf72fa9-3b26-4167-831e-e3d65a9a33a5": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Form",
+            "heading_size": "h1"
+          }
+        },
         "template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0-text-1": {
           "type": "text",
           "settings": {
@@ -140,6 +147,7 @@
         }
       },
       "block_order": [
+        "ddf72fa9-3b26-4167-831e-e3d65a9a33a5",
         "template--20797124444433__457be427-3719-4bad-85aa-e6132b855ff0-text-1"
       ],
       "settings": {
