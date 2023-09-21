@@ -22,7 +22,7 @@
         "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-text-1"
       ],
       "custom_css": [
-        "{border-top: solid 0.01rem #015a93 ; border-opacity: 0.001;}"
+        "{border: 1px solid rgba(225, 225, 0, 0.1);}"
       ],
       "settings": {
         "desktop_content_position": "center",
