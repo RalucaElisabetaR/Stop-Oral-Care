@@ -226,7 +226,7 @@
         "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"slideshow__slide slider__slide grid__item grid--1-col\">\n<h3>\nSwift Recovery\n<\/h3>\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>\n<\/div>",
+            "text": "<h3>\nSwift Recovery\n<\/h3>\n<span><p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p><\/span>",
             "link": ""
           }
         },
