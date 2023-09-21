@@ -53,7 +53,7 @@
           "settings": {
             "heading": "Benefits:",
             "icon": "check_mark",
-            "content": "<ul>\n<li>\n<span class=\"custom-weight\">Sustained Freshness:\n<li>\n<span class=\"custom-weight\">Soothing Experience:<\/span> \nDelight in a unique blend of ingredients that not only cleanses but soothes the mouth, providing a delicious and refreshing taste.\n<\/li>\n<li>\n<span class=\"custom-weight\">Safe and Gentle: \n<\/span> \nCrafted to be alcohol-free and without artificial sweeteners. Ideal for daily use.\n<\/li>\n<li>\n<span class=\"custom-weight\">Relief for Dry Mouth: \n<\/span> \nSpecially formulated to assist those experiencing dry mouth syndrome, offering hydration and relief.\n<\/li>\n<\/span>\n<\/li>\n<\/ul>",
+            "content": "<ul>\n  <li>\n    <span class=\"custom-weight\">Extended Freshness:<\/span> Formulated for up to 48-hour efficacy, ensuring consistent oral hygiene.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Balanced Formulation:<\/span> \n    Comprises a synergistic blend of ingredients that cleanse and condition the oral cavity, imparting a subtly refreshing flavor.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Safe and Gentle:<\/span> \n    Alcohol-free and devoid of artificial sweeteners, suitable for routine application.\n  <\/li>\n  <li>\n    <span class=\"custom-weight\">Hydration Support:<\/span> \n    Specifically engineered to address the symptoms of <i>dry mouth syndrome<\/i>, providing targeted hydration and comfort.\n  <\/li>\n<\/ul>",
             "page": ""
           }
         },
@@ -63,15 +63,6 @@
             "heading": "Ingredients:",
             "icon": "check_mark",
             "content": "<p>\n<span class=\"custom-weight\">-  Hemp-based compound:<\/span>\nOffering nature's touch for enriched oral care.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Dead Sea Salt Minerals:\n<\/span> \nWith its myriad of unique minerals, it supports and revitalizes gums and teeth.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Pomegranate Extracts:\n<\/span> \nRenowned for its antibacterial properties, adding a touch of freshness.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Sea Algae:\n<\/span> \n A robust antibacterial, ensuring a balanced and clean oral environment.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Natural Flavorings:\n<\/span> \nCreated to invigorate and refresh with every spray.\n<\/p>",
-            "page": ""
-          }
-        },
-        "95191113-dba5-4156-aae1-4b5559a63494": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How to Use:",
-            "icon": "check_mark",
-            "content": "<p>\n<span class=\"custom-weight\">1.<\/span>\nShake the bottle gently before each use.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n2.\n<\/span> \nOpen your mouth and target the spray towards the back of your throat, ensuring it reaches both teeth and gums.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n3.\n<\/span> \nSpray 2-3 times for a refreshing cleanse.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n4.\n<\/span> \nAvoid eating or drinking for at least 15 minutes after application for optimal results.\n<\/p>",
             "page": ""
           }
         },
@@ -100,7 +91,6 @@
         "description",
         "fbb768d0-1c67-4f67-80c6-5e4ec5b71508",
         "ec4584df-4143-438d-a740-67c266d0bd12",
-        "95191113-dba5-4156-aae1-4b5559a63494",
         "2b15b7bd-d8c7-401c-b54a-c31f0ccbedb4"
       ],
       "custom_css": [
