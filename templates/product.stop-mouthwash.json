@@ -233,7 +233,7 @@
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"slideshow__slide slider__slide grid__item grid--1-col\">\n<h3>\nGentle Yet Effective\n<\/h3>\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
+            "text": "<h3>\nGentle Yet Effective\n<\/h3>\n<span><p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p><\/span>",
             "link": ""
           }
         },
