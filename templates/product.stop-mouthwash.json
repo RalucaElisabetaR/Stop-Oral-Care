@@ -252,7 +252,7 @@
         "c26e8518-d6e9-4dce-96d5-4f3249878770"
       ],
       "custom_css": [
-        "h3,p {text-align: center; display: block;}"
+        "h3,p {text-align: center; }"
       ],
       "settings": {
         "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
