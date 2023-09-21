@@ -182,7 +182,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_210b996f-1a8c-4c4a-89e4-7d3d57c16442.png",
+            "image": "shopify:\/\/shop_images\/1_b232498b-866e-43da-90a5-c5ffd6851743.png",
             "title": "Shake the bottle gently before use.",
             "text": "",
             "link_label": "",
@@ -192,7 +192,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_4724b293-c0eb-46de-8bdb-8f1fb8c509ac.png",
+            "image": "shopify:\/\/shop_images\/2_470dd43f-b15f-4f17-b74c-b95fe7b6a162.png",
             "title": "Press on the bottle until bottle's dosser fills to line.",
             "text": "",
             "link_label": "",
@@ -202,38 +202,8 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_84d2c528-6f8d-432d-9446-a561aff9f70d.png",
+            "image": "shopify:\/\/shop_images\/3_251ba2ab-9fb5-468e-959c-023af75488f6.png",
             "title": "Empty the dosser content into your mouth.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "5d9de803-d453-45e9-bd83-26ffd91df943": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_b4b6da28-a984-4e11-a9a3-7cd1109f6e1d.png",
-            "title": "Swish for 60 seconds, covering all areas.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "b381ec4b-031c-460f-ab07-6ee7805cbc67": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_ffb61878-9270-4231-844b-50114b0f8fb6.png",
-            "title": "Spit out the solution into the sink.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/6_3a59e0c0-99c2-4608-84fe-2c72d2d7deb3.png",
-            "title": "Wait 30 minutes before eating, drinking, or rinsing for best results.",
             "text": "",
             "link_label": "",
             "link": ""
@@ -243,10 +213,7 @@
       "block_order": [
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1",
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2",
-        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3",
-        "5d9de803-d453-45e9-bd83-26ffd91df943",
-        "b381ec4b-031c-460f-ab07-6ee7805cbc67",
-        "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a"
+        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3"
       ],
       "custom_css": [
         ".background-primary {background-color: #f7f7f7;}",
