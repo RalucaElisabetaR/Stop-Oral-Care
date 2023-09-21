@@ -230,7 +230,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_84d2c528-6f8d-432d-9446-a561aff9f70d.png",
-            "title": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+            "title": "Empty the dosser content into your mouth.",
             "text": "",
             "link_label": "",
             "link": ""
@@ -250,8 +250,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_ffb61878-9270-4231-844b-50114b0f8fb6.png",
-            "title": "",
-            "text": "<p>Spit out the solution into the sink.<\/p>",
+            "title": "Spit out the solution into the sink.",
+            "text": "",
             "link_label": "",
             "link": ""
           }
