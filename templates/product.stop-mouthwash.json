@@ -219,7 +219,7 @@
         "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>Advanced Plaque Prevention<\/h3>\n<p>Bid farewell to the earliest signs of dental concerns.<\/p>",
+            "text": "<h3>Advanced Plaque Prevention<\/h3>\n<span><p>Bid farewell to the earliest signs of dental concerns.<\/p><\/span>",
             "link": ""
           }
         },
