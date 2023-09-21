@@ -51,7 +51,7 @@
         "47591496-f88c-4893-82ba-124f0a73372d": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Key Highlights:",
+            "heading": "Benefits:",
             "icon": "check_mark",
             "content": "<p>\n<span class=\"custom-weight\">-  Hemp-based compound:<\/span>\nOffering nature's touch for enriched oral care.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Dead Sea Salt Minerals:\n<\/span> \nWith its myriad of unique minerals, it supports and revitalizes gums and teeth.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Pomegranate Extracts:\n<\/span> \nRenowned for its antibacterial properties, adding a touch of freshness.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Hemp-Based Enrichment:\n<\/span> \nTapping into the natural efficacy of hemp to bolster oral wellness.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Dead Sea Salt Minerals:\n<\/span> \nExtracted from the therapeutic waters of the Dead Sea, these minerals have renowned rejuvenating properties.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n-Natural Whitening Power:\n<\/span> \nIlluminate your smile, thanks to our potent blend that whitens both\non the surface and from within.\n<\/p>",
             "page": ""
@@ -145,20 +145,12 @@
             "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nNatural Whitening Power\n<\/h3>\n\n<p>\n Illuminate your smile, thanks to our potent blend that whitens both on the surface and from within.\n<\/p>\n<\/div>",
             "link": ""
           }
-        },
-        "c26e8518-d6e9-4dce-96d5-4f3249878770": {
-          "type": "announcement",
-          "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nEveryday Excellence\n<\/h3>\n\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1",
         "e697a80e-a7fc-4451-90b4-2272b09f4f28",
-        "822ac0b1-711e-45e4-a940-eeca2c83c782",
-        "c26e8518-d6e9-4dce-96d5-4f3249878770"
+        "822ac0b1-711e-45e4-a940-eeca2c83c782"
       ],
       "custom_css": [
         ".custom-announcement {justify-content: center;}",
