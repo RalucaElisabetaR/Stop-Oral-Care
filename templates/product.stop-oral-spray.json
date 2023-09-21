@@ -212,17 +212,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_4724b293-c0eb-46de-8bdb-8f1fb8c509ac.png",
-            "title": "Spray towards the back of your throat ensuring to cover both teeth and gums.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_84d2c528-6f8d-432d-9446-a561aff9f70d.png",
-            "title": "Spray 2-3 times for a refreshing cleanse.",
+            "title": "Spray 2-3 times towards the back of your throat, covering both teeth and gums.",
             "text": "",
             "link_label": "",
             "link": ""
@@ -242,7 +232,6 @@
       "block_order": [
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1",
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2",
-        "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3",
         "5d9de803-d453-45e9-bd83-26ffd91df943"
       ],
       "custom_css": [
@@ -257,7 +246,7 @@
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
