@@ -226,14 +226,14 @@
         "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>\nSwift Recovery\n<\/h3>\n<div>\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>\n<\/div>",
+            "text": "<h3>\nSwift Recovery\n<\/h3>\n<br>\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>",
             "link": ""
           }
         },
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>\nGentle Yet Effective\n<\/h3>\n<div>\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
+            "text": "<h3>\nGentle Yet Effective\n<\/h3>\n<br>\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>",
             "link": ""
           }
         },
