@@ -137,8 +137,9 @@
   #Slider-template--20952529568017__f91433a6-4ea9-4869-940f-608c1d3c184d
     > div
     .announcement-bar__announcement,
-  #Slider-template--20952521179409__3c5e1297-515e-4b3c-adfd-4c2961fd9b5c,
-  > div .announcement-bar__announcement {
+  #Slider-template--20952521179409__3c5e1297-515e-4b3c-adfd-4c2961fd9b5c
+    > div
+    .announcement-bar__announcement {
     flex-wrap: nowrap;
     align-content: center;
     grid-area: announcements;
