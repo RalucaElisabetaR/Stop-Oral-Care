@@ -232,7 +232,7 @@
           "text": "#fff",
           "button": "#0093c1",
           "button_label": "#ffffff",
-          "secondary_button_label": "#0e1b4d",
+          "secondary_button_label": "#0093c1",
           "shadow": "#0e1b4d"
         }
       }
