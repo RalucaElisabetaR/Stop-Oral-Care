@@ -275,6 +275,9 @@
         "b381ec4b-031c-460f-ab07-6ee7805cbc67",
         "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a"
       ],
+      "custom_css": [
+        ".multicolumn-card {background-color: white; box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 0.33);}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
