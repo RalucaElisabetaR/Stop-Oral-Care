@@ -226,14 +226,14 @@
         "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>\nSwift Recovery\n<\/h3>\n\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>",
+            "text": "<div class=\"custom-announcement\">\n<h3>\nSwift Recovery\n<\/h3>\n\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>\n<\/div>",
             "link": ""
           }
         },
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<h3>\nGentle Yet Effective\n<\/h3>\n\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>",
+            "text": "<div class=\"custom-announcement\">\n<h3>\nGentle Yet Effective\n<\/h3>\n\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
             "link": ""
           }
         },
@@ -253,7 +253,7 @@
       ],
       "custom_css": [
         "h3,p {text-align: center;}",
-        ".announcement-bar__message, .custom-announcement {display: flex !important; justify-content: center !important; flex-wrap: wrap !important; align-content: center !important; grid-area: announcements !important; flex-direction: column !important;}"
+        ".announcement-bar__message,.custom-announcement {display: flex !important; justify-content: center !important; flex-wrap: wrap !important; align-content: center !important; grid-area: announcements !important; flex-direction: column !important;}"
       ],
       "settings": {
         "color_scheme": "scheme-56fa6b68-2bea-471b-9d2c-febeafb16ef1",
