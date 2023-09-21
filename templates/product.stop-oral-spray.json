@@ -146,7 +146,7 @@
         "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSwift Recovery\n<\/h3>\n\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSoothing Experience\n<\/h3>\n\n<p>\n Delight in a unique blend of ingredients that not only cleanses but soothes the mouth, providing a delicious and refreshing taste.\n<\/p>\n<\/div>",
             "link": ""
           }
         },
