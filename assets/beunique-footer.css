@@ -28,7 +28,8 @@
     > div.footer__content-top.page-width
     > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in
     > div:nth-child(2) {
-    margin-left: 0px;
+   margin-left: 0px;
+    margin-right: -251px;
   }
 }
 
