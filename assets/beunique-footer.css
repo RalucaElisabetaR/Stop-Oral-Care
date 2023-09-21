@@ -22,14 +22,10 @@
   width: 70px;
 }
 
-@media screen and (max-width: 1049px) {
-  #shopify-section-sections--20797124247825__footer
-    > footer
-    > div.footer__content-top.page-width
-    > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.scroll-trigger.animate--slide-in
-    > div:nth-child(2) {
-    margin-left: 0px;
-  }
+@media screen and (max-width: 990px) {
+.footer-block__brand-info{
+   margin-right: 0px;
+}
 }
 .footer__content-bottom-wrapper {
   display: flex;
