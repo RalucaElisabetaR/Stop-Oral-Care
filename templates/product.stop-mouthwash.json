@@ -219,8 +219,9 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/2_4724b293-c0eb-46de-8bdb-8f1fb8c509ac.png",
+            "title": "",
+            "text": "<p>Press down on the bottle until the dosser in the bottle neck is filled up to the indicated line.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -228,7 +229,8 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/3_84d2c528-6f8d-432d-9446-a561aff9f70d.png",
+            "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -248,7 +250,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
