@@ -114,6 +114,14 @@
 }
 
 @media screen and (max-width: 749px) {
+  #Slide-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80 > div{
+flex-wrap: nowrap;
+    align-content: center;
+    grid-area: announcements;
+    flex-direction: row;
+    align-items: center;
+}
+  
   #shopify-section-template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80
     > div
     > div
