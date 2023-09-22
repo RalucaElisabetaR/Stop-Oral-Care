@@ -747,74 +747,94 @@
 
 {% javascript %}
   
-  
-  
-  // ... (Your existing JavaScript code)
+// Query your slideshow component by the class 'custom-slideshow'
+const slideshowComponent = document.querySelector('.custom-slideshow');
+// Query each slide by the class 'custom-slide'
+const customSlides = document.querySelectorAll('.custom-slide');
 
-  // Query your slideshow component by the class 'custom-slideshow'
-  const slideshowComponent = document.querySelector('.custom-slideshow');
-  // Query each slide by the class 'custom-slide'
-  const customSlides = document.querySelectorAll('.custom-slide');
+// Variables for dragging functionality
+let isDragging = false;
+let startPos = 0;
+let currentScrollLeft;
 
-  // Auto-rotate attribute from your Liquid file
-  const autoRotate = slideshowComponent.getAttribute('data-autoplay') === 'true';
+// mousedown event for drag functionality
+slideshowComponent.addEventListener('mousedown', (e) => {
+  isDragging = true;
+  startPos = e.pageX - slideshowComponent.offsetLeft;
+  currentScrollLeft = slideshowComponent.scrollLeft;
+});
 
-  // Integrate new script for auto-rotate
-  if (autoRotate) {
-    let index = 0;
+// mouseleave and mouseup events for drag functionality
+['mouseleave', 'mouseup'].forEach((event) => {
+  slideshowComponent.addEventListener(event, () => {
+    isDragging = false;
+  });
+});
 
-    const nextSlide = () => {
-      customSlides[index].classList.remove('active');
-      index = (index + 1) % customSlides.length;
-      customSlides[index].classList.add('active');
-    };
+// mousemove event for drag functionality
+slideshowComponent.addEventListener('mousemove', (e) => {
+  if (!isDragging) return;
+  e.preventDefault();
+  const x = e.pageX - slideshowComponent.offsetLeft;
+  const walk = x - startPos;
+  slideshowComponent.scrollLeft = currentScrollLeft - walk;
+});
 
-    customSlides.forEach((slide) => {
-      slide.style.transition = 'all 1s linear';
-    });
+// Auto-rotate attribute from your Liquid file
+const autoRotate = slideshowComponent.getAttribute('data-autoplay') === 'true';
 
-    const rotateInterval = setInterval(nextSlide, 3000); // 5000ms = 5s
+// Integrate new script for auto-rotate
+if (autoRotate) {
+  let index = 0;
 
-    slideshowComponent.addEventListener('transitionend', () => {
-      if (customSlides[index].classList.contains('last-slide')) {
-        customSlides.forEach((slide) => {
-          slide.style.transition = 'none';
-        });
-        index = 0;
-        customSlides[index].classList.add('active');
-        customSlides.forEach((slide) => {
-          slide.style.transition = 'all 1s linear';
-        });
-      }
-    });
-  }
-   const scaleStyles = () => {
-    const slides = document.querySelectorAll('.custom-banner-content');
-    
-    slides.forEach((slide) => {
-      const contentContainers = slide.querySelectorAll('.custom-banner-box');
-      contentContainers.forEach((container) => {
-        const originalPadding = window.getComputedStyle(container).padding;
-        const originalMargin = window.getComputedStyle(container).margin;
-
-        // Convert the original px values to vw (viewport width) for responsiveness
-        const paddingInVw = parseFloat(originalPadding) / window.innerWidth * 100;
-        const marginInVw = parseFloat(originalMargin) / window.innerWidth * 100;
-
-        // Apply the new responsive styles to the container
-        container.style.padding = `${paddingInVw}vw`;
-        container.style.margin = `${marginInVw}vw`;
-      });
-    });
+  const nextSlide = () => {
+    customSlides[index].classList.remove('active');
+    index = (index + 1) % customSlides.length;
+    customSlides[index].classList.add('active');
   };
 
-  // Run the function initially
-  scaleStyles();
+  customSlides.forEach((slide) => {
+    slide.style.transition = 'all 1s linear';
+  });
 
-  // Run the function whenever the window is resized
-  window.addEventListener('resize', scaleStyles);
+  const rotateInterval = setInterval(nextSlide, 3000);
 
+  slideshowComponent.addEventListener('transitionend', () => {
+    if (customSlides[index].classList.contains('last-slide')) {
+      customSlides.forEach((slide) => {
+        slide.style.transition = 'none';
+      });
+      index = 0;
+      customSlides[index].classList.add('active');
+      customSlides.forEach((slide) => {
+        slide.style.transition = 'all 1s linear';
+      });
+    }
+  });
+}
 
+const scaleStyles = () => {
+  const slides = document.querySelectorAll('.custom-banner-content');
 
+  slides.forEach((slide) => {
+    const contentContainers = slide.querySelectorAll('.custom-banner-box');
+    contentContainers.forEach((container) => {
+      const originalPadding = window.getComputedStyle(container).padding;
+      const originalMargin = window.getComputedStyle(container).margin;
+
+      const paddingInVw = parseFloat(originalPadding) / window.innerWidth * 100;
+      const marginInVw = parseFloat(originalMargin) / window.innerWidth * 100;
+
+      container.style.padding = `${paddingInVw}vw`;
+      container.style.margin = `${marginInVw}vw`;
+    });
+  });
+};
+
+// Run the scaling function initially
+scaleStyles();
+
+// Run the scaling function whenever the window is resized
+window.addEventListener('resize', scaleStyles);
 
 {% endjavascript %}
