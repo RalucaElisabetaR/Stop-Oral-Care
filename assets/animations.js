@@ -140,7 +140,7 @@ if (Shopify.designMode) {
         index = 0;
         customSlides[index].classList.add('active');
         customSlides.forEach((slide) => {
-          slide.style.transition = 'all 1s linear';
+          slide.style.transition = 'all 5s linear';
         });
       }
     });
