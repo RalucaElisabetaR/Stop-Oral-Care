@@ -100,3 +100,37 @@ if (Shopify.designMode) {
   document.addEventListener('shopify:section:load', (event) => initializeScrollAnimationTrigger(event.target, true));
   document.addEventListener('shopify:section:reorder', () => initializeScrollAnimationTrigger(document, true));
 }
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const slideshowComponent = document.querySelector('.custom-slideshow');
+
+  if (slideshowComponent) {
+    let isDragging = false;
+    let startPos = 0;
+    let currentScrollLeft;
+
+    slideshowComponent.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startPos = e.pageX - slideshowComponent.getBoundingClientRect().left;
+      currentScrollLeft = slideshowComponent.scrollLeft;
+    });
+
+    slideshowComponent.addEventListener('mouseleave', () => {
+      isDragging = false;
+    });
+
+    slideshowComponent.addEventListener('mouseup', () => {
+      isDragging = false;
+    });
+
+    slideshowComponent.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      e.preventDefault();
+      const x = e.pageX - slideshowComponent.getBoundingClientRect().left;
+      const walk = x - startPos;
+      slideshowComponent.scrollLeft = currentScrollLeft - walk;
+    });
+  }
+});
+
