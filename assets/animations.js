@@ -2,6 +2,8 @@ const SCROLL_ANIMATION_TRIGGER_CLASSNAME = 'scroll-trigger';
 const SCROLL_ANIMATION_OFFSCREEN_CLASSNAME = 'scroll-trigger--offscreen';
 const SCROLL_ZOOM_IN_TRIGGER_CLASSNAME = 'animate--zoom-in';
 const SCROLL_ANIMATION_CANCEL_CLASSNAME = 'scroll-trigger--cancel';
+const SCROLL_ANIMATION_TRIGGER_CLASSNAME = 'scroll-trigger';
+
 
 // Scroll in animation logic
 function onIntersection(elements, observer) {
@@ -91,9 +93,44 @@ function percentageSeen(element) {
   return Math.round(percentage);
 }
 
+function initializeDragForCarousel() {
+  const carouselElements = Array.from(document.getElementsByClassName(SCROLL_ANIMATION_TRIGGER_CLASSNAME));
+  let isDragging = false;
+  let startPos = 0;
+  let currentScrollLeft;
+
+  carouselElements.forEach((carousel) => {
+    // mousedown event
+    carousel.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startPos = e.pageX - carousel.offsetLeft;
+      currentScrollLeft = carousel.scrollLeft;
+    });
+
+    // mouseleave and mouseup events
+    ['mouseleave', 'mouseup'].forEach((event) => {
+      carousel.addEventListener(event, () => {
+        isDragging = false;
+      });
+    });
+
+    // mousemove event
+    carousel.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      e.preventDefault();
+      const x = e.pageX - carousel.offsetLeft;
+      const walk = x - startPos;
+      carousel.scrollLeft = currentScrollLeft - walk;
+    });
+  });
+}
+
+
+
 window.addEventListener('DOMContentLoaded', () => {
   initializeScrollAnimationTrigger();
   initializeScrollZoomAnimationTrigger();
+   initializeDragForCarousel();  // Add this line to initialize the drag functionality
 });
 
 if (Shopify.designMode) {
