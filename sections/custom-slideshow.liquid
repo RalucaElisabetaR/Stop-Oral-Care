@@ -186,7 +186,7 @@
         </div>
       </div>
     {%- endfor -%}
-  </div> 
+  </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
@@ -308,10 +308,9 @@
   flex-flow: row wrap;
   align-items: stretch;
   margin: 0 !important;
-  overflow: hidden!important;
+  overflow: visible;
   gap: 0 !important;
   background-color: #f7f7f7 !important;
-    transition: none !important;
 }
 
 .custom-banner-content {
@@ -420,7 +419,6 @@
   }
   
   }
- 
 
 /* END CUSTOM SLIDESHOW STYLES END */
 
@@ -749,6 +747,7 @@
 
 {% javascript %}
   
+
 
 
 {% endjavascript %}
