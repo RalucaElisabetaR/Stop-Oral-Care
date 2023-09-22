@@ -147,5 +147,34 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // CONTINUOUS SCROLL FEATURE
+document.addEventListener("DOMContentLoaded", function() {
+  // Get the custom-slideshow container
+  const slideContainer = document.querySelector('.custom-slideshow');
+  const slides = document.querySelectorAll('.custom-slide');
+  let offset = 0;
+  const slideSpeed = 0.5;  // Adjust this value to control the speed
+  
+  function duplicateSlides() {
+    slides.forEach(slide => {
+      const clone = slide.cloneNode(true);
+      slideContainer.appendChild(clone);
+    });
+  }
+  
+  function smoothScroll() {
+    offset -= slideSpeed;
+    
+    // Reset the position when slides reach the end
+    if (Math.abs(offset) > slideContainer.scrollWidth / 2) {
+      offset = 0;
+    }
+    
+    slideContainer.style.transform = `translateX(${offset}px)`;
+    requestAnimationFrame(smoothScroll);
+  }
+  
+  duplicateSlides();
+  requestAnimationFrame(smoothScroll);
+});
 
 
