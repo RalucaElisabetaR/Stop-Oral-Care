@@ -175,10 +175,3 @@ document.addEventListener("DOMContentLoaded", function() {
   
   requestAnimationFrame(smoothScroll);
 });
-
-  
-  duplicateSlides();
-  requestAnimationFrame(smoothScroll);
-});
-
-
