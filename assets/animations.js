@@ -102,26 +102,32 @@ if (Shopify.designMode) {
 }
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  const slideshowComponent = document.querySelector('.custom-slideshow');
+// DRAGGING FUNCTION FOR SLIDESHOW
 
-  if (slideshowComponent) {
+
+document.addEventListener("DOMContentLoaded", function() {
+  const slideshowComponents = document.querySelectorAll('.custom-slideshow');
+
+  slideshowComponents.forEach(slideshowComponent => {
     let isDragging = false;
     let startPos = 0;
     let currentScrollLeft;
 
     slideshowComponent.addEventListener('mousedown', (e) => {
       isDragging = true;
+      slideshowComponent.style.cursor = 'grabbing';  // Change cursor to hand when dragging
       startPos = e.pageX - slideshowComponent.getBoundingClientRect().left;
       currentScrollLeft = slideshowComponent.scrollLeft;
     });
 
     slideshowComponent.addEventListener('mouseleave', () => {
       isDragging = false;
+      slideshowComponent.style.cursor = 'auto';  // Revert cursor back to auto when not dragging
     });
 
     slideshowComponent.addEventListener('mouseup', () => {
       isDragging = false;
+      slideshowComponent.style.cursor = 'auto';  // Revert cursor back to auto when not dragging
     });
 
     slideshowComponent.addEventListener('mousemove', (e) => {
@@ -131,6 +137,5 @@ document.addEventListener("DOMContentLoaded", function() {
       const walk = x - startPos;
       slideshowComponent.scrollLeft = currentScrollLeft - walk;
     });
-  }
+  });
 });
-
