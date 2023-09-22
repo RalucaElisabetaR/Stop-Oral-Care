@@ -147,32 +147,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // CONTINUOUS SCROLL FEATURE 
-document.addEventListener("DOMContentLoaded", function() {
-  // Get the custom-slideshow container
-  const slideContainer = document.querySelectorAll('.custom-slideshow');
+// document.addEventListener("DOMContentLoaded", function() {
+//   // Get the custom-slideshow container
+//   const slideContainer = document.querySelectorAll('.custom-slideshow');
   
-  // Clone the slides and append them to the end
-  const slides = document.querySelectorAll('.custom-slide');
-  slides.forEach(slide => {
-    const clone = slide.cloneNode(true);
-    slideContainer.appendChild(clone);
-  });
+//   // Clone the slides and append them to the end
+//   const slides = document.querySelectorAll('.custom-slide');
+//   slides.forEach(slide => {
+//     const clone = slide.cloneNode(true);
+//     slideContainer.appendChild(clone);
+//   });
   
-  let offset = 0;
-  const slideSpeed = 0.5;  // Adjust this value to control the speed
+//   let offset = 0;
+//   const slideSpeed = 0.5;  // Adjust this value to control the speed
   
-  function smoothScroll() {
-    offset -= slideSpeed;
+//   function smoothScroll() {
+//     offset -= slideSpeed;
     
-    // Reset the position when slides reach the end of original slides
-    if (Math.abs(offset) >= slideContainer.scrollWidth / 2) {
-      offset = 0;
-    }
+//     // Reset the position when slides reach the end of original slides
+//     if (Math.abs(offset) >= slideContainer.scrollWidth / 2) {
+//       offset = 0;
+//     }
     
-    slideContainer.style.transform = `translateX(${offset}px)`;
-    requestAnimationFrame(smoothScroll);
-  }
+//     slideContainer.style.transform = `translateX(${offset}px)`;
+//     requestAnimationFrame(smoothScroll);
+//   }
   
-  requestAnimationFrame(smoothScroll);
-});
+//   requestAnimationFrame(smoothScroll);
+// });
 
