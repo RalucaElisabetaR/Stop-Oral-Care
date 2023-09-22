@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // CONTINUOUS SCROLL FEATURE 
 document.addEventListener("DOMContentLoaded", function() {
   // Get the custom-slideshow container
-  const slideContainer = document.querySelector('.custom-slideshow');
+  const slideContainer = document.querySelectorAll('.custom-slideshow');
   
   // Clone the slides and append them to the end
   const slides = document.querySelectorAll('.custom-slide');
