@@ -177,58 +177,5 @@ document.addEventListener("DOMContentLoaded", function() {
 // });
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  const slideshowComponents = document.querySelectorAll('.custom-slideshow');
-
-  slideshowComponents.forEach(slideshowComponent => {
-    let isDragging = false;
-    let startPos = 0;
-    let currentScrollLeft;
-    let autoScrollId;
-
-    // Function for smooth auto-scrolling
-    const autoScroll = () => {
-      if (!isDragging) {
-        if (slideshowComponent.scrollLeft >= slideshowComponent.scrollWidth - slideshowComponent.offsetWidth - 1) {
-          slideshowComponent.scrollLeft = 0;
-        } else {
-          slideshowComponent.scrollLeft += 0.5; // Adjust for speed
-        }
-      }
-      autoScrollId = requestAnimationFrame(autoScroll);
-    };
-
-    // Start auto-scrolling
-    autoScrollId = requestAnimationFrame(autoScroll);
-
-    slideshowComponent.addEventListener('mousedown', (e) => {
-      cancelAnimationFrame(autoScrollId);
-      isDragging = true;
-      slideshowComponent.style.cursor = 'grabbing';
-      startPos = e.pageX - slideshowComponent.getBoundingClientRect().left;
-      currentScrollLeft = slideshowComponent.scrollLeft;
-    });
-
-    slideshowComponent.addEventListener('mouseup', () => {
-      isDragging = false;
-      slideshowComponent.style.cursor = 'auto';
-      autoScrollId = requestAnimationFrame(autoScroll);
-    });
-
-    slideshowComponent.addEventListener('mouseleave', () => {
-      isDragging = false;
-      slideshowComponent.style.cursor = 'auto';
-      autoScrollId = requestAnimationFrame(autoScroll);
-    });
-
-    slideshowComponent.addEventListener('mousemove', (e) => {
-      if (!isDragging) return;
-      e.preventDefault();
-      const x = e.pageX - slideshowComponent.getBoundingClientRect().left;
-      const walk = x - startPos;
-      slideshowComponent.scrollLeft = currentScrollLeft - walk;
-    });
-  });
-});
 
 
