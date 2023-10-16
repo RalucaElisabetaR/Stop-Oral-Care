@@ -49,8 +49,8 @@
           "settings": {
             "title": "General Inquiries",
             "text": "<p>For questions about our products, your order, or any general concerns.<\/p><p><\/p>",
-            "link_label": "Email: info@cannibite.com",
-            "link": "mailto:info@cannibite.com"
+            "link_label": "Email: info@cannibite.be",
+            "link": "mailto:info@cannibite.be"
           }
         },
         "template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1-column-2": {
@@ -58,8 +58,8 @@
           "settings": {
             "title": "Customer Support",
             "text": "<p>Need help with an order or product? Our team is here to assist.<\/p>",
-            "link_label": "Email: info@cannibite.com",
-            "link": "mailto:info@cannibite.com"
+            "link_label": "Email:  info@cannibite.be",
+            "link": "mailto:info@cannibite.be"
           }
         },
         "template--20797124444433__48ce4bb7-49fa-4601-8a02-7958b34ed5d1-column-3": {
@@ -67,8 +67,8 @@
           "settings": {
             "title": "Press & Media Inquiries",
             "text": "<p>For press releases, media kits, and interview requests.<\/p>",
-            "link_label": "Email: veronica@cannibite.com",
-            "link": "mailto:veronica@cannibite.com"
+            "link_label": "Email: veronica@cannibite.be",
+            "link": "mailto:veronica@cannibite.be"
           }
         },
         "c03fa246-cab7-4fd8-82b3-4c5dd838578a": {
@@ -76,8 +76,8 @@
           "settings": {
             "title": "Partnerships & Collaborations",
             "text": "<p>Interested in collaborating or becoming a distributor?<\/p>",
-            "link_label": "Email: veronica@cannibite.com",
-            "link": "mailto:veronica@cannibite.com"
+            "link_label": "Email: veronica@cannibite.be",
+            "link": "mailto:veronica@cannibite.be"
           }
         },
         "8ec4836a-0dee-4f84-90d5-7b48131982db": {
