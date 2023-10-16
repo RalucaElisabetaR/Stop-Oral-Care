@@ -13,14 +13,14 @@
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-text-1": {
           "type": "text",
           "settings": {
-            "text": "Our innovative STOP products combine the power of Hemp & Dead Sea Salt to reduce tooth sensitivity, alleviate inflammation, whiten teeth, and effectively combat dental plaque and bacteria.",
+            "text": "Experience the magic of our revolutionary STOP products, blending Hemp & Dead Sea Salt to ease tooth sensitivity, minimize dental tartar, soothe inflammation, whiten teeth, and battle plaque and bacteria. ",
             "text_style": "body"
           }
         },
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "Shop Now for your best smile!",
             "button_link_1": "shopify:\/\/collections\/stop-searching-start-smiling",
             "button_style_secondary_1": false,
             "button_label_2": "",
