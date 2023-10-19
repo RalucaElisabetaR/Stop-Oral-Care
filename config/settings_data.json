@@ -121,7 +121,7 @@
     "cart_drawer_collection": "stop-searching-start-smiling",
     "checkout_logo_image": "shopify:\/\/shop_images\/1_fb2cbfcd-0e5e-46e4-a7b2-16b6a9782dea.png",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "medium",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
