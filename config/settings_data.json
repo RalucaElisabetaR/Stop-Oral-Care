@@ -119,9 +119,9 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "stop-searching-start-smiling",
-    "checkout_logo_image": "shopify:\/\/shop_images\/1_fb2cbfcd-0e5e-46e4-a7b2-16b6a9782dea.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/STOP_Oral_Care_kit_1.png",
     "checkout_logo_position": "right",
-    "checkout_logo_size": "medium",
+    "checkout_logo_size": "large",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
