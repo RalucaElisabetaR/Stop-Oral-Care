@@ -20,6 +20,12 @@
           "settings": {
           }
         },
+        "1fab5b2f-86f2-43cd-86ac-a558fbe07430": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -64,6 +70,7 @@
         "vendor",
         "title",
         "price",
+        "1fab5b2f-86f2-43cd-86ac-a558fbe07430",
         "quantity_selector",
         "buy_buttons",
         "description",
