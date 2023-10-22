@@ -43,6 +43,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "0ef3a392-e991-4d09-ac9f-080cb5fb0c20": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "stop-protective-and-whitening-toothpaste"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -88,6 +94,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "0ef3a392-e991-4d09-ac9f-080cb5fb0c20",
         "description",
         "47591496-f88c-4893-82ba-124f0a73372d",
         "f8427654-ffed-40ba-9c70-81c99dc3053c",
