@@ -20,6 +20,11 @@
           "settings": {
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "78c6a56c-e043-495d-9fb8-63f324da6e82": {
           "type": "shopify:\/\/apps\/all-in-1-shipping-on-cart\/blocks\/single-calculator\/6fdcf202-26c0-4288-be36-8b389f5d262c",
           "settings": {
@@ -37,11 +42,6 @@
             "shipping-rates-text-color": "#5A5A5A",
             "include-padding": true,
             "max-width": 650
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "387d6049-086c-4738-be6e-9d338ec309a9": {
@@ -94,8 +94,8 @@
         "vendor",
         "title",
         "price",
-        "78c6a56c-e043-495d-9fb8-63f324da6e82",
         "quantity_selector",
+        "78c6a56c-e043-495d-9fb8-63f324da6e82",
         "387d6049-086c-4738-be6e-9d338ec309a9",
         "buy_buttons",
         "description",
