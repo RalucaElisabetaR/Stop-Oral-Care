@@ -15,12 +15,6 @@
           "settings": {
           }
         },
-        "3d4758a3-f481-430b-af85-e4c8fa592cbd": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-            "shortcode": ""
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -29,7 +23,6 @@
       },
       "block_order": [
         "subtotal",
-        "3d4758a3-f481-430b-af85-e4c8fa592cbd",
         "buttons"
       ],
       "settings": {
