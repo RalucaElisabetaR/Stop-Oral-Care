@@ -56,19 +56,6 @@
             "content": "<p>\n<span class=\"custom-weight\">-  Hemp-based compound:<\/span>\nOffering nature's touch for enriched oral care.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Dead Sea Salt Minerals:\n<\/span> \nWith its myriad of unique minerals, it supports and revitalizes gums and teeth.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Pomegranate Extracts:\n<\/span> \nRenowned for its antibacterial properties, adding a touch of freshness.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Sea Algae:\n<\/span> \n A robust antibacterial, ensuring a balanced and clean oral environment.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Natural Flavorings:\n<\/span> \nCreated to invigorate and refresh with every spray.\n<\/p>",
             "page": ""
           }
-        },
-        "2b15b7bd-d8c7-401c-b54a-c31f0ccbedb4": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "For optimal results, use it together with:",
-            "make_collapsible_row": true,
-            "icon": "star",
-            "product_list_limit": 10,
-            "products_per_page": 2,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
-          }
         }
       },
       "block_order": [
@@ -80,8 +67,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "ec4584df-4143-438d-a740-67c266d0bd12",
-        "2b15b7bd-d8c7-401c-b54a-c31f0ccbedb4"
+        "ec4584df-4143-438d-a740-67c266d0bd12"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
