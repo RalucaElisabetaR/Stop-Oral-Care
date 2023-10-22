@@ -65,9 +65,10 @@
             "enable_quick_add": true
           }
         },
-        "77317f09-5295-46e7-8239-cd96a1d87ba3": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/volume-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "cf546406-c134-436b-add4-1355f55263c4": {
+          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
           "settings": {
+            "shortcode": "7xck"
           }
         }
       },
@@ -81,7 +82,7 @@
         "description",
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
         "aa6fc72c-68e6-41a3-aa12-23450a297062",
-        "77317f09-5295-46e7-8239-cd96a1d87ba3"
+        "cf546406-c134-436b-add4-1355f55263c4"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
