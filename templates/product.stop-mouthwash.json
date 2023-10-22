@@ -25,6 +25,12 @@
           "settings": {
           }
         },
+        "387d6049-086c-4738-be6e-9d338ec309a9": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "stop-mouthwash"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -58,6 +64,11 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
+        },
+        "77317f09-5295-46e7-8239-cd96a1d87ba3": {
+          "type": "shopify:\/\/apps\/bundler\/blocks\/volume-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -65,10 +76,12 @@
         "title",
         "price",
         "quantity_selector",
+        "387d6049-086c-4738-be6e-9d338ec309a9",
         "buy_buttons",
         "description",
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
-        "aa6fc72c-68e6-41a3-aa12-23450a297062"
+        "aa6fc72c-68e6-41a3-aa12-23450a297062",
+        "77317f09-5295-46e7-8239-cd96a1d87ba3"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
