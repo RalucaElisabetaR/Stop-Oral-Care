@@ -8,7 +8,7 @@
         "1bbadb24-c2d1-4eeb-ba8c-01fa78fa7abf": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": false
           }
         },
         "c2fe9ae0-9f19-4d14-8e69-45aa059f5d3f": {
@@ -38,9 +38,9 @@
         "color_scheme": "scheme-47afe1a1-0a84-41a7-85ef-8c4295749efe",
         "newsletter_enable": false,
         "newsletter_heading": "",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": false,
+        "enable_country_selector": true,
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": true,
