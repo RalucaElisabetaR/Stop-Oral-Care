@@ -117,10 +117,16 @@
           "settings": {
             "shortcode": "7xck"
           }
+        },
+        "bae36d26-a21b-46a1-9dd2-f9a675d01e0e": {
+          "type": "shopify:\/\/apps\/bundler\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "3e07f37f-fe7e-4dc5-8900-6b25031fcc46"
+        "3e07f37f-fe7e-4dc5-8900-6b25031fcc46",
+        "bae36d26-a21b-46a1-9dd2-f9a675d01e0e"
       ],
       "settings": {
         "include_margins": true
