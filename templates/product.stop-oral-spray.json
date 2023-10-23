@@ -114,6 +114,7 @@
       "blocks": {
         "3e07f37f-fe7e-4dc5-8900-6b25031fcc46": {
           "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "disabled": true,
           "settings": {
             "shortcode": "7xck"
           }
