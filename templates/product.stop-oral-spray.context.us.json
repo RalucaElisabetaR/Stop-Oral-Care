@@ -4,5 +4,18 @@
     "market": "us"
   },
   "sections": {
+    "main": {
+      "custom_css": [
+        "h1 {color: #0d3d6f;}",
+        "h2 {font-size: 1.2em; letter-spacing: 1px; color: #0093c1;}",
+        ".card {background-color: white; border: none; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.02), 0px 5px 15px rgba(0, 0, 0, 0.01);}",
+        ".custom-weight {font-weight: 500;}",
+        "#ProductInfo-template--20952529568017__main > div:nth-child(8) > pickup-availability{display:none;}"
+      ],
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
   }
 }
