@@ -24,6 +24,7 @@
       "block_order": [
         "slide"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
@@ -49,6 +50,7 @@
     },
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "",
         "sort": "alphabetical",
@@ -59,6 +61,7 @@
     },
     "rich-text-1": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
