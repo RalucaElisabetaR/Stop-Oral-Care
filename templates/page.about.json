@@ -310,7 +310,8 @@
       ],
       "custom_css": [
         "{overflow-x: hidden;}",
-        ".banner__box {background-color: white;}"
+        ".banner__box {background-color: white;}",
+        ".custom-banner-box {height: -webkit-fill-available; justify-content: flex-start;}"
       ],
       "settings": {
         "layout": "full_bleed",
