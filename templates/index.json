@@ -211,7 +211,7 @@
           "settings": {
             "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/stop-searching-start-smiling",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -226,8 +226,7 @@
       "custom_css": [
         ".banner__content--middle-center {max-width: 600px; margin: auto; overflow-x: hidden;}",
         "p {font-size: 1.1em; padding: 20px 0px;}",
-        "h2 {font-weight: 800; margin-left: -100px; margin-right: -100px; overflow-x: hidden;}",
-        ".button {background-color: #0093c1; color: white;}"
+        "h2 {font-weight: 800; margin-left: -100px; margin-right: -100px; overflow-x: hidden;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/STOP-brand-oral-care-products-collection-1.png",
