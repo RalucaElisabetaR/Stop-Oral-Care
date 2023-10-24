@@ -105,7 +105,7 @@
     "social_facebook_link": "https:\/\/facebook.com\/OralHealthCareStore",
     "social_instagram_link": "https:\/\/www.instagram.com\/oralhealthcarestore\/",
     "social_youtube_link": "",
-    "social_tiktok_link": "",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@stoporalmicrobs",
     "social_twitter_link": "https:\/\/twitter.com\/stopproduct04",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -456,7 +456,7 @@
   "platform_customizations": {
     "custom_css": [
       ".header__search {display: none;}",
-      ".cart-item__image,.bndlr-product-image,.bndlr-add-to-bundle,.bndlr-add-bundle-to-cart,.bndlr-mnm-selected-products .bndlr-product,.bndlr-product,.bndlr-add-to-cart-container .bndlr-add-to-cart-quantity-input{border-radius: 20px !important;}"
+      ".cart-item__image,.bndlr-product-image,.bndlr-add-to-bundle,.bndlr-add-bundle-to-cart,.bndlr-mnm-selected-products .bndlr-product,.bndlr-product,.bndlr-add-to-cart-container .bndlr-add-to-cart-quantity-input {border-radius: 20px !important;}"
     ]
   }
 }
