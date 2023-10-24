@@ -36,6 +36,12 @@
           "settings": {
           }
         },
+        "443e7707-b98c-4b75-bf68-e0015aef6f41": {
+          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "7xck"
+          }
+        },
         "0c0df64d-cf78-4dfe-a7ee-5ab246289d46": {
           "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
           "settings": {
@@ -94,6 +100,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "443e7707-b98c-4b75-bf68-e0015aef6f41",
         "0c0df64d-cf78-4dfe-a7ee-5ab246289d46",
         "buy_buttons",
         "description",
@@ -138,23 +145,6 @@
         "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 60
-      }
-    },
-    "16980574071f166434": {
-      "type": "apps",
-      "blocks": {
-        "c90431e6-f909-46cb-bff3-3cbf9f49bd6b": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-            "shortcode": "7xck"
-          }
-        }
-      },
-      "block_order": [
-        "c90431e6-f909-46cb-bff3-3cbf9f49bd6b"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "3c5e1297-515e-4b3c-adfd-4c2961fd9b5c": {
@@ -268,7 +258,6 @@
   "order": [
     "main",
     "related-products",
-    "16980574071f166434",
     "3c5e1297-515e-4b3c-adfd-4c2961fd9b5c",
     "e700eb06-0229-41ef-bf48-d67634679ffc"
   ]
