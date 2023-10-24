@@ -51,6 +51,12 @@
             "content": "<ul>\n<li>\n<strong>Hemp-based compound<\/strong>: Harnessing nature's power for optimal oral care.<\/li>\n<li>\n<strong>Dead Sea Salt Minerals<\/strong>: Packed with unique minerals that rejuvenate gums and teeth.<\/li>\n<li>\n<strong>Pomegranate Extracts<\/strong>: Known for its antibacterial properties and adds a burst of freshness.<\/li>\n<li>\n<strong>Sea Algae<\/strong>: A potent antibacterial agent that helps maintain oral balance.<\/li>\n<li>\n<strong>Natural Flavorings<\/strong>: For a refreshing and invigorating taste.<\/li>\n<\/ul>",
             "page": ""
           }
+        },
+        "b21080cb-6541-47b4-bf2c-209703065b1b": {
+          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "7xck"
+          }
         }
       },
       "block_order": [
@@ -61,7 +67,8 @@
         "387d6049-086c-4738-be6e-9d338ec309a9",
         "buy_buttons",
         "description",
-        "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470"
+        "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470",
+        "b21080cb-6541-47b4-bf2c-209703065b1b"
       ],
       "custom_css": [
         "h1 {color: #0d3d6f;}",
@@ -105,23 +112,6 @@
         "columns_mobile": "1",
         "padding_top": 0,
         "padding_bottom": 60
-      }
-    },
-    "16980572077344303e": {
-      "type": "apps",
-      "blocks": {
-        "cfebb66f-d471-4d88-8011-b6a7bec5a7f5": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
-          "settings": {
-            "shortcode": "7xck"
-          }
-        }
-      },
-      "block_order": [
-        "cfebb66f-d471-4d88-8011-b6a7bec5a7f5"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "6ef2bf54-d159-4274-a455-0b493e0dee80": {
@@ -282,7 +272,6 @@
   "order": [
     "main",
     "related-products",
-    "16980572077344303e",
     "6ef2bf54-d159-4274-a455-0b493e0dee80",
     "1695059956e2aa74a0",
     "301eea18-44c9-4734-aabd-9f7dc7413d81"
