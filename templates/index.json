@@ -555,7 +555,7 @@
         "d3637a82-2da0-49ad-83e7-ff42e5ac9dd3"
       ],
       "custom_css": [
-
+        ".custom-banner-box {height: -webkit-fill-available; justify-content: flex-start;}"
       ],
       "settings": {
         "layout": "full_bleed",
