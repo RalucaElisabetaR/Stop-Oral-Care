@@ -455,7 +455,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".header__search {display: none;}"
+      ".header__search {display: none;}",
+      ".bndlr-product-image {border-radius: 20px!important;}"
     ]
   }
 }
