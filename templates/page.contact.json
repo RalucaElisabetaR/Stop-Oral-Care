@@ -84,7 +84,7 @@
           "type": "column",
           "settings": {
             "title": "Belgium Contact",
-            "text": "<p>Cannibite bvba<\/p><p>Prins Leopoldlei 12<\/p><p>2640 Mortsel, Belgium<\/p>",
+            "text": "<p>Cannibite BVBA<\/p><p>Prins Leopoldlei 12<\/p><p>2640 Mortsel, Belgium<\/p>",
             "link_label": "+32 03 44 98 374",
             "link": "tel:+32 03 44 98 374"
           }
