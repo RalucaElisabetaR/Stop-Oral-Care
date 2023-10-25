@@ -176,7 +176,7 @@
       "custom_css": [
         "{overflow-x: hidden;}",
         ".banner__box {background-color: white;}",
-        "@media only screen and (min-width: 1100px) {.custom-banner-box {height: -webkit-fill-available; justify-content: flex-start; }}"
+        "@media only screen and (min-width: 1100px) {.custom-banner-box {justify-content: flex-start; }}"
       ],
       "settings": {
         "layout": "full_bleed",
