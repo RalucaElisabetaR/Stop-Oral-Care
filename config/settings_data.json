@@ -118,7 +118,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "stop-searching-start-smiling",
+    "cart_drawer_collection": "stop-collection",
     "checkout_logo_image": "shopify:\/\/shop_images\/STOP_LOGO_1.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
