@@ -83,18 +83,18 @@
         "8ec4836a-0dee-4f84-90d5-7b48131982db": {
           "type": "column",
           "settings": {
-            "title": "Mailing Address",
+            "title": "Belgium Contact",
             "text": "<p>Cannibite bvba<\/p><p>Prins Leopoldlei 12<\/p><p>2640 Mortsel, Belgium<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "+32 03 44 98 374",
+            "link": "tel:+32 03 44 98 374"
           }
         },
         "d9db3140-763d-48e5-85a9-226785fd7774": {
           "type": "column",
           "settings": {
-            "title": "Phone",
-            "text": "",
-            "link_label": "+32 03 44 98 374",
+            "title": "USA Contact",
+            "text": "<p>Cannibite USA LLC<br\/>7901 4TH ST N STE 300<br\/>St. Petersburg, FL 33702<\/p>",
+            "link_label": "",
             "link": "tel:+32 03 44 98 374"
           }
         }
