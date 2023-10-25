@@ -176,7 +176,8 @@
       "custom_css": [
         "{overflow-x: hidden;}",
         ".banner__box {background-color: white;}",
-        ".custom-banner-box {justify-content: flex-start;}"
+        ".custom-banner-box {justify-content: flex-start;}",
+        ".slider-counter {display: none;}"
       ],
       "settings": {
         "layout": "full_bleed",
