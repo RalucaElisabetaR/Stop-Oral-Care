@@ -93,9 +93,9 @@
           "type": "column",
           "settings": {
             "title": "USA Contact",
-            "text": "<p>Cannibite USA LLC<br\/>7901 4TH ST N STE 300<br\/>St. Petersburg, FL 33702<\/p>",
-            "link_label": "",
-            "link": "tel:+32 03 44 98 374"
+            "text": "<p>INNOVHEALTH LLC<br\/>7901 4TH ST N STE 300<br\/>St. Petersburg, FL 33702<\/p>",
+            "link_label": "+1 (754) 205-9393",
+            "link": "tel:+1 (754) 205-9393"
           }
         }
       },
