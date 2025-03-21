@@ -219,7 +219,7 @@
         "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 3,
+        "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": ""
@@ -425,7 +425,7 @@
         "p,h2 {color: white;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/STOP_Oral_Care_kit.png",
+        "image": "shopify://shop_images/Optimized_STOP_Oral_Care_kit.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
