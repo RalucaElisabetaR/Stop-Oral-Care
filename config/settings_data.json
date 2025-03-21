@@ -1,11 +1,20 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/STOP_LOGO.png",
+    "logo": "shopify://shop_images/STOP_LOGO.png",
     "logo_width": 80,
-    "favicon": "shopify:\/\/shop_images\/STOP_LOGO_1.png",
-    "type_header_font": "basic_commercial_n4",
+    "favicon": "shopify://shop_images/STOP_LOGO_1.png",
+    "type_header_font": "dm_sans_n7",
     "heading_scale": 100,
-    "type_body_font": "basic_commercial_n3",
+    "type_body_font": "dm_sans_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -99,14 +108,14 @@
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
     "brand_headline": "STOP Searching, Start Smiling !",
-    "brand_description": "<p>Experience a radiant smile powered by nature, perfected by STOP.<\/p>",
-    "brand_image": "shopify:\/\/shop_images\/STOP_LOGO.png",
+    "brand_description": "<p>Experience a radiant smile powered by nature, perfected by STOP.</p>",
+    "brand_image": "shopify://shop_images/STOP_LOGO.png",
     "brand_image_width": 100,
-    "social_facebook_link": "https:\/\/facebook.com\/OralHealthCareStore",
-    "social_instagram_link": "https:\/\/www.instagram.com\/oralhealthcarestore\/",
+    "social_facebook_link": "https://facebook.com/OralHealthCareStore",
+    "social_instagram_link": "https://www.instagram.com/oralhealthcarestore/",
     "social_youtube_link": "",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@stoporalmicrobs",
-    "social_twitter_link": "https:\/\/twitter.com\/stopproduct04",
+    "social_tiktok_link": "https://www.tiktok.com/@stoporalmicrobs",
+    "social_twitter_link": "https://twitter.com/stopproduct04",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -119,7 +128,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "stop-collection",
-    "checkout_logo_image": "shopify:\/\/shop_images\/STOP_LOGO_1.png",
+    "checkout_logo_image": "shopify://shop_images/STOP_LOGO_1.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#fff",
@@ -137,27 +146,22 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "2153490007123654574": {
-        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "341186785192672687": {
-        "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
+        "type": "shopify://apps/seal-subscriptions/blocks/subscription-script-append/13b25004-a140-4ab7-b5fe-29918f759699",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5918445685253060206": {
-        "type": "shopify:\/\/apps\/bundler\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "type": "shopify://apps/bundler/blocks/bundler-script-append/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -418,7 +422,7 @@
       "sale_badge_color_scheme": "accent-1",
       "sold_out_badge_color_scheme": "background-1",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
