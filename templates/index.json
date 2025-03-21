@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now for your best smile!",
-            "button_link_1": "shopify:\/\/collections\/stop-collection",
+            "button_link_1": "shopify://collections/stop-collection",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -34,11 +43,9 @@
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-text-1",
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-buttons-1"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/STOP-brand-oral-care-products-collection-2.png",
+        "image": "shopify://shop_images/Optimized_STOP-brand-oral-care-products-collection.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
@@ -85,7 +92,7 @@
         "template--20797124903185__31863453-994d-4e53-bf38-ad881e653fe9-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Quality & Efficacy<\/strong>",
+            "heading": "<strong>Quality & Efficacy</strong>",
             "heading_size": "h1"
           }
         }
@@ -111,7 +118,7 @@
         "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-1": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDual Power: Hemp & Dead Sea Salt\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDual Power: Hemp & Dead Sea Salt\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP Oral Care, we believe in the fusion of nature's wonders with cutting-edge research. Under the visionary leadership of Dr. Veronica Stahl, we're setting new benchmarks in oral care by tapping into the unmatched benefits of hemp and the distinctive healing minerals of the Dead Sea.",
             "button_label": "",
@@ -128,7 +135,7 @@
         "b48c4eb8-e97e-4a33-beaa-8ac8aff28683": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nHemp: Nature's Microbial Maestro\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nHemp: Nature's Microbial Maestro\n</h3>",
             "heading_size": "h2",
             "subheading": "Central to our line of products is the dynamic hemp molecule. This potent natural agent stands out for its unique ability to disrupt interbacterial communication. By halting this bacterial chatter, hemp effectively deactivates harmful bacteria, safeguarding the oral environment from potential threats.",
             "button_label": "",
@@ -145,7 +152,7 @@
         "49a3ec95-0794-4892-a53c-113f74147f53": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDead Sea Salt: Nature's Healing Elixir\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDead Sea Salt: Nature's Healing Elixir\n</h3>",
             "heading_size": "h2",
             "subheading": "The uniqueness of our approach shines with the inclusion of Dead Sea salt, encompassing essential nutrients known for their therapeutic properties. These minerals not only enhance the antimicrobial action of hemp but also promote healing and rejuvenation in the oral cavity. It's a holistic approach where protection meets regeneration.",
             "button_label": "",
@@ -162,7 +169,7 @@
         "bbaad51f-4437-417b-ba4c-e74cc3bf4135": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nInnovative and Uncompromising\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nInnovative and Uncompromising\n</h3>",
             "heading_size": "h2",
             "subheading": "Each product at STOP is a testament to our dedication to quality and efficacy. We combine the innate wisdom of nature with rigorous scientific scrutiny, ensuring a dental experience that’s not only soothing but also potent against oral challenges.",
             "button_label": "",
@@ -179,7 +186,7 @@
         "1b46c9bc-9004-4757-9f14-9f680d453536": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nRedefining Oral Care\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nRedefining Oral Care\n</h3>",
             "heading_size": "h2",
             "subheading": "Guided by Dr. Stahl's commitment to excellence and innovation, STOP Oral Care is pioneering a transformative journey in oral health. Dive into a regimen powered by the unparalleled synergy of hemp and Dead Sea minerals, and embrace a smile that’s as naturally vibrant as it is healthy.",
             "button_label": "",
@@ -239,7 +246,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/stop-collection",
+            "button_link_1": "shopify://collections/stop-collection",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -258,7 +265,7 @@
         "h2 {font-weight: 800; margin-left: -100px; margin-right: -100px; overflow-x: hidden;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/STOP-brand-oral-care-products-collection-1.png",
+        "image": "shopify://shop_images/STOP-brand-oral-care-products-collection-1.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -277,21 +284,19 @@
         "template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dr-Veronica-Stahl-STOP-oral-care-range.png",
+            "image": "shopify://shop_images/Dr-Veronica-Stahl-STOP-oral-care-range.png",
             "caption": "The Visionary Behind the Revolution:",
             "heading": "Dr. Veronica Stahl",
-            "text": "<p>In the vast realm of dental innovation, few figures shine as brightly as Dr. Veronica Stahl. With over 28 years of esteemed experience in dentistry, she has carved her name as a trailblazer, always on the cusp of groundbreaking discoveries. <\/p><p>Driven by an insatiable thirst for knowledge and an unwavering commitment to excellence, Dr. Stahl's journey saw her studying implantology in prestigious institutions like the University of London and furthering her expertise with clinical research at Harvard T.H. Chan School of Public Health. But her true genius lies in the integration of nature with dentistry.<\/p><p>Dr. Stahl's most notable accomplishment? The pioneering combination of hemp originated cannabinoids with the therapeutic minerals of the Dead Sea. This vision, supported by rigorous research and clinical trials, led to the birth of STOP Oral Health Care Products.<\/p><p>In addition to her profound contributions to the world of dentistry, Dr. Stahl is an embodiment of resilience and forward-thinking. Her numerous patents, the esteemed grant from the Flemish government, and the recent U.S. patent grant on plant-based treatments for oral ailments are a testament to her dedication.With Dr. Stahl at the helm, STOP Oral Care Products is more than a brand; it's a movement. A movement to redefine oral health, to bring the gifts of nature to everyday dental care, and to ensure that every smile is not just beautiful, but also naturally healthy.<\/p>",
+            "text": "<p>In the vast realm of dental innovation, few figures shine as brightly as Dr. Veronica Stahl. With over 28 years of esteemed experience in dentistry, she has carved her name as a trailblazer, always on the cusp of groundbreaking discoveries. </p><p>Driven by an insatiable thirst for knowledge and an unwavering commitment to excellence, Dr. Stahl's journey saw her studying implantology in prestigious institutions like the University of London and furthering her expertise with clinical research at Harvard T.H. Chan School of Public Health. But her true genius lies in the integration of nature with dentistry.</p><p>Dr. Stahl's most notable accomplishment? The pioneering combination of hemp originated cannabinoids with the therapeutic minerals of the Dead Sea. This vision, supported by rigorous research and clinical trials, led to the birth of STOP Oral Health Care Products.</p><p>In addition to her profound contributions to the world of dentistry, Dr. Stahl is an embodiment of resilience and forward-thinking. Her numerous patents, the esteemed grant from the Flemish government, and the recent U.S. patent grant on plant-based treatments for oral ailments are a testament to her dedication.With Dr. Stahl at the helm, STOP Oral Care Products is more than a brand; it's a movement. A movement to redefine oral health, to bring the gifts of nature to everyday dental care, and to ensure that every smile is not just beautiful, but also naturally healthy.</p>",
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/about-us"
+            "button_link": "shopify://pages/about-us"
           }
         }
       },
       "block_order": [
         "template--20797124903185__75e22fe0-d4de-4d38-9e61-a2ea4fe819e8-row-1"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -316,7 +321,7 @@
           "settings": {
             "heading": "What makes STOP Oral Care Products unique?",
             "icon": "check_mark",
-            "row_content": "<p>At STOP Oral Care, our uniqueness is rooted in our commitment to innovation, nature, and wellness.Here's what sets us apart:<\/p><p><strong>1. Pioneering Formulation by Dr. Veronica Stahl:<\/strong> Under the visionary guidance of Dr. Stahl, with over 28 years of experience in dentistry and a plethora of research achievements, we've combinedtwo potent natural ingredients: hemp and Dead Sea minerals.<\/p><p><strong>2. Hemp's Disruptive Power: <\/strong>Central to our products is the hemp molecule known to interfere with interbacterial communication, effectively neutralizing harmful bacteria and promoting a healthier oral environment.<\/p><p><strong>3. Healing Power of Dead Sea Salt: <\/strong>Unlike regular salts, Dead Sea salt is laden with a rich blend of therapeutic minerals. These minerals not only complement the action of hemp but also help in healing and rejuvenating the oral cavity.<\/p><p><strong>4. Natural, Plant-Based Solutions:<\/strong> We are dedicated to providing solutions that are not only effective but also natural and gentle. Our formulations are fluoride-free, leveraging the pure essence of plants and minerals for maximum benefits.<\/p><p><strong>5. Backed by Scientific Research: <\/strong>Our products aren't just based on nature's wisdom. They're bolstered by rigorous scientific research and patented innovations, ensuring you get the best of both worlds.<\/p><p><strong>6. A Commitment to Excellence: <\/strong>Our journey is backed by Dr. Stahl's numerous accolades,including the esteemed grant from the Flemish government and the U.S. patent grant for plant-based treatments of oral ailments.When you choose STOP Oral Care, you're choosing a brand that's at the forefront of dental innovation, always aiming to offer the best and most natural solutions for your oral health needs.<\/p>",
+            "row_content": "<p>At STOP Oral Care, our uniqueness is rooted in our commitment to innovation, nature, and wellness.Here's what sets us apart:</p><p><strong>1. Pioneering Formulation by Dr. Veronica Stahl:</strong> Under the visionary guidance of Dr. Stahl, with over 28 years of experience in dentistry and a plethora of research achievements, we've combinedtwo potent natural ingredients: hemp and Dead Sea minerals.</p><p><strong>2. Hemp's Disruptive Power: </strong>Central to our products is the hemp molecule known to interfere with interbacterial communication, effectively neutralizing harmful bacteria and promoting a healthier oral environment.</p><p><strong>3. Healing Power of Dead Sea Salt: </strong>Unlike regular salts, Dead Sea salt is laden with a rich blend of therapeutic minerals. These minerals not only complement the action of hemp but also help in healing and rejuvenating the oral cavity.</p><p><strong>4. Natural, Plant-Based Solutions:</strong> We are dedicated to providing solutions that are not only effective but also natural and gentle. Our formulations are fluoride-free, leveraging the pure essence of plants and minerals for maximum benefits.</p><p><strong>5. Backed by Scientific Research: </strong>Our products aren't just based on nature's wisdom. They're bolstered by rigorous scientific research and patented innovations, ensuring you get the best of both worlds.</p><p><strong>6. A Commitment to Excellence: </strong>Our journey is backed by Dr. Stahl's numerous accolades,including the esteemed grant from the Flemish government and the U.S. patent grant for plant-based treatments of oral ailments.When you choose STOP Oral Care, you're choosing a brand that's at the forefront of dental innovation, always aiming to offer the best and most natural solutions for your oral health needs.</p>",
             "page": ""
           }
         },
@@ -325,7 +330,7 @@
           "settings": {
             "heading": "Are STOP Oral Health Care Products safe for use?",
             "icon": "check_mark",
-            "row_content": "<p>Absolutely! Safety, efficacy, and a commitment to excellence are at the heart of everything we do at STOP Oral Care. <\/p><p>Here's what ensures our products are both safe and effective:<\/p><p><strong>1. Natural, Plant-Based Ingredients:<\/strong> Our products harness the power of natural components like hemp and Dead Sea minerals, which are renowned for their therapeutic benefits and safety.<\/p><p><strong>2. Rigorously Tested:<\/strong> Under the expert direction of Dr. Veronica Stahl, our products undergo thorough testing and clinical evaluations. Before introducing our products to the market, we conducted 1.5 years of observance for clinical efficacy and safety, ensuring they meet and exceed the highest standards.<\/p><p><strong>3. Free from Harmful Chemicals: <\/strong>We are proud of our fluoride-free formulations that focus on nature's essence, offering effective oral care without the potential risks associated with synthetic additives.<\/p><p><strong>4. Innovative Yet Gentle:<\/strong> While our products bring the latest innovations in dental science, they are also designed to be gentle on the teeth and gums, ensuring suitability for daily use.<\/p><p><strong>5. Backed by Scientific Research: <\/strong>Dr. Stahl’s extensive research, combined with her groundbreaking patents, stand as a testament to the safety and efficacy of STOP Oral Health Care Products.<\/p><p><strong>6. Transparent Labeling:<\/strong> We believe in transparency. Every ingredient we use is clearly listed,empowering you to be fully informed about what you're applying to your teeth and gums.Our unyielding dedication to safety, quality, and research ensures that with STOP Oral Health Care Products, you're choosing a brand that places your well-being and oral health at the forefront.<\/p>",
+            "row_content": "<p>Absolutely! Safety, efficacy, and a commitment to excellence are at the heart of everything we do at STOP Oral Care. </p><p>Here's what ensures our products are both safe and effective:</p><p><strong>1. Natural, Plant-Based Ingredients:</strong> Our products harness the power of natural components like hemp and Dead Sea minerals, which are renowned for their therapeutic benefits and safety.</p><p><strong>2. Rigorously Tested:</strong> Under the expert direction of Dr. Veronica Stahl, our products undergo thorough testing and clinical evaluations. Before introducing our products to the market, we conducted 1.5 years of observance for clinical efficacy and safety, ensuring they meet and exceed the highest standards.</p><p><strong>3. Free from Harmful Chemicals: </strong>We are proud of our fluoride-free formulations that focus on nature's essence, offering effective oral care without the potential risks associated with synthetic additives.</p><p><strong>4. Innovative Yet Gentle:</strong> While our products bring the latest innovations in dental science, they are also designed to be gentle on the teeth and gums, ensuring suitability for daily use.</p><p><strong>5. Backed by Scientific Research: </strong>Dr. Stahl’s extensive research, combined with her groundbreaking patents, stand as a testament to the safety and efficacy of STOP Oral Health Care Products.</p><p><strong>6. Transparent Labeling:</strong> We believe in transparency. Every ingredient we use is clearly listed,empowering you to be fully informed about what you're applying to your teeth and gums.Our unyielding dedication to safety, quality, and research ensures that with STOP Oral Health Care Products, you're choosing a brand that places your well-being and oral health at the forefront.</p>",
             "page": ""
           }
         },
@@ -334,7 +339,7 @@
           "settings": {
             "heading": "Can I use STOP Oral Health Care Products if I have sensitive teeth and gums?",
             "icon": "check_mark",
-            "row_content": "<p>Absolutely! STOP Oral Health Care Products have been specially formulated with the needs of those with sensitive teeth and gums in mind.<\/p><p> Here's why our products are a great choice for sensitive oral care:<\/p><p><strong>1. Natural Ingredients: <\/strong>The use of natural components like hemp and Dead Sea minerals ensures that our products provide gentle care, minimizing the risk of further sensitivity or irritation.<\/p><p><strong>2. Sensitivity Reduction:<\/strong> Our unique formulation is not only gentle but is also designed to help reduce tooth sensitivity by strengthening the enamel and promoting healthier gums.<\/p><p><strong>3. Gentle Yet Effective:<\/strong> While our products are soft on sensitive teeth and gums, they are powerful against harmful bacteria and dental plaque, ensuring comprehensive oral care.<\/p><p><strong>4. Rigorous Testing:<\/strong> Under the expert guidance of Dr. Veronica Stahl, our products underwent extensive testing, with a specific focus on their suitability for those with sensitive oral conditions.<\/p><p><strong>5. Avoids Common Irritants:<\/strong> Our fluoride-free formulations avoid many common synthetic additives known to sometimes exacerbate sensitivity.<\/p><p><strong>6. Endorsed by Expertise:<\/strong> Dr. Stahl’s extensive experience in dentistry, coupled with her deep understanding of oral sensitivities, ensures our products are tailored to meet the needs of those with sensitive teeth and gums.With STOP Oral Health Care Products, you can confidently maintain optimal oral health without compromising on comfort, even if you have sensitive teeth and gums.<\/p><p><\/p>",
+            "row_content": "<p>Absolutely! STOP Oral Health Care Products have been specially formulated with the needs of those with sensitive teeth and gums in mind.</p><p> Here's why our products are a great choice for sensitive oral care:</p><p><strong>1. Natural Ingredients: </strong>The use of natural components like hemp and Dead Sea minerals ensures that our products provide gentle care, minimizing the risk of further sensitivity or irritation.</p><p><strong>2. Sensitivity Reduction:</strong> Our unique formulation is not only gentle but is also designed to help reduce tooth sensitivity by strengthening the enamel and promoting healthier gums.</p><p><strong>3. Gentle Yet Effective:</strong> While our products are soft on sensitive teeth and gums, they are powerful against harmful bacteria and dental plaque, ensuring comprehensive oral care.</p><p><strong>4. Rigorous Testing:</strong> Under the expert guidance of Dr. Veronica Stahl, our products underwent extensive testing, with a specific focus on their suitability for those with sensitive oral conditions.</p><p><strong>5. Avoids Common Irritants:</strong> Our fluoride-free formulations avoid many common synthetic additives known to sometimes exacerbate sensitivity.</p><p><strong>6. Endorsed by Expertise:</strong> Dr. Stahl’s extensive experience in dentistry, coupled with her deep understanding of oral sensitivities, ensures our products are tailored to meet the needs of those with sensitive teeth and gums.With STOP Oral Health Care Products, you can confidently maintain optimal oral health without compromising on comfort, even if you have sensitive teeth and gums.</p><p></p>",
             "page": ""
           }
         },
@@ -343,7 +348,7 @@
           "settings": {
             "heading": "How do STOP Oral Health Care Products help improve oral health?",
             "icon": "check_mark",
-            "row_content": "<p>STOP Oral Health Care Products represent a fusion of research, innovation, and deep respect for natural ingredients. <\/p><p>Here's what sets our products apart:<\/p><p><strong>1. Natural Ingredients:<\/strong>  Our formulations are rooted in the richness of hemp and the unique minerals of Dead Sea salts, providing a distinct approach to oral care.<\/p><p><strong>2. Combatting Plaque: <\/strong>Our products are crafted to help address dental plaque, supporting a cleaner oral environment.<\/p><p><strong>3. Nature's Gentle Touch: <\/strong>Hemp and Dead Sea salts are recognized for their soothing properties,making our products a choice for those looking for gentle care.<\/p><p><strong>4. Mineral-Infused Care:<\/strong> The Dead Sea salt in our products is celebrated for its unique mineral content, offering a different dimension to daily oral routines.<\/p><p><strong>5. Safety and Quality: <\/strong>We prioritize rigorous testing to ensure our products align with the standards we set for quality and user experience.<\/p><p><strong>6. Expertise in Every Product: <\/strong>Dr. Veronica Stahl's extensive background in dental care informs our product line, making sure they resonate with modern needs and preferences. Choose STOP Oral Health Care Products for a natural touch in your daily oral care regimen, reflecting a blend of tradition, nature, and innovation.<\/p>",
+            "row_content": "<p>STOP Oral Health Care Products represent a fusion of research, innovation, and deep respect for natural ingredients. </p><p>Here's what sets our products apart:</p><p><strong>1. Natural Ingredients:</strong>  Our formulations are rooted in the richness of hemp and the unique minerals of Dead Sea salts, providing a distinct approach to oral care.</p><p><strong>2. Combatting Plaque: </strong>Our products are crafted to help address dental plaque, supporting a cleaner oral environment.</p><p><strong>3. Nature's Gentle Touch: </strong>Hemp and Dead Sea salts are recognized for their soothing properties,making our products a choice for those looking for gentle care.</p><p><strong>4. Mineral-Infused Care:</strong> The Dead Sea salt in our products is celebrated for its unique mineral content, offering a different dimension to daily oral routines.</p><p><strong>5. Safety and Quality: </strong>We prioritize rigorous testing to ensure our products align with the standards we set for quality and user experience.</p><p><strong>6. Expertise in Every Product: </strong>Dr. Veronica Stahl's extensive background in dental care informs our product line, making sure they resonate with modern needs and preferences. Choose STOP Oral Health Care Products for a natural touch in your daily oral care regimen, reflecting a blend of tradition, nature, and innovation.</p>",
             "page": ""
           }
         },
@@ -352,7 +357,7 @@
           "settings": {
             "heading": "How often should I use STOP Oral Health Care Products?",
             "icon": "check_mark",
-            "row_content": "<p>For optimal results with STOP Oral Health Care Products, consider the following guidelines:<\/p><p><strong>1. Twice Daily Routine:<\/strong> It's suggested to use STOP Oral Health Care toothpaste twice a day, once in the morning and once before bedtime, for a refreshed and clean oral feel.<\/p><p><strong>2. After Meals:<\/strong> To help neutralize odors and maintain a fresh mouth, consider using the STOP Oral Health Care oral spray after meals. It's a convenient way to enhance your oral freshness on the go.<\/p><p><strong>3. Consistency is Key:<\/strong> Regular and consistent use can help you appreciate the distinctive qualities of our hemp and Dead Sea salt-infused products.<\/p><p><strong>4. Tailor to Your Needs<\/strong>: Each individual's oral health needs vary. If you have particular concerns,consult with your dentist or oral health professional to best integrate STOP Oral Health Care Products into your daily regimen. Keep in mind, as with any oral care product, combining regular use of STOP products with a balanced diet, reduced sugar intake, and regular dental visits can guide you toward optimal oral health.<\/p>",
+            "row_content": "<p>For optimal results with STOP Oral Health Care Products, consider the following guidelines:</p><p><strong>1. Twice Daily Routine:</strong> It's suggested to use STOP Oral Health Care toothpaste twice a day, once in the morning and once before bedtime, for a refreshed and clean oral feel.</p><p><strong>2. After Meals:</strong> To help neutralize odors and maintain a fresh mouth, consider using the STOP Oral Health Care oral spray after meals. It's a convenient way to enhance your oral freshness on the go.</p><p><strong>3. Consistency is Key:</strong> Regular and consistent use can help you appreciate the distinctive qualities of our hemp and Dead Sea salt-infused products.</p><p><strong>4. Tailor to Your Needs</strong>: Each individual's oral health needs vary. If you have particular concerns,consult with your dentist or oral health professional to best integrate STOP Oral Health Care Products into your daily regimen. Keep in mind, as with any oral care product, combining regular use of STOP products with a balanced diet, reduced sugar intake, and regular dental visits can guide you toward optimal oral health.</p>",
             "page": ""
           }
         }
@@ -369,7 +374,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "<strong>Frequently Asked Questions (FAQ)<\/strong>",
+        "heading": "<strong>Frequently Asked Questions (FAQ)</strong>",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "section",
@@ -403,7 +408,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/stop-collection",
+            "button_link_1": "shopify://collections/stop-collection",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -420,7 +425,7 @@
         "p,h2 {color: white;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/STOP_Oral_Care_kit.png",
+        "image": "shopify://shop_images/STOP_Oral_Care_kit.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -439,7 +444,7 @@
         "741e1566-3442-46e2-9688-1940ea25809c": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>\nExcellence in Innovation & Dedication\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n</div>\n<h3>\nExcellence in Innovation & Dedication\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP Oral Care, our dedication to innovative solutions and premium product quality has garnered international recognition. Under the esteemed leadership of Dr. Veronica Stahl, our trajectory has been marked by numerous awards, highlighting our unwavering commitment to excellence.",
             "button_label": "",
@@ -456,7 +461,7 @@
         "5febc70a-6529-4be1-b7bd-6b28929df75a": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>\nFlemish Belgium EU Government Grant\n\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n</div>\n<h3>\nFlemish Belgium EU Government Grant\n\n</h3>",
             "heading_size": "h2",
             "subheading": "In recognition of our groundbreaking work, we received a grant from the Flemish government in 2019. This esteemed award propelled our mission to develop an innovative portfolio of personal dental products that redefine oral care standards",
             "button_label": "",
@@ -473,7 +478,7 @@
         "a83592cc-b2e1-4cde-a2cd-790c68388f8c": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>U.S. Patent Recognition - 2023<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n</div>\n<h3>U.S. Patent Recognition - 2023</h3>",
             "heading_size": "h2",
             "subheading": "Our dedication to pushing the boundaries of natural oral care culminated in a U.S. granted patent. This patent, centered around plant-based treatments for various oral ailments linked to broader health issues, stands as a testament to our innovative approach and the tangible impact of Dr. Stahl's visionary research.",
             "button_label": "",
@@ -490,7 +495,7 @@
         "b0e1469f-9e0d-4afa-843b-c351c7390a05": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>\nDedicated to Innovation\n\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n</div>\n<h3>\nDedicated to Innovation\n\n</h3>",
             "heading_size": "h2",
             "subheading": "These awards not only celebrate our accomplishments but fuel our relentless pursuit of breakthroughs. At STOP, we're committed to setting industry standards rather than just meeting them.",
             "button_label": "",
@@ -507,7 +512,7 @@
         "9b96d1c7-30bf-49e8-aab2-11a583b08469": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>\nExcellence in Innovation & Dedication\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n</div>\n<h3>\nExcellence in Innovation & Dedication\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP Oral Care, our dedication to innovative solutions and premium product quality has garnered international recognition. Under the esteemed leadership of Dr. Veronica Stahl, our trajectory has been marked by numerous awards, highlighting our unwavering commitment to excellence.",
             "button_label": "",
@@ -524,7 +529,7 @@
         "ba2c8a3a-28ac-4525-a54e-f6780f1e300c": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>\nFlemish Belgium EU Government Grant\n\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n</div>\n<h3>\nFlemish Belgium EU Government Grant\n\n</h3>",
             "heading_size": "h2",
             "subheading": "In recognition of our groundbreaking work, we received a grant from the Flemish government in 2019. This esteemed award propelled our mission to develop an innovative portfolio of personal dental products that redefine oral care standards",
             "button_label": "",
@@ -541,7 +546,7 @@
         "36aa1626-8a16-49c8-929d-ee472536318a": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>U.S. Patent Recognition - 2023<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n</div>\n<h3>U.S. Patent Recognition - 2023</h3>",
             "heading_size": "h2",
             "subheading": "Our dedication to pushing the boundaries of natural oral care culminated in a U.S. granted patent. This patent, centered around plant-based treatments for various oral ailments linked to broader health issues, stands as a testament to our innovative approach and the tangible impact of Dr. Stahl's visionary research.",
             "button_label": "",
@@ -558,7 +563,7 @@
         "d3637a82-2da0-49ad-83e7-ff42e5ac9dd3": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n<\/div>\n<h3>\nDedicated to Innovation\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/STOP_Icon_7.png\" alt=\"\" style=\"width:50px;height:50px;\">\n</div>\n<h3>\nDedicated to Innovation\n</h3>",
             "heading_size": "h2",
             "subheading": "These awards not only celebrate our accomplishments but fuel our relentless pursuit of breakthroughs. At STOP, we're committed to setting industry standards rather than just meeting them.",
             "button_label": "",
