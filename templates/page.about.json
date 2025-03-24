@@ -372,7 +372,9 @@
         "template--20797124903185__11caf4bf-1ae9-4c27-a8d8-5df214ea4fdf-buttons-1"
       ],
       "custom_css": [
-        "p,h2 {color: white;}"
+        "p,h2 {color: white;}",
+        ".button--primary {background-color: #f5170c; border-radius: 5px; color: white; text-transform: uppercase; font-weight: 600; border: none !important;}",
+        ".button--primary:after {border-radius: 5px; border: none !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/STOP_Oral_Care_kit.png",
