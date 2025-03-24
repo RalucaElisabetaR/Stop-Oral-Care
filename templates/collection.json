@@ -27,6 +27,9 @@
       "custom_css": [
         ".card {background-color: white; border: none; box-shadow: -2px 8px 24px -18px rgba(0, 0, 0, 0.33);}",
         ".card__heading {padding-top: 20px; font-size: 1.1em; text-align: center; color: #1773b0;}",
+        ".price__container {display: flex; text-align: center; justify-content: center;}",
+        ".button--full-width {width: 90%; margin: auto;}",
+        ".quick-add__submit {min-width: 90%;}",
         "@media screen and (max-width: 999px) {.product-grid-container {padding: 1rem; } .product-grid {row-gap: 30px; }}",
         "@media screen and (max-width: 749px) {.product-grid-container {padding: 2rem; }}"
       ],
@@ -38,7 +41,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
