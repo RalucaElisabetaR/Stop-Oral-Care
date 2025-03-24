@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -16,21 +25,21 @@
           "type": "announcement",
           "settings": {
             "text": "Natural Whitening",
-            "link": "shopify:\/\/collections\/stop-collection"
+            "link": "shopify://collections/stop-collection"
           }
         },
         "97c7136b-068f-4041-952d-420fc8a0c514": {
           "type": "announcement",
           "settings": {
             "text": "Combat Inflammation",
-            "link": "shopify:\/\/collections\/stop-collection"
+            "link": "shopify://collections/stop-collection"
           }
         },
         "fa13e7e5-1619-4d51-a027-1221180dba59": {
           "type": "announcement",
           "settings": {
             "text": "Advanced Plaque Defense",
-            "link": "shopify:\/\/collections\/stop-collection"
+            "link": "shopify://collections/stop-collection"
           }
         }
       },
@@ -53,7 +62,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        ".header--middle-left {grid-template-areas: \"heading navigation icons\"; grid-template-columns: 1fr auto 1fr; column-gap: 2rem; }"
       ],
       "settings": {
         "logo_position": "middle-left",
