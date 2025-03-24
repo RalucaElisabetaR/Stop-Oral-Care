@@ -60,6 +60,10 @@
     },
     "featured_collection_mpYjmr": {
       "type": "featured-collection",
+      "custom_css": [
+        ".card__media {margin: 0; width: 100%; border-radius: 10px;}",
+        ".underline-links-hover:hover a {text-decoration: none; color: }"
+      ],
       "settings": {
         "title": "Our Products",
         "heading_size": "h1",
