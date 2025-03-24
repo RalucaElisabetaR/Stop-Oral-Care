@@ -524,6 +524,7 @@
         "a83592cc-b2e1-4cde-a2cd-790c68388f8c",
         "b0e1469f-9e0d-4afa-843b-c351c7390a05"
       ],
+      "disabled": true,
       "custom_css": [
         ".custom-banner-box {justify-content: flex-start;}",
         ".slider-counter {display: none;}"
@@ -592,17 +593,17 @@
       "custom_css": [
         ".slider-counter {display: none;}",
         ".multicolumn-card__image-wrapper--third-width {width: 10% !important;}",
-        ".multicolumn-card {background-color: #ffffff; box-shadow: 1px 1px 10px rgba(0,0,0,0.1)}"
+        ".multicolumn-card {background: #ffffff !important; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);}"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
