@@ -61,8 +61,12 @@
     "featured_collection_mpYjmr": {
       "type": "featured-collection",
       "custom_css": [
+        "{padding-top: 16px;}",
         ".card__media {margin: 0; width: 100%; border-radius: 10px;}",
-        ".underline-links-hover:hover a {text-decoration: none; color: ;}"
+        ".underline-links-hover:hover a {text-decoration: none; color: #f5170c;}",
+        ".inline-richtext {text-align: center;}",
+        ".full-unstyled-link {text-align: center; font-size: 16px;}",
+        ".price__container {display: flex; text-align: center; justify-content: center;}"
       ],
       "settings": {
         "title": "Our Products",
