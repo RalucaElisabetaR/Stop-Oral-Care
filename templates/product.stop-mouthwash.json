@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,27 +21,24 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "b21080cb-6541-47b4-bf2c-209703065b1b": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
           "settings": {
             "shortcode": "7xck"
           }
         },
         "387d6049-086c-4738-be6e-9d338ec309a9": {
-          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "type": "shopify://apps/seal-subscriptions/blocks/subscription-widget/13b25004-a140-4ab7-b5fe-29918f759699",
           "settings": {
             "product": "stop-mouthwash"
           }
@@ -46,15 +52,14 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "3df7c9b7-0515-4e9a-ad98-1c8ffce3b470": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ingredients:",
             "icon": "check_mark",
-            "content": "<ul>\n<li>\n<strong>Hemp-based compound<\/strong>: Harnessing nature's power for optimal oral care.<\/li>\n<li>\n<strong>Dead Sea Salt Minerals<\/strong>: Packed with unique minerals that rejuvenate gums and teeth.<\/li>\n<li>\n<strong>Pomegranate Extracts<\/strong>: Known for its antibacterial properties and adds a burst of freshness.<\/li>\n<li>\n<strong>Sea Algae<\/strong>: A potent antibacterial agent that helps maintain oral balance.<\/li>\n<li>\n<strong>Natural Flavorings<\/strong>: For a refreshing and invigorating taste.<\/li>\n<\/ul>",
+            "content": "<ul>\n<li>\n<strong>Hemp-based compound</strong>: Harnessing nature's power for optimal oral care.</li>\n<li>\n<strong>Dead Sea Salt Minerals</strong>: Packed with unique minerals that rejuvenate gums and teeth.</li>\n<li>\n<strong>Pomegranate Extracts</strong>: Known for its antibacterial properties and adds a burst of freshness.</li>\n<li>\n<strong>Sea Algae</strong>: A potent antibacterial agent that helps maintain oral balance.</li>\n<li>\n<strong>Natural Flavorings</strong>: For a refreshing and invigorating taste.</li>\n</ul>",
             "page": ""
           }
         }
@@ -95,9 +100,7 @@
     "related-products": {
       "type": "related-products",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "You may also like:",
         "heading_size": "h2",
@@ -120,28 +123,28 @@
         "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>Advanced Plaque Prevention<\/h3>\n<p>Bid farewell to the earliest signs of dental concerns.<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>Advanced Plaque Prevention</h3>\n<p>Bid farewell to the earliest signs of dental concerns.</p>\n</div>",
             "link": ""
           }
         },
         "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSwift Recovery\n<\/h3>\n\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSwift Recovery\n</h3>\n\n<p>\nSpecially designed to support and expedite the healing of gum tissues.\n</p>\n</div>",
             "link": ""
           }
         },
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nGentle Yet Effective\n<\/h3>\n\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nGentle Yet Effective\n</h3>\n\n<p>\nNo irritations. No stains. Just pure, uncompromised cleanliness.\n</p>\n</div>",
             "link": ""
           }
         },
         "c26e8518-d6e9-4dce-96d5-4f3249878770": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nEveryday Excellence\n<\/h3>\n\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nEveryday Excellence\n</h3>\n\n<p>\nFormulated for daily use, ensuring your mouth feels clean and invigorated throughout the day.\n</p>\n</div>",
             "link": ""
           }
         }
@@ -178,7 +181,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_210b996f-1a8c-4c4a-89e4-7d3d57c16442.png",
+            "image": "shopify://shop_images/1_210b996f-1a8c-4c4a-89e4-7d3d57c16442.png",
             "title": "Shake the bottle gently before use.",
             "text": "",
             "link_label": "",
@@ -188,7 +191,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_4724b293-c0eb-46de-8bdb-8f1fb8c509ac.png",
+            "image": "shopify://shop_images/2_4724b293-c0eb-46de-8bdb-8f1fb8c509ac.png",
             "title": "Press on the bottle until bottle's dosser fills to line.",
             "text": "",
             "link_label": "",
@@ -198,7 +201,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_84d2c528-6f8d-432d-9446-a561aff9f70d.png",
+            "image": "shopify://shop_images/3_84d2c528-6f8d-432d-9446-a561aff9f70d.png",
             "title": "Empty the dosser content into your mouth.",
             "text": "",
             "link_label": "",
@@ -208,7 +211,7 @@
         "5d9de803-d453-45e9-bd83-26ffd91df943": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_b4b6da28-a984-4e11-a9a3-7cd1109f6e1d.png",
+            "image": "shopify://shop_images/4_b4b6da28-a984-4e11-a9a3-7cd1109f6e1d.png",
             "title": "Swish for 60 seconds, covering all areas.",
             "text": "",
             "link_label": "",
@@ -218,7 +221,7 @@
         "b381ec4b-031c-460f-ab07-6ee7805cbc67": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_ffb61878-9270-4231-844b-50114b0f8fb6.png",
+            "image": "shopify://shop_images/5_ffb61878-9270-4231-844b-50114b0f8fb6.png",
             "title": "Spit out the solution into the sink.",
             "text": "",
             "link_label": "",
@@ -228,7 +231,7 @@
         "bbeeb1b4-cdf7-4b7a-b2bf-0bfb99037d2a": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_3a59e0c0-99c2-4608-84fe-2c72d2d7deb3.png",
+            "image": "shopify://shop_images/6_3a59e0c0-99c2-4608-84fe-2c72d2d7deb3.png",
             "title": "Wait 30 minutes before eating, drinking, or rinsing for best results.",
             "text": "",
             "link_label": "",
@@ -267,6 +270,21 @@
         "padding_top": 72,
         "padding_bottom": 56
       }
+    },
+    "174280907017f96c5a": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_yqt77A": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_yqt77A"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -274,6 +292,7 @@
     "related-products",
     "6ef2bf54-d159-4274-a455-0b493e0dee80",
     "1695059956e2aa74a0",
-    "301eea18-44c9-4734-aabd-9f7dc7413d81"
+    "301eea18-44c9-4734-aabd-9f7dc7413d81",
+    "174280907017f96c5a"
   ]
 }
