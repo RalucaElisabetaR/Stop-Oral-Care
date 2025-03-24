@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -23,7 +32,6 @@
         "template--20797124444433__0056e8f8-5756-436e-a605-6dd0b2884c55-heading-1"
       ],
       "custom_css": [
-        "{border-top: solid 10px #dcdcdc;}",
         "h2 {color: white;}"
       ],
       "settings": {
@@ -48,7 +56,7 @@
         "template--20969701212433__09b701a7-3f07-44f1-a9cf-5cbb8db7d8a4-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Veronica Stahl stands as a beacon of innovation in the expansive world of oral health care. With a decorated career spanning over 28 years, her expertise resides not only in traditional dental methodologies but also in the realm of pioneering innovation.<\/p><p>In March, the USA recognised her groundbreaking work, granting a patent for her plant-based treatments addressing various oral ailments. These revolutionary treatments not only focus on the oral cavity but also highlight the correlation between oral health and general wellness.<\/p><p><\/p>",
+            "text": "<p>Dr. Veronica Stahl stands as a beacon of innovation in the expansive world of oral health care. With a decorated career spanning over 28 years, her expertise resides not only in traditional dental methodologies but also in the realm of pioneering innovation.</p><p>In March, the USA recognised her groundbreaking work, granting a patent for her plant-based treatments addressing various oral ailments. These revolutionary treatments not only focus on the oral cavity but also highlight the correlation between oral health and general wellness.</p><p></p>",
             "text_style": "body"
           }
         }
@@ -62,7 +70,7 @@
         ".image-with-text__media-item {max-width: 400px; height: 100%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Veronica_Stahl_1080_x_1080_px.png",
+        "image": "shopify://shop_images/Veronica_Stahl_1080_x_1080_px.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -89,7 +97,7 @@
         "37beb72e-1f3a-4e3f-afe4-4b95df47dd32": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Stahl stands as the visionary creator behind a groundbreaking fusion in the dental industry. She pioneered the first-ever patents that ingeniously combined hemp-based solutions with the mineral-rich potency of the Dead Sea. This remarkable fusion highlights Dr. Stahl's dedication to incorporating the gifts of nature into advanced dental care.<br\/><br\/>In 2019, her impactful contributions to the dental community received additional recognition when the Flemish government awarded her a substantial grant. This honor celebrated not only her dedication to the field but also her novel approaches, solidifying her status as a trailblazer in dentistry.<\/p>",
+            "text": "<p>Dr. Stahl stands as the visionary creator behind a groundbreaking fusion in the dental industry. She pioneered the first-ever patents that ingeniously combined hemp-based solutions with the mineral-rich potency of the Dead Sea. This remarkable fusion highlights Dr. Stahl's dedication to incorporating the gifts of nature into advanced dental care.<br/><br/>In 2019, her impactful contributions to the dental community received additional recognition when the Flemish government awarded her a substantial grant. This honor celebrated not only her dedication to the field but also her novel approaches, solidifying her status as a trailblazer in dentistry.</p>",
             "text_style": "body"
           }
         }
@@ -103,7 +111,7 @@
         ".image-with-text__media-item {max-width: 400px; height: 100%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_492884e5-f3cd-4784-9b2b-a81c75dbac4f.png",
+        "image": "shopify://shop_images/3_492884e5-f3cd-4784-9b2b-a81c75dbac4f.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -130,7 +138,7 @@
         "13cbbae3-a0d4-405e-83ec-f0364d11205f": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Stahl isn't just an expert dentist; her journey through education speaks volumes about her commitment to excellence. With qualifications from renowned institutions like Harvard Clinical Research and the Technion Israel Institute of Technology, she's been at the forefront of dental advancements. But it's not just about her clinical skills — her work as a clinical researcher has led to game-changing inventions reshaping dentistry's future.<br\/><\/p><p>Beyond her role in the clinic, Dr. Stahl is a multilingual individual, an entrepreneur, and a respected figure in global dental communities. Her legacy is built on a tireless dedication to progress, a knack for innovation, and a strong commitment to improving oral health worldwide. Whether she can speak multiple languages or her entrepreneurial spirit, Dr. Stahl is making a mark in the field, influencing the future of dentistry.<\/p>",
+            "text": "<p>Dr. Stahl isn't just an expert dentist; her journey through education speaks volumes about her commitment to excellence. With qualifications from renowned institutions like Harvard Clinical Research and the Technion Israel Institute of Technology, she's been at the forefront of dental advancements. But it's not just about her clinical skills — her work as a clinical researcher has led to game-changing inventions reshaping dentistry's future.<br/></p><p>Beyond her role in the clinic, Dr. Stahl is a multilingual individual, an entrepreneur, and a respected figure in global dental communities. Her legacy is built on a tireless dedication to progress, a knack for innovation, and a strong commitment to improving oral health worldwide. Whether she can speak multiple languages or her entrepreneurial spirit, Dr. Stahl is making a mark in the field, influencing the future of dentistry.</p>",
             "text_style": "body"
           }
         }
@@ -144,7 +152,7 @@
         ".image-with-text__media-item {max-width: 400px; height: 100%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_944eed16-7dda-4f75-b26d-cd9aaff7d4df.png",
+        "image": "shopify://shop_images/2_944eed16-7dda-4f75-b26d-cd9aaff7d4df.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -164,7 +172,7 @@
         "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-1": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDr. Stahl's Vision: Revolutionizing Oral Health\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDr. Stahl's Vision: Revolutionizing Oral Health\n</h3>",
             "heading_size": "h2",
             "subheading": "Under the expert guidance of Dr.\nVeronica Stahl, STOP Oral Care has transcended traditional boundaries. Drawing from her 28 years in the field, she pioneered the integration of nature's best - hemp and Dead Sea minerals - with modern dental science.",
             "button_label": "",
@@ -181,7 +189,7 @@
         "69611c13-fe04-4986-abfd-fc2292e9fa0f": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nUnveiling Nature's Bounty: Hemp and Dead Sea Minerals\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nUnveiling Nature's Bounty: Hemp and Dead Sea Minerals\n</h3>",
             "heading_size": "h2",
             "subheading": "Our dedicated research journey has unveiled the extraordinary advantages of harnessing the power of hemp and the rich minerals of the Dead Sea. Through a rigorous process of trial and validation, we have successfully crafted products that seamlessly marry time-tested natural remedies with cutting-edge dental science. Our commitment lies in blending the best of both worlds to offer innovative solutions that elevate oral care to new heights.",
             "button_label": "",
@@ -198,7 +206,7 @@
         "b48c4eb8-e97e-4a33-beaa-8ac8aff28683": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nGrounded in Science: STOP's Commitment to Evidence-Based Excellence\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nGrounded in Science: STOP's Commitment to Evidence-Based Excellence\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP, every product is a testament to our unwavering commitment to evidence-based excellence. Rigorous scientific research forms the foundation of each item bearing the STOP name. Our dedicated in-house team, comprised of researchers and dental experts, works tirelessly to ensure that our promises are not just words but backed by robust, proven results. Your trust is our priority, and we strive to deliver products grounded in scientific excellence for the utmost in effectiveness and reliability.",
             "button_label": "",
@@ -215,7 +223,7 @@
         "49a3ec95-0794-4892-a53c-113f74147f53": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nGuiding Oral Health Towards Tomorrow\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nGuiding Oral Health Towards Tomorrow\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP Oral Care, we don't merely keep pace with advancements; we pioneer them. Our driving passion involves merging the marvels of nature, such as hemp and Dead Sea minerals, with cutting-edge dental science. With an unwavering commitment to innovation, we lead the way in shaping the future of oral health. Join us on this journey as we redefine the possibilities and elevate your dental care experience.",
             "button_label": "",
@@ -232,7 +240,7 @@
         "fd955665-9112-4d3f-b0d6-f9edc229011f": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDr. Stahl's Vision: Revolutionizing Oral Health\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDr. Stahl's Vision: Revolutionizing Oral Health\n</h3>",
             "heading_size": "h2",
             "subheading": "Under the expert guidance of Dr.\nVeronica Stahl, STOP Oral Care has transcended traditional boundaries. Drawing from her 28 years in the field, she pioneered the integration of nature's best - hemp and Dead Sea minerals - with modern dental science.",
             "button_label": "",
@@ -249,7 +257,7 @@
         "a48a6e5f-0218-46c0-9361-d42150867263": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nUnveiling Nature's Bounty: Hemp and Dead Sea Minerals\n\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nUnveiling Nature's Bounty: Hemp and Dead Sea Minerals\n\n</h3>",
             "heading_size": "h2",
             "subheading": "Our dedicated research journey has unveiled the extraordinary advantages of harnessing the power of hemp and the rich minerals of the Dead Sea. Through a rigorous process of trial and validation, we have successfully crafted products that seamlessly marry time-tested natural remedies with cutting-edge dental science. Our commitment lies in blending the best of both worlds to offer innovative solutions that elevate oral care to new heights.",
             "button_label": "",
@@ -266,7 +274,7 @@
         "7a4084cf-7926-4505-94b2-ce465c6295a3": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nGrounded in Science: STOP's Commitment to Evidence-Based Excellence\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nGrounded in Science: STOP's Commitment to Evidence-Based Excellence\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP, every product is a testament to our unwavering commitment to evidence-based excellence. Rigorous scientific research forms the foundation of each item bearing the STOP name. Our dedicated in-house team, comprised of researchers and dental experts, works tirelessly to ensure that our promises are not just words but backed by robust, proven results. Your trust is our priority, and we strive to deliver products grounded in scientific excellence for the utmost in effectiveness and reliability.",
             "button_label": "",
@@ -283,7 +291,7 @@
         "c1d8fd6a-f57a-4076-9c9e-d4b1d9664206": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nGuiding Oral Health Towards Tomorrow\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nGuiding Oral Health Towards Tomorrow\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP Oral Care, we don't merely keep pace with advancements; we pioneer them. Our driving passion involves merging the marvels of nature, such as hemp and Dead Sea minerals, with cutting-edge dental science. With an unwavering commitment to innovation, we lead the way in shaping the future of oral health. Join us on this journey as we redefine the possibilities and elevate your dental care experience.",
             "button_label": "",
@@ -346,7 +354,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/stop-collection",
+            "button_link_1": "shopify://collections/stop-collection",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -363,7 +371,7 @@
         "p,h2 {color: white;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/STOP_Oral_Care_kit.png",
+        "image": "shopify://shop_images/STOP_Oral_Care_kit.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
