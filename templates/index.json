@@ -591,19 +591,20 @@
       ],
       "custom_css": [
         ".slider-counter {display: none;}",
-        ".multicolumn-card__image-wrapper--third-width {width: 10% !important;}"
+        ".multicolumn-card__image-wrapper--third-width {width: 10% !important;}",
+        ".multicolumn-card {background-color: #ffffff; box-shadow: 1px 1px 10px rgba(0,0,0,0.1)}"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
