@@ -72,7 +72,7 @@
       "settings": {
         "image": "shopify://shop_images/Veronica_Stahl_1080_x_1080_px.png",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -80,8 +80,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 0
+        "padding_top": 48,
+        "padding_bottom": 100
       }
     },
     "c6799cf2-8cb5-475f-9644-364d394364e7": {
@@ -107,14 +107,14 @@
         "37beb72e-1f3a-4e3f-afe4-4b95df47dd32"
       ],
       "custom_css": [
-        "{max-width: 1100px; margin: auto;}",
+        "{margin: auto; background-color: #ffffff;}",
         ".image-with-text__media-item {max-width: 400px; height: 100%;}"
       ],
       "settings": {
         "image": "shopify://shop_images/3_492884e5-f3cd-4784-9b2b-a81c75dbac4f.png",
         "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -122,7 +122,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "406aec41-5bf2-4ecd-8129-c450ea754fe8": {
@@ -154,7 +154,7 @@
       "settings": {
         "image": "shopify://shop_images/2_944eed16-7dda-4f75-b26d-cd9aaff7d4df.png",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -239,6 +239,7 @@
         },
         "fd955665-9112-4d3f-b0d6-f9edc229011f": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDr. Stahl's Vision: Revolutionizing Oral Health\n</h3>",
             "heading_size": "h2",
@@ -256,6 +257,7 @@
         },
         "a48a6e5f-0218-46c0-9361-d42150867263": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nUnveiling Nature's Bounty: Hemp and Dead Sea Minerals\n\n</h3>",
             "heading_size": "h2",
@@ -273,6 +275,7 @@
         },
         "7a4084cf-7926-4505-94b2-ce465c6295a3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nGrounded in Science: STOP's Commitment to Evidence-Based Excellence\n</h3>",
             "heading_size": "h2",
@@ -290,6 +293,7 @@
         },
         "c1d8fd6a-f57a-4076-9c9e-d4b1d9664206": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nGuiding Oral Health Towards Tomorrow\n</h3>",
             "heading_size": "h2",

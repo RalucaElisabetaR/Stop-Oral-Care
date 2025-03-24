@@ -283,8 +283,8 @@
         "judge_me_reviews_review_widget_yqt77A"
       ],
       "custom_css": [
-        ".jdgm-histogram {padding-top:2rem; padding-bottom:1rem;}",
-        ".jdgm-rev-widg__summary-text{padding-bottom: 2rem;}"
+        ".jdgm-histogram {padding-top: 2rem; padding-bottom: 1rem;}",
+        ".jdgm-rev-widg__summary-text {padding-bottom: 2rem;}"
       ],
       "settings": {
         "include_margins": true
