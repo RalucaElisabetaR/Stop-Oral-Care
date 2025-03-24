@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,18 +21,15 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -33,11 +39,10 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "ea838b18-2bec-41a0-84e7-3a0aa221cb61": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
           "settings": {
             "shortcode": "7xck"
           }
@@ -51,15 +56,14 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "ec4584df-4143-438d-a740-67c266d0bd12": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ingredients:",
             "icon": "check_mark",
-            "content": "<p>\n<span class=\"custom-weight\">-  Hemp-based compound:<\/span>\nOffering nature's touch for enriched oral care.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Dead Sea Salt Minerals:\n<\/span> \nWith its myriad of unique minerals, it supports and revitalizes gums and teeth.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Pomegranate Extracts:\n<\/span> \nRenowned for its antibacterial properties, adding a touch of freshness.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Sea Algae:\n<\/span> \n A robust antibacterial, ensuring a balanced and clean oral environment.\n<\/p>\n<p>\n<span class=\"custom-weight\">\n- Natural Flavorings:\n<\/span> \nCreated to invigorate and refresh with every spray.\n<\/p>",
+            "content": "<p>\n<span class=\"custom-weight\">-  Hemp-based compound:</span>\nOffering nature's touch for enriched oral care.\n</p>\n<p>\n<span class=\"custom-weight\">\n- Dead Sea Salt Minerals:\n</span> \nWith its myriad of unique minerals, it supports and revitalizes gums and teeth.\n</p>\n<p>\n<span class=\"custom-weight\">\n- Pomegranate Extracts:\n</span> \nRenowned for its antibacterial properties, adding a touch of freshness.\n</p>\n<p>\n<span class=\"custom-weight\">\n- Sea Algae:\n</span> \n A robust antibacterial, ensuring a balanced and clean oral environment.\n</p>\n<p>\n<span class=\"custom-weight\">\n- Natural Flavorings:\n</span> \nCreated to invigorate and refresh with every spray.\n</p>",
             "page": ""
           }
         }
@@ -122,28 +126,28 @@
         "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSustained Freshness\n<\/h3>\n<p>\nActive and effective for more than 48 hours, ensuring you always put your best breath forward.<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSustained Freshness\n</h3>\n<p>\nActive and effective for more than 48 hours, ensuring you always put your best breath forward.</p>\n</div>",
             "link": ""
           }
         },
         "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSoothing Experience\n<\/h3>\n\n<p>\n Delight in a unique blend of ingredients that not only cleanses but soothes the mouth, providing a delicious and refreshing taste.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSoothing Experience\n</h3>\n\n<p>\n Delight in a unique blend of ingredients that not only cleanses but soothes the mouth, providing a delicious and refreshing taste.\n</p>\n</div>",
             "link": ""
           }
         },
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSafe and Gentle\n<\/h3>\n\n<p>\nAlcohol-free and devoid of artificial sweeteners, suitable for routine application.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nSafe and Gentle\n</h3>\n\n<p>\nAlcohol-free and devoid of artificial sweeteners, suitable for routine application.\n</p>\n</div>",
             "link": ""
           }
         },
         "c26e8518-d6e9-4dce-96d5-4f3249878770": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nHydration Support\n<\/h3>\n\n<p>\nSpecially formulated to assist those experiencing dry mouth syndrome, providing targeted hydration and relief.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nHydration Support\n</h3>\n\n<p>\nSpecially formulated to assist those experiencing dry mouth syndrome, providing targeted hydration and relief.\n</p>\n</div>",
             "link": ""
           }
         }
@@ -174,7 +178,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_4d958a20-2e22-43ea-8f0f-3f962980e77e.png",
+            "image": "shopify://shop_images/1_4d958a20-2e22-43ea-8f0f-3f962980e77e.png",
             "title": "Shake the bottle gently before each use.",
             "text": "",
             "link_label": "",
@@ -184,7 +188,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_c92baf00-3f7a-41bf-877b-9acb67d2c718.png",
+            "image": "shopify://shop_images/2_c92baf00-3f7a-41bf-877b-9acb67d2c718.png",
             "title": "Spray 2-3 times towards the back of your throat, covering both teeth and gums.",
             "text": "",
             "link_label": "",
@@ -194,7 +198,7 @@
         "5d9de803-d453-45e9-bd83-26ffd91df943": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_7401e031-b1a0-4b38-9816-30d158d67a18.png",
+            "image": "shopify://shop_images/3_7401e031-b1a0-4b38-9816-30d158d67a18.png",
             "title": "Avoid eating or drinking for at least 15 minutes after application for optimal results.",
             "text": "",
             "link_label": "",
@@ -230,12 +234,32 @@
         "padding_top": 72,
         "padding_bottom": 56
       }
+    },
+    "1742809795b2683c3e": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_UEeQfz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_UEeQfz"
+      ],
+      "custom_css": [
+        ".jdgm-histogram {padding-top: 2rem; padding-bottom: 1rem;}",
+        ".jdgm-rev-widg__summary-text {padding-bottom: 2rem;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "f91433a6-4ea9-4869-940f-608c1d3c184d",
-    "57dc2626-09a8-4985-95dc-2598a6713557"
+    "57dc2626-09a8-4985-95dc-2598a6713557",
+    "1742809795b2683c3e"
   ]
 }
