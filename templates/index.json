@@ -43,7 +43,10 @@
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-text-1",
         "template--20797124903185__e6b1f0d4-c4b2-4d92-844d-fbe8ee73daa2-buttons-1"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".button--primary {background-color: #f5170c; border-radius: 5px; color: white; text-transform: uppercase; font-weight: 600; border: none !important;}",
+        ".button--primary:after {border-radius: 5px; border: none !important;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Optimized_STOP-brand-oral-care-products-collection.jpg",
         "image_overlay_opacity": 0,
@@ -270,7 +273,8 @@
       "custom_css": [
         ".banner__content--middle-center {max-width: 600px; margin: auto; overflow-x: hidden;}",
         "p {font-size: 1.1em; padding: 20px 0px;}",
-        "h2 {font-weight: 800; margin-left: -100px; margin-right: -100px; overflow-x: hidden;}"
+        "h2 {font-weight: 800; margin-left: -100px; margin-right: -100px; overflow-x: hidden;}",
+        ".button--primary {background-color: #f5170c!imporant; border-radius: 5px; color: white; text-transform: uppercase; font-weight: 600; border: none !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Optimized_STOP-brand-oral-care-products-collection-1.jpg",
