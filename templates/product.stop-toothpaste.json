@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,18 +21,15 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -33,17 +39,16 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "443e7707-b98c-4b75-bf68-e0015aef6f41": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
           "settings": {
             "shortcode": "7xck"
           }
         },
         "0c0df64d-cf78-4dfe-a7ee-5ab246289d46": {
-          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "type": "shopify://apps/seal-subscriptions/blocks/subscription-widget/13b25004-a140-4ab7-b5fe-29918f759699",
           "settings": {
             "product": "{{product}}"
           }
@@ -57,15 +62,14 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "47591496-f88c-4893-82ba-124f0a73372d": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Benefits:",
             "icon": "check_mark",
-            "content": "<p>\n  <span class=\"custom-weight\">\n    - All-Day Freshness: \n  <\/span>\n  Experience prolonged freshness, designed to last from morning till evening.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    - Shield Against Sensitivity: \n  <\/span>\n  Our specialized formula provides effective protection against sporadic sensitivity, promoting consistent oral comfort.\n<\/p>\n<p>\n <span class=\"custom-weight\">\n    - Anti-Tartar Efficacy: \n  <\/span>\n  Formulated to effectively reduce tartar buildup, supporting optimal dental hygiene.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    - Fluoride-Free Assurance: \n  <\/span>\n  Offers comprehensive dental care without the inclusion of fluoride.\n<\/p>",
+            "content": "<p>\n  <span class=\"custom-weight\">\n    - All-Day Freshness: \n  </span>\n  Experience prolonged freshness, designed to last from morning till evening.\n</p>\n<p>\n  <span class=\"custom-weight\">\n    - Shield Against Sensitivity: \n  </span>\n  Our specialized formula provides effective protection against sporadic sensitivity, promoting consistent oral comfort.\n</p>\n<p>\n <span class=\"custom-weight\">\n    - Anti-Tartar Efficacy: \n  </span>\n  Formulated to effectively reduce tartar buildup, supporting optimal dental hygiene.\n</p>\n<p>\n  <span class=\"custom-weight\">\n    - Fluoride-Free Assurance: \n  </span>\n  Offers comprehensive dental care without the inclusion of fluoride.\n</p>",
             "page": ""
           }
         },
@@ -74,7 +78,7 @@
           "settings": {
             "heading": "Ingredients:",
             "icon": "check_mark",
-            "content": "<p>\n  <span class=\"custom-weight\">\n    Hemp-Based Compound: \n  <\/span>\n  A scientifically-backed ingredient recognized for its natural protective capabilities.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    Dead Sea Salt Minerals: \n  <\/span>\n  Utilizing the therapeutic constituents of the Dead Sea for their well-documented restorative properties.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    Pomegranate Extracts: \n  <\/span>\n  A time-honored ingredient, studied for its antioxidant and anti-inflammatory efficacy.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    Sea Algae: \n  <\/span>\n  Selected for its proven antibacterial effectiveness.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    Green Tea Extract: \n  <\/span>\n  Rich in antioxidants, substantiated to enhance oral health.\n<\/p>\n<p>\n  <span class=\"custom-weight\">\n    Natural Flavorings: \n  <\/span>\n  Formulated to provide a pleasant sensory experience during use.\n<\/p>",
+            "content": "<p>\n  <span class=\"custom-weight\">\n    Hemp-Based Compound: \n  </span>\n  A scientifically-backed ingredient recognized for its natural protective capabilities.\n</p>\n<p>\n  <span class=\"custom-weight\">\n    Dead Sea Salt Minerals: \n  </span>\n  Utilizing the therapeutic constituents of the Dead Sea for their well-documented restorative properties.\n</p>\n<p>\n  <span class=\"custom-weight\">\n    Pomegranate Extracts: \n  </span>\n  A time-honored ingredient, studied for its antioxidant and anti-inflammatory efficacy.\n</p>\n<p>\n  <span class=\"custom-weight\">\n    Sea Algae: \n  </span>\n  Selected for its proven antibacterial effectiveness.\n</p>\n<p>\n  <span class=\"custom-weight\">\n    Green Tea Extract: \n  </span>\n  Rich in antioxidants, substantiated to enhance oral health.\n</p>\n<p>\n  <span class=\"custom-weight\">\n    Natural Flavorings: \n  </span>\n  Formulated to provide a pleasant sensory experience during use.\n</p>",
             "page": ""
           }
         },
@@ -153,21 +157,21 @@
         "template--20881243210001__6ef2bf54-d159-4274-a455-0b493e0dee80-announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>Hemp-Based Enrichment<\/h3>\n<p> Tapping into the natural efficacy of hemp to bolster oral wellness.<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>Hemp-Based Enrichment</h3>\n<p> Tapping into the natural efficacy of hemp to bolster oral wellness.</p>\n</div>",
             "link": ""
           }
         },
         "e697a80e-a7fc-4451-90b4-2272b09f4f28": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nDead Sea Salt Minerals\n<\/h3>\n\n<p>\n Extracted from the therapeutic waters of the Dead Sea, these minerals have renowned rejuvenating properties.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nDead Sea Salt Minerals\n</h3>\n\n<p>\n Extracted from the therapeutic waters of the Dead Sea, these minerals have renowned rejuvenating properties.\n</p>\n</div>",
             "link": ""
           }
         },
         "822ac0b1-711e-45e4-a940-eeca2c83c782": {
           "type": "announcement",
           "settings": {
-            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nNatural Whitening Power\n<\/h3>\n\n<p>\n Illuminate your smile, thanks to our potent blend that whitens both on the surface and from within.\n<\/p>\n<\/div>",
+            "text": "<div class=\"custom-announcement announcement-bar__message\">\n<h3>\nNatural Whitening Power\n</h3>\n\n<p>\n Illuminate your smile, thanks to our potent blend that whitens both on the surface and from within.\n</p>\n</div>",
             "link": ""
           }
         }
@@ -197,7 +201,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_b232498b-866e-43da-90a5-c5ffd6851743.png",
+            "image": "shopify://shop_images/1_b232498b-866e-43da-90a5-c5ffd6851743.png",
             "title": "Dispense a pea-sized amount onto your toothbrush.",
             "text": "",
             "link_label": "",
@@ -207,7 +211,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_470dd43f-b15f-4f17-b74c-b95fe7b6a162.png",
+            "image": "shopify://shop_images/2_470dd43f-b15f-4f17-b74c-b95fe7b6a162.png",
             "title": " Brush in gentle circular motions, ensuring you reach every nook and cranny, for a minimum of 2 minutes",
             "text": "",
             "link_label": "",
@@ -217,7 +221,7 @@
         "template--20881243210001__301eea18-44c9-4734-aabd-9f7dc7413d81-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_251ba2ab-9fb5-468e-959c-023af75488f6.png",
+            "image": "shopify://shop_images/3_251ba2ab-9fb5-468e-959c-023af75488f6.png",
             "title": "Rinse thoroughly and use twice daily, or as advised by your dental professional.",
             "text": "",
             "link_label": "",
@@ -253,12 +257,32 @@
         "padding_top": 72,
         "padding_bottom": 56
       }
+    },
+    "174280981750b51af9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_XneCPQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_XneCPQ"
+      ],
+      "custom_css": [
+        ".jdgm-histogram {padding-top: 2rem; padding-bottom: 1rem;}",
+        ".jdgm-rev-widg__summary-text {padding-bottom: 2rem;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "3c5e1297-515e-4b3c-adfd-4c2961fd9b5c",
-    "e700eb06-0229-41ef-bf48-d67634679ffc"
+    "e700eb06-0229-41ef-bf48-d67634679ffc",
+    "174280981750b51af9"
   ]
 }
