@@ -169,12 +169,6 @@
         "enable_language_selector": false
       }
     },
-    "1695059956e2aa74a0": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "301eea18-44c9-4734-aabd-9f7dc7413d81": {
       "type": "multicolumn",
       "blocks": {
@@ -295,7 +289,6 @@
     "main",
     "related-products",
     "6ef2bf54-d159-4274-a455-0b493e0dee80",
-    "1695059956e2aa74a0",
     "301eea18-44c9-4734-aabd-9f7dc7413d81",
     "174280907017f96c5a"
   ]
