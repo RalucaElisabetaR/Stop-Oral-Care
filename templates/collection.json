@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -17,7 +26,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         ".card {background-color: white; border: none; box-shadow: -2px 8px 24px -18px rgba(0, 0, 0, 0.33);}",
-        ".card__heading {padding-top: 20px; font-size: 1.1em; color: #1773b0;}",
+        ".card__heading {padding-top: 20px; font-size: 1.1em; text-align: center; color: #1773b0;}",
         "@media screen and (max-width: 999px) {ul {column-gap: 15px; margin: auto; } li {max-width: 31%; margin: 0 auto; }}",
         "@media screen and (max-width: 749px) {li {max-width: 60%; }}",
         "@media screen and (max-width: 549px) {li {max-width: 90%; }}"
@@ -43,7 +52,7 @@
       "type": "apps",
       "blocks": {
         "d756ca12-12d0-4377-8519-77cde8794052": {
-          "type": "shopify:\/\/apps\/bundler\/blocks\/custom-bundle\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
           "settings": {
             "shortcode": "7xck"
           }
@@ -62,7 +71,7 @@
         "template--20797124903185__22be69e8-d7c5-49d8-9783-332751c48a9f-slide-1": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDual Power: Hemp & Dead Sea Salt\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDual Power: Hemp & Dead Sea Salt\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP Oral Care, we believe in the fusion of nature's wonders with cutting-edge research. Under the visionary leadership of Dr. Veronica Stahl, we're setting new benchmarks in oral care by tapping into the unmatched benefits of hemp and the distinctive healing minerals of the Dead Sea.",
             "button_label": "",
@@ -79,7 +88,7 @@
         "b48c4eb8-e97e-4a33-beaa-8ac8aff28683": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nHemp: Nature's Microbial Maestro\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nHemp: Nature's Microbial Maestro\n</h3>",
             "heading_size": "h2",
             "subheading": "Central to our line of products is the dynamic hemp molecule. This potent natural agent stands outfor its unique ability to disrupt interbacterial communication. By halting this bacterial chatter, hempeffectively deactivates harmful bacteria, safeguarding the oral environment from potential threats.",
             "button_label": "",
@@ -96,7 +105,7 @@
         "49a3ec95-0794-4892-a53c-113f74147f53": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDead Sea Salt: Nature's Healing Elixir\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDead Sea Salt: Nature's Healing Elixir\n</h3>",
             "heading_size": "h2",
             "subheading": "The uniqueness of our approach shines with the inclusion of Dead Sea salt, encompassing essential nutrients known for their therapeutic properties. These minerals not only enhance the antimicrobial action of hemp but also promote healing and rejuvenation in the oral cavity. It's a holistic approach where protection meets regeneration.",
             "button_label": "",
@@ -113,7 +122,7 @@
         "bbaad51f-4437-417b-ba4c-e74cc3bf4135": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nInnovative and Uncompromising\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nInnovative and Uncompromising\n</h3>",
             "heading_size": "h2",
             "subheading": "Each product at STOP is a testament to our dedication to quality and efficacy. We combine the innate wisdom of nature with rigorous scientific scrutiny, ensuring a dental experience that’s not only soothing but also potent against oral challenges.",
             "button_label": "",
@@ -130,7 +139,7 @@
         "1b46c9bc-9004-4757-9f14-9f680d453536": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nRedefining Oral Care\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nRedefining Oral Care\n</h3>",
             "heading_size": "h2",
             "subheading": "Guided by Dr. Stahl's commitment to excellence and innovation, STOP Oral Care is pioneering a transformative journey in oral health. Dive into a regimen powered by the unparalleled synergy of hemp and Dead Sea minerals, and embrace a smile that’s as naturally vibrant as it is healthy.",
             "button_label": "",
@@ -147,7 +156,7 @@
         "982297a4-9c95-4f52-95d9-6965befab2f0": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDual Power: Hemp & Dead Sea Salt\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDual Power: Hemp & Dead Sea Salt\n</h3>",
             "heading_size": "h2",
             "subheading": "At STOP Oral Care, we believe in the fusion of nature's wonders with cutting-edge research. Under the visionary leadership of Dr. Veronica Stahl, we're setting new benchmarks in oral care by tapping into the unmatched benefits of hemp and the distinctive healing minerals of the Dead Sea",
             "button_label": "",
@@ -164,7 +173,7 @@
         "5736d6eb-cdbe-4f8c-8792-324ca35e86ea": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nHemp: Nature's Microbial Maestro\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nHemp: Nature's Microbial Maestro\n</h3>",
             "heading_size": "h2",
             "subheading": "Central to our line of products is the dynamic hemp molecule. This potent natural agent stands outfor its unique ability to disrupt interbacterial communication. By halting this bacterial chatter, hempeffectively deactivates harmful bacteria, safeguarding the oral environment from potential threats.",
             "button_label": "",
@@ -181,7 +190,7 @@
         "9b942daa-4829-4b63-8be0-8dc4bbb1593d": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nDead Sea Salt: Nature's Healing Elixir\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nDead Sea Salt: Nature's Healing Elixir\n</h3>",
             "heading_size": "h2",
             "subheading": "The uniqueness of our approach shines with the inclusion of Dead Sea salt, encompassing essential nutrients known for their therapeutic properties. These minerals not only enhance the antimicrobial action of hemp but also promote healing and rejuvenation in the oral cavity. It's a holistic approach where protection meets regeneration.",
             "button_label": "",
@@ -198,7 +207,7 @@
         "56cb83db-ac4c-4862-af0b-98caf493bd38": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nInnovative and Uncompromising\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nInnovative and Uncompromising\n</h3>",
             "heading_size": "h2",
             "subheading": "Each product at STOP is a testament to our dedication to quality and efficacy. We combine the innate wisdom of nature with rigorous scientific scrutiny, ensuring a dental experience that’s not only soothing but also potent against oral challenges.",
             "button_label": "",
@@ -215,7 +224,7 @@
         "69611c13-fe04-4986-abfd-fc2292e9fa0f": {
           "type": "slide",
           "settings": {
-            "heading": "<div>\n<img src=\"\/cdn\/shop\/files\/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n<\/div>\n<h3>\nRedefining Oral Care\n<\/h3>",
+            "heading": "<div>\n<img src=\"/cdn/shop/files/Stop_Icon_6.png\" alt=\"\" style=\"width:70px;height:70px;\">\n</div>\n<h3>\nRedefining Oral Care\n</h3>",
             "heading_size": "h2",
             "subheading": "Guided by Dr. Stahl's commitment to excellence and innovation, STOP Oral Care is pioneering a transformative journey in oral health. Dive into a regimen powered by the unparalleled synergy of hemp and Dead Sea minerals, and embrace a smile that’s as naturally vibrant as it is healthy.",
             "button_label": "",
