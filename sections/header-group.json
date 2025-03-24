@@ -62,7 +62,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header--middle-left {grid-template-areas: \"heading navigation icons\"; grid-template-columns: 1fr auto 1fr; column-gap: 2rem; }"
+        ".header--middle-left {grid-template-areas: \"heading navigation icons\"; grid-template-columns: 1fr auto 1fr; column-gap: 2rem;}",
+        "li {font-weight: bold;}"
       ],
       "settings": {
         "logo_position": "middle-left",
