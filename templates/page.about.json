@@ -107,7 +107,6 @@
         "37beb72e-1f3a-4e3f-afe4-4b95df47dd32"
       ],
       "custom_css": [
-        "{background-color: #ffffff;}",
         ".image-with-text {max-width: 1200px; margin: auto;}",
         ".image-with-text__media-item {max-width: 400px; height: 100%;}"
       ],
