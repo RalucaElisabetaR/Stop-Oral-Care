@@ -167,6 +167,11 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -468,7 +473,7 @@
       ".cart-item__image,.bndlr-product-image,.bndlr-add-to-bundle,.bndlr-add-bundle-to-cart,.bndlr-mnm-selected-products .bndlr-product,.bndlr-product,.bndlr-add-to-cart-container .bndlr-add-to-cart-quantity-input {border-radius: 20px !important;}",
       ".button--secondary {background-color: #f5170c; border-radius: 5px; color: white; text-transform: uppercase; font-weight: 600; border: none !important; --border-offset: none; position: relative;}",
       ".button--secondary:after {border-radius: 5px; border: none !important;}",
-      ".button {--border-offset: none; border-radius:5px; position: relative;}",
+      ".button {--border-offset: none; border-radius: 5px; position: relative;}",
       ".button:after {border-radius: 5px; border: none !important;}"
     ]
   }
